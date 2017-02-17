@@ -84,7 +84,7 @@ body-class: "web-style-guide"
 <p><a class="link-cta-ubuntu">Main button</a></p>
 </div>
 <div class="six-col last-col">
-<img src="/assets/images/hero-unit-image.jpg" alt="Ubuntu on a laptop" />
+<img src="https://assets.ubuntu.com/v1/447fbd48-hero-unit-image.jpg" alt="Ubuntu on a laptop" />
 </div>
 </div>     
 <div class="row">
@@ -97,7 +97,7 @@ body-class: "web-style-guide"
 &lt;p&gt;&lt;a class="link-cta-ubuntu">Main button&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="six-col last-col"&gt;
-&lt;img src="//assets/images/hero-unit-image.jpg" alt="Ubuntu on a laptop" /&gt;
+&lt;img src="/https://assets.ubuntu.com/v1/447fbd48-hero-unit-image.jpg" alt="Ubuntu on a laptop" /&gt;
 &lt;/div&gt;
 &lt;/div&gt;</pre>
 </div>

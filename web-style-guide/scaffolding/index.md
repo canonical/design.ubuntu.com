@@ -66,7 +66,7 @@ body-class: "web-style-guide"
     </ul>
     </div>
     <div class="seven-col last-col">
-    <img class="right" src="/assets/images/grid.png">
+    <img class="right" src="https://assets.ubuntu.com/v1/9eef2b45-grid.png">
     </div>
     </div>
 
@@ -84,7 +84,7 @@ body-class: "web-style-guide"
     <p>As an example, at medium screen sizes a row with four blocks will be become two rows of two blocks, and at small screen sizes the blocks become stacked.</p>
     </div>
     <div class="twelve-col">
-    <img src="/assets/images/responsive-grid.png" alt="responsive-grid" width="904" height="413" class="alignnone size-full wp-image-2437" srcset="/assets/images/responsive-grid.png 904w, /assets/images/responsive-grid-300x137.png 300w" sizes="(max-width: 904px) 100vw, 904px" />
+    <img src="https://assets.ubuntu.com/v1/51c6af91-responsive-grid.png" alt="responsive-grid" width="904" height="413" class="alignnone size-full wp-image-2437" srcset="https://assets.ubuntu.com/v1/51c6af91-responsive-grid.png 904w, https://assets.ubuntu.com/v1/051d0bca-responsive-grid-300x137.png 300w" sizes="(max-width: 904px) 100vw, 904px" />
     </div>
     </div>
 
@@ -179,7 +179,7 @@ body-class: "web-style-guide"
     <div class="six-col">
     <h3>An example title</h3>
     <p>Ubuntu is an ancient African word meaning &#8216;humanity to others&#8217;. It also means &#8216;I am what I am because of who we all are&#8217;. The Ubuntu operating system brings the spirit of Ubuntu to the world of computers. Ubuntu is an ancient African word meaning &#8216;humanity to others&#8217;. It also means &#8216;I am what I am because of who we all are&#8217;…</p>
-    </div><span><img src="/assets/images/canonical-symbol-167x167.png" alt="Canonical symbol" /></span></div>
+    </div><span><img src="https://assets.ubuntu.com/v1/7db9facc-canonical-symbol-167x167.png" alt="Canonical symbol" /></span></div>
 
 <div class="row">
     <div class="twelve-col">
@@ -190,7 +190,7 @@ body-class: "web-style-guide"
     &lt;p&gt;Ubuntu is an ancient African word meaning 'humanity to others'. It also means 'I am what I am because of who we all are'. The Ubuntu operating system brings the spirit of Ubuntu to the world of computers.&lt;/p&gt;
     &lt;/div&gt;
     &lt;span&gt;
-    &lt;img src="//assets/images/canonical-symbol-167x167.png" alt="Canonical symbol" /&gt;
+    &lt;img src="/https://assets.ubuntu.com/v1/7db9facc-canonical-symbol-167x167.png" alt="Canonical symbol" /&gt;
     &lt;/span&gt;
     &lt;/div&gt;</pre>
     </div>
@@ -421,9 +421,9 @@ body-class: "web-style-guide"
     <li style="left:95px; top:408px;">7</li>
     <li style="left:8px; top:460px;">8</li>
     </ol>
-    <img src="/assets/images/ubuntu-scaffolding-navigation-main-small-screen.png" style="max-width:100%" /><br /><br />
-    <img src="/assets/images/ubuntu-scaffolding-navigation-search-small-screen.png" style="max-width:100%" /><br /><br />
-    <img src="/assets/images/ubuntu-scaffolding-navigation-breadcrumbs-small-screen.png" style="max-width:100%" />
+    <img src="https://assets.ubuntu.com/v1/72051301-ubuntu-scaffolding-navigation-main-small-screen.png" style="max-width:100%" /><br /><br />
+    <img src="https://assets.ubuntu.com/v1/529a6975-ubuntu-scaffolding-navigation-search-small-screen.png" style="max-width:100%" /><br /><br />
+    <img src="https://assets.ubuntu.com/v1/27540521-ubuntu-scaffolding-navigation-breadcrumbs-small-screen.png" style="max-width:100%" />
     </div>
     <div class="image-labels">
     <ol>
@@ -436,7 +436,7 @@ body-class: "web-style-guide"
     <li style="left:110px; top:105px;">7</li>
     <li style="left:220px; top:110px;">8</li>
     </ol>
-    <img src="/assets/images/top-nav1.png" style="max-width:100%" />
+    <img src="https://assets.ubuntu.com/v1/d2148451-top-nav1.png" style="max-width:100%" />
     </div>
     <p class="smaller note"><strong>Code:</strong></p>
     <pre>&lt;header class="banner global" role="banner"&gt;
@@ -507,7 +507,7 @@ body-class: "web-style-guide"
     <li style="left:-24px; top:403px;">3</li>
 
     </ol>
-    <img alt="ubuntu.com footer" src="/assets/images/ubuntu-scaffolding-navigation-footer-small-screen.png" style="max-width:100%">
+    <img alt="ubuntu.com footer" src="https://assets.ubuntu.com/v1/9926560a-ubuntu-scaffolding-navigation-footer-small-screen.png" style="max-width:100%">
     </div>
     <div class="image-labels">
     <ol>
@@ -516,7 +516,7 @@ body-class: "web-style-guide"
     <li style="left:-15px; top:375px;">3</li>
     <li style="right:140px; top:380px;">4</li>
     </ol>
-    <img alt="ubuntu.com footer" src="/assets/images/footer.png" style="max-width:100%">
+    <img alt="ubuntu.com footer" src="https://assets.ubuntu.com/v1/231dfc03-footer.png" style="max-width:100%">
     </div>
     <p class="smaller note"><strong>Code:</strong></p>
     <pre>&lt;footer class="global clearfix"&gt;

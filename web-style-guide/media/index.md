@@ -12,7 +12,7 @@ body-class: "web-style-guide"
 <p>As much as possible, pictograms and other visual media, such as videos, illustrations and photography, should be sized so that they align with and fit within the grid columns.</p>
 </div>
 <div class="five-col last-col">
-<img src="/assets/images/media-grid.jpg" />
+<img src="https://assets.ubuntu.com/v1/ba0ead7d-media-grid.jpg" />
 </div>
 </div>
 
