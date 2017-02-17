@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{% include head.html %}
+
+<body id="{{ page.body-id }}" class="{{ page.body-class }}">
+
+  {% include header.html %}
+
+  <div class="wrapper">
+    <div id="main-content" class="inner-wrapper">
+
+      {% if page.body-id=="scopes" %}
+        {% include side-nav-scopes.html %}
+      {% elsif page.body-id=="web-style-guide" %}
+        {% include side-nav-web.html %}
+
+        <div class="row">
+          <h1>{{ page.title }}</h1>
+        </div>
+      {% else %}
+      <div class="row">
+        <h1>{{ page.title }}</h1>
+      </div>
+      {% endif %}
+
+      {{ content }}
+
+    </div><!-- /.inner-wrapper -->
+  </div><!-- /.wrapper -->
+
+
+  {% include footer.html %}
+
+</body>
+
+</html>

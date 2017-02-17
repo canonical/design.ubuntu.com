@@ -1,0 +1,141 @@
+---
+layout: post
+title: "Web style guide"
+body-id: "web-style-guide"
+body-class: "web-style-guide"
+---
+
+<div class="row">
+  <div class="eight-col">
+    <h1>Get started</h1>
+    <p>From community websites to web applications, these guidelines will help you achieve a consistent look, bringing the Ubuntu and Canonical brands to the web with precision.</p>
+    <p>In this section you will find the Ubuntu web style guide and a front-end framework, which you can apply to your web projects.</p>
+    <p>Sites created within Canonical should follow this style guide closely, whereas external sites are free to adapt and expand the existing components to their needs.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="link-top"><a href="index.html#">Back to top</a></div>
+  <div class="eight-col">
+    <h2 id="using-the-framework">Using the framework</h2>
+    <p>To use the framework, you can link to Canonical&#8217;s asset server. Use the following code snippet to link directly to the asset server:</p>
+    <pre>&lt;link rel="stylesheet" type="text/css" media="all" href="http://assets.ubuntu.com/sites/guidelines/css/latest/ubuntu-styles.css"/&gt;</pre>
+    <p>Place this line in your header, just below your <code>&lt;title&gt;</code> tag.</p>
+
+    <h3>What&#8217;s included?</h3>
+    <p>The framework consists of a single CSS file, and the Ubuntu and <abbr title="">YUI</abbr>&#8216;s JavaScript files.</p>
+
+    <h3>Other formats</h3>
+    <ul>
+      <li><a href="http://assets.ubuntu.com/sites/guidelines/css/latest/ubuntu-styles-unmin.css">Non-minified CSS</a></li>
+      <li>Sass files:
+        <ul>
+          <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/_core.scss">_core.scss</a>: resets and styles raw HTML elements</li>
+          <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/_core-constants.scss">_core-constants.scss</a>: contains all Sass variables</li>
+          <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/_core-grid.scss">_core-grid.scss</a>: the grid for wireframing a page</li>
+          <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/_core-mixins.scss">_core-mixins.scss</a>: contains all mixins used in the style guide</li>
+          <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/core-print.scss">core-print.scss</a>: style for printed media</li>
+          <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/_core-templates.scss">_core-templates.scss</a>: modifies the whole page styles base on a body class</li>
+          <li>patterns
+            <ul>
+              <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_arrows.scss">_arrows.scss</a></li>
+              <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_blockquotes.scss">_blockquotes.scss</a></li>
+              <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_boxes.scss">_boxes.scss</a></li>
+              <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_buttons.scss">_buttons.scss</a></li>
+              <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_contextual-footer.scss">_contextual-footer.scss</a></li>
+              <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_footer.scss">_footer.scss</a></li>
+              <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_forms.scss">_forms.scss</a></li>
+              <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_header.scss">_header.scss</a></li>
+              <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_helpers.scss">_helpers.scss</a></li>
+              <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_image-centered.scss">_image-centered.scss</a></li>
+              <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_inline-logos.scss">_inline-logos.scss</li>
+                <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_lists.scss">_lists.scss</a></li>
+                <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_notifications.scss">_notifications.scss</a></li>
+                <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_rows.scss">_rows.scss</a></li>
+                <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_slider.scss">_slider.scss</a></li>
+                <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_structure.scss">_structure.scss</a></li>
+                <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_tabbed-content.scss">_tabbed-content.scss</a></li>
+                <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_tooltips.scss">_tooltips.scss</a></li>
+                <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_typography.scss">_typography.scss</a></li>
+                <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/_vertical-divider.scss">_vertical-divider.scss</a></li>
+                <li><a href="http://assets.ubuntu.com/sites/guidelines/sass/responsive/latest/patterns/patterns.scss">patterns.scss</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="link-top"><a href="index.html#">Back to top</a></div>
+    <h2 id="syntax">Syntax</h2>
+    <div class="eight-col">
+
+      <p>This style guide uses the <abbr title="Hyper Text Markup Language 5">HTML5</abbr> doctype, following the <abbr title="Extensible HyperText Markup Language">XHTML</abbr> syntax for legibility and consistency, which means:</p>
+      <ul>
+        <li>
+          <strong>closed and self-closing elements</strong><br />
+          <code>&lt;br /&gt;</code> and not <code>&lt;br&gt;</code>
+        </li>
+        <li>
+          <strong>lowercase elements</strong><br />
+          <code>&lt;p&gt;</code> and not <code>&lt;P&gt;</code>
+        </li>
+        <li>
+          <strong>quoted attributes</strong><br />
+          <code>&lt;p class="note"&gt;</code> and not <code>&lt;p class=small&gt;</code>
+        </li>
+      </ul>
+      <p>For more on this subject, read <a href="http://stackoverflow.com/questions/1076897/html5-syntax-html-vs-xhtml">&#8220;HTML5 syntax &#8211; HTML vs XHTML&#8221;</a> on Stack Overflow or <a href="https://developer.mozilla.org/en/docs/XHTML">&#8220;XHTML&#8221;</a> on Mozilla Developer Network.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="link-top"><a href="index.html#">Back to top</a></div>
+    <h2 id="default-styles">Default styles</h2>
+    <div class="eight-col">
+      <p>The default styles, defined in <code>ubuntu-styles.css</code>, shouldn&#8217;t be altered, as they provide the foundation on which components are built upon.</p>
+    </div>
+    <div class="eight-col">
+      <h3>Links</h3>
+      <p>The default link colour is Ubuntu orange: <code style="background:#dd4814;color:white">#DD4814</code>. Ubuntu orange should <em>only</em> be used for linked text.</p>
+      <h4>Headings and other non-inline links</h4>
+      <p>When links are not within a text block, the link should also be indicated by a right side angle quote (<code>&amp;rsaquo;</code>).</p>
+      <p class="smaller note"><strong>Example:</strong></p>
+      <div class="box">
+        <p>Ubuntu is the world&#8217;s favourite free operating system, with more than 20 million people preferring it to commercial alternatives.</p>
+        <p><a href="index.html#">Find out why &rsaquo;</a></p>
+      </div>
+    </div>
+    <div class="four-col last-col">
+      <div class="box">
+        <p><strong>Note:</strong> Make sure the link description always uses action verbs, for example &quot;Read more&quot; and not &quot;More&quot;.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="link-top"><a href="index.html#">Back to top</a></div>
+    <div class="eight-col">
+      <h2 id="print-styles">Print styles</h2>
+      <p>The default print stylesheet improves the legibility of the content when printed. It:</p>
+      <ul>
+        <li>sets all backgrounds to white and text to black</li>
+        <li>sets the default font size to <code>16pt</code></li>
+        <li>changes the colour of links to a dark grey and underlines them</li>
+        <li>hides unnecessary elements for print: navigation, search, links to top and footer</li>
+        <li>removes the float from the main container and adds printer-friendly margins</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row no-border">
+    <div class="link-top"><a href="index.html#">Back to top</a></div>
+    <div class="eight-col">
+      <h2 id="acknowledgements">Acknowledgments</h2>
+      <p>The structure and content of this documentation has been inspired by <a href="http://twitter.github.com/bootstrap/index.html">Bootstrap</a>.</p>
+      <p>Thank you to the team at <a href="http://yuilibrary.com/">YUI</a>, the JavaScript framework used by this style guide.</p>
+    </div>
+  </div>

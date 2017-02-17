@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body id="{{ page.body-id }}" class="{{ page.body-class }}">
+
+    {% include header.html %}
+
+    <div class="wrapper">
+      <div id="main-content" class="inner-wrapper">
+
+        {{ content }}
+
+      </div><!-- /.inner-wrapper -->
+    </div><!-- /.wrapper -->
+
+
+    {% include footer.html %}
+
+  </body>
+</html>
