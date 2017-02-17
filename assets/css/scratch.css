@@ -1109,3 +1109,7 @@ body.error404 #main-content .hero-box .last-col {
 .vertical-align__content {
   height: 100%;
 }
+
+.hidden {
+  display: none !important;
+}
