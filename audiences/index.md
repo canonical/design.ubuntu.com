@@ -186,7 +186,7 @@ Each Slider position will suggest individual design elements for the Ubuntu or C
 
 >Here are the colours available for each of the 3 settings on the Voice Slider.
 
-<a href="/assets/colour-palette#the-voice-slider-determines-colour-balance" title="how to apply colour">Guidance on how to apply your colour</a>
+<a href="/brand/colour-palette#the-voice-slider-determines-colour-balance" title="how to apply colour">Guidance on how to apply your colour</a>
 
 <img src="/assets/images/voice-slider-colours.gif" alt="Voice Slider Colours" title="Voice Slider Colours" width="540" height="248" class="alignnone size-full wp-image-413" srcset="/assets/images/voice-slider-colours.gif 540w, /assets/images/voice-slider-colours-300x137.gif 300w" sizes="(max-width: 540px) 100vw, 540px" />
 
@@ -204,7 +204,7 @@ Each Slider position will suggest individual design elements for the Ubuntu or C
   * White #FFFFFF
   * Warm grey #AEA79F
 
-<a href="/assets/colour-palette" title="colour palette">See the colour palette section for print colours.</a>
+<a href="/brand/colour-palette" title="colour palette">See the colour palette section for print colours.</a>
 
 
 ### Audience Slider: Variations of aubergine and enterprise dot pattern
@@ -227,9 +227,9 @@ We use different tones of Aubergine based on the position of the Audience Slider
   * Enterprise dot pattern
 
 
-<a href="/assets/colour-palette" title="Colour palette">See the colour palette guidelines for print colours.</a>
+<a href="/brand/colour-palette" title="Colour palette">See the colour palette guidelines for print colours.</a>
 
-<a href="/assets/colour-palette#the-voice-slider-determines-colour-balance" title="Enterprise dot pattern">More about the enterprise dot pattern</a>
+<a href="/brand/colour-palette#the-voice-slider-determines-colour-balance" title="Enterprise dot pattern">More about the enterprise dot pattern</a>
 
 ### Developer Slider: Developer dot pattern and content style distribution
 

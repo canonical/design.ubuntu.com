@@ -132,115 +132,146 @@ C0 M0 Y0 K0</p>
 <div class="wp-link-top clearfix"><a href="#">top</a></div>
 <h2>Tints</h2>
 <div>
-<ol class="swatch" style="background-color:#E95420;">
-<li class="light" style="background-color:#E95420;">
-<h4>Ubuntu Orange</h4>
-<p><span class="tint-percentage">100&percnt;</span><span class="hex-color">#E95420</span></li>
-<li class="light" style="background-color:#EB6536;"><span class="tint-percentage">90&percnt;</span><span class="hex-color">#EB6536</span></li>
-<li class="light" style="background-color:#ED764D;"><span class="tint-percentage">80&percnt;</span><span class="hex-color">#ED764D</span></li>
-<li class="light" style="background-color:#F08763;"><span class="tint-percentage">70&percnt;</span><span class="hex-color">#F08763</span></li>
-<li class="light" style="background-color:#F29879;"><span class="tint-percentage">60&percnt;</span><span class="hex-color">#F29879</span></li>
-<li style="background-color:#F4AA90;"><span class="tint-percentage">50&percnt;</span><span class="hex-color">#F4AA90</span></li>
-<li style="background-color:#F5B29B;"><span class="tint-percentage">45&percnt;</span><span class="hex-color">#F5B29B</span></li>
-<li style="background-color:#F6BBA6;"><span class="tint-percentage">40&percnt;</span><span class="hex-color">#F6BBA6</span></li>
-<li style="background-color:#F7C3B1;"><span class="tint-percentage">35&percnt;</span><span class="hex-color">#F7C3B1</span></li>
-<li style="background-color:#F8CCBC;"><span class="tint-percentage">30&percnt;</span><span class="hex-color">#F8CCBC</span></li>
-<li style="background-color:#FAD4C7;"><span class="tint-percentage">25&percnt;</span><span class="hex-color">#FAD4C7</span></li>
-<li style="background-color:#FBDDD2;"><span class="tint-percentage">20&percnt;</span><span class="hex-color">#FBDDD2</span></li>
-<li style="background-color:#FCE5DE;"><span class="tint-percentage">15&percnt;</span><span class="hex-color">#FCE5DE</span></li>
-<li style="background-color:#FDEEE9;"><span class="tint-percentage">10&percnt;</span><span class="hex-color">#FDEEE9</span></li>
-</ol>
-<ol class="swatch" style="background-color:#772953;">
-<li class="light" style="background-color:#772953;">
-<h4>Canonical Aubergine</h4>
-<p><span class="tint-percentage">100&percnt;</span><span class="hex-color">#772953</span></li>
-<li class="light" style="background-color:#843E64;"><span class="tint-percentage">90&percnt;</span><span class="hex-color">#843E64</span></li>
-<li class="light" style="background-color:#925375;"><span class="tint-percentage">80&percnt;</span><span class="hex-color">#925375</span></li>
-<li class="light" style="background-color:#9F6986;"><span class="tint-percentage">70&percnt;</span><span class="hex-color">#9F6986</span></li>
-<li class="light" style="background-color:#AD7E97;"><span class="tint-percentage">60&percnt;</span><span class="hex-color">#AD7E97</span></li>
-<li style="background-color:#BB94A9;"><span class="tint-percentage">50&percnt;</span><span class="hex-color">#BB94A9</span></li>
-<li style="background-color:#C19EB1;"><span class="tint-percentage">45&percnt;</span><span class="hex-color">#C19EB1</span></li>
-<li style="background-color:#C8A9BA;"><span class="tint-percentage">40&percnt;</span><span class="hex-color">#C8A9BA</span></li>
-<li style="background-color:#CFB4C2;"><span class="tint-percentage">35&percnt;</span><span class="hex-color">#CFB4C2</span></li>
-<li style="background-color:#D6BECB;"><span class="tint-percentage">30&percnt;</span><span class="hex-color">#D6BECB</span></li>
-<li style="background-color:#DDC9D4;"><span class="tint-percentage">25&percnt;</span><span class="hex-color">#DDC9D4</span></li>
-<li style="background-color:#E3D4DC;"><span class="tint-percentage">20&percnt;</span><span class="hex-color">#E3D4DC</span></li>
-<li style="background-color:#EADEE5;"><span class="tint-percentage">15&percnt;</span><span class="hex-color">#EADEE5</span></li>
-<li style="background-color:#F1E9ED;"><span class="tint-percentage">10&percnt;</span><span class="hex-color">#F1E9ED</span></li>
-</ol>
-<ol class="swatch" style="background-color:#77216F;">
-<li class="light" style="background-color:#77216F;">
-<h4>Light Aubergine</h4>
-<p><span class="tint-percentage">100&percnt;</span><span class="hex-color">#77216F</span></li>
-<li class="light" style="background-color:#84377D;"><span class="tint-percentage">90&percnt;</span><span class="hex-color">#84377D</span></li>
-<li class="light" style="background-color:#924D8B;"><span class="tint-percentage">80&percnt;</span><span class="hex-color">#924D8B</span></li>
-<li class="light" style="background-color:#9F639A;"><span class="tint-percentage">70&percnt;</span><span class="hex-color">#9F639A</span></li>
-<li class="light" style="background-color:#AD79A8;"><span class="tint-percentage">60&percnt;</span><span class="hex-color">#AD79A8</span></li>
-<li style="background-color:#BB90B7;"><span class="tint-percentage">50&percnt;</span><span class="hex-color">#BB90B7</span></li>
-<li style="background-color:#C19BBE;"><span class="tint-percentage">45&percnt;</span><span class="hex-color">#C19BBE</span></li>
-<li style="background-color:#C8A6C5;"><span class="tint-percentage">40&percnt;</span><span class="hex-color">#C8A6C5</span></li>
-<li style="background-color:#CFB1CC;"><span class="tint-percentage">35&percnt;</span><span class="hex-color">#CFB1CC</span></li>
-<li style="background-color:#D6BCD3;"><span class="tint-percentage">30&percnt;</span><span class="hex-color">#D6BCD3</span></li>
-<li style="background-color:#DDC7DB;"><span class="tint-percentage">25&percnt;</span><span class="hex-color">#DDC7DB</span></li>
-<li style="background-color:#E3D2E2;"><span class="tint-percentage">20&percnt;</span><span class="hex-color">#E3D2E2</span></li>
-<li style="background-color:#EADDE9;"><span class="tint-percentage">15&percnt;</span><span class="hex-color">#EADDE9</span></li>
-<li style="background-color:#F1E8F0;"><span class="tint-percentage">10&percnt;</span><span class="hex-color">#F1E8F0</span></li>
-</ol>
-<ol class="swatch" style="background-color:#5E2750;">
-<li class="light" style="background-color:#5E2750;">
-<h4>Mid Aubergine</h4>
-<p><span class="tint-percentage">100&percnt;</span><span class="hex-color">#5E2750</span></li>
-<li class="light" style="background-color:#6E3C61;"><span class="tint-percentage">90&percnt;</span><span class="hex-color">#6E3C61</span></li>
-<li class="light" style="background-color:#7E5273;"><span class="tint-percentage">80&percnt;</span><span class="hex-color">#7E5273</span></li>
-<li class="light" style="background-color:#8E6784;"><span class="tint-percentage">70&percnt;</span><span class="hex-color">#8E6784</span></li>
-<li class="light" style="background-color:#9E7D96;"><span class="tint-percentage">60&percnt;</span><span class="hex-color">#9E7D96</span></li>
-<li style="background-color:#AE93A7;"><span class="tint-percentage">50&percnt;</span><span class="hex-color">#AE93A7</span></li>
-<li style="background-color:#B69DB0;"><span class="tint-percentage">45&percnt;</span><span class="hex-color">#B69DB0</span></li>
-<li style="background-color:#BEA8B9;"><span class="tint-percentage">40&percnt;</span><span class="hex-color">#BEA8B9</span></li>
-<li style="background-color:#C6B3C1;"><span class="tint-percentage">35&percnt;</span><span class="hex-color">#C6B3C1</span></li>
-<li style="background-color:#CEBECA;"><span class="tint-percentage">30&percnt;</span><span class="hex-color">#CEBECA</span></li>
-<li style="background-color:#D6C9D3;"><span class="tint-percentage">25&percnt;</span><span class="hex-color">#D6C9D3</span></li>
-<li style="background-color:#DED3DC;"><span class="tint-percentage">20&percnt;</span><span class="hex-color">#DED3DC</span></li>
-<li style="background-color:#E6DEE4;"><span class="tint-percentage">15&percnt;</span><span class="hex-color">#E6DEE4</span></li>
-<li style="background-color:#EEE9ED;"><span class="tint-percentage">10&percnt;</span><span class="hex-color">#EEE9ED</span></li>
-</ol>
-<ol class="swatch" style="background-color:#2C001E;">
-<li class="light" style="background-color:#2C001E;">
-<h3>Dark Aubergine</h3>
-<p><span class="tint-percentage">100&percnt;</span><span class="hex-color">#2C001E</span></li>
-<li class="light" style="background-color:#411934;"><span class="tint-percentage">90&percnt;</span><span class="hex-color">#411934</span></li>
-<li class="light" style="background-color:#56334B;"><span class="tint-percentage">80&percnt;</span><span class="hex-color">#56334B</span></li>
-<li class="light" style="background-color:#6B4C61;"><span class="tint-percentage">70&percnt;</span><span class="hex-color">#6B4C61</span></li>
-<li class="light" style="background-color:#806678;"><span class="tint-percentage">60&percnt;</span><span class="hex-color">#806678</span></li>
-<li style="background-color:#957F8E;"><span class="tint-percentage">50&percnt;</span><span class="hex-color">#957F8E</span></li>
-<li style="background-color:#A08C99;"><span class="tint-percentage">45&percnt;</span><span class="hex-color">#A08C99</span></li>
-<li style="background-color:#AA99A5;"><span class="tint-percentage">40&percnt;</span><span class="hex-color">#AA99A5</span></li>
-<li style="background-color:#B5A5B0;"><span class="tint-percentage">35&percnt;</span><span class="hex-color">#B5A5B0</span></li>
-<li style="background-color:#BFB2BB;"><span class="tint-percentage">30&percnt;</span><span class="hex-color">#BFB2BB</span></li>
-<li style="background-color:#CABFC6;"><span class="tint-percentage">25&percnt;</span><span class="hex-color">#CABFC6</span></li>
-<li style="background-color:#D4CCD2;"><span class="tint-percentage">20&percnt;</span><span class="hex-color">#D4CCD2</span></li>
-<li style="background-color:#DFD8DD;"><span class="tint-percentage">15&percnt;</span><span class="hex-color">#DFD8DD</span></li>
-<li style="background-color:#E9E5E8;"><span class="tint-percentage">10&percnt;</span><span class="hex-color">#E9E5E8</span></li>
-</ol>
-<ol class="swatch" style="background-color:#AEA79F;">
-<li style="background-color:#AEA79F;">
-<h4>Warm Grey</h4>
-<p><span class="tint-percentage">100&percnt;</span><span class="hex-color">#AEA79F</span></li>
-<li style="background-color:#B6AFA8;"><span class="tint-percentage">90&percnt;</span><span class="hex-color">#B6AFA8</span></li>
-<li style="background-color:#BEB8B2;"><span class="tint-percentage">80&percnt;</span><span class="hex-color">#BEB8B2</span></li>
-<li style="background-color:#C6C1BB;"><span class="tint-percentage">70&percnt;</span><span class="hex-color">#C6C1BB</span></li>
-<li style="background-color:#CECAC5;"><span class="tint-percentage">60&percnt;</span><span class="hex-color">#CECAC5</span></li>
-<li style="background-color:#D6D3CF;"><span class="tint-percentage">50&percnt;</span><span class="hex-color">#D6D3CF</span></li>
-<li style="background-color:#DAD7D3;"><span class="tint-percentage">45&percnt;</span><span class="hex-color">#DAD7D3</span></li>
-<li style="background-color:#DEDBD8;"><span class="tint-percentage">40&percnt;</span><span class="hex-color">#DEDBD8</span></li>
-<li style="background-color:#E2E0DD;"><span class="tint-percentage">35&percnt;</span><span class="hex-color">#E2E0DD</span></li>
-<li style="background-color:#E6E4E2;"><span class="tint-percentage">30&percnt;</span><span class="hex-color">#E6E4E2</span></li>
-<li style="background-color:#EAE9E7;"><span class="tint-percentage">25&percnt;</span><span class="hex-color">#EAE9E7</span></li>
-<li style="background-color:#EEEDEB;"><span class="tint-percentage">20&percnt;</span><span class="hex-color">#EEEDEB</span></li>
-<li style="background-color:#F2F1F0;"><span class="tint-percentage">15&percnt;</span><span class="hex-color">#F2F1F0</span></li>
-<li style="background-color:#F6F6F5;"><span class="tint-percentage">10&percnt;</span><span class="hex-color">#F6F6F5</span></li>
-</ol>
+    <ol class="swatch" style="background-color:#E95420;">
+        <li class="light" style="background-color:#E95420;">
+        <h4>
+            Ubuntu Orange
+        </h4>
+        <p>
+            <span class="tint-percentage">100&percnt;</span><span class="hex-color">#E95420</span>
+        </p>
+        </li>
+        <li class="light" style="background-color:#EB6536;"><span class="tint-percentage">90&percnt;</span><span class="hex-color">#EB6536</span></li>
+        <li class="light" style="background-color:#ED764D;"><span class="tint-percentage">80&percnt;</span><span class="hex-color">#ED764D</span></li>
+        <li class="light" style="background-color:#F08763;"><span class="tint-percentage">70&percnt;</span><span class="hex-color">#F08763</span></li>
+        <li class="light" style="background-color:#F29879;"><span class="tint-percentage">60&percnt;</span><span class="hex-color">#F29879</span></li>
+        <li style="background-color:#F4AA90;"><span class="tint-percentage">50&percnt;</span><span class="hex-color">#F4AA90</span></li>
+        <li style="background-color:#F5B29B;"><span class="tint-percentage">45&percnt;</span><span class="hex-color">#F5B29B</span></li>
+        <li style="background-color:#F6BBA6;"><span class="tint-percentage">40&percnt;</span><span class="hex-color">#F6BBA6</span></li>
+        <li style="background-color:#F7C3B1;"><span class="tint-percentage">35&percnt;</span><span class="hex-color">#F7C3B1</span></li>
+        <li style="background-color:#F8CCBC;"><span class="tint-percentage">30&percnt;</span><span class="hex-color">#F8CCBC</span></li>
+        <li style="background-color:#FAD4C7;"><span class="tint-percentage">25&percnt;</span><span class="hex-color">#FAD4C7</span></li>
+        <li style="background-color:#FBDDD2;"><span class="tint-percentage">20&percnt;</span><span class="hex-color">#FBDDD2</span></li>
+        <li style="background-color:#FCE5DE;"><span class="tint-percentage">15&percnt;</span><span class="hex-color">#FCE5DE</span></li>
+        <li style="background-color:#FDEEE9;"><span class="tint-percentage">10&percnt;</span><span class="hex-color">#FDEEE9</span></li>
+    </ol>
+    <ol class="swatch" style="background-color:#772953;">
+        <li class="light" style="background-color:#772953;">
+        <h4>
+            Canonical Aubergine
+        </h4>
+        <p>
+            <span class="tint-percentage">100&percnt;</span><span class="hex-color">#772953</span>
+        </p>
+        </li>
+        <li class="light" style="background-color:#843E64;"><span class="tint-percentage">90&percnt;</span><span class="hex-color">#843E64</span></li>
+        <li class="light" style="background-color:#925375;"><span class="tint-percentage">80&percnt;</span><span class="hex-color">#925375</span></li>
+        <li class="light" style="background-color:#9F6986;"><span class="tint-percentage">70&percnt;</span><span class="hex-color">#9F6986</span></li>
+        <li class="light" style="background-color:#AD7E97;"><span class="tint-percentage">60&percnt;</span><span class="hex-color">#AD7E97</span></li>
+        <li style="background-color:#BB94A9;"><span class="tint-percentage">50&percnt;</span><span class="hex-color">#BB94A9</span></li>
+        <li style="background-color:#C19EB1;"><span class="tint-percentage">45&percnt;</span><span class="hex-color">#C19EB1</span></li>
+        <li style="background-color:#C8A9BA;"><span class="tint-percentage">40&percnt;</span><span class="hex-color">#C8A9BA</span></li>
+        <li style="background-color:#CFB4C2;"><span class="tint-percentage">35&percnt;</span><span class="hex-color">#CFB4C2</span></li>
+        <li style="background-color:#D6BECB;"><span class="tint-percentage">30&percnt;</span><span class="hex-color">#D6BECB</span></li>
+        <li style="background-color:#DDC9D4;"><span class="tint-percentage">25&percnt;</span><span class="hex-color">#DDC9D4</span></li>
+        <li style="background-color:#E3D4DC;"><span class="tint-percentage">20&percnt;</span><span class="hex-color">#E3D4DC</span></li>
+        <li style="background-color:#EADEE5;"><span class="tint-percentage">15&percnt;</span><span class="hex-color">#EADEE5</span></li>
+        <li style="background-color:#F1E9ED;"><span class="tint-percentage">10&percnt;</span><span class="hex-color">#F1E9ED</span></li>
+    </ol>
+    <ol class="swatch" style="background-color:#77216F;">
+        <li class="light" style="background-color:#77216F;">
+        <h4>
+            Light Aubergine
+        </h4>
+        <p>
+            <span class="tint-percentage">100&percnt;</span><span class="hex-color">#77216F</span>
+        </p>
+        </li>
+        <li class="light" style="background-color:#84377D;"><span class="tint-percentage">90&percnt;</span><span class="hex-color">#84377D</span></li>
+        <li class="light" style="background-color:#924D8B;"><span class="tint-percentage">80&percnt;</span><span class="hex-color">#924D8B</span></li>
+        <li class="light" style="background-color:#9F639A;"><span class="tint-percentage">70&percnt;</span><span class="hex-color">#9F639A</span></li>
+        <li class="light" style="background-color:#AD79A8;"><span class="tint-percentage">60&percnt;</span><span class="hex-color">#AD79A8</span></li>
+        <li style="background-color:#BB90B7;"><span class="tint-percentage">50&percnt;</span><span class="hex-color">#BB90B7</span></li>
+        <li style="background-color:#C19BBE;"><span class="tint-percentage">45&percnt;</span><span class="hex-color">#C19BBE</span></li>
+        <li style="background-color:#C8A6C5;"><span class="tint-percentage">40&percnt;</span><span class="hex-color">#C8A6C5</span></li>
+        <li style="background-color:#CFB1CC;"><span class="tint-percentage">35&percnt;</span><span class="hex-color">#CFB1CC</span></li>
+        <li style="background-color:#D6BCD3;"><span class="tint-percentage">30&percnt;</span><span class="hex-color">#D6BCD3</span></li>
+        <li style="background-color:#DDC7DB;"><span class="tint-percentage">25&percnt;</span><span class="hex-color">#DDC7DB</span></li>
+        <li style="background-color:#E3D2E2;"><span class="tint-percentage">20&percnt;</span><span class="hex-color">#E3D2E2</span></li>
+        <li style="background-color:#EADDE9;"><span class="tint-percentage">15&percnt;</span><span class="hex-color">#EADDE9</span></li>
+        <li style="background-color:#F1E8F0;"><span class="tint-percentage">10&percnt;</span><span class="hex-color">#F1E8F0</span></li>
+    </ol>
+    <ol class="swatch" style="background-color:#5E2750;">
+        <li class="light" style="background-color:#5E2750;">
+        <h4>
+            Mid Aubergine
+        </h4>
+        <p>
+            <span class="tint-percentage">100&percnt;</span><span class="hex-color">#5E2750</span>
+        </p>
+        </li>
+        <li class="light" style="background-color:#6E3C61;"><span class="tint-percentage">90&percnt;</span><span class="hex-color">#6E3C61</span></li>
+        <li class="light" style="background-color:#7E5273;"><span class="tint-percentage">80&percnt;</span><span class="hex-color">#7E5273</span></li>
+        <li class="light" style="background-color:#8E6784;"><span class="tint-percentage">70&percnt;</span><span class="hex-color">#8E6784</span></li>
+        <li class="light" style="background-color:#9E7D96;"><span class="tint-percentage">60&percnt;</span><span class="hex-color">#9E7D96</span></li>
+        <li style="background-color:#AE93A7;"><span class="tint-percentage">50&percnt;</span><span class="hex-color">#AE93A7</span></li>
+        <li style="background-color:#B69DB0;"><span class="tint-percentage">45&percnt;</span><span class="hex-color">#B69DB0</span></li>
+        <li style="background-color:#BEA8B9;"><span class="tint-percentage">40&percnt;</span><span class="hex-color">#BEA8B9</span></li>
+        <li style="background-color:#C6B3C1;"><span class="tint-percentage">35&percnt;</span><span class="hex-color">#C6B3C1</span></li>
+        <li style="background-color:#CEBECA;"><span class="tint-percentage">30&percnt;</span><span class="hex-color">#CEBECA</span></li>
+        <li style="background-color:#D6C9D3;"><span class="tint-percentage">25&percnt;</span><span class="hex-color">#D6C9D3</span></li>
+        <li style="background-color:#DED3DC;"><span class="tint-percentage">20&percnt;</span><span class="hex-color">#DED3DC</span></li>
+        <li style="background-color:#E6DEE4;"><span class="tint-percentage">15&percnt;</span><span class="hex-color">#E6DEE4</span></li>
+        <li style="background-color:#EEE9ED;"><span class="tint-percentage">10&percnt;</span><span class="hex-color">#EEE9ED</span></li>
+    </ol>
+    <ol class="swatch" style="background-color:#2C001E;">
+        <li class="light" style="background-color:#2C001E;">
+        <h3>
+            Dark Aubergine
+        </h3>
+        <p>
+            <span class="tint-percentage">100&percnt;</span><span class="hex-color">#2C001E</span>
+        </p>
+        </li>
+        <li class="light" style="background-color:#411934;"><span class="tint-percentage">90&percnt;</span><span class="hex-color">#411934</span></li>
+        <li class="light" style="background-color:#56334B;"><span class="tint-percentage">80&percnt;</span><span class="hex-color">#56334B</span></li>
+        <li class="light" style="background-color:#6B4C61;"><span class="tint-percentage">70&percnt;</span><span class="hex-color">#6B4C61</span></li>
+        <li class="light" style="background-color:#806678;"><span class="tint-percentage">60&percnt;</span><span class="hex-color">#806678</span></li>
+        <li style="background-color:#957F8E;"><span class="tint-percentage">50&percnt;</span><span class="hex-color">#957F8E</span></li>
+        <li style="background-color:#A08C99;"><span class="tint-percentage">45&percnt;</span><span class="hex-color">#A08C99</span></li>
+        <li style="background-color:#AA99A5;"><span class="tint-percentage">40&percnt;</span><span class="hex-color">#AA99A5</span></li>
+        <li style="background-color:#B5A5B0;"><span class="tint-percentage">35&percnt;</span><span class="hex-color">#B5A5B0</span></li>
+        <li style="background-color:#BFB2BB;"><span class="tint-percentage">30&percnt;</span><span class="hex-color">#BFB2BB</span></li>
+        <li style="background-color:#CABFC6;"><span class="tint-percentage">25&percnt;</span><span class="hex-color">#CABFC6</span></li>
+        <li style="background-color:#D4CCD2;"><span class="tint-percentage">20&percnt;</span><span class="hex-color">#D4CCD2</span></li>
+        <li style="background-color:#DFD8DD;"><span class="tint-percentage">15&percnt;</span><span class="hex-color">#DFD8DD</span></li>
+        <li style="background-color:#E9E5E8;"><span class="tint-percentage">10&percnt;</span><span class="hex-color">#E9E5E8</span></li>
+    </ol>
+    <ol class="swatch" style="background-color:#AEA79F;">
+        <li style="background-color:#AEA79F;">
+        <h4>
+            Warm Grey
+        </h4>
+        <p>
+            <span class="tint-percentage">100&percnt;</span><span class="hex-color">#AEA79F</span>
+        </p>
+        </li>
+        <li style="background-color:#B6AFA8;"><span class="tint-percentage">90&percnt;</span><span class="hex-color">#B6AFA8</span></li>
+        <li style="background-color:#BEB8B2;"><span class="tint-percentage">80&percnt;</span><span class="hex-color">#BEB8B2</span></li>
+        <li style="background-color:#C6C1BB;"><span class="tint-percentage">70&percnt;</span><span class="hex-color">#C6C1BB</span></li>
+        <li style="background-color:#CECAC5;"><span class="tint-percentage">60&percnt;</span><span class="hex-color">#CECAC5</span></li>
+        <li style="background-color:#D6D3CF;"><span class="tint-percentage">50&percnt;</span><span class="hex-color">#D6D3CF</span></li>
+        <li style="background-color:#DAD7D3;"><span class="tint-percentage">45&percnt;</span><span class="hex-color">#DAD7D3</span></li>
+        <li style="background-color:#DEDBD8;"><span class="tint-percentage">40&percnt;</span><span class="hex-color">#DEDBD8</span></li>
+        <li style="background-color:#E2E0DD;"><span class="tint-percentage">35&percnt;</span><span class="hex-color">#E2E0DD</span></li>
+        <li style="background-color:#E6E4E2;"><span class="tint-percentage">30&percnt;</span><span class="hex-color">#E6E4E2</span></li>
+        <li style="background-color:#EAE9E7;"><span class="tint-percentage">25&percnt;</span><span class="hex-color">#EAE9E7</span></li>
+        <li style="background-color:#EEEDEB;"><span class="tint-percentage">20&percnt;</span><span class="hex-color">#EEEDEB</span></li>
+        <li style="background-color:#F2F1F0;"><span class="tint-percentage">15&percnt;</span><span class="hex-color">#F2F1F0</span></li>
+        <li style="background-color:#F6F6F5;"><span class="tint-percentage">10&percnt;</span><span class="hex-color">#F6F6F5</span></li>
+    </ol>
 </div>
+
 <p style="clear: both;">Tints of the above palette colours can be used as background colours and in charts and diagrams when a clear visual hierarchy of information is needed.</p>
 <h3>Tint percentages</h3>
 <p>Use only the percentages shown on this page. Never use a tint less than 10%.</p>

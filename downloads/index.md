@@ -5,9 +5,6 @@ body-id: "downloads"
 body-class: "downloads"
 ---
 
-<div class="row">
-<h1>Downloads</h1>
-</div>
 <div class="row no-border">
 <span class="filter-toggle">Filter by</span>
 <div class="three-col filter">
