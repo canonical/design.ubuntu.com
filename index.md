@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title: "Ubuntu Design"
 body-id: "home"
 body-class: "home"
