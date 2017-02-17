@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-banner
 title: "Media"
 body-id: "web-style-guide"
 body-class: "web-style-guide"

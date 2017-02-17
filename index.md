@@ -50,11 +50,11 @@ body-class: "home"
 <p>Find out how to tailor your designs depending on which audience you are catering for, with the help of three handy sliders.</p>
 </div>
 <div class="three-col">
-<h3><a href="brand.1">Brand assets &rsaquo;</a></h3>
+<h3><a href="brand">Brand assets &rsaquo;</a></h3>
 <p>Learn about the elements that constitute the Ubuntu brand and how to use them, such as the Ubuntu and Canonical logos, pictograms, photography, etc.</p>
 </div>
 <div class="three-col">
-<h3><a href="web-style-guide.1">Web guidelines &rsaquo;</a></h3>
+<h3><a href="web-style-guide">Web guidelines &rsaquo;</a></h3>
 <p>See how to use the Ubuntu brand on the web, from the logo to the Ubuntu font family, colours, forms, navigation and more design patterns and components.</p>          
 </div>
 <div class="three-col last-col">

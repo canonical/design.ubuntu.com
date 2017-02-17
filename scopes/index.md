@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post-with-banner
 title: "Introducing scopes"
 body-id: "scopes"
 body-class: "scopes"

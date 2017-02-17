@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-banner
 title: "Scaffolding"
 body-id: "web-style-guide"
 body-class: "web-style-guide"
@@ -21,8 +21,10 @@ body-class: "web-style-guide"
 }
 </style>
 
-<div class="row">
-<h1>Scaffolding</h1>
+<div class="row" markdown="1">
+
+# Scaffolding
+
 <div class="four-col">
 <ul>
 <li><a href="#link">Grid</a></li>
