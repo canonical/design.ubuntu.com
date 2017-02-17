@@ -8,9 +8,10 @@ body-class: "downloads"
 <div class="row no-border">
 <span class="filter-toggle">Filter by</span>
 <div class="three-col filter">
-<form id="form-filter-search" action="downloads" method="get">
+<h2>Filters</h2>
+<form id="form-filter-search" action="downloads" method="get" class="hidden">
 <h3>Filter by:</h3>
-<fieldset>
+<fieldset >
 <input type="text" name="search" value="" />
 <input type="submit" name="submit" value="" />
 </fieldset>
@@ -125,7 +126,8 @@ body-class: "downloads"
 
 <div id="loop-downloads" class="nine-col last-col">
 <div id="loop-status" class="clearfix">
-<p><span>94 results</span></p>
+<p><span>94 results</span> | <span class="filters-total">0</span> filters applied</p>
+<ol class="filters-list"></ol>
 </div>
 <ul class="loop-results clearfix">
 <li><a href="/assets/images/999c/canonical-symbol-set-web.zip"><img src="/assets/images/logo-canonical_symbol-aubergine-hex-140x140.png" alt="Canonical symbol set for web" class="brand-canonical channel-web element-logo voice-canonical" /></a> Canonical symbol set for web</li>
@@ -219,6 +221,6 @@ body-class: "downloads"
 <li><a href="/assets/images/ea4e/pictogram-business_as_usual-orange.svg"><img src="/assets/images/ea4e/pictogram-business_as_usual-orange.svg" alt="Business as usual pictogram (orange, hex)" class="channel-web colour-orange element-pictogram" /></a> Business as usual pictogram (orange, hex)</li>
 <li><a href="/assets/images/c8eb/pictogram-bike-orange.svg"><img src="/assets/images/c8eb/pictogram-bike-orange.svg" alt="Bike pictogram (orange, hex)" class="channel-web colour-orange element-pictogram" /></a> Bike pictogram (orange, hex)</li>
 <li><a href="/assets/images/88ba/pictogram-articles-orange.svg"><img src="/assets/images/88ba/pictogram-articles-orange.svg" alt="Articles pictogram (orange, hex)" class="channel-web colour-orange element-pictogram" /></a> Articles pictogram (orange, hex)</li>
-<li><a href="/assets/images/18a5/pictogram-add-orange.svg"><img src="/assets/images/18a5/pictogram-add-orange.svg" alt="Add pictogram (orange, hex)" class="channel-web colour-orange element-pictogram"] /></a> Add pictogram (orange, hex)</li>
+<li><a href="/assets/images/18a5/pictogram-add-orange.svg"><img src="/assets/images/18a5/pictogram-add-orange.svg" alt="Add pictogram (orange, hex)" class="channel-web colour-orange element-pictogram" /></a> Add pictogram (orange, hex)</li>
 </ul>     </div>
 </div>
