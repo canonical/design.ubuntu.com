@@ -11,12 +11,12 @@ body-class: "home"
 <h2>The Ubuntu Brand Guidelines exist so we can all communicate Ubuntu with the same precision we use to make it.</h2>
 </div>
 <div class="six-col last-col">
-<img src="/assets/images/hero-dots.png" width="460" height="380" alt="Ubuntu colours arranged as a dot pattern" />
+<img src="https://assets.ubuntu.com/v1/78b7c44a-hero-dots.png" width="460" height="380" alt="Ubuntu colours arranged as a dot pattern" />
 </div>
 </div>
 <div class="row row-grey row-image-centered">
 <span>
-<img src="/assets/images/knowledge_orange_hex2.png" alt="knowledge pictogram" title="knowledge_orange_hex" width="140" height="113" class="alignleft size-full wp-image-730"/>
+<img src="https://assets.ubuntu.com/v1/54cd98ab-knowledge_orange_hex2.png" alt="knowledge pictogram" title="knowledge_orange_hex" width="140" height="113" class="alignleft size-full wp-image-730"/>
 </span>
 <div class="nine-col">
 <h2>Why do we need guidelines?</h2>
@@ -77,78 +77,78 @@ body-class: "home"
 <div>
 <ul class="slider clearfix">
 <li>
-<a class="pretty-photo" href="/assets/images/ubuntu-web-ubuntu-for-you.png">
-<img src="/assets/images/ubuntu-web-ubuntu-for-you-140x140.png" width="140" height="140" title="Ubuntu for you page on Ubuntu.com" alt="Ubuntu for you page on Ubuntu.com" />
+<a class="pretty-photo" href="https://assets.ubuntu.com/v1/152a19e1-ubuntu-web-ubuntu-for-you.png">
+<img src="https://assets.ubuntu.com/v1/b67fb5f7-ubuntu-web-ubuntu-for-you-140x140.png" width="140" height="140" title="Ubuntu for you page on Ubuntu.com" alt="Ubuntu for you page on Ubuntu.com" />
 </a>
 </li>
 <li>
-<a class="pretty-photo" href="/assets/images/landscape-homepage2.png">
-<img src="/assets/images/landscape-homepage2-140x140.png" width="140" height="140" title="Landscape website homepage" alt="Landscape website homepage" />
+<a class="pretty-photo" href="https://assets.ubuntu.com/v1/2571b5ee-landscape-homepage2.png">
+<img src="https://assets.ubuntu.com/v1/f23d1298-landscape-homepage2-140x140.png" width="140" height="140" title="Landscape website homepage" alt="Landscape website homepage" />
 </a>
 </li>
 <li>
-<a class="pretty-photo" href="/assets/images/ubuntu-web-form-contact-canonical.png">
-<img src="/assets/images/ubuntu-web-form-contact-canonical-140x140.png" width="140" height="140" title="Contact Canonical form on Ubuntu.com" alt="Contact Canonical form on Ubuntu.com" />
+<a class="pretty-photo" href="https://assets.ubuntu.com/v1/4806a317-ubuntu-web-form-contact-canonical.png">
+<img src="https://assets.ubuntu.com/v1/4da8641d-ubuntu-web-form-contact-canonical-140x140.png" width="140" height="140" title="Contact Canonical form on Ubuntu.com" alt="Contact Canonical form on Ubuntu.com" />
 </a>
 </li>
 <li>
-<a class="pretty-photo" href="/assets/images/ubuntu-web-homepage.png">
-<img src="/assets/images/ubuntu-web-homepage-140x140.png" width="140" height="140" title="Ubuntu.com homepage" alt="Ubuntu.com homepage" />
+<a class="pretty-photo" href="https://assets.ubuntu.com/v1/cdbac36f-ubuntu-web-homepage.png">
+<img src="https://assets.ubuntu.com/v1/9ea48b2b-ubuntu-web-homepage-140x140.png" width="140" height="140" title="Ubuntu.com homepage" alt="Ubuntu.com homepage" />
 </a>
 </li>
 <li class="row-end">
-<a class="pretty-photo" href="/assets/images/canonical-white-paper.png">
-<img src="/assets/images/canonical-white-paper-140x140.png" width="140" height="140" title="Canonical white paper" alt="Canonical white paper" />
+<a class="pretty-photo" href="https://assets.ubuntu.com/v1/bdc631cc-canonical-white-paper.png">
+<img src="https://assets.ubuntu.com/v1/a43cdfad-canonical-white-paper-140x140.png" width="140" height="140" title="Canonical white paper" alt="Canonical white paper" />
 </a>
 </li>
 <li>
-<a class="pretty-photo" href="/assets/images/ubuntu-we-are-cloud-ad.png">
-<img src="/assets/images/ubuntu-we-are-cloud-ad-140x140.png" width="140" height="140" title="We are cloud campaign poster" alt="We are cloud campaign poster" />
+<a class="pretty-photo" href="https://assets.ubuntu.com/v1/7db1f2a9-ubuntu-we-are-cloud-ad.png">
+<img src="https://assets.ubuntu.com/v1/26acb47e-ubuntu-we-are-cloud-ad-140x140.png" width="140" height="140" title="We are cloud campaign poster" alt="We are cloud campaign poster" />
 </a>
 </li>
 <li>
-<a class="pretty-photo" href="/assets/images/ubuntu-server-edition-cd-packaging-1010.png">
-<img src="/assets/images/ubuntu-server-edition-cd-packaging-1010-140x140.png" width="140" height="140" title="Ubuntu 10.10 Server Edition CD packaging" alt="Ubuntu 10.10 Server Edition CD packaging" />
+<a class="pretty-photo" href="https://assets.ubuntu.com/v1/298bce76-ubuntu-server-edition-cd-packaging-1010.png">
+<img src="https://assets.ubuntu.com/v1/991870d8-ubuntu-server-edition-cd-packaging-1010-140x140.png" width="140" height="140" title="Ubuntu 10.10 Server Edition CD packaging" alt="Ubuntu 10.10 Server Edition CD packaging" />
 </a>
 </li>
 <li>
-<a class="pretty-photo" href="/assets/images/ubuntu-server-brochure-diagram.png">
-<img src="/assets/images/ubuntu-server-brochure-diagram-140x140.png" width="140" height="140" title="Ubuntu Server brochure diagrams" alt="Ubuntu Server brochure diagrams" />
+<a class="pretty-photo" href="https://assets.ubuntu.com/v1/f225b375-ubuntu-server-brochure-diagram.png">
+<img src="https://assets.ubuntu.com/v1/2ebf6822-ubuntu-server-brochure-diagram-140x140.png" width="140" height="140" title="Ubuntu Server brochure diagrams" alt="Ubuntu Server brochure diagrams" />
 </a>
 </li>
 <li>
-<a class="pretty-photo" href="/assets/images/ubuntu-cd-packaging-1010.png">
-<img src="/assets/images/ubuntu-cd-packaging-1010-140x140.png" width="140" height="140" title="Ubuntu 10.10 CD packaging" alt="Ubuntu 10.10 CD packaging" />
+<a class="pretty-photo" href="https://assets.ubuntu.com/v1/6ea970f9-ubuntu-cd-packaging-1010.png">
+<img src="https://assets.ubuntu.com/v1/48a841df-ubuntu-cd-packaging-1010-140x140.png" width="140" height="140" title="Ubuntu 10.10 CD packaging" alt="Ubuntu 10.10 CD packaging" />
 </a>
 </li>
 <li class="row-end">
-<a class="pretty-photo" href="/assets/images/ubuntu-advantage-brochures.png">
-<img src="/assets/images/ubuntu-advantage-brochures-140x140.png" width="140" height="140" title="Ubuntu Advantage brochures" alt="Ubuntu Advantage brochures" />
+<a class="pretty-photo" href="https://assets.ubuntu.com/v1/df5aeb05-ubuntu-advantage-brochures.png">
+<img src="https://assets.ubuntu.com/v1/c32194fd-ubuntu-advantage-brochures-140x140.png" width="140" height="140" title="Ubuntu Advantage brochures" alt="Ubuntu Advantage brochures" />
 </a>
 </li>
 <li>
-<a class="pretty-photo" href="/assets/images/mug-notebook.png">
-<img src="/assets/images/mug-notebook-140x140.png" width="140" height="140" title="Ubuntu mug and notebook" alt="Ubuntu mug and notebook" />
+<a class="pretty-photo" href="https://assets.ubuntu.com/v1/180a7441-mug-notebook.png">
+<img src="https://assets.ubuntu.com/v1/1609bb9f-mug-notebook-140x140.png" width="140" height="140" title="Ubuntu mug and notebook" alt="Ubuntu mug and notebook" />
 </a>
 </li>
 <li>
-<a class="pretty-photo" href="/assets/images/ubuntu-one-homepage.png">
-<img src="/assets/images/ubuntu-one-homepage-140x140.png" width="140" height="140" title="Ubuntu One homepage" alt="Ubuntu One homepage" />
+<a class="pretty-photo" href="https://assets.ubuntu.com/v1/93514a11-ubuntu-one-homepage.png">
+<img src="https://assets.ubuntu.com/v1/ed7d2d69-ubuntu-one-homepage-140x140.png" width="140" height="140" title="Ubuntu One homepage" alt="Ubuntu One homepage" />
 </a>
 </li>
 <li>
-<a class="pretty-photo" href="/assets/images/landscape-dashboard-logged-in.png">
-<img src="/assets/images/landscape-dashboard-logged-in-140x140.png" width="140" height="140" title="Landscape dashboard" alt="Landscape dashboard" />
+<a class="pretty-photo" href="https://assets.ubuntu.com/v1/8c24b2c4-landscape-dashboard-logged-in.png">
+<img src="https://assets.ubuntu.com/v1/b1dc7567-landscape-dashboard-logged-in-140x140.png" width="140" height="140" title="Landscape dashboard" alt="Landscape dashboard" />
 </a>
 </li>
 <li>
-<a class="pretty-photo" href="/assets/images/font-ubuntu-com-homepage.png">
-<img src="/assets/images/font-ubuntu-com-homepage-140x140.png" width="140" height="140" title="Ubuntu Font Family website" alt="Ubuntu Font Family website" />
+<a class="pretty-photo" href="https://assets.ubuntu.com/v1/ce7c79b5-font-ubuntu-com-homepage.png">
+<img src="https://assets.ubuntu.com/v1/c8c93892-font-ubuntu-com-homepage-140x140.png" width="140" height="140" title="Ubuntu Font Family website" alt="Ubuntu Font Family website" />
 </a>
 </li>
 <li class="row-end">
-<a class="pretty-photo" href="/assets/images/omgubuntu-homepage.png">
-<img src="/assets/images/omgubuntu-homepage-140x140.png" width="140" height="140" title="OMG! Ubuntu! homepage" alt="OMG! Ubuntu! homepage" />
+<a class="pretty-photo" href="https://assets.ubuntu.com/v1/296936bc-omgubuntu-homepage.png">
+<img src="https://assets.ubuntu.com/v1/5efc7079-omgubuntu-homepage-140x140.png" width="140" height="140" title="OMG! Ubuntu! homepage" alt="OMG! Ubuntu! homepage" />
 </a>
 </li>
 </ul>

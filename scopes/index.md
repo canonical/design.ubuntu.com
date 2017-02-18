@@ -39,7 +39,7 @@ body-class: "scopes"
 <li>They group elements together in categories and pre-defined cards to create home screens with related content.</li>
 </ul>
 </div>
-<div class="eight-col"><img class="alignnone size-large wp-image-11477" src="/assets/images/diagram-1-1024x764.png" alt="diagram (1)" width="1024" height="764" /></div>
+<div class="eight-col"><img class="alignnone size-large wp-image-11477" src="https://assets.ubuntu.com/v1/f993130b-diagram-1-1024x764.png" alt="diagram (1)" width="1024" height="764" /></div>
 <div class="eight-col">
 <ol>
 <li><strong>Cards &#8211;</strong> It all starts with a result, which can be made up of a maximum of three components to create a concise visual package.</li>
@@ -49,7 +49,7 @@ body-class: "scopes"
 </ol>
 </div>
 <div class="eight-col box box-grey">
-<div class="one-col last-col align-center"><img class="alignnone size-full wp-image-10414" src="/assets/images/information-link.png" alt="information-link" width="32" height="32" /></div>
+<div class="one-col last-col align-center"><img class="alignnone size-full wp-image-10414" src="https://assets.ubuntu.com/v1/7024ba0f-information-link.png" alt="information-link" width="32" height="32" /></div>
 <p>An aggregator scope displays data from multiple sources as opposed to a normal scope, branded or unbranded, which displays data from a single source.</p>
 </div>
 </div>
@@ -66,10 +66,10 @@ body-class: "scopes"
 <p>Unlike an app where you have to delve into each for specific content, scopes surface related content and services all in one place.</p>
 </div>
 </div>
-<div class="four-col prepend-one last-col"><img class="alignnone size-large wp-image-11741" src="/assets/images/nearby-1.png" alt="nearby-1 (1)" width="567" height="1024" /></div>
+<div class="four-col prepend-one last-col"><img class="alignnone size-large wp-image-11741" src="https://assets.ubuntu.com/v1/bd82cf6c-nearby-1.png" alt="nearby-1 (1)" width="567" height="1024" /></div>
 </div>
 <div class="twelve-col equal-heights">
-<div class="four-col"><img class="alignnone size-large wp-image-11742" src="/assets/images/Timeout_2.png" alt="Timeout_2" width="567" height="1024" /></div>
+<div class="four-col"><img class="alignnone size-large wp-image-11742" src="https://assets.ubuntu.com/v1/805b6583-Timeout_2.png" alt="Timeout_2" width="567" height="1024" /></div>
 <div class="six-col prepend-one last-col">
 <div class="vertical-align">
 <h3>Preview content</h3>
@@ -84,10 +84,10 @@ body-class: "scopes"
 <p>Allow users to purchase music, products, connect to websites, view map locations as well as various other &#8216;calls to action&#8217;.</p>
 </div>
 </div>
-<div class="four-col prepend-one last-col"><img class="alignnone size-large wp-image-11743" src="/assets/images/timeout_1.png" alt="timeout_1" width="567" height="1024" /></div>
+<div class="four-col prepend-one last-col"><img class="alignnone size-large wp-image-11743" src="https://assets.ubuntu.com/v1/b176388d-timeout_1.png" alt="timeout_1" width="567" height="1024" /></div>
 </div>
 <div class="eight-col box box-grey">
-<div class="one-col last-col align-center"><img class="alignnone size-full wp-image-10437" src="/assets/images/developer_links..png" alt="developer_links." width="32" height="32" /></div>
+<div class="one-col last-col align-center"><img class="alignnone size-full wp-image-10437" src="https://assets.ubuntu.com/v1/0d9d7281-developer_links..png" alt="developer_links." width="32" height="32" /></div>
 <p>Implement the widget, meta data and query bases for previews from our <a href="https://developer.ubuntu.com/api/scopes/cpp/current/">SDK</a>.</p>
 </div>
 </div>
@@ -108,7 +108,7 @@ body-class: "scopes"
 <div class="eight-col">
 <h2 id="cards">Cards</h2>
 <p>Cards represent a search result and can be made up of three components, which can be arranged to suit the content displayed.</p>
-<p><img class="alignnone size-full wp-image-10966" src="/assets/images/card-components2.png" alt="card components" width="1023" height="798" /></p>
+<p><img class="alignnone size-full wp-image-10966" src="https://assets.ubuntu.com/v1/d2174751-card-components2.png" alt="card components" width="1023" height="798" /></p>
 <ol>
 <li>Art</li>
 <li>Header</li>
@@ -116,7 +116,7 @@ body-class: "scopes"
 </ol>
 </div>
 <div class="eight-col box box-grey">
-<div class="one-col last-col align-center"><img class="alignnone size-full wp-image-10438" src="/assets/images/link_external.png" alt="link_external" width="32" height="32" /></div>
+<div class="one-col last-col align-center"><img class="alignnone size-full wp-image-10438" src="https://assets.ubuntu.com/v1/9e8b37dd-link_external.png" alt="link_external" width="32" height="32" /></div>
 <p>See our <a href="/scopes/components">Components</a> section for the different ways you can place components in cards, as well as card sizes and layouts.</p>
 </div>
 </div>
@@ -126,11 +126,11 @@ body-class: "scopes"
 <p>Categories group together related results and help you structure your scope to suit the content being displayed.</p>
 </div>
 <div class="six-col">
-<p><img class="alignnone size-large wp-image-10951" src="/assets/images/Card-size-4-1024x693.png" alt="Card size 4" width="1024" height="693" /></p>
+<p><img class="alignnone size-large wp-image-10951" src="https://assets.ubuntu.com/v1/24e0ebe2-Card-size-4-1024x693.png" alt="Card size 4" width="1024" height="693" /></p>
 <h3>Grid</h3>
 </div>
 <div class="six-col last-col">
-<p><img class="alignnone size-large wp-image-10952" src="/assets/images/Card-size-5-1024x693.png" alt="Card size 5" width="1024" height="693" /></p>
+<p><img class="alignnone size-large wp-image-10952" src="https://assets.ubuntu.com/v1/d6a21b64-Card-size-5-1024x693.png" alt="Card size 5" width="1024" height="693" /></p>
 <h3>Horizontal lists</h3>
 </div>
 <div class="eight-col">
@@ -144,11 +144,11 @@ body-class: "scopes"
 </ul>
 </div>
 <div class="six-col box box-grey">
-<div class="one-col last-col align-center"><img class="alignnone size-full wp-image-10437" src="/assets/images/developer_links..png" alt="developer_links." width="32" height="32" /></div>
+<div class="one-col last-col align-center"><img class="alignnone size-full wp-image-10437" src="https://assets.ubuntu.com/v1/0d9d7281-developer_links..png" alt="developer_links." width="32" height="32" /></div>
 <p>To see examples of a standard template code and more in-depth information see our <a href="https://developer.ubuntu.com/en/scopes/guides/scopes-customization-branding/">developer docs.</a></p>
 </div>
 <div class="six-col last-col box box-grey">
-<div class="one-col last-col align-center"><img class="alignnone size-full wp-image-10438" src="/assets/images/link_external.png" alt="link_external" width="32" height="32" /></div>
+<div class="one-col last-col align-center"><img class="alignnone size-full wp-image-10438" src="https://assets.ubuntu.com/v1/9e8b37dd-link_external.png" alt="link_external" width="32" height="32" /></div>
 <p>See our <a href="/scopes/components">Components</a> section for the different ways you can place components in cards, as well as card sizes and layouts.</p>
 </div>
 </div>
@@ -165,10 +165,10 @@ body-class: "scopes"
 <p>When the user has not requested a specific search query, the scope will display a set of results that might have relevance to the user e.g. weather.</p>
 </div>
 </div>
-<div class="four-col prepend-one last-col"><img class="alignnone size-large wp-image-11741" src="/assets/images/nearby-1.png" alt="nearby-1 (1)" width="567" height="1024" /></div>
+<div class="four-col prepend-one last-col"><img class="alignnone size-large wp-image-11741" src="https://assets.ubuntu.com/v1/bd82cf6c-nearby-1.png" alt="nearby-1 (1)" width="567" height="1024" /></div>
 </div>
 <div class="twelve-col equal-heights">
-<div class="four-col"><img class="alignnone size-large wp-image-11744" src="/assets/images/search_in_scope.png" alt="search_in_scope" width="567" height="1024" /></div>
+<div class="four-col"><img class="alignnone size-large wp-image-11744" src="https://assets.ubuntu.com/v1/9ca20510-search_in_scope.png" alt="search_in_scope" width="567" height="1024" /></div>
 <div class="six-col prepend-one last-col">
 <div class="vertical-align">
 <h3>Search mode</h3>
@@ -183,10 +183,10 @@ body-class: "scopes"
 <p>The scope will search across all its data sources and render results according to the search query.</p>
 </div>
 </div>
-<div class="four-col prepend-one last-col"><img class="alignnone size-large wp-image-11744" src="/assets/images/search_in_scope.png" alt="search_in_scope" width="567" height="1024" /></div>
+<div class="four-col prepend-one last-col"><img class="alignnone size-large wp-image-11744" src="https://assets.ubuntu.com/v1/9ca20510-search_in_scope.png" alt="search_in_scope" width="567" height="1024" /></div>
 </div>
 <div class="eight-col box box-grey">
-<div class="one-col last-col align-center"><img class="alignnone size-full wp-image-10414" src="/assets/images/information-link.png" alt="information-link" width="32" height="32" /></div>
+<div class="one-col last-col align-center"><img class="alignnone size-full wp-image-10414" src="https://assets.ubuntu.com/v1/7024ba0f-information-link.png" alt="information-link" width="32" height="32" /></div>
 <p>As the scope author, you can choose how to layout your category structure and use appropriate filters to best show content results.</p>
 </div>
 </div>
@@ -197,7 +197,7 @@ body-class: "scopes"
 <p>There are two types of scopes: aggregators and branded (or single source).</p>
 </div>
 <div class="twelve-col equal-heights">
-<div class="four-col"><img class="alignnone size-large wp-image-11723" src="/assets/images/today_1.png" alt="today" width="567" height="1024" /></div>
+<div class="four-col"><img class="alignnone size-large wp-image-11723" src="https://assets.ubuntu.com/v1/ff3a2385-today_1.png" alt="today" width="567" height="1024" /></div>
 <div class="prepend-one six-col last-col">
 <div class="vertical-align">
 <h3>Aggregator scopes</h3>
@@ -212,7 +212,7 @@ body-class: "scopes"
 <p>scopes present content from a single source. For instance, BBC News will only display stories sourced from the BBC and Time out will show you events from their service only. Using the scope toolkit allows the content provider to stamp their brand and character on the scope.</p>
 </div>
 </div>
-<div class="four-col prepend-one last-col"><img class="alignnone size-large wp-image-11747" src="/assets/images/bbc-news1.png" alt="bbc-news1" width="567" height="1024" /></div>
+<div class="four-col prepend-one last-col"><img class="alignnone size-large wp-image-11747" src="https://assets.ubuntu.com/v1/206e338c-bbc-news1.png" alt="bbc-news1" width="567" height="1024" /></div>
 </div>
 </div>
 <div class="row">
@@ -222,7 +222,7 @@ body-class: "scopes"
 <p>There are a range of aggregator scopes pre-installed on an Ubuntu device. Here are a handful to take inspiration from:</p>
 </div>
 <div class="four-col">
-<div class="four-col"><img class="alignnone size-large wp-image-11723" src="/assets/images/today_1.png" alt="today" width="567" height="1024" /></div>
+<div class="four-col"><img class="alignnone size-large wp-image-11723" src="https://assets.ubuntu.com/v1/ff3a2385-today_1.png" alt="today" width="567" height="1024" /></div>
 <h3>Today</h3>
 <p>Contains the user’s events, tasks, messages, as well as news, weather and more.</p>
 <h4>Sources:</h4>
@@ -234,7 +234,7 @@ body-class: "scopes"
 </ul>
 </div>
 <div class="four-col">
-<div class="four-col"><img src="/assets/images/nearby.png" alt="" /></div>
+<div class="four-col"><img src="https://assets.ubuntu.com/v1/b079f2b1-nearby.png" alt="" /></div>
 <h3>NearBy</h3>
 <p>Contains local services from around the user’s area.</p>
 <h4>Sources:</h4>
@@ -246,7 +246,7 @@ body-class: "scopes"
 </ul>
 </div>
 <div class="four-col last-col">
-<div class="four-col"><img class="alignnone size-large wp-image-11752" src="/assets/images/apps.png" alt="apps (1)" width="567" height="1024" /></div>
+<div class="four-col"><img class="alignnone size-large wp-image-11752" src="https://assets.ubuntu.com/v1/64e7c610-apps.png" alt="apps (1)" width="567" height="1024" /></div>
 <h3>Apps</h3>
 <p>Shows all apps installed on your device in alphabetical order.</p>
 <h4>Sources:</h4>
@@ -261,7 +261,7 @@ body-class: "scopes"
 <div class="eight-col">
 <h2 id="start-designing">Start designing</h2>
 <p>As we want people to create a consistent look across different screen-sizes and resolutions, we have defined a set amount of grid: 40 (phone), 50 (phone, tablet) 90 (desktop, larger screens).</p>
-<p><img class="alignnone size-large wp-image-10910" src="/assets/images/1.Grid_40-1024x730.png" alt="1.Grid_40" width="1024" height="730" /></p>
+<p><img class="alignnone size-large wp-image-10910" src="https://assets.ubuntu.com/v1/0e4bc1fd-1.Grid_40-1024x730.png" alt="1.Grid_40" width="1024" height="730" /></p>
 <h4>Available:</h4>
 <ul>
 <li>40 GU &#8211; phone size</li>
@@ -275,11 +275,11 @@ body-class: "scopes"
 </div>
 <div class="twelve-col">
 <div class="six-col box box-grey">
-<div class="one-col last-col align-center" style="margin-bottom: 50px;"><img class="alignnone size-full wp-image-10414" src="/assets/images/information-link.png" alt="information-link" width="32" height="32" /></div>
+<div class="one-col last-col align-center" style="margin-bottom: 50px;"><img class="alignnone size-full wp-image-10414" src="https://assets.ubuntu.com/v1/7024ba0f-information-link.png" alt="information-link" width="32" height="32" /></div>
 <p>Once you have written your fantastic new scope, you will have to name it. Use <a href="https://developer.ubuntu.com/en/scopes/tutorials/scope-keywords/">keywords</a> to help your scope get noticed.</p>
 </div>
 <div class="six-col last-col box box-grey">
-<div class="one-col last-col align-center"><img class="alignnone size-full wp-image-10438" src="/assets/images/link_external.png" alt="link_external" width="32" height="32" /></div>
+<div class="one-col last-col align-center"><img class="alignnone size-full wp-image-10438" src="https://assets.ubuntu.com/v1/9e8b37dd-link_external.png" alt="link_external" width="32" height="32" /></div>
 <p class="p1">Travel through some of our <a href="/scopes/core-scopes">core scopes</a> for inspiration.</p>
 </div>
 </div>
@@ -288,7 +288,7 @@ body-class: "scopes"
 <p>At a fraction of the cost of building an app, the scope toolkit allows you to give the user more than just an RSS feed, but a whole new user experience of consuming and surfacing content.</p>
 </div>
 <div class="eight-col box box-grey">
-<div class="one-col last-col align-center" style="margin-bottom: 0px;"><img class="alignnone size-full wp-image-10437" src="/assets/images/developer_links..png" alt="developer_links." width="32" height="32" /></div>
+<div class="one-col last-col align-center" style="margin-bottom: 0px;"><img class="alignnone size-full wp-image-10437" src="https://assets.ubuntu.com/v1/0d9d7281-developer_links..png" alt="developer_links." width="32" height="32" /></div>
 <p>Raring to go? Then dive into our <a href="https://developer.ubuntu.com/api/scopes/cpp/current/">Scope Toolkit(SDK)</a> for all our APIs.</p>
 </div>
 </div>

@@ -13,7 +13,7 @@ body-class: "guidelines"
 <hr />
 <div class="five-col">
 <div class="two-col">
-<a href="/brand/ubuntu-logo"><img src="/assets/images/logos_elements.png" alt="Logos" title="Logos" width="140" height="140" class="alignleft size-full wp-image-1165" /></a>
+<a href="/brand/ubuntu-logo"><img src="https://assets.ubuntu.com/v1/02bd959c-logos_elements.png" alt="Logos" title="Logos" width="140" height="140" class="alignleft size-full wp-image-1165" /></a>
 </div>
 <div class="three-col last-col">
 <h3>Our logos</h3>
@@ -24,7 +24,7 @@ body-class: "guidelines"
 </div>
 <div class="five-col last-col">
 <div class="two-col">
-<a href="/brand/colour-palette"><img src="/assets/images/colours-elements.png" alt="Colours" title="Colours" width="140" height="140" class="left alignleft size-full wp-image-1168" /></a>
+<a href="/brand/colour-palette"><img src="https://assets.ubuntu.com/v1/0bd1e235-colours-elements.png" alt="Colours" title="Colours" width="140" height="140" class="left alignleft size-full wp-image-1168" /></a>
 </div>
 <div class="three-col last-col">
 <h3><a href="/brand/colour-palette" title="About the colour palette">A vibrant palette &rsaquo;</a></h3>
@@ -33,7 +33,7 @@ body-class: "guidelines"
 </div>
 <div class="five-col">
 <div class="two-col">
-<a href="/brand/ubuntu-font-family"><img src="/assets/images/font-elements.png" alt="The Ubuntu font" title="The Ubuntu font" width="140" height="140" class="alignleft size-full wp-image-1170" /></a>
+<a href="/brand/ubuntu-font-family"><img src="https://assets.ubuntu.com/v1/19c4df8e-font-elements.png" alt="The Ubuntu font" title="The Ubuntu font" width="140" height="140" class="alignleft size-full wp-image-1170" /></a>
 </div>
 <div class="three-col last-col">
 <h3><a href="/brand/ubuntu-font-family" title="About the Ubuntu font">A distinctive font &rsaquo;</a></h3>
@@ -42,7 +42,7 @@ body-class: "guidelines"
 </div>
 <div class="five-col last-col">
 <div class="two-col">
-<a href="/brand/pictograms"><img src="/assets/images/pictogram-elements.png" alt="Pictogram" title="Pictogram" width="140" height="140" class="alignleft size-full wp-image-1171" /></a>
+<a href="/brand/pictograms"><img src="https://assets.ubuntu.com/v1/ceaaafc5-pictogram-elements.png" alt="Pictogram" title="Pictogram" width="140" height="140" class="alignleft size-full wp-image-1171" /></a>
 </div>
 <div class="three-col last-col">
 <h3><a href="/brand/pictograms" title="About pictograms">Our pictograms &rsaquo;</a></h3>
@@ -52,7 +52,7 @@ body-class: "guidelines"
 <hr />
 <div class="five-col">
 <div class="two-col">
-<a href="/brand/dot-patterns"><img src="/assets/images/dots-elements.png" alt="Dot patterns" title="Dot patterns" width="140" height="140" class="alignleft size-full wp-image-1172" /></a>
+<a href="/brand/dot-patterns"><img src="https://assets.ubuntu.com/v1/dda85fa2-dots-elements.png" alt="Dot patterns" title="Dot patterns" width="140" height="140" class="alignleft size-full wp-image-1172" /></a>
 </div>
 <div class="three-col last-col">
 <h3><a href="/brand/dot-patterns" title="About the dot patterns">The dot patterns &rsaquo;</a></h3>
@@ -61,7 +61,7 @@ body-class: "guidelines"
 </div>
 <div class="five-col last-col">
 <div class="two-col">
-<a href="/brand/photography"><img src="/assets/images/photography-elements.png" alt="Photography" title="Photography" width="140" height="140" class="alignleft size-full wp-image-1173" /></a>
+<a href="/brand/photography"><img src="https://assets.ubuntu.com/v1/1f7e6da1-photography-elements.png" alt="Photography" title="Photography" width="140" height="140" class="alignleft size-full wp-image-1173" /></a>
 </div>
 <div class="three-col last-col">
 <h3><a href="/brand/photography" title="About photography">Photography &rsaquo;</a></h3>
@@ -71,7 +71,7 @@ body-class: "guidelines"
 <hr class="clear" />
 <div class="five-col">
 <div class="two-col">
-<a href="/brand/illustration"><img src="/assets/images/illustration-elements.png" alt="Illustration" title="Illustration" width="140" height="140" class="alignleft size-full wp-image-1174" /></a>
+<a href="/brand/illustration"><img src="https://assets.ubuntu.com/v1/7ac01077-illustration-elements.png" alt="Illustration" title="Illustration" width="140" height="140" class="alignleft size-full wp-image-1174" /></a>
 </div>
 <div class="three-col last-col">
 <h3><a href="/brand/illustration" title="About illustration">Illustration &rsaquo;</a></h3>
@@ -80,7 +80,7 @@ body-class: "guidelines"
 </div>
 <div class="twelve-col" style="padding-top: 30px; border-top: 1px dotted #aea79f;">
 <h2>We’ve come full circle</h2>
-<p><img src="/assets/images/full-circle.png" alt="We&#039;ve come full circle" title="We&#039;ve come full circle" width="780" height="62" class="alignnone size-full wp-image-1317" srcset="/assets/images/full-circle.png 780w, /assets/images/full-circle-300x23.png 300w" sizes="(max-width: 780px) 100vw, 780px" /></p>
+<p><img src="https://assets.ubuntu.com/v1/e74798d3-full-circle.png" alt="We&#039;ve come full circle" title="We&#039;ve come full circle" width="780" height="62" class="alignnone size-full wp-image-1317" srcset="https://assets.ubuntu.com/v1/e74798d3-full-circle.png 780w, https://assets.ubuntu.com/v1/1ce5322e-full-circle-300x23.png 300w" sizes="(max-width: 780px) 100vw, 780px" /></p>
 <div class="grid_5 alpha">
 <p>Both of the Ubuntu and Canonical logos feature a roundel element as an integral part of their design. This circular idea has been extended into our pictograms and now into our photography too. This adds an ‘ownable’ feature to our communications and provides a subtle link back to the logo.</p>
 <h3 style="margin-top: 10px">Circular inspiration</h3>
