@@ -50,7 +50,7 @@ body-class: "web-style-guide"
 <p>You can use the resource box style if you are providing a link to a resource such as white paper, case study, factsheet, etc.</p>
 <p class="smaller note"><strong>Code:</strong></p>
 <pre>&lt;div class="four-col box box-highlight resource"&gt;
-&lt;h2&gt;&lt;a href="#">Resource title&amp;nbsp;›&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="#">Resource title&amp;nbsp;&rsaquo;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Short description of why the resource is relevant.&lt;/p&gt;
 &lt;p class="content-cat"&gt;E-book&lt;/p&gt;
 &lt;/div&gt;</pre>
@@ -59,7 +59,7 @@ body-class: "web-style-guide"
 <div class="four-col last-col">
 <p class="smaller note"><strong>Example:</strong></p>
 <div class="box box-highlight resource">
-<h2><a href="#">Resource title&nbsp;›</a></h2>
+<h2><a href="#">Resource title&nbsp;&rsaquo;</a></h2>
 <p>Short description of why the resource is relevant.</p>
 <p class="content-cat">E-book</p>
 </div>

@@ -16,16 +16,16 @@ body-class: "guidelines"
 </div>
 <div class="ten-col combined-list">
 <ul class="list five-col">
-<li><a href="#usage">Usage ›</a></li>
-<li><a href="#slots">Slots ›</a></li>
-<li><a href="#toolbar">Toolbar ›</a></li>
-<li class="last-item"><a href="#edit-mode">Edit mode ›</a></li>
+<li><a href="#usage">Usage&nbsp;&rsaquo;</a></li>
+<li><a href="#slots">Slots&nbsp;&rsaquo;</a></li>
+<li><a href="#toolbar">Toolbar&nbsp;&rsaquo;</a></li>
+<li class="last-item"><a href="#edit-mode">Edit mode&nbsp;&rsaquo;</a></li>
 </ul>
 <ul class="list five-col last-col">
-<li><a href="#responsive-layout">Responsive layout ›</a></li>
-<li><a href="#header-appearance">Header appearance ›</a></li>
-<li><a href="#header-section">Header section ›</a></li>
-<li class="last-item"><a href="#best-practices">Best practices ›</a></li>
+<li><a href="#responsive-layout">Responsive layout&nbsp;&rsaquo;</a></li>
+<li><a href="#header-appearance">Header appearance&nbsp;&rsaquo;</a></li>
+<li><a href="#header-section">Header section&nbsp;&rsaquo;</a></li>
+<li class="last-item"><a href="#best-practices">Best practices&nbsp;&rsaquo;</a></li>
 </ul>
 </div>
 <div class="ten-col box-grey vertical-align vertical-align--image-left">
@@ -158,7 +158,7 @@ body-class: "guidelines"
 <div class="ten-col">
 <h4>6 slot layout</h4>
 <div class="image-container"><img src="https://assets.ubuntu.com/v1/a2a5f31e-Header_SlotArrangement4-3.png" alt="Header_SlotArrangement4 (3)" width="534" height="41" /><br />
-<img class="alignnone size-full wp-image-13813" src="https://assets.ubuntu.com/v1/28d29fbc-Header_SlotArrangement5-2.png" alt="Header_SlotArrangement5 (2)" width="534" height="41" /></div>
+<img class="alignnone size-full" src="https://assets.ubuntu.com/v1/28d29fbc-Header_SlotArrangement5-2.png" alt="Header_SlotArrangement5 (2)" width="534" height="41" /></div>
 </div>
 <div class="ten-col">
 <h4>Medium to large screens</h4>

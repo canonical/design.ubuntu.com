@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: "Navigation"
 body-id: "apps"
@@ -120,41 +119,41 @@ body-class: "guidelines"
 <p>The header features a maximum of four slots that can be arranged and combined to fulfills the user needs.</p>
 </div>
 <table>
-<thead>
-<tr>
-<th>Slot</th>
-<th>Navigational option</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A</td>
-<td style="text-align: left;">
-<ul>
-<li><strong>Back &#8211; </strong>use to navigate to a previous page of the app (if other pages are available)</li>
-<li><strong>Navigation drawer &#8211; </strong>use to store more pages if there is no room in the header</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>B</td>
-<td style="text-align: left;">
-<ul>
-<li><strong>Title (mandatory) &#8211; </strong>provide a one line title of the app or view</li>
-<li><strong>Subtitle (optional) &#8211; </strong> extra explanatory text up to two lines</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>C/D</td>
-<td style="text-align: left;">
-<ul>
-<li><strong>Search &#8211; </strong>use to search for specific content</li>
-<li><strong>Settings &#8211; </strong>use to navigate to your app&#8217;s settings page</li>
-</ul>
-</td>
-</tr>
-</tbody>
+    <thead>
+        <tr>
+            <th>Slot</th>
+            <th>Navigational option</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>A</td>
+            <td style="text-align: left;">
+                <ul>
+                    <li><strong>Back &#8211; </strong>use to navigate to a previous page of the app (if other pages are available)</li>
+                    <li><strong>Navigation drawer &#8211; </strong>use to store more pages if there is no room in the header</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td style="text-align: left;">
+                <ul>
+                    <li><strong>Title (mandatory) &#8211; </strong>provide a one line title of the app or view</li>
+                    <li><strong>Subtitle (optional) &#8211; </strong> extra explanatory text up to two lines</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>C/D</td>
+            <td style="text-align: left;">
+                <ul>
+                    <li><strong>Search &#8211; </strong>use to search for specific content</li>
+                    <li><strong>Settings &#8211; </strong>use to navigate to your app&#8217;s settings page</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
 </table>
 <div class="ten-col">
 <p>Use drawers sparingly because it:</p>
@@ -165,7 +164,7 @@ body-class: "guidelines"
 </ul>
 </div>
 <div class="ten-col box-grey vertical-align vertical-align--image-left">
-<img class="vertical-align__image" src="https://assets.ubuntu.com/v1/e9f11635-information-link.png" alt="" width="32" height="32" /></p>
+<img class="vertical-align__image" src="https://assets.ubuntu.com/v1/e9f11635-information-link.png" alt="" width="32" height="32" />
 <div class="vertical-align__content">
 <p>A Back Button would be irrelevant if your app only has one page, because there would be no pages to go back from; so it is not required.</p>
 </div>
@@ -180,7 +179,7 @@ body-class: "guidelines"
 <div class="image-container"><img src="https://assets.ubuntu.com/v1/e8593d86-750w_Navigation_ConvergentHeader3actions-2.png" alt="750w_Navigation_ConvergentHeader3actions (2)" width="671" height="322" /></div>
 </div>
 <div class="ten-col box-grey vertical-align vertical-align--image-left">
-<img class="vertical-align__image" src="https://assets.ubuntu.com/v1/75f60d24-link_external.png" alt="" width="32" height="32" /></p>
+<img class="vertical-align__image" src="https://assets.ubuntu.com/v1/75f60d24-link_external.png" alt="" width="32" height="32" />
 <div class="vertical-align__content">
 <p><a href="/apps/building-blocks/header">For more slot layout examples see Header</a></p>
 </div>
@@ -306,5 +305,3 @@ body-class: "guidelines"
 
 
 </div>
-
-

@@ -60,7 +60,7 @@ body-class: "guidelines"
 <p><a title="Design vision" href="/apps/get-started/design-values">Design values&nbsp;&rsaquo;</a></p>
 </div>
 <div class="five-col last-col">
-<img class="alignnone size-full wp-image-15463" src="https://assets.ubuntu.com/v1/6778c396-366w_GetStarted_Style-2.png" alt="366w_GetStarted_Style (2)" width="340" height="208" /></p>
+<img class="alignnone size-full" src="https://assets.ubuntu.com/v1/6778c396-366w_GetStarted_Style-2.png" alt="366w_GetStarted_Style (2)" width="340" height="208" /></p>
 <h3>Style (coming soon)</h3>
 <p>Make your app look beautiful by using the uniquely designed Ubuntu fonts and colors.</p>
 </div>

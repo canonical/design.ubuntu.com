@@ -47,7 +47,7 @@ Closely spaced dots / widely spaced dots
 Most communications will have a definite audience, therefore, it would be very rare that the Audience or Developer Sliders would need to be positioned in the centre. If you find that you have positioned a slider in the centre, think carefully about the purpose of your communication and what it is trying to say. In general, the only time it’s useful to say “both” is for transitional or gateway pages, like a home page.
 </div>
 
-<div class="wp-link-top clearfix"><a href="#">top</a></div>
+<div class="wp-link-top clearfix"><a href="#">Back to top</a></div>
 
 ## Voice Slider
 
@@ -96,7 +96,7 @@ For example, we consider the Desktop CD to be 50% Canonical, but the Server CD t
 
 Your materials will be describing a product, or a service, or an event, or a team. Your design should reflect the nature of that entity, not necessarily your own position. It’s not about reflecting your voice, it’s about reflecting the voice of the work itself.
 
-<div class="wp-link-top clearfix"><a href="#">top</a></div>
+<div class="wp-link-top clearfix"><a href="#">Back to top</a></div>
 
 ## Audience Slider
 
@@ -132,7 +132,7 @@ The user experience is not a primary decision maker.
 
 
 
-<div class="wp-link-top clearfix"><a href="#">top</a></div>
+<div class="wp-link-top clearfix"><a href="#">Back to top</a></div>
 
 ## Developer Slider
 
@@ -174,7 +174,7 @@ A common mistake is to conflate “advanced” or “sophisticated” users with
 For example, it is tempting to think of server software as being appropriate for more “advanced” users, and to assign some weight to the developer slider for server materials, but that is a mistake. Documentation for the server edition of Ubuntu might have no Developer weighting at all, as it might purely be for deployment of the product as is.
 The Developer weighting is appropriate for API documentation, or developer guides or recipes, both for those who develop Ubuntu itself and those who are building software for use with Ubuntu, it’s about reflecting the voice of the work itself.
 
-<div class="wp-link-top clearfix"><a href="#">top</a></div>
+<div class="wp-link-top clearfix"><a href="#">Back to top</a></div>
 
 ## The right design elements
 
@@ -267,7 +267,7 @@ The styling of Developer elements is inspired by engineering drawing and techniq
 
 Engineering documents and blueprints are not very loaded with photographs. They tend to use a lot of whitespace and illustrations aim for functionality rather than realism. Emphasise that when you are working on materials that have some Developer weighting.
 
-<div class="wp-link-top clearfix"><a href="#">top</a></div>
+<div class="wp-link-top clearfix"><a href="#">Back to top</a></div>
 
 ## Made to measure
 
@@ -289,7 +289,7 @@ Emphasis on orange but with aubergine presence. Closely spaced dot pattern &#821
 Emphasis on aubergine with an orange flourish. Both widely spaced dots and closely spaced dots should be used here.
 
 
-<div class="wp-link-top clearfix"><a href="#">top</a></div>
+<div class="wp-link-top clearfix"><a href="#">Back to top</a></div>
 </div>
 </div>
 </article>

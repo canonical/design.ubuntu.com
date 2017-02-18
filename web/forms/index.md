@@ -188,7 +188,7 @@ padding-bottom: 10px;
 
 <script src="http://design.ubuntu.com//assets/js/core.js"></script>
 <script src="https://assets.ubuntu.com/v1/94052790-global.js"></script>
-<script src="https://assets.ubuntu.com/v1/ea5f3f25-scratch.js""></script>
+<script src="https://assets.ubuntu.com/v1/ea5f3f25-scratch.js"></script>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>

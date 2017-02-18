@@ -16,11 +16,11 @@ body-class: "guidelines"
 </div>
 <div class="combined-list">
 <ul class="list five-col">
-<li><a href="#checkbox">Checkbox ›</a></li>
-<li><a href="#radio-buttons">Radio buttons ›</a></li>
-<li><a href="#switches">Switches ›</a></li>
-<li><a href="#date-and-time-pickers">Date and time pickers ›</a></li>
-<li><a href="#slider">Slider ›</a></li>
+<li><a href="#checkbox">Checkbox&nbsp;&rsaquo;</a></li>
+<li><a href="#radio-buttons">Radio buttons&nbsp;&rsaquo;</a></li>
+<li><a href="#switches">Switches&nbsp;&rsaquo;</a></li>
+<li><a href="#date-and-time-pickers">Date and time pickers&nbsp;&rsaquo;</a></li>
+<li><a href="#slider">Slider&nbsp;&rsaquo;</a></li>
 </ul>
 </div>
 </section>
