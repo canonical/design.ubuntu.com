@@ -110,7 +110,7 @@ body-class: "web-style-guide"
 <h3>Inverted button</h3>
 <p>On full-orange and full-aubergine rows, you can use the class <code>.link-cta-inverted</code> to invert the colours of the button and give it a white background.</p>
 <p class="smaller note"><strong>Example:</strong></p>
-<div class="row seven-col no-border" style="background: #dd4814; padding: 20px 20px 10px;">
+<div class="row seven-col no-border" style="background: #E95420; padding: 20px 20px 10px;">
 <p><a href="#" class="link-cta-inverted">Inverted button</a></p>
 </div>     
 <div class="seven-col">
@@ -124,7 +124,7 @@ body-class: "web-style-guide"
 <p>Where a large button is needed (for example, download pages or homepages), use the class <code>.cta-large</code> on any button style to increase font and padding size.</p>
 <p class="smaller note"><strong>Example:</strong></p>
 <p><a href="#" class="link-cta-ubuntu cta-large">Large Ubuntu button</a></p>
-<div class="row seven-col no-border" style="background: #dd4814; padding: 20px 20px 0px;">
+<div class="row seven-col no-border" style="background: #E95420; padding: 20px 20px 0px;">
 <p><a href="#" class="link-cta-inverted cta-large">Large inverted button</a></p>
 </div>
 <div class="seven-col">

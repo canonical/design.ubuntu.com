@@ -41,10 +41,10 @@ body-class: "guidelines"
 <p><img src="https://assets.ubuntu.com/v1/84fa2607-canonical-logo5.png" alt="Available Canonical Circle colourways" title="Available Canonical Circle colourways" width="540" height="200" class="aligncenter size-full wp-image-87" srcset="https://assets.ubuntu.com/v1/84fa2607-canonical-logo5.png 540w, https://assets.ubuntu.com/v1/e63dad3e-canonical-logo5-300x111.png 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
 <div class="wp-link-top clearfix"><a href="#">top</a></div>
 <h2>Choosing the right logo version</h2>
-<p><img src="https://assets.ubuntu.com/v1/b1530a03-canonical-white-on-aubergine.gif" alt="Canonical logo white on aubergine" title="canonical-white-on-aubergine" width="150" height="56" class="alignnone size-full wp-image-518" /></p>
+<p><img src="https://assets.ubuntu.com/v1/b1530a03-canonical-white-on-aubergine.gif" alt="Canonical logo white on aubergine" title="canonical-white-on-aubergine" width="150" height="56" class="alignnone size-full" /></p>
 <p><strong>Master Canonical logo: white on aubergine</strong><br />
 This logo version should be used on all Canonical authored pieces. On dual branded items, this logo version should also be used.</p>
-<p><img src="https://assets.ubuntu.com/v1/619b3400-canonical-aubergine-on-white.gif" alt="Canonical logo aubergine on white" title="canonical-aubergine-on-white" width="150" height="56" class="alignnone size-full wp-image-519" /></p>
+<p><img src="https://assets.ubuntu.com/v1/619b3400-canonical-aubergine-on-white.gif" alt="Canonical logo aubergine on white" title="canonical-aubergine-on-white" width="150" height="56" class="alignnone size-full" /></p>
 <p><strong>Alternative Canonical logo: aubergine on white</strong><br />
 This logo version should be used in support of the master version (for example, this logo could be used in the footer of a web page as opposed to repeating the master version).</p>
 <div class="wp-link-top clearfix"><a href="#">top</a></div>

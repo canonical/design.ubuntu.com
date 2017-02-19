@@ -16,7 +16,7 @@ body-class: "home"
 </div>
 <div class="row row-grey row-image-centered">
 <span>
-<img src="https://assets.ubuntu.com/v1/54cd98ab-knowledge_orange_hex2.png" alt="knowledge pictogram" title="knowledge_orange_hex" width="140" height="113" class="alignleft size-full wp-image-730"/>
+<img src="https://assets.ubuntu.com/v1/54cd98ab-knowledge_orange_hex2.png" alt="knowledge pictogram" title="knowledge_orange_hex" width="140" height="113" class="alignleft size-full"/>
 </span>
 <div class="nine-col">
 <h2>Why do we need guidelines?</h2>

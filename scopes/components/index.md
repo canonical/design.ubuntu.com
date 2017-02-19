@@ -159,7 +159,7 @@ body-class: scopes
 </div>
   <div class="six-col">
   <div class="six-col">
-  <img class="alignnone size-large wp-image-5524" src="https://assets.ubuntu.com/v1/6f72d662-Category-header-1-1024x538.png" alt="Category header" width="1024" height="538" srcset="https://assets.ubuntu.com/v1/6f72d662-Category-header-1-1024x538.png 1024w, https://assets.ubuntu.com/v1/b4e2492b-Category-header-1-300x157.png 300w, https://assets.ubuntu.com/v1/81a1b318-Category-header-1.png 1082w" sizes="(max-width: 1024px) 100vw, 1024px">
+  <img class="alignnone size-large4" src="https://assets.ubuntu.com/v1/6f72d662-Category-header-1-1024x538.png" alt="Category header" width="1024" height="538" srcset="https://assets.ubuntu.com/v1/6f72d662-Category-header-1-1024x538.png 1024w, https://assets.ubuntu.com/v1/b4e2492b-Category-header-1-300x157.png 300w, https://assets.ubuntu.com/v1/81a1b318-Category-header-1.png 1082w" sizes="(max-width: 1024px) 100vw, 1024px">
 </div>
   <h3>Header</h3>
   <p>A category header can consist of one text string and optional monochromatic icons. They can also link elsewhere in the scope or to a branded (single service) scope.</p>

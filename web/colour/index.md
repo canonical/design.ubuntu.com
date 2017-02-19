@@ -67,7 +67,7 @@ body-class: "guidelines"
 <li><span style="color:#38B44A">Green</span>, for positive status: <code>#38B44A</code></li>
 <li>Icon: Canonical circle</li>
 </ul>
-<div id="attachment_304" style="width: 396px" class="wp-caption alignnone"><img src="https://assets.ubuntu.com/v1/bff3da53-web-colour-others-colour_coded_status.png" alt="Ubuntu web colour - Colour coded status on Landscape" title="Ubuntu web colour - Colour coded status on Landscape" width="386" height="153" class="size-full wp-image-304" srcset="https://assets.ubuntu.com/v1/bff3da53-web-colour-others-colour_coded_status.png 386w, https://assets.ubuntu.com/v1/3ff9bcb0-web-colour-others-colour_coded_status-300x118.png 300w" sizes="(max-width: 386px) 100vw, 386px" /><p class="wp-caption-text">Figure 1: Colour coded status on Landscape</p></div>
+<div id="attachment_304" style="width: 396px" class="wp-caption alignnone"><img src="https://assets.ubuntu.com/v1/bff3da53-web-colour-others-colour_coded_status.png" alt="Ubuntu web colour - Colour coded status on Landscape" title="Ubuntu web colour - Colour coded status on Landscape" width="386" height="153" class="size-full" srcset="https://assets.ubuntu.com/v1/bff3da53-web-colour-others-colour_coded_status.png 386w, https://assets.ubuntu.com/v1/3ff9bcb0-web-colour-others-colour_coded_status-300x118.png 300w" sizes="(max-width: 386px) 100vw, 386px" /><p class="wp-caption-text">Figure 1: Colour coded status on Landscape</p></div>
 <h3>Notifications</h3>
 <ul>
 <li><span style="color:#DF382C">Error</span>: <code>#DF382C</code> (red)</li>
@@ -75,7 +75,7 @@ body-class: "guidelines"
 <li><span style="color:#38B44A">Success</span>: <code>#38B44A</code> (green)</li>
 <li><span style="color:#19B6EE">Information</span>: <code>#19B6EE</code> (cyan)</li>
 </ul>
-<div id="attachment_308" style="width: 550px" class="wp-caption alignnone"><img src="https://assets.ubuntu.com/v1/660d4332-web-components-notification-messages.gif" alt="Ubuntu web colour - Colour coded notification message on Landscape" title="Ubuntu web colour - Colour coded notification message on Landscape" width="540" height="63" class="size-full wp-image-308" srcset="https://assets.ubuntu.com/v1/660d4332-web-components-notification-messages.gif 540w, https://assets.ubuntu.com/v1/f69cec3d-web-components-notification-messages-300x35.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /><p class="wp-caption-text">Figure 2: Notification message on Landscape</p></div>
+<div id="attachment_308" style="width: 550px" class="wp-caption alignnone"><img src="https://assets.ubuntu.com/v1/660d4332-web-components-notification-messages.gif" alt="Ubuntu web colour - Colour coded notification message on Landscape" title="Ubuntu web colour - Colour coded notification message on Landscape" width="540" height="63" class="size-full" srcset="https://assets.ubuntu.com/v1/660d4332-web-components-notification-messages.gif 540w, https://assets.ubuntu.com/v1/f69cec3d-web-components-notification-messages-300x35.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /><p class="wp-caption-text">Figure 2: Notification message on Landscape</p></div>
 <div class="wp-link-top clearfix"><a href="colour#">top</a></div>
 <h2>Colour distribution</h2>
 <p>When planning your pages, make sure there an even distribution and well balanced percentage of light (such as white) and strong colours (such as Ubuntu orange). Think of the page as a whole, a unit, it shouldn’t be top- or bottom-heavy.</p>

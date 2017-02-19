@@ -84,7 +84,7 @@ body-class: "web-style-guide"
     <p>As an example, at medium screen sizes a row with four blocks will be become two rows of two blocks, and at small screen sizes the blocks become stacked.</p>
     </div>
     <div class="twelve-col">
-    <img src="https://assets.ubuntu.com/v1/51c6af91-responsive-grid.png" alt="responsive-grid" width="904" height="413" class="alignnone size-full wp-image-2437" srcset="https://assets.ubuntu.com/v1/51c6af91-responsive-grid.png 904w, https://assets.ubuntu.com/v1/051d0bca-responsive-grid-300x137.png 300w" sizes="(max-width: 904px) 100vw, 904px" />
+    <img src="https://assets.ubuntu.com/v1/51c6af91-responsive-grid.png" alt="responsive-grid" width="904" height="413" class="alignnone size-full7" srcset="https://assets.ubuntu.com/v1/51c6af91-responsive-grid.png 904w, https://assets.ubuntu.com/v1/051d0bca-responsive-grid-300x137.png 300w" sizes="(max-width: 904px) 100vw, 904px" />
     </div>
     </div>
 

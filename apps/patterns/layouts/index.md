@@ -51,7 +51,7 @@ body-class: guidelines
 </div>
   <div class="five-col">
   <div class="image-container">
-  <img src="https://assets.ubuntu.com/v1/07c68cbd-366w_layout_PanelsMusic_50gu.png" alt="366w_layout_PanelsMusic_50gu" width="335" height="279" class="alignnone size-full wp-image-5869">
+  <img src="https://assets.ubuntu.com/v1/07c68cbd-366w_layout_PanelsMusic_50gu.png" alt="366w_layout_PanelsMusic_50gu" width="335" height="279" class="alignnone size-full9">
 </div>
 </div>
   <div class="ten-col">

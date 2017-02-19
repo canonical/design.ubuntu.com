@@ -32,12 +32,12 @@ body-class: "guidelines"
 <div class="wp-link-top clearfix"><a href="links#">top</a></div>
 <h2>Text links</h2>
 <p><strong>Default colour:</strong><br />
-Text links should be indicated by the Ubuntu orange colour (<code>#DD4814</code>) on any site except Canonical.</p>
+Text links should be indicated by the Ubuntu orange colour (<code>#E95420</code>) on any site except Canonical.</p>
 <p><strong>Other colours:</strong><br />
 It&#8217;s not recommended that you use orange text on any other backgrounds colours other than white (<code>#FFF</code>) and light grey (<code>#EFEFEF</code>), as it doesn&#8217;t provide enough contrast. In this case, the link can be the same colour as the text, with 1px solid <code>border-bottom</code> the same colour as the text.</p>
 <p><strong>Headings and other non-inline links and call to actions:</strong><br />
 The link is indicated by a right side angle quote (<code>&amp;rsaquo;</code>), as in the following example.</p>
-<div id="attachment_1043" style="width: 408px" class="wp-caption alignnone"><img src="https://assets.ubuntu.com/v1/07e63784-web-links-text-links.png" alt="Web - Heading text links" title="Web - Heading text links" width="398" height="40" class="size-full wp-image-1043" srcset="https://assets.ubuntu.com/v1/07e63784-web-links-text-links.png 398w, https://assets.ubuntu.com/v1/29b0ba62-web-links-text-links-300x30.png 300w" sizes="(max-width: 398px) 100vw, 398px" /><p class="wp-caption-text">Figure 1: Example of non-inline link with right side angle quote.</p></div>
+<div id="attachment_1043" style="width: 408px" class="wp-caption alignnone"><img src="https://assets.ubuntu.com/v1/07e63784-web-links-text-links.png" alt="Web - Heading text links" title="Web - Heading text links" width="398" height="40" class="size-full3" srcset="https://assets.ubuntu.com/v1/07e63784-web-links-text-links.png 398w, https://assets.ubuntu.com/v1/29b0ba62-web-links-text-links-300x30.png 300w" sizes="(max-width: 398px) 100vw, 398px" /><p class="wp-caption-text">Figure 1: Example of non-inline link with right side angle quote.</p></div>
 <div class="wp-link-top clearfix"><a href="links#">top</a></div>
                </div>
 

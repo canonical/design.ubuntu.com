@@ -9,7 +9,7 @@ body-class: guidelines
 
 <div id="loop-guidelines" class="ten-col last-col">
   <p>
-  <img src="https://assets.ubuntu.com/v1/61956028-ubuntu-colour-pantones.jpg" alt="Ubuntu colour pantones" title="Ubuntu colour pantones" width="540" height="247" class="aligncenter size-full wp-image-217" srcset="https://assets.ubuntu.com/v1/61956028-ubuntu-colour-pantones.jpg 540w, https://assets.ubuntu.com/v1/cdc130b4-ubuntu-colour-pantones-300x137.jpg 300w" sizes="(max-width: 540px) 100vw, 540px">
+  <img src="https://assets.ubuntu.com/v1/61956028-ubuntu-colour-pantones.jpg" alt="Ubuntu colour pantones" title="Ubuntu colour pantones" width="540" height="247" class="aligncenter size-full" srcset="https://assets.ubuntu.com/v1/61956028-ubuntu-colour-pantones.jpg 540w, https://assets.ubuntu.com/v1/cdc130b4-ubuntu-colour-pantones-300x137.jpg 300w" sizes="(max-width: 540px) 100vw, 540px">
 </p>
   <p>Colour is an effective, powerful and instantly recognisable medium for visual communications. To convey the brand personality and brand values, there is a sophisticated colour palette.</p>
   <p>We have introduced a palette which includes both a fresh, lively orange, and a rich, mature aubergine. The use of aubergine indicates commercial involvement, while orange is a signal of community engagement.</p>
@@ -21,7 +21,7 @@ body-class: guidelines
   <p>The Ubuntu colour palette has been created to reflect the spirit of our brand. Orange for a community feel. White for a clean, fresh and light feel.</p>
   <p>Black is used in some versions of the brandmark for flexibility of application and where print restrictions apply. It can also be used for body copy.</p>
   <p>
-  <img src="https://assets.ubuntu.com/v1/f3b89168-orange.png" alt="Ubuntu orange" title="Ubuntu orange" width="300" height="140" class="alignleft size-full wp-image-1398">
+  <img src="https://assets.ubuntu.com/v1/f3b89168-orange.png" alt="Ubuntu orange" title="Ubuntu orange" width="300" height="140" class="alignleft size-full8">
 </p>
   <h3>Ubuntu orange</h3>
   <p><strong>Screen</strong><br>
@@ -30,7 +30,7 @@ HEX #E95420<br>
 C0 M79 Y100 K0 (Pantone 1665)</p>
   <hr class="clear">
   <p>
-  <img src="https://assets.ubuntu.com/v1/54f4e9da-white.png" alt="White" title="White" width="300" height="140" class="alignleft size-full wp-image-1400">
+  <img src="https://assets.ubuntu.com/v1/54f4e9da-white.png" alt="White" title="White" width="300" height="140" class="alignleft size-full0">
 </p>
   <h3>White</h3>
   <p><strong>Screen</strong><br>
@@ -39,7 +39,7 @@ HEX #FFFFFF<br>
 C0 M0 Y0 K0</p>
   <hr class="clear">
   <p>
-  <img src="https://assets.ubuntu.com/v1/47afbf87-black.png" alt="Black" title="Black" width="300" height="140" class="alignleft size-full wp-image-1402">
+  <img src="https://assets.ubuntu.com/v1/47afbf87-black.png" alt="Black" title="Black" width="300" height="140" class="alignleft size-full2">
 </p>
   <h3>Black</h3>
   <p><strong>Screen</strong><br>
@@ -60,7 +60,7 @@ C0 M0 Y0 K100</p>
   <li>Mid aubergine for a balance of both</li>
 </ul>
   <p>
-  <img src="https://assets.ubuntu.com/v1/9560ddb5-light-aubergine.png" alt="Light aubergine" title="Light aubergine" width="300" height="140" class="alignleft size-full wp-image-1406">
+  <img src="https://assets.ubuntu.com/v1/9560ddb5-light-aubergine.png" alt="Light aubergine" title="Light aubergine" width="300" height="140" class="alignleft size-full6">
 </p>
   <h3>Light aubergine</h3>
   <p><strong>Screen</strong><br>
@@ -70,7 +70,7 @@ C60 M100 Y15 K5<br>
 Pantone 512</p>
   <hr class="clear">
   <p>
-  <img src="https://assets.ubuntu.com/v1/9f3a00dd-mid-aubergine.png" alt="Mid aubergine" title="Mid aubergine" width="300" height="140" class="alignleft size-full wp-image-1407">
+  <img src="https://assets.ubuntu.com/v1/9f3a00dd-mid-aubergine.png" alt="Mid aubergine" title="Mid aubergine" width="300" height="140" class="alignleft size-full7">
 </p>
   <h3>Mid aubergine</h3>
   <p><strong>Screen</strong><br>
@@ -80,7 +80,7 @@ C70 M100 Y50 K20<br>
 Pantone 511</p>
   <hr class="clear">
   <p>
-  <img src="https://assets.ubuntu.com/v1/a87f4612-dark-aubergine.png" alt="Dark aubergine" title="Dark aubergine" width="300" height="140" class="alignleft size-full wp-image-1408">
+  <img src="https://assets.ubuntu.com/v1/a87f4612-dark-aubergine.png" alt="Dark aubergine" title="Dark aubergine" width="300" height="140" class="alignleft size-full8">
 </p>
   <h3>Dark aubergine</h3>
   <p><strong>Screen</strong><br>
@@ -100,7 +100,7 @@ Pantone 7449</p>
   <p>For typography, particularly body copy. Black can be quite harsh in combination with aubergine, but grey delivers more balance while still being legible.</p>
   <p>Cool grey can also be used within charts and diagrams.</p>
   <p>
-  <img src="https://assets.ubuntu.com/v1/58db45e6-warm-grey.png" alt="Warm grey" title="Warm grey" width="300" height="140" class="alignleft size-full wp-image-1409">
+  <img src="https://assets.ubuntu.com/v1/58db45e6-warm-grey.png" alt="Warm grey" title="Warm grey" width="300" height="140" class="alignleft size-full9">
 </p>
   <h3>Warm grey</h3>
   <p><strong>Screen</strong><br>
@@ -110,7 +110,7 @@ C0 M5 Y10 K29<br>
 Pantone Warm Grey 5</p>
   <hr class="clear">
   <p>
-  <img src="https://assets.ubuntu.com/v1/2bab75fe-cool-grey.png" alt="Cool grey" title="Cool grey" width="300" height="140" class="alignleft size-full wp-image-1410">
+  <img src="https://assets.ubuntu.com/v1/2bab75fe-cool-grey.png" alt="Cool grey" title="Cool grey" width="300" height="140" class="alignleft size-full0">
 </p>
   <h3>Cool grey</h3>
   <p><strong>Screen</strong><br>
@@ -120,7 +120,7 @@ C44 M34 Y22 K78<br>
 Pantone Cool Grey 11</p>
   <hr class="clear">
   <p>
-  <img src="https://assets.ubuntu.com/v1/a945036e-small-dot-grey.png" alt="Small dot grey" title="Small dot grey" width="300" height="140" class="alignleft size-full wp-image-1414">
+  <img src="https://assets.ubuntu.com/v1/a945036e-small-dot-grey.png" alt="Small dot grey" title="Small dot grey" width="300" height="140" class="alignleft size-full4">
 </p>
   <h3>Small dot grey</h3>
   <p><strong>Screen</strong><br>
@@ -142,7 +142,7 @@ Pantone Cool Grey 11</p>
   <h2>Canonical core colours</h2>
   <p>The Canonical colour palette has been created to reflect the spirit of our brand. Aubergine for a smart, focussed feel. White for a clean, fresh and light feel.</p>
   <p>
-  <img src="https://assets.ubuntu.com/v1/b8514097-canonical-aubergine.png" alt="Canonical aubergine" title="Canonical aubergine" width="300" height="140" class="alignleft size-full wp-image-1411">
+  <img src="https://assets.ubuntu.com/v1/b8514097-canonical-aubergine.png" alt="Canonical aubergine" title="Canonical aubergine" width="300" height="140" class="alignleft size-full1">
 </p>
   <h3>Canonical aubergine</h3>
   <p><strong>Screen</strong><br>
@@ -152,7 +152,7 @@ C26 M99 Y12 K52<br>
 Pantone 683</p>
   <hr class="clear">
   <p>
-  <img src="https://assets.ubuntu.com/v1/54f4e9da-white.png" alt="White" title="White" width="300" height="140" class="alignleft size-full wp-image-1400">
+  <img src="https://assets.ubuntu.com/v1/54f4e9da-white.png" alt="White" title="White" width="300" height="140" class="alignleft size-full0">
 </p>
   <h3>White</h3>
   <p><strong>Screen</strong><br>
@@ -203,7 +203,7 @@ C0 M0 Y0 K0</p>
 </div>
   <h2>The amount of colour we use</h2>
   <p>
-  <img src="https://assets.ubuntu.com/v1/13e0eef4-ubuntu-colour-wheel-voice.png" alt="Colour pie chart" title="Colour pie chart" width="540" height="264" class="aligncenter size-full wp-image-235" srcset="https://assets.ubuntu.com/v1/13e0eef4-ubuntu-colour-wheel-voice.png 540w, https://assets.ubuntu.com/v1/0a0191b4-ubuntu-colour-wheel-voice-300x146.png 300w" sizes="(max-width: 540px) 100vw, 540px">
+  <img src="https://assets.ubuntu.com/v1/13e0eef4-ubuntu-colour-wheel-voice.png" alt="Colour pie chart" title="Colour pie chart" width="540" height="264" class="aligncenter size-full" srcset="https://assets.ubuntu.com/v1/13e0eef4-ubuntu-colour-wheel-voice.png 540w, https://assets.ubuntu.com/v1/0a0191b4-ubuntu-colour-wheel-voice-300x146.png 300w" sizes="(max-width: 540px) 100vw, 540px">
 </p>
   <p>Our colour palette consists of orange, aubergine, white and warm grey. The amount of colour we use for community and Canonical collateral varies according to the emphasis of the content.</p>
   <p>At one end of the scale, where the work is dominated by the community, the emphasis is on a fresh palette, the use of white and orange, and warm grey for balance. Aubergine is used only as a highlight.</p>
