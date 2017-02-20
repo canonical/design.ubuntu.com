@@ -28,7 +28,7 @@ Orange, Aubergine, Warm grey, Cool grey</li>
 The height and width of rows and columns within a chart must be in increments of 1mm to allow the dots to align horizontally and vertically.</p>
 <p><img src="https://assets.ubuntu.com/v1/202053f5-keylines.gif" alt="Dots as keylines" title="keylines" width="207" height="333" class="alignnone size-full" srcset="https://assets.ubuntu.com/v1/202053f5-keylines.gif 207w, https://assets.ubuntu.com/v1/005df84b-keylines-186x300.gif 186w" sizes="(max-width: 207px) 100vw, 207px" /></p>
 <h3>General tips</h3>
-<p>Don’t overcrowd the chart or diagram. Think about what you need to say and be selective about the information you need to communicate.</p>
+<p>Don&#8217;t overcrowd the chart or diagram. Think about what you need to say and be selective about the information you need to communicate.</p>
 <p>Use the correct typeface and colour palette. Use the audience spectrum to identify the colours you should be using.</p>
 <div class="wp-link-top clearfix"><a href="#">top</a></div>
 <h2>Checklist</h2>

@@ -52,7 +52,7 @@ body-class: scopes
 </div>
   <div class="eight-col">
   <h3>Actions</h3>
-  <ol><li>Back – used if the scope is opened via tap from an installed aggregator scope.</li><li>Search – allows the user to search across the scope and connected branded (single service) scopes for a specific query. It should always appear first after the scope title.</li><li>Settings – enables persistent settings for simple customizations, such as enabling the user’s geographical location to receive local content sources.</li></ol>
+  <ol><li>Back – used if the scope is opened via tap from an installed aggregator scope.</li><li>Search – allows the user to search across the scope and connected branded (single service) scopes for a specific query. It should always appear first after the scope title.</li><li>Settings – enables persistent settings for simple customizations, such as enabling the user&#8217;s geographical location to receive local content sources.</li></ol>
 </div>
   <div class="eight-col box box-grey">
   <div class="one-col last-col align-centre">
@@ -132,11 +132,11 @@ body-class: scopes
 <div class="row">
   <div class="eight-col">
   <h2 id="structure">Structure</h2>
-  <p>Structure your scope according to the user’s activities, and group cards in categories to help them find related results.</p>
+  <p>Structure your scope according to the user&#8217;s activities, and group cards in categories to help them find related results.</p>
   <p><img class="alignnone size-large" src="https://assets.ubuntu.com/v1/4d85b0ab-Structure-11-722x1024.png" alt="Structure (1)" width="722" height="1024"></p>
 </div>
   <div class="eight-col">
-  <ol class="list"><li>Personal data – this displays the user’s local data on their device. For example, it could display the user’s ‘Recently Played’ music from their personally stored music.</li><li>Online service accounts – this displays the user’s connected online service accounts. For example, the Music Scope will display the user’s likes from their SoundCloud account.</li></ol>
+  <ol class="list"><li>Personal data – this displays the user&#8217;s local data on their device. For example, it could display the user&#8217;s &#8216;Recently Played&#8217; music from their personally stored music.</li><li>Online service accounts – this displays the user&#8217;s connected online service accounts. For example, the Music Scope will display the user&#8217;s likes from their SoundCloud account.</li></ol>
 </div>
   <div class="six-col box box-grey">
   <div class="one-col last-col align-centre">
@@ -248,10 +248,10 @@ body-class: scopes
   <p>In a full expanded view, all cards are presented on the screen.</p>
 </div>
   <div class="four-col">
-  <p>In its collapsed state, ‘See all’ displays more cards.</p>
+  <p>In its collapsed state, &#8216;See all&#8217; displays more cards.</p>
 </div>
   <div class="four-col last-col">
-  <p>When the category is in the expanded state, ‘See less’ closes the category back to its original collapsed state. In the expanded state, only the ‘See less’ button is visible.</p>
+  <p>When the category is in the expanded state, &#8216;See less&#8217; closes the category back to its original collapsed state. In the expanded state, only the &#8216;See less&#8217; button is visible.</p>
 </div>
 </div>
 
@@ -507,7 +507,7 @@ body-class: scopes
   <div class="eight-col">
   <h2 id="card-summary">Card summary</h2>
   <p>Text can be split into paragraphs.</p>
-  <ul class="list"><li>If the text is up to 5 lines, than the last line of text will be replaced with ‘See More’, where it will show in the preview – which appears once the user has tapped the card.</li><li>Up to 5 lines of text can be placed in the summary component.</li><li>When a card includes a summary text, then the background to the header and summary should be white.</li></ul>
+  <ul class="list"><li>If the text is up to 5 lines, than the last line of text will be replaced with &#8216;See More&#8217;, where it will show in the preview – which appears once the user has tapped the card.</li><li>Up to 5 lines of text can be placed in the summary component.</li><li>When a card includes a summary text, then the background to the header and summary should be white.</li></ul>
 </div>
   <div class="six-col box box-grey">
   <div class="one-col last-col align-centre">

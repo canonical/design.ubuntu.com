@@ -124,7 +124,7 @@ margin-bottom: 14px;
 <div class="box smaller">
 <strong>Warning:</strong> You must not use checkboxes when only one option is accepted. You must not style checkboxes as radio buttons when multiple options are accepted.
 </div>
-<p>Ideally, radio buttons, checkboxes, dropdown menus, should have the default browser style applied. Exceptions may be permitted when they enhance usability and don’t hamper accessibility.</p>
+<p>Ideally, radio buttons, checkboxes, dropdown menus, should have the default browser style applied. Exceptions may be permitted when they enhance usability and don&#8217;t hamper accessibility.</p>
 <div class="wp-link-top clearfix"><a href="forms#">top</a></div>
 <h2>Buttons</h2>
 <p>The action button of a form should be aligned left, with the labels and input fields. This creates a top-to-bottom straight visual line that is easy to follow between all the actions a user has to complete before accomplishing his or her goal of submitting the form.</p>

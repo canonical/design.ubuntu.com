@@ -85,7 +85,7 @@ body-class: "guidelines"
 </div>
 <div class="ten-col">
 <h4>Make it obvious</h4>
-<p>Don’t make it hard for the user to understand the effect of the unchecked value.</p>
+<p>Don&#8217;t make it hard for the user to understand the effect of the unchecked value.</p>
 </div>
 <div class="five-col">
 <div class="five-col image-container"><img src="https://assets.ubuntu.com/v1/7ea5ce57-366w_FormElements_MakeItObvious_Good-1.png" alt="366w_FormElements_MakeItObvious_Good (1)" width="336" height="150" /></div>
@@ -121,7 +121,7 @@ body-class: "guidelines"
 <h4>Choosing a message tone</h4>
 <div class="image-container"><img src="https://assets.ubuntu.com/v1/2374ae19-366w_FormElements_MessageTone.png" alt="366w_FormElements_MessageTone" width="336" height="220" /></div>
 </div>
-<div class="ten-col">Clicking a non-selected radio button will deselect whichever button was previously selected. For example, ‘Soft delay’ will be deselected if the user selects another option.</div>
+<div class="ten-col">Clicking a non-selected radio button will deselect whichever button was previously selected. For example, &#8216;Soft delay&#8217; will be deselected if the user selects another option.</div>
 <div class="ten-col box-grey vertical-align vertical-align--image-left">
 <p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/e9f11635-information-link.png" alt="" width="32" height="32" /></p>
 <div class="vertical-align__content">
@@ -154,7 +154,7 @@ body-class: "guidelines"
 <h4 style="text-align: left; margin-top: 4px; margin-bottom: 10px;"><span style="color: #ed3146;">Don&#8217;t</span></h4>
 </div>
 </div>
-<div class="ten-col">Don’t use a radio menu entirely for command items. If the menu never contains any radio items, then use a toolbutton menu instead.</div>
+<div class="ten-col">Don&#8217;t use a radio menu entirely for command items. If the menu never contains any radio items, then use a toolbutton menu instead.</div>
 <div class="ten-col box-grey vertical-align vertical-align--image-left">
 <p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/e9f11635-information-link.png" alt="" width="32" height="32" /></p>
 <div class="vertical-align__content">
@@ -315,15 +315,15 @@ body-class: "guidelines"
 <div class="ten-col box-grey vertical-align vertical-align--image-left">
 <p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/608696e3-developer_links.png" alt="" width="32" height="32" /></p>
 <div class="vertical-align__content">
-<p>The System volume control component is currently under heavy development because it might also include other audio features, so you won’t have to worry about developing it yourself.</p>
+<p>The System volume control component is currently under heavy development because it might also include other audio features, so you won&#8217;t have to worry about developing it yourself.</p>
 </div>
 </div>
 <div class="ten-col">
 <h4>The advantages of using system volume control:</h4>
 <ul>
-<li>people won’t be annoyed that your app is louder or quieter than others, because your app uses the system audio volume</li>
-<li>volume change notifications don’t appear in front of your app when the slider is altered (especially important for a video player)</li>
-<li>you don’t need to implement your own volume-adjusting code, because Ubuntu changes the volume of your app automatically</li>
+<li>people won&#8217;t be annoyed that your app is louder or quieter than others, because your app uses the system audio volume</li>
+<li>volume change notifications don&#8217;t appear in front of your app when the slider is altered (especially important for a video player)</li>
+<li>you don&#8217;t need to implement your own volume-adjusting code, because Ubuntu changes the volume of your app automatically</li>
 <li>any future Ubuntu features for audio routing will become available to your app automatically, without any code changes required</li>
 </ul>
 </div>

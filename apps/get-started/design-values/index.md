@@ -31,7 +31,7 @@ body-class: guidelines
   <div class="ten-col">
   <h2 id="all-input-types-supported-equally">All input types supported equally</h2>
   <p>In order to achieve convergence, the toolkit has adapted all components to work seamlessly across all devices with minimal changes to functionality and visual appearance.</p>
-  <p>This means that touch, pointer and focus interactions are now mapped to perform similar functions across different devices for a consistent and familiar user experience. No matter what the input method, the UI will respond to the user’s interaction with what they expect to happen automatically.</p>
+  <p>This means that touch, pointer and focus interactions are now mapped to perform similar functions across different devices for a consistent and familiar user experience. No matter what the input method, the UI will respond to the user&#8217;s interaction with what they expect to happen automatically.</p>
 </div>
   <div class="ten-col">
   <h4>Use case</h4>
@@ -102,7 +102,7 @@ body-class: guidelines
   <div class="ten-col">
   <h2 id="meaning-in-colors">Meaning in colors</h2>
   <p>The Suru design language associates meanings with certain colours to help the user distinguish between actions.</p>
-  <p>Most color blind people have difficulty distinguishing red from green. Don’t use color in isolation, but instead bring them together with additional visual cues (e.g. text labels, button position and style).</p>
+  <p>Most color blind people have difficulty distinguishing red from green. Don&#8217;t use color in isolation, but instead bring them together with additional visual cues (e.g. text labels, button position and style).</p>
 </div>
   <div class="ten-col box-grey vertical-align vertical-align--image-left">
   <p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/e9f11635-information-link.png" alt="information-link" width="32" height="32"></p>
@@ -166,7 +166,7 @@ body-class: guidelines
   <img src="https://assets.ubuntu.com/v1/01fb853b-dont_32.png" alt="Do not" width="32" height="32">
 </div>
   <p>
-  <span style="color: #ed3146;">Don’t</span>
+  <span style="color: #ed3146;">Don&#8217;t</span>
 </p>
   <p class="five-col">Drawers have low discoverability and can hide important views from the user. Consider using the header or header section instead.</p>
 </div>

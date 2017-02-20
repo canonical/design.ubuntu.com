@@ -43,7 +43,7 @@ body-class: guidelines
   <div class="ten-col box-grey vertical-align vertical-align--image-left">
   <p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/75f60d24-link_external.png" alt="" width="32" height="32"></p>
   <div class="vertical-align__content">
-  <p>You can create your own customised bottom edge and add different content depending on the context of your app. <a class="external" href="http://design.canonical.com/2014/03/loving-the-bottom-edge/">See ‘Loving the bottom edge’ for more information.</a></p>
+  <p>You can create your own customised bottom edge and add different content depending on the context of your app. <a class="external" href="http://design.canonical.com/2014/03/loving-the-bottom-edge/">See &#8216;Loving the bottom edge&#8217; for more information.</a></p>
 </div>
 </div>
 </section>
@@ -146,7 +146,7 @@ body-class: guidelines
   <img src="https://assets.ubuntu.com/v1/01fb853b-dont_32.png" alt="dont_32" width="32" height="32">
 </div>
   <h4 style="text-align: left; margin-top: 10px; margin-bottom: 10px;">
-  <span style="color: #ed3146;">Don’t</span>
+  <span style="color: #ed3146;">Don&#8217;t</span>
 </h4>
 </div>
   <div class="ten-col">
@@ -167,7 +167,7 @@ body-class: guidelines
 </div>
   <div class="ten-col">
   <h4>Step 2\. Collapsing</h4>
-  <p>Hint 2 is now fully visible; however if the user doesn’t interact with the content or screen for a period time, then Hint 1 it will automatically fade in and replace Hint 2.</p>
+  <p>Hint 2 is now fully visible; however if the user doesn&#8217;t interact with the content or screen for a period time, then Hint 1 it will automatically fade in and replace Hint 2.</p>
   <div class="ten- col image-container">
   <img class="alignnone size-full" src="https://assets.ubuntu.com/v1/7e1040d0-750w_BottomEdge_CollapsingHints-1.png" alt="750w_BottomEdge_CollapsingHints (1)" width="677" height="119">
 </div>

@@ -26,7 +26,7 @@ body-class: guidelines
   <div class="ten-col">
   <h2 id="overview">Overview</h2>
   <p>The toolkit includes convergent menu components that can be applied across all devices to provide a shortcut to the most relevant actions within your app.</p>
-  <p>A context menu can contain shortcuts to primary actions or commands that are relevant to the user’s current context.</p>
+  <p>A context menu can contain shortcuts to primary actions or commands that are relevant to the user&#8217;s current context.</p>
 </div>
   <div class="ten-col">
   <h4>Staged</h4>
@@ -81,7 +81,7 @@ body-class: guidelines
   <div class="ten-col">
   <h2 id="revealing-actions">Revealing actions</h2>
   <p>Touch and pointer interactions perform the same functions for familiarity and consistency across convergent devices.</p>
-  <p>On a touch screen, a context menu is revealed by long tapping or swiping the list item from left to right. Swiping right may reveal a button for the leading action, such as ‘Delete’ or similar. Swiping left may reveal buttons for up to three other important actions, which are the trailing actions. When a pointer device is attached, right-clicking an item will reveal the context menu, and click and drag will reveal the leading and trailing actions either side of the item – giving the same experience as swiping.</p>
+  <p>On a touch screen, a context menu is revealed by long tapping or swiping the list item from left to right. Swiping right may reveal a button for the leading action, such as &#8216;Delete&#8217; or similar. Swiping left may reveal buttons for up to three other important actions, which are the trailing actions. When a pointer device is attached, right-clicking an item will reveal the context menu, and click and drag will reveal the leading and trailing actions either side of the item – giving the same experience as swiping.</p>
 </div>
   <div class="ten-col">
   <h3>Context menu</h3>
@@ -163,7 +163,7 @@ body-class: guidelines
   <img src="https://assets.ubuntu.com/v1/01fb853b-dont_32.png" alt="dont_32" width="32" height="32">
 </div>
   <h4 style="text-align: left; margin-top: 4px;">
-  <span style="color: #ed3146;">Don’t</span>
+  <span style="color: #ed3146;">Don&#8217;t</span>
 </h4>
   <p class="five-col">Place negative actions close to positive actions, because users may accidentally trigger them.</p>
 </div>
@@ -195,7 +195,7 @@ body-class: guidelines
   <div class="left">
   <img src="https://assets.ubuntu.com/v1/01fb853b-dont_32+%281%29.png" alt="dont_32" width="32" height="32">
 </div>
-  <h4 style="text-align: left; margin-top: 4px;"><span style="color: #ed3146;">Don’t</span></h4>
+  <h4 style="text-align: left; margin-top: 4px;"><span style="color: #ed3146;">Don&#8217;t</span></h4>
 </div>
   <p>Use over-long text labels that result in truncation (…).</p>
 </div>
@@ -208,7 +208,7 @@ body-class: guidelines
 </div>
 </div>
   <h4 class="ten-col">Label examples</h4>
-  <ul class="list ten-col"><li>Add</li><li>Edit</li><li>New (rather than ‘create’)</li><li>Move</li><li>Save/ Save As</li><li>Delete/ Remove</li><li>Send</li><li>Share</li></ul>
+  <ul class="list ten-col"><li>Add</li><li>Edit</li><li>New (rather than &#8216;create&#8217;)</li><li>Move</li><li>Save/ Save As</li><li>Delete/ Remove</li><li>Send</li><li>Share</li></ul>
   <div class="ten-col">
   <h4>Grouping menu items</h4>
   <p>Items should be grouped in a logical manner using dividers to separate related actions that have been grouped together.</p>
@@ -232,7 +232,7 @@ body-class: guidelines
   <div class="left">
   <img src="https://assets.ubuntu.com/v1/01fb853b-dont_32.png" alt="dont_32" width="32" height="32">
 </div>
-  <h4 style="text-align: left; margin-top: 4px;"><span style="color: #ed3146;">Don’t</span></h4>
+  <h4 style="text-align: left; margin-top: 4px;"><span style="color: #ed3146;">Don&#8217;t</span></h4>
 </div>
 </div>
   <div class="ten-col">Divide a predictable set of commands, such as clipboard commands (Cut, Copy, Paste) from app-specific or view-specific commands.</div>
@@ -243,7 +243,7 @@ body-class: guidelines
 </div>
   <div class="ten-col">
   <h3>Placing actions</h3>
-  <p>In cases where editable or configurable groups of similar items are presented to the user (for example, editing a List of contacts or a Grid of application icons) actions are placed according to the user’s interaction with the item.</p>
+  <p>In cases where editable or configurable groups of similar items are presented to the user (for example, editing a List of contacts or a Grid of application icons) actions are placed according to the user&#8217;s interaction with the item.</p>
   <p>The top three actions inside your menu will appear as trailing actions when the user swipes right. Destruction actions inside the menu, such as delete, will be available as a leading action when the user swipes left.</p>
 </div>
   <div class="ten-col box-grey vertical-align vertical-align--image-left">
@@ -266,7 +266,7 @@ body-class: guidelines
   <div class="five-col image-container">
   <img src="https://assets.ubuntu.com/v1/0d2ec1aa-366w_Menus_DisablingActions.png" alt="366w_Menus_DisablingActions" width="336" height="307">
 </div>
-  <div class="ten-col">In this example, ‘Rename’ is greyed out in order to indicate to the user that it is not possible to select this option at this time (as no name has been given).</div>
+  <div class="ten-col">In this example, &#8216;Rename&#8217; is greyed out in order to indicate to the user that it is not possible to select this option at this time (as no name has been given).</div>
 </section>
   <section class="row no-padding-right no-padding-left">
   <div class="link-top not-for-small">

@@ -19,7 +19,7 @@ body-class: guidelines
   <ul class="list-ubuntu">
   <li>Your app will be part of the third most deployed desktop OS in the world, which is free and accessible to all</li>
   <li>Your app will be able to work seamlessly across all Ubuntu client platforms (desktop, phone, tablet)</li>
-  <li>The list of Ubuntu App Platform APIs is ever expanding, integrating all Ubuntu apps seamlessly into the Unity shell and user experience, whatever the app’s toolkit and coding language</li>
+  <li>The list of Ubuntu App Platform APIs is ever expanding, integrating all Ubuntu apps seamlessly into the Unity shell and user experience, whatever the app&#8217;s toolkit and coding language</li>
   <li>Join a vibrant global community whose enthusiasm, energy, connectedness, many talents and commitment is unmatched</li>
 </ul>
 </div>

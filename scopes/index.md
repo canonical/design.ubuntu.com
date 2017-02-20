@@ -16,14 +16,14 @@ body-class: scopes
 <div class="row scopes row-hero no-border">
   <div class="five-col append-seven">
   <h1>Introducing scopes</h1>
-  <p class="intro">Ubuntu’s scopes give you related content on one screen, instead of hiding it behind different apps. So everything you look for in life is now right at your fingertips.</p>
+  <p class="intro">Ubuntu&#8217;s scopes give you related content on one screen, instead of hiding it behind different apps. So everything you look for in life is now right at your fingertips.</p>
 </div>
 </div>
 
 <div class="row">
   <div class="eight-col">
   <h2>What is a scope?</h2>
-  <p>Scopes use a straightforward framework for containing data sources where they deliver content by topic, straight to the user’s fingertips.</p>
+  <p>Scopes use a straightforward framework for containing data sources where they deliver content by topic, straight to the user&#8217;s fingertips.</p>
 </div>
   <div class="twelve-col combined-list">
   <ul class="list six-col"><li><a href="#how-they-work">How they work&nbsp;&rsaquo;</a></li><li><a href="#the-benefit-of-scopes">The benefit of Scopes&nbsp;&rsaquo;</a></li><li><a href="#easy-to-create">Easy to create&nbsp;&rsaquo;</a></li></ul>
@@ -84,7 +84,7 @@ body-class: scopes
   <div class="six-col">
   <div class="vertical-align">
   <h3>Take action</h3>
-  <p>Allow users to purchase music, products, connect to websites, view map locations as well as various other ‘calls to action’.</p>
+  <p>Allow users to purchase music, products, connect to websites, view map locations as well as various other &#8216;calls to action&#8217;.</p>
 </div>
 </div>
   <div class="four-col prepend-one last-col">
@@ -248,7 +248,7 @@ body-class: scopes
   <img class="alignnone size-large" src="https://assets.ubuntu.com/v1/ff3a2385-today_1.png" alt="today" width="567" height="1024">
 </div>
   <h3>Today</h3>
-  <p>Contains the user’s events, tasks, messages, as well as news, weather and more.</p>
+  <p>Contains the user&#8217;s events, tasks, messages, as well as news, weather and more.</p>
   <h4>Sources:</h4>
   <ul class="list"><li>Weather Channel</li><li>News sources</li><li>Fitbit activity</li><li>Other local sources</li></ul>
 </div>
@@ -257,7 +257,7 @@ body-class: scopes
   <img src="https://assets.ubuntu.com/v1/b079f2b1-nearby.png" alt="">
 </div>
   <h3>NearBy</h3>
-  <p>Contains local services from around the user’s area.</p>
+  <p>Contains local services from around the user&#8217;s area.</p>
   <h4>Sources:</h4>
   <ul class="list"><li>Yelp</li><li>TimeOut</li><li>Inrix</li><li>Open street maps</li></ul>
 </div>

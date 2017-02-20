@@ -54,12 +54,12 @@ body-class: guidelines
   <div class="ten-col box-grey vertical-align vertical-align--image-left">
   <p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/e9f11635-information-link.png" alt="" width="32" height="32"></p>
   <div class="vertical-align__content">
-  <p>The toolkit progress bars and spinners automatically handle presence for individual tasks by waiting for two seconds. If the task takes less than that they won’t appear at all.</p>
+  <p>The toolkit progress bars and spinners automatically handle presence for individual tasks by waiting for two seconds. If the task takes less than that they won&#8217;t appear at all.</p>
 </div>
 </div>
   <div class="ten-col">
   <h3>Indeterminate indicators</h3>
-  <p>Use a indeterminate progress bar or spinner if the proportion complete is unknown. For instance, the loading of a screen or re-caching a browser is something the user doesn’t need further information on and can happen in the background.</p>
+  <p>Use a indeterminate progress bar or spinner if the proportion complete is unknown. For instance, the loading of a screen or re-caching a browser is something the user doesn&#8217;t need further information on and can happen in the background.</p>
 </div>
   <div class="five-col">
   <h4>Progress bar – updating</h4>
@@ -102,14 +102,14 @@ body-class: guidelines
   <div class="five-col image-container">
   <img src="https://assets.ubuntu.com/v1/08e61720-366w_ActivityIndicators_DontSpinner.png" alt="366w_ActivityIndicators_Don'tSpinner" width="333" height="153">
 </div>
-  <p>Don’t use an Activity Indicator for anything that isn’t progress of a task, such as waiting for user input or as a gauge for anything else.</p>
+  <p>Don&#8217;t use an Activity Indicator for anything that isn&#8217;t progress of a task, such as waiting for user input or as a gauge for anything else.</p>
 </div>
   <div class="five-col last-col">
   <h4>Avoid confusion</h4>
   <div class="five-col image-container">
   <img src="https://assets.ubuntu.com/v1/cb401570-366w_ActivityIndicators_AvoidConfusion.png" alt="366w_ActivityIndicators_AvoidConfusion" width="333" height="153">
 </div>
-  <p>Don’t fill the indicator if the task has failed, because it could confuse the user.</p>
+  <p>Don&#8217;t fill the indicator if the task has failed, because it could confuse the user.</p>
 </div>
   <div class="ten-col box-grey vertical-align vertical-align--image-left">
   <p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/75f60d24-link_external.png" alt="" width="32" height="32"></p>

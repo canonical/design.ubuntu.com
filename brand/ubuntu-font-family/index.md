@@ -41,7 +41,7 @@ It is a unique, custom designed font that has a very distinctive look and feel.<
 <p>The following section show the weights available and give guidelines on how to use typeface correctly.</p>
 <div class="wp-link-top clearfix"><a href="#">top</a></div>
 <h2>Weights available</h2>
-<div style="font-size: 36px; color: #aea79f; line-height: 1.2; padding: 20px 10px; border: 1px dotted #AEA79F; border-width: 1px 0; margin: 24px 0;"><span style="display: block; margin-bottom: 18px;"><span style="color: #E95420;">Ubuntu Regular</span> – ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz /(.,:; ?!’-_+) 0123456789</span><span style="font-style: italic;"><span style="color: #E95420;">Ubuntu Regular Italic</span> – ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz /(.,:; ?!’-_+) 0123456789</span></div>
+<div style="font-size: 36px; color: #aea79f; line-height: 1.2; padding: 20px 10px; border: 1px dotted #AEA79F; border-width: 1px 0; margin: 24px 0;"><span style="display: block; margin-bottom: 18px;"><span style="color: #E95420;">Ubuntu Regular</span> – ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz /(.,:; ?!&#8217;-_+) 0123456789</span><span style="font-style: italic;"><span style="color: #E95420;">Ubuntu Regular Italic</span> – ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz /(.,:; ?!&#8217;-_+) 0123456789</span></div>
 <h3>Ubuntu Monospace</h3>
 <p>A monospaced typeface is where each character has the same set width and spacing.</p>
 <p>Ubuntu Sans Monospace is available in Latin, Greek and Cyrillic, and in the following weights: Regular, Bold, Italic, Bold Italic.</p>

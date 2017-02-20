@@ -26,7 +26,7 @@ body-class: guidelines
   <section class="row no-padding-right no-padding-left">
   <div class="ten-col">
   <h2 id="grid-unit">Grid Unit System</h2>
-  <p>A Grid Unit (GU) is a virtual measure of the screen space that is calculated according to the device’s width in pixels and the predefined layout. They have been designed to suit a range of screen sizes.</p>
+  <p>A Grid Unit (GU) is a virtual measure of the screen space that is calculated according to the device&#8217;s width in pixels and the predefined layout. They have been designed to suit a range of screen sizes.</p>
 </div>
   <div class="ten-col">
   <h3>Placing elements</h3>
@@ -112,7 +112,7 @@ body-class: guidelines
 </div>
   <div class="ten-col">
   <h4>Desktop – 2 or 3 panels</h4>
-  <p>On a windowed environment, just like on a tablet, more than one panel can be displayed simultaneously. By joining them in the same window, we get the familiar list panel and conjoined detail panel – a pattern typical in applications like contacts, messages, and email. Of course, there can be any number of combinations of panels depending on the specific app’s needs.</p>
+  <p>On a windowed environment, just like on a tablet, more than one panel can be displayed simultaneously. By joining them in the same window, we get the familiar list panel and conjoined detail panel – a pattern typical in applications like contacts, messages, and email. Of course, there can be any number of combinations of panels depending on the specific app&#8217;s needs.</p>
 </div>
   <div class="ten-col">
   <div class="image-container">
@@ -141,7 +141,7 @@ body-class: guidelines
 </div>
 </div>
   <div class="ten-col">
-  <p>Changing the size of the window resizes one or more joined panels. Typically, the right-most panel resizes and the left-most panel maintains its original dimensions. The dimensions of the right-most panel will normally be 40 or 50 grid units; though this panel may itself be resizable depending on the developer’s requirements.</p>
+  <p>Changing the size of the window resizes one or more joined panels. Typically, the right-most panel resizes and the left-most panel maintains its original dimensions. The dimensions of the right-most panel will normally be 40 or 50 grid units; though this panel may itself be resizable depending on the developer&#8217;s requirements.</p>
 </div>
   <div class="ten-col">
   <div class="image-container">

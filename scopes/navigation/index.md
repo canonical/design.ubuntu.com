@@ -90,7 +90,7 @@ body-class: scopes
   <h3>Layout:</h3>
   <ol><li><strong>Department area (below the header)</strong> – section of the scope layout dedicated to departments.</li><li><strong>Content area</strong> – section of the scope layout dedicated to categories.</li></ol>
   <h3>Things you can change:</h3>
-  <ul><li>Naming the top-level department e.g. ‘Shop by department’ or ‘Genres’</li></ul>
+  <ul><li>Naming the top-level department e.g. &#8216;Shop by department&#8217; or &#8216;Genres&#8217;</li></ul>
 </div>
   <div class="eight-col box box-grey">
   <div class="one-col align-center">
@@ -121,7 +121,7 @@ body-class: scopes
   <h3>Single hierarchy</h3>
   <ul><li>A chevron is used to indicate to the user that there are options available.</li><li>A checkmark is used to show the user what they have selected.</li></ul>
   <h3>Behavior of departments:</h3>
-  <ul><li>They collapse or expand by default.</li><li>The widget shows departments returned by the scope per query (including “null” query).</li><li>When the top-level department is open a maximum of 5 departments can be shown with a ‘show more’ button included.</li></ul>
+  <ul><li>They collapse or expand by default.</li><li>The widget shows departments returned by the scope per query (including “null” query).</li><li>When the top-level department is open a maximum of 5 departments can be shown with a &#8216;show more&#8217; button included.</li></ul>
 </div>
   <div class="six-col box box-grey">
   <div class="one-col align-center">
@@ -152,7 +152,7 @@ body-class: scopes
   <div class="four-col">
   <img class="alignnone size-large" src="https://assets.ubuntu.com/v1/98605bd3-multiply-level-12-618x1024.png" alt="multiply level 1" width="618" height="1024">
 </div>
-  <p>When the user first comes to the scope they will be presented with an ‘all departments’ menu.</p>
+  <p>When the user first comes to the scope they will be presented with an &#8216;all departments&#8217; menu.</p>
 </div>
   <div class="four-col">
   <div class="four-col">
@@ -165,7 +165,7 @@ body-class: scopes
   <img class="alignnone size-large" src="https://assets.ubuntu.com/v1/45d43336-multiply-level-51-618x1024.png" alt="multiply level 5" width="618" height="1024">
 </div>
   <p>The menu will then split into two rows”Featured” and the selected department.</p>
-  <p>In the department view the user can navigate back to ‘all departments’ using the back chevron, or select another category or department.</p>
+  <p>In the department view the user can navigate back to &#8216;all departments&#8217; using the back chevron, or select another category or department.</p>
 </div>
   <div class="twelve-col">
   <h3>Featured menu</h3>
@@ -174,13 +174,13 @@ body-class: scopes
   <div class="four-col">
   <img class="alignnone size-large" src="https://assets.ubuntu.com/v1/e78d262c-multiple-level-41-618x1024.png" alt="multiple level 4" width="618" height="1024">
 </div>
-  <p>When the user has selected a department, the ‘Featured’ menu will appear on the left hand side of the ‘Department’ menu.</p>
+  <p>When the user has selected a department, the &#8216;Featured&#8217; menu will appear on the left hand side of the &#8216;Department&#8217; menu.</p>
 </div>
   <div class="four-col">
   <div class="four-col">
   <img class="alignnone size-large" src="https://assets.ubuntu.com/v1/45d43336-multiply-level-52-618x1024.png" alt="multiply level 5" width="618" height="1024">
 </div>
-  <p>The ‘Featured’ menu allows the user to sort results by order e.g.”Price: high to low”, which changes the view of the results.</p>
+  <p>The &#8216;Featured&#8217; menu allows the user to sort results by order e.g.”Price: high to low”, which changes the view of the results.</p>
 </div>
   <div class="four-col last-col">
   <div class="four-col">

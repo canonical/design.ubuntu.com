@@ -60,9 +60,9 @@ body-class: guidelines
   <div class="ten-col">
   <h3>Adaptive layouts</h3>
   <p>Applications live in windows (in a windowed environment) or surfaces (in a non-windowed environment). Application layouts change in a responsive manner depending on the size of their window or surface. One common method of creating a responsive layout is to use panels. In a small window or surface, only a single panel needs to be displayed. The user can navigate through the panels by tapping on items or going back. When the window or surface size gets larger, the application can switch to displaying two or more surfaces side by side. Thus reducing the amount of navigational actions the user needs to undertake.</p>
-  <p>Typical examples of this are applications like contacts, messages, and email. Of course, there can be any number of combinations of panels depending on the specific app’s needs.</p>
+  <p>Typical examples of this are applications like contacts, messages, and email. Of course, there can be any number of combinations of panels depending on the specific app&#8217;s needs.</p>
   <p>The AdaptivePageLayout API component eliminates guesswork for developers when adapting from one form factor to another. It works by tracking an infinite number of virtual columns that may be displayed on a screen at once. For example, an app will automatically switch between a 1-panel and 2-panel layout when the user changes the size of the window or surface, by dragging the app from the main stage to the side stage.</p>
-  <p>Changing the size of the window or surface resizes one or more joined panels. Typically, the right-most panel resizes and the left-most panel maintains its original dimensions. The dimensions of the right-most panel will normally be 40 grid units or 50 grid units, though this panel may itself be resizable depending on the developer’s requirements.</p>
+  <p>Changing the size of the window or surface resizes one or more joined panels. Typically, the right-most panel resizes and the left-most panel maintains its original dimensions. The dimensions of the right-most panel will normally be 40 grid units or 50 grid units, though this panel may itself be resizable depending on the developer&#8217;s requirements.</p>
 </div>
   <div class="ten-col">
   <h4>How it works</h4>

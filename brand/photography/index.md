@@ -10,7 +10,7 @@ body-class: "guidelines"
 
 <div id="loop-guidelines" class="ten-col last-col">
 <p><img src="https://assets.ubuntu.com/v1/50252b56-photography.gif" alt="Photography examples" title="photography" width="540" height="246" class="alignnone size-full" srcset="https://assets.ubuntu.com/v1/50252b56-photography.gif 540w, https://assets.ubuntu.com/v1/c7b5f4e1-photography-300x136.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
-<p>Photography is a good way to help us contextualise and humanise content. We use ‘product’ photography and ‘people’ photography. We’re more likely to use ‘product’ photography in relation to Ubuntu and ‘people’ photography in relation to Canonical.</p>
+<p>Photography is a good way to help us contextualise and humanise content. We use &#8216;product&#8217; photography and &#8216;people&#8217; photography. We&#8217;re more likely to use &#8216;product&#8217; photography in relation to Ubuntu and &#8216;people&#8217; photography in relation to Canonical.</p>
 <p>Our photography uses an aubergine duotone effect.</p>
 <div class="wp-link-top clearfix"><a href="#">top</a></div>
 <h2>How to photograph people</h2>

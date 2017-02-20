@@ -43,7 +43,7 @@ From top to bottom: Voice Slider, Audience Slider and Developer Slider
 <p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/e9f11635-information-link.png" alt="information-link" width="32" height="32" /></p>
 <div class="vertical-align__content">
 <h4>Be decisive</h4>
-<p>Most communications will have a definite audience, therefore, it would be very rare that the Audience or Developer Sliders would need to be positioned in the centre. If you find that you have positioned a slider in the centre, think carefully about the purpose of your communication and what it is trying to say. In general, the only time it’s useful to say “both” is for transitional or gateway pages, like a home page.</p>
+<p>Most communications will have a definite audience, therefore, it would be very rare that the Audience or Developer Sliders would need to be positioned in the centre. If you find that you have positioned a slider in the centre, think carefully about the purpose of your communication and what it is trying to say. In general, the only time it&#8217;s useful to say “both” is for transitional or gateway pages, like a home page.</p>
 </div>
 </div>
 
@@ -59,7 +59,7 @@ From top to bottom: Voice Slider, Audience Slider and Developer Slider
 
 #### What part of our organisation are you representing?
 
-If the work you are producing is entirely community-based, then you are on the left. If it’s entirely Canonical-based, you are on the right. And if you are talking about work which includes contributions from both, you would be somewhere in between.
+If the work you are producing is entirely community-based, then you are on the left. If it&#8217;s entirely Canonical-based, you are on the right. And if you are talking about work which includes contributions from both, you would be somewhere in between.
 
 <img src="https://assets.ubuntu.com/v1/ada86e58-voice-slider1.gif" alt="" title="voice-slider" width="540" height="39" class="size-full" srcset="https://assets.ubuntu.com/v1/ada86e58-voice-slider1.gif 540w, https://assets.ubuntu.com/v1/a9c0d8b3-voice-slider1-300x21.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
 
@@ -99,12 +99,12 @@ A Canonical employee can produce pages speaking for the community, and community
 #### There are more than 3 options
 
 
-For example, we consider the Desktop CD to be 50% Canonical, but the Server CD to be 80% Canonical. Your own Ubuntu remix CD’s might be 100% community. Pick an appropriate position that reflects accurately how much of the work was done by the Ubuntu community and how much by Canonical. If your work is part of the official project and represents the trademark, include some element of Canonical to indicate that. For example: an unofficial LoCo blog would be 100% community, but the Official Ubuntu Book would be 20% Canonical.
+For example, we consider the Desktop CD to be 50% Canonical, but the Server CD to be 80% Canonical. Your own Ubuntu remix CD&#8217;s might be 100% community. Pick an appropriate position that reflects accurately how much of the work was done by the Ubuntu community and how much by Canonical. If your work is part of the official project and represents the trademark, include some element of Canonical to indicate that. For example: an unofficial LoCo blog would be 100% community, but the Official Ubuntu Book would be 20% Canonical.
 
 
-#### It’s about the underlying work
+#### It&#8217;s about the underlying work
 
-Your materials will be describing a product, or a service, or an event, or a team. Your design should reflect the nature of that entity, not necessarily your own position. It’s not about reflecting your voice, it’s about reflecting the voice of the work itself.
+Your materials will be describing a product, or a service, or an event, or a team. Your design should reflect the nature of that entity, not necessarily your own position. It&#8217;s not about reflecting your voice, it&#8217;s about reflecting the voice of the work itself.
 
 </div>
 </div>
@@ -139,7 +139,7 @@ The user interface and user experience are key to their choice.
 
 A central setting on this sliders means the communication a mix of Consumers and Enterprise users. Often, a home page might have traffic for both consumer and enterprise users, but subsidiary pages would have a narrower audience.
 
-Use this central position rarely! It’s better to speak either to consumers, or to the enterprise, than to try and accommodate both in one work.
+Use this central position rarely! It&#8217;s better to speak either to consumers, or to the enterprise, than to try and accommodate both in one work.
 
 <a href="examples?metadata=audience-consumer+audience-enterprise" title="Examples of both consumer and enterprise audience">Examples of both consumer and enterprise audience&nbsp;&rsaquo;</a>
 
@@ -173,7 +173,7 @@ The developer slider
 
 #### End-user
 
-These people are “satisficers”: they have criteria and standards and will search until they find the software solution that meets those standards. Uses the product as an ‘out of the box’ solution. They expect to be sold on the benefits and ease of use.
+These people are “satisficers”: they have criteria and standards and will search until they find the software solution that meets those standards. Uses the product as an &#8216;out of the box&#8217; solution. They expect to be sold on the benefits and ease of use.
 
 End Users do not care about the back end technology needed to deliver them those benefits.
 
@@ -203,7 +203,7 @@ A common mistake is to conflate “advanced” or “sophisticated” users with
 
 For example, it is tempting to think of server software as being appropriate for more “advanced” users, and to assign some weight to the developer slider for server materials, but that is a mistake. Documentation for the server edition of Ubuntu might have no Developer weighting at all, as it might purely be for deployment of the product as is.
 
-The Developer weighting is appropriate for API documentation, or developer guides or recipes, both for those who develop Ubuntu itself and those who are building software for use with Ubuntu, it’s about reflecting the voice of the work itself.
+The Developer weighting is appropriate for API documentation, or developer guides or recipes, both for those who develop Ubuntu itself and those who are building software for use with Ubuntu, it&#8217;s about reflecting the voice of the work itself.
 
 <div class="box-grey vertical-align vertical-align--image-left">
 <p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/e9f11635-information-link.png" alt="information-link" width="32" height="32" /></p>

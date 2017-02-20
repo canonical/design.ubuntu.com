@@ -10,7 +10,7 @@ body-class: "guidelines"
 <div id="loop-guidelines" class="ten-col last-col">
 <p><img src="https://assets.ubuntu.com/v1/7de55930-canonical-logo1.png" alt="The Canonical logo" title="The Canonical logo" width="540" height="245" class="aligncenter size-full wp-image-83" srcset="https://assets.ubuntu.com/v1/7de55930-canonical-logo1.png 540w, https://assets.ubuntu.com/v1/232595c9-canonical-logo1-300x136.png 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
 <p>The Canonical logo captures the precise and focused qualities of the brand in a straight forward symbol and wordmark. It is clearly linked to Ubuntu but equally clearly differentiated.</p>
-<p>It is made up of a custom designed font (wordmark), carefully spaced with a carefully drawn ‘Canonical Circle’ replacing the ‘O’.</p>
+<p>It is made up of a custom designed font (wordmark), carefully spaced with a carefully drawn &#8216;Canonical Circle&#8217; replacing the &#8216;O&#8217;.</p>
 <p>Consistent use of the Canonical logo is essential in creating a united brand identity. The master logo is supplied as artwork and should never be altered, distorted or re-created in any way.</p>
 <div class="box">
 <p><strong>Note:</strong> The Canonical word and associated logos are registered trademarks. For more details please <a href="http://www.ubuntu.com/aboutus/trademarkpolicy">read our trademark policy</a>.</p>
@@ -27,7 +27,7 @@ body-class: "guidelines"
 <div class="wp-link-top clearfix"><a href="#">top</a></div>
 <p><img src="https://assets.ubuntu.com/v1/9ce5bce5-canonical-logo3.png" alt="The Canonical Circle" title="The Canonical Circle" width="200" height="201" class="alignleft size-full wp-image-85" srcset="https://assets.ubuntu.com/v1/9ce5bce5-canonical-logo3.png 200w, https://assets.ubuntu.com/v1/6655d959-canonical-logo3-140x140.png 140w" sizes="(max-width: 200px) 100vw, 200px" /></p>
 <h2>The Canonical Circle</h2>
-<p>The Canonical logo is made up of the Canonical wordmark and the Canonical symbol. This symbol is called the ‘Canonical Circle’.</p>
+<p>The Canonical logo is made up of the Canonical wordmark and the Canonical symbol. This symbol is called the &#8216;Canonical Circle&#8217;.</p>
 <p>It has been carefully drawn for precision and added clarity.</p>
 <div class="wp-link-top clearfix"><a href="#">top</a></div>
 <h2>Available logo colourways</h2>
@@ -51,10 +51,10 @@ This logo version should be used in support of the master version (for example, 
 <h2>Defining the exclusion zone</h2>
 <p><img src="https://assets.ubuntu.com/v1/a1e1b14a-canonical-logo6.png" alt="Defining the exclusion zone for the Canonical logo" title="Defining the exclusion zone for the Canonical logo" width="540" height="142" class="aligncenter size-full wp-image-88" srcset="https://assets.ubuntu.com/v1/a1e1b14a-canonical-logo6.png 540w, https://assets.ubuntu.com/v1/50d7ae48-canonical-logo6-300x78.png 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
 <p>The Canonical logo must always have a clear area surrounding it, free from any other element.</p>
-<p>To define this area, measure the height of the ‘Canonical Circle’ and use half this measure to create the boundary of clear space around the logo.</p>
+<p>To define this area, measure the height of the &#8216;Canonical Circle&#8217; and use half this measure to create the boundary of clear space around the logo.</p>
 <p><img src="https://assets.ubuntu.com/v1/a0c0181f-canonical-logo7.png" alt="Defining the exclusion zone for the Canonical Circle" title="Defining the exclusion zone for the Canonical Circle" width="250" height="248" class="aligncenter size-full wp-image-89" srcset="https://assets.ubuntu.com/v1/a0c0181f-canonical-logo7.png 250w, https://assets.ubuntu.com/v1/ab61c7f8-canonical-logo7-140x140.png 140w" sizes="(max-width: 250px) 100vw, 250px" /></p>
 <p>The Canonical Circle, when used on its own, must always have a clear area surrounding it, free from any other element.</p>
-<p>To define this area, measure the height of the ‘Canonical Circle’ and use a quarter of this measure to create the boundary of clear space.</p>
+<p>To define this area, measure the height of the &#8216;Canonical Circle&#8217; and use a quarter of this measure to create the boundary of clear space.</p>
 <div class="wp-link-top clearfix"><a href="#">top</a></div>
 <h2>Minimum size</h2>
 <p><img src="https://assets.ubuntu.com/v1/acb215ad-canonical-logo8.png" alt="Minimum size" title="Minimum size" width="498" height="220" class="aligncenter size-full wp-image-90" srcset="https://assets.ubuntu.com/v1/acb215ad-canonical-logo8.png 498w, https://assets.ubuntu.com/v1/3c58a46a-canonical-logo8-300x132.png 300w" sizes="(max-width: 498px) 100vw, 498px" /></p>
@@ -67,7 +67,7 @@ This logo version should be used in support of the master version (for example, 
 <p><img src="https://assets.ubuntu.com/v1/d3b39ba4-canonical-logo9.png" alt="Centering the logo" title="Centering the logo" width="540" height="225" class="aligncenter size-full wp-image-91" srcset="https://assets.ubuntu.com/v1/d3b39ba4-canonical-logo9.png 540w, https://assets.ubuntu.com/v1/00ed485f-canonical-logo9-300x125.png 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
 <p>When centering the logo, it is important to maintain a visual balance of surrounding space.</p>
 <h3>Horizontal alignment</h3>
-<p>Align the mid-point between the ‘Canonical Circle’ and ‘N’ with the centre of the page/screen.</p>
+<p>Align the mid-point between the &#8216;Canonical Circle&#8217; and &#8216;N&#8217; with the centre of the page/screen.</p>
 <h3>Vertical alignment</h3>
 <p>Position the logo so that the centre of the Canonical Circle sits on the centre of the page/screen.</p>
 <div class="wp-link-top clearfix"><a href="#">top</a></div>

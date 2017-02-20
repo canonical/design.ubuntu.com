@@ -79,10 +79,10 @@ body-class: "guidelines"
 </div>
 </div>
 <div class="twelve-col" style="padding-top: 30px; border-top: 1px dotted #aea79f;">
-<h2>We’ve come full circle</h2>
+<h2>We&#8217;ve come full circle</h2>
 <p><img src="https://assets.ubuntu.com/v1/e74798d3-full-circle.png" alt="We&#039;ve come full circle" title="We&#039;ve come full circle" width="780" height="62" class="alignnone size-full7" srcset="https://assets.ubuntu.com/v1/e74798d3-full-circle.png 780w, https://assets.ubuntu.com/v1/1ce5322e-full-circle-300x23.png 300w" sizes="(max-width: 780px) 100vw, 780px" /></p>
 <div class="grid_5 alpha">
-<p>Both of the Ubuntu and Canonical logos feature a roundel element as an integral part of their design. This circular idea has been extended into our pictograms and now into our photography too. This adds an ‘ownable’ feature to our communications and provides a subtle link back to the logo.</p>
+<p>Both of the Ubuntu and Canonical logos feature a roundel element as an integral part of their design. This circular idea has been extended into our pictograms and now into our photography too. This adds an &#8216;ownable&#8217; feature to our communications and provides a subtle link back to the logo.</p>
 <h3 style="margin-top: 10px">Circular inspiration</h3>
 <p>We feel that there are other ways to introduce circular elements into our communications and we encourage you to expand this idea. This could be type in a circle, dots in a circle, a circle punched out of dots or a circular element within a photograph…
 </p></div>

@@ -62,12 +62,12 @@ body-class: "guidelines"
 <ul>
 <li><strong>Actions </strong>on the right</li>
 </ul>
-<p>The action area can include actions such as settings, search, views, or an action drawer for when there’s no room to place further actions.</p>
+<p>The action area can include actions such as settings, search, views, or an action drawer for when there&#8217;s no room to place further actions.</p>
 </div>
 <div class="ten-col box-grey vertical-align vertical-align--image-left">
 <p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/e9f11635-information-link.png" alt="" width="32" height="32" /></p>
 <div class="vertical-align__content">
-<p>Don’t use a navigation drawer and an action drawer at the same time, because users are unlikely to distinguish between them.</p>
+<p>Don&#8217;t use a navigation drawer and an action drawer at the same time, because users are unlikely to distinguish between them.</p>
 </div>
 </div>
 </section>
@@ -192,7 +192,7 @@ body-class: "guidelines"
 <div class="image-container"><img src="https://assets.ubuntu.com/v1/65192f75-750w_Header_Convergence-search-box-1.png" alt="750w_Header_Convergence search box (1)" width="682" height="295" /></div>
 </div>
 <div class="ten-col">
-<p>Avoid placing search in both panels unless necessary, because it could confuse the user as to what content is being filter. For example, they may type in the wrong field to search for a specific query if it isn’t in a hierarchical order.</p>
+<p>Avoid placing search in both panels unless necessary, because it could confuse the user as to what content is being filter. For example, they may type in the wrong field to search for a specific query if it isn&#8217;t in a hierarchical order.</p>
 </div>
 <div class="ten-col box-grey vertical-align vertical-align--image-left">
 <p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/75f60d24-link_external.png" alt="" width="32" height="32" /></p>
@@ -234,7 +234,7 @@ body-class: "guidelines"
 <div class="ten-col box-grey vertical-align vertical-align--image-left">
 <p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/e9f11635-information-link.png" alt="information-link" width="32" height="32" /></p>
 <div class="vertical-align__content">
-<p>The toolbar can contain additional actions other than editing ones, such as ‘Share’ or ‘Forward’.</p>
+<p>The toolbar can contain additional actions other than editing ones, such as &#8216;Share&#8217; or &#8216;Forward&#8217;.</p>
 </div>
 </div>
 <div class="ten-col">
@@ -250,7 +250,7 @@ body-class: "guidelines"
 <div class="ten-col">
 <div class="image-container"><img src="https://assets.ubuntu.com/v1/bd08ea1b-750w_Header_MultiPanelLayout2-2.png" alt="750w_Header_MultiPanelLayout2 (2)" width="679" height="248" /></div>
 </div>
-<div class="ten-col">If you need a delete icon place it on the left of the toolbar. If the content you are editing needs to be saved then use two text buttons instead, such as ‘Cancel’ and ‘Save’.</div>
+<div class="ten-col">If you need a delete icon place it on the left of the toolbar. If the content you are editing needs to be saved then use two text buttons instead, such as &#8216;Cancel&#8217; and &#8216;Save&#8217;.</div>
 <div class="ten-col box-grey vertical-align vertical-align--image-left">
 <p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/e9f11635-information-link.png" alt="" width="32" height="32" /></p>
 <div class="vertical-align__content">
@@ -285,7 +285,7 @@ body-class: "guidelines"
 </div>
 <div class="ten-col">
 <h3>Fixed (default)</h3>
-<p>A fixed header will appear at all times until the user starts to scroll down within your app’s content. Having a fixed header can be useful if you have a few sections or actions that need to be accessible even when the user scrolls. For instance, in a photo editing app the user may want the editing tools to be fixed in the header for easier access.</p>
+<p>A fixed header will appear at all times until the user starts to scroll down within your app&#8217;s content. Having a fixed header can be useful if you have a few sections or actions that need to be accessible even when the user scrolls. For instance, in a photo editing app the user may want the editing tools to be fixed in the header for easier access.</p>
 <p>If your app displays a header section below the main header, then it will follow the defined behavior of the main header.</p>
 </div>
 <div class="five-col">
@@ -303,7 +303,7 @@ body-class: "guidelines"
 </div>
 <div class="ten-col">
 <h3>Fixed and transparent</h3>
-<p>The header will be available at all times and have a transparency of 80-90%. This type of header can be useful if you don’t want it to be the focus of attention, but still available if the user wishes to have quicker access to a view or action.</p>
+<p>The header will be available at all times and have a transparency of 80-90%. This type of header can be useful if you don&#8217;t want it to be the focus of attention, but still available if the user wishes to have quicker access to a view or action.</p>
 </div>
 <div class="five-col">
 <div class="image-container"><img src="https://assets.ubuntu.com/v1/665d0605-366w_Header_HeaderFixedTransparent.png" alt="366w_Header_HeaderFixedTransparent" width="336" height="217" /></div>
@@ -383,7 +383,7 @@ body-class: "guidelines"
 <div class="image-container"><img src="https://assets.ubuntu.com/v1/c7289222-366w_Header_ActionInHeader2-2.png" alt="366w_Header_ActionInHeader2 (2)" width="336" height="180" /></div>
 </div>
 <div class="ten-col">
-<p>For example, if your app was presenting an inbox of emails, from ‘All’, the sub-sections could display &#8216;Recent’ and ‘Archive’ to further filter the content. More sections on the screen can be visible by swiping right.</p>
+<p>For example, if your app was presenting an inbox of emails, from &#8216;All&#8217;, the sub-sections could display &#8216;Recent&#8217; and &#8216;Archive&#8217; to further filter the content. More sections on the screen can be visible by swiping right.</p>
 </div>
 <div class="ten-col">
 <h4>When a mouse is attached</h4>
@@ -427,7 +427,7 @@ body-class: "guidelines"
 </div>
 <div class="ten-col">
 <h3>Actions</h3>
-<p>Allow users quick access to the most important actions by placing them inside the header. For example, in the Contact app: ‘Call’ and ‘Add Contact’ are available in the header to give quick access to the Dialler and Address book.</p>
+<p>Allow users quick access to the most important actions by placing them inside the header. For example, in the Contact app: &#8216;Call&#8217; and &#8216;Add Contact&#8217; are available in the header to give quick access to the Dialler and Address book.</p>
 </div>
 <div class="six-col">
 <div class="image-container"><img src="https://assets.ubuntu.com/v1/50dcda9a-366w_Header_ClearHeaderAction-1.png" alt="366w_Header_ClearHeaderAction (1)" width="336" height="110" /></div>
@@ -440,5 +440,3 @@ body-class: "guidelines"
 
 
 </div>
-
-

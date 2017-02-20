@@ -81,7 +81,7 @@ body-class: guidelines
   <div class="ten-col">
   <h2 id="contextual-actions-for-list-items">Contextual actions for list items</h2>
   <p>Items in a list can have actions that can be placed in a context menu. The context menu can be accessed in two ways: by swiping or right-clicking the list item.</p>
-  <p>Touch and pointer interactions perform the same functions across convergent devices for consistency and familiarity across the platform. Swiping right may reveal a button for the leading action, such as ‘Delete’ or something similar. Swiping left may reveal buttons for (up to) three other important actions; these are the trailing actions. When the user interacts with an item using a mouse, right-clicking will reveal the context menu, and click and drag will reveal the leading and trailing actions either side of the item. This gives the same experience as swiping.</p>
+  <p>Touch and pointer interactions perform the same functions across convergent devices for consistency and familiarity across the platform. Swiping right may reveal a button for the leading action, such as &#8216;Delete&#8217; or something similar. Swiping left may reveal buttons for (up to) three other important actions; these are the trailing actions. When the user interacts with an item using a mouse, right-clicking will reveal the context menu, and click and drag will reveal the leading and trailing actions either side of the item. This gives the same experience as swiping.</p>
   <p>The actions are placed within two categories: leading for negative actions and trailing for positive actions. Grouping actions into positive and negative areas inside your list items will reinforce familiarity inside your app; allowing users to find and identify important actions easily.</p>
 </div>
   <div class="five-col image-container">
@@ -136,7 +136,7 @@ body-class: guidelines
 </div>
   <div class="ten-col">
   <h4>Edit contacts</h4>
-  <p>In the Contacts app for example, the list of contacts is made editable to allow users to delete or edit a contact’s information.</p>
+  <p>In the Contacts app for example, the list of contacts is made editable to allow users to delete or edit a contact&#8217;s information.</p>
 </div>
   <div class="ten-col">
   <ol><li>A user selects an item in the list by using the edit icon in the header.</li><li>The list becomes selectable with checkboxesthat provides swiping actions for multi-select mode.</li><li>The header changes to reveal editing actions, and the header section is replaced with a toolbar underneath the main header with further editing actions.</li></ol>
@@ -339,7 +339,7 @@ Secondary action – message</div>
   <div class="ten-col box-grey vertical-align vertical-align--image-left">
   <p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/75f60d24-link_external.png" alt="" width="32" height="32"></p>
   <div class="vertical-align__content">
-  <p>Provide a caption under the title to give the user more information if necessary. For example, displaying a contact’s email address saves the user clicking through to find the information.</p>
+  <p>Provide a caption under the title to give the user more information if necessary. For example, displaying a contact&#8217;s email address saves the user clicking through to find the information.</p>
 </div>
 </div>
   <div class="ten-col">

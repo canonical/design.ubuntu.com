@@ -49,7 +49,7 @@ body-class: "guidelines"
 <h3 style="color:#AEA79F">Warm grey</h3>
 <p><code>#AEA79F</code></p>
 <div class="box">
-<strong>Warning:</strong> This colour <em>must not</em> be used as a background to text on the web, as it doesn’t provide enough contrast with either light or dark text colours, and causes accessibility problems.
+<strong>Warning:</strong> This colour <em>must not</em> be used as a background to text on the web, as it doesn&#8217;t provide enough contrast with either light or dark text colours, and causes accessibility problems.
 </div>
 <h3>White and light grey</h3>
 <p><code>#FFF</code> and <code>#EFEFEF</code>: These colours are used as background colour to bring clarity, honesty and transparency to the design.</p>
@@ -78,7 +78,7 @@ body-class: "guidelines"
 <div id="attachment_308" style="width: 550px" class="wp-caption alignnone"><img src="https://assets.ubuntu.com/v1/660d4332-web-components-notification-messages.gif" alt="Ubuntu web colour - Colour coded notification message on Landscape" title="Ubuntu web colour - Colour coded notification message on Landscape" width="540" height="63" class="size-full" srcset="https://assets.ubuntu.com/v1/660d4332-web-components-notification-messages.gif 540w, https://assets.ubuntu.com/v1/f69cec3d-web-components-notification-messages-300x35.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /><p class="wp-caption-text">Figure 2: Notification message on Landscape</p></div>
 <div class="wp-link-top clearfix"><a href="colour#">top</a></div>
 <h2>Colour distribution</h2>
-<p>When planning your pages, make sure there an even distribution and well balanced percentage of light (such as white) and strong colours (such as Ubuntu orange). Think of the page as a whole, a unit, it shouldn’t be top- or bottom-heavy.</p>
+<p>When planning your pages, make sure there an even distribution and well balanced percentage of light (such as white) and strong colours (such as Ubuntu orange). Think of the page as a whole, a unit, it shouldn&#8217;t be top- or bottom-heavy.</p>
 <div class="wp-link-top clearfix"><a href="colour#">top</a></div>
                </div>
 

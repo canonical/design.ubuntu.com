@@ -32,8 +32,8 @@ body-class: guidelines
 </ul>
 </div>
   <div class="ten-col">
-The Scrollbar API doesn’t handle keyboard input and has the following requirements:<p>
-</p><ul>
+<p>The Scrollbar API doesn&#8217;t handle keyboard input and has the following requirements:</p>
+<ul>
   <li>the content position is driven through the attached Flickable item</li>
   <li>the alignment management has to adhere to the anchors for built-in alignment functionality</li>
   <li>every style implementation should drive the position through contentX/contentY properties, depending on whether the orientation is vertical or horizontal</li>
@@ -68,7 +68,7 @@ The Scrollbar API doesn’t handle keyboard input and has the following requirem
   <img src="https://assets.ubuntu.com/v1/01fb853b-dont_32.png" alt="dont_32" width="32" height="32">
 </div>
   <h4 style="text-align: left; margin-top: 10px; margin-bottom: 10px;">
-  <span style="color: #ed3146;">Don’t</span>
+  <span style="color: #ed3146;">Don&#8217;t</span>
 </h4>
 </div>
 </section>
@@ -81,7 +81,7 @@ The Scrollbar API doesn’t handle keyboard input and has the following requirem
 </div>
   <div class="ten-col">
   <h3>Borderless content</h3>
-  <p>If the content of your app is borderless, like the camera, it wouldn’t be practical to have scrollbars because it can hinder the user’s view and primary task of taking a picture.
+  <p>If the content of your app is borderless, like the camera, it wouldn&#8217;t be practical to have scrollbars because it can hinder the user&#8217;s view and primary task of taking a picture.
 </p>
 </div>
   <div class="five-col">
@@ -109,7 +109,7 @@ The Scrollbar API doesn’t handle keyboard input and has the following requirem
   <img src="https://assets.ubuntu.com/v1/01fb853b-dont_32.png" alt="dont_32" width="32" height="32">
 </div>
   <h4 style="text-align: left; margin-top: 10px; margin-bottom: 10px;">
-  <span style="color: #ed3146;">Don’t</span>
+  <span style="color: #ed3146;">Don&#8217;t</span>
 </h4>
 </div>
   <div class="ten-col">

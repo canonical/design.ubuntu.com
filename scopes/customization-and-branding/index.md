@@ -8,7 +8,7 @@ body-class: scopes
 <div class="row">
   <div class="eight-col">
   <h1>Customization and branding</h1>
-  <p>Scopes come in a very flexible customization package where you can add your brand’s identity through colors, logos and arranging cards and categories.</p>
+  <p>Scopes come in a very flexible customization package where you can add your brand&#8217;s identity through colors, logos and arranging cards and categories.</p>
 </div>
   <div class="six-col combined-list">
   <ul class="six-col list"><li><a href="#header-and-background">Header and background&nbsp;&rsaquo;</a></li><li><a href="#card-and-category-design">Card and category design&nbsp;&rsaquo;</a></li></ul>

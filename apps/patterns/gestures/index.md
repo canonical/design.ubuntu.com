@@ -10,7 +10,7 @@ body-class: guidelines
 <div id="loop-guidelines" class="ten-col last-col">
   <section class="row no-padding-top no-padding-right no-padding-left">
   <div class="ten-col">
-  <h3>Make the most of Ubuntu’s gestures to establish consistency and familiarity within your application.</h3>
+  <h3>Make the most of Ubuntu&#8217;s gestures to establish consistency and familiarity within your application.</h3>
   <p>
   <img class="alignnone" src="https://assets.ubuntu.com/v1/b5eb0c4c-750w_Getsures_MainImage-1.png" alt="750w_Getsures_MainImage (1)" width="762" height="434">
 </p>
@@ -153,7 +153,7 @@ body-class: guidelines
 </div>
 </div>
   <div class="ten-col">
-  <p>After the user has  interacted with Hint 1, the hint will morph to become Hint 2\. This hint contains a label, icon or a combinations of the two. By using both a label and an icon it gives the user more detail of the content it will show, such as ‘ + New page’.</p>
+  <p>After the user has  interacted with Hint 1, the hint will morph to become Hint 2\. This hint contains a label, icon or a combinations of the two. By using both a label and an icon it gives the user more detail of the content it will show, such as &#8216; + New page&#8217;.</p>
 </div>
   <div class="ten-col box-grey vertical-align vertical-align--image-left">
   <img class="vertical-align__image" src="https://assets.ubuntu.com/v1/75f60d24-link_external.png" alt="" width="32" height="32">
@@ -193,7 +193,7 @@ body-class: guidelines
 </div>
 </div>
   <div class="ten-col">
-  <p>The bottom edge is highlighted in the left panel with instructional text above it, together with a ‘Next Button to lead the user to the following instruction in the tutorial.</p>
+  <p>The bottom edge is highlighted in the left panel with instructional text above it, together with a &#8216;Next Button to lead the user to the following instruction in the tutorial.</p>
 </div>
   <div class="ten-col">
   <div class="image-container">

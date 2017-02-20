@@ -199,7 +199,7 @@ body-class: "guidelines"
 <div class="image-container"><img src="https://assets.ubuntu.com/v1/c0844792-366w_Navigation_HeaderTransparent-1.png" alt="366w_Navigation_HeaderTransparent (1)" width="336" height="237" /></div>
 </div>
 <div class="five-col">Useful for making section or action always accessible for when the user scrolls.</div>
-<div class="five-col last-col">Useful if you don’t want the header to be the focus of attention, but want it readerly available if the user needs it.</div>
+<div class="five-col last-col">Useful if you don&#8217;t want the header to be the focus of attention, but want it readerly available if the user needs it.</div>
 <div class="five-col">
 <h4>Hidden</h4>
 <div class="image-container"><img src="https://assets.ubuntu.com/v1/f2a9d47e-366w_Navigation_HeaderHidden-1.png" alt="366w_Navigation_HeaderHidden (1)" width="336" height="237" /></div>
@@ -240,7 +240,7 @@ body-class: "guidelines"
 </div>
 <div class="ten-col">
 <h4>Dekko app</h4>
-<p>For example, if your app was presenting an inbox of emails, from ‘All’, the sub-sections could display &#8216;Recent’ and ‘Archive’ to further filter the content for the user. More section on the screen can be visible through swipe or clicking the hint that appears when a mouse is attached.</p>
+<p>For example, if your app was presenting an inbox of emails, from &#8216;All&#8217;, the sub-sections could display &#8216;Recent&#8217; and &#8216;Archive&#8217; to further filter the content for the user. More section on the screen can be visible through swipe or clicking the hint that appears when a mouse is attached.</p>
 </div>
 <div class="five-col">
 <div class="image-container"><img src="https://assets.ubuntu.com/v1/2f59f039-366w_Navigation_Tabs-2.png" alt="366w_Navigation_Tabs (2)" width="332" height="175" /></div>

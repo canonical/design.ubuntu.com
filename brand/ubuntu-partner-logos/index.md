@@ -19,7 +19,7 @@ C0 M79 Y100 K0<br />
 Pantone 1665</p>
 <h2>Partner logo elements</h2>
 <p><img src="https://assets.ubuntu.com/v1/e543e871-partner-logo-elements1.gif" alt="Partner logo elements" title="Partner logo elements" width="465" height="349" class="alignnone size-full5" srcset="https://assets.ubuntu.com/v1/e543e871-partner-logo-elements1.gif 465w, https://assets.ubuntu.com/v1/fd9bc0e0-partner-logo-elements1-300x225.gif 300w" sizes="(max-width: 465px) 100vw, 465px" /><br />
-Each partner logo consists of the stacked version of the Ubuntu brandmark, the ‘partner name’ set in Ubuntu Regular in a clean white panel, placed within a holding device ‘badge’.</p>
+Each partner logo consists of the stacked version of the Ubuntu brandmark, the &#8216;partner name&#8217; set in Ubuntu Regular in a clean white panel, placed within a holding device &#8216;badge&#8217;.</p>
 <p>Master Ubuntu Partner logos are supplied as artworks and should never be altered, distorted or re-created in any way.</p>
 <h2>Defining the exclusion zone</h2>
 <p><img src="https://assets.ubuntu.com/v1/63b7642e-partner-logos-exclusion-zone.gif" alt="Exclusion zone" title="Exclusion zone" width="540" height="522" class="alignnone size-full7" srcset="https://assets.ubuntu.com/v1/63b7642e-partner-logos-exclusion-zone.gif 540w, https://assets.ubuntu.com/v1/a122af90-partner-logos-exclusion-zone-300x290.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
@@ -32,7 +32,7 @@ Each partner logo consists of the stacked version of the Ubuntu brandmark, the �
 <h2>Creating Ubuntu partner logos</h2>
 <p><img src="https://assets.ubuntu.com/v1/d1e937e9-partner-logo-step-1.gif" alt="Step 1" title="Step 1" width="140" height="167" class="alignleft size-full" /></p>
 <h3>Stage 1</h3>
-<p>Open the ‘create_partner_logo.eps’ file.</p>
+<p>Open the &#8216;create_partner_logo.eps&#8217; file.</p>
 <hr class="clear" />
 <img src="https://assets.ubuntu.com/v1/6d722200-partner-logo-step-2.gif" alt="Step 2" title="Step 2" width="210" height="210" class="alignleft size-full" srcset="https://assets.ubuntu.com/v1/6d722200-partner-logo-step-2.gif 210w, https://assets.ubuntu.com/v1/2a10aafb-partner-logo-step-2-140x140.gif 140w" sizes="(max-width: 210px) 100vw, 210px" /></p>
 <h3>Stage 2</h3>

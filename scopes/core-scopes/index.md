@@ -85,7 +85,7 @@ body-class: scopes
   <img class="alignnone size-full" src="https://assets.ubuntu.com/v1/2a544668-Departments-3.png" alt="Departments 3" width="1263" height="927">
 </div>
   <div class="eight-col">
-  <ol><li>Scope header – contains the title of your scope and optional icons that can take action or navigate to a different screen.</li><li>Department drop-down – is an optional feature to give the user a more targeted and narrower search.</li><li>Category header link – Can be placed in the header of a category to lead the user to a connected child scope.</li><li>Tap card to preview content – tapping on a card can take the user to a preview screen, where they can take action e.g. ‘Play’ or ‘Open’.</li></ol>
+  <ol><li>Scope header – contains the title of your scope and optional icons that can take action or navigate to a different screen.</li><li>Department drop-down – is an optional feature to give the user a more targeted and narrower search.</li><li>Category header link – Can be placed in the header of a category to lead the user to a connected child scope.</li><li>Tap card to preview content – tapping on a card can take the user to a preview screen, where they can take action e.g. &#8216;Play&#8217; or &#8216;Open&#8217;.</li></ol>
 </div>
   <div class="eight-col last-col box box-grey">
   <div class="one-col last-col align-centre">
@@ -121,7 +121,7 @@ body-class: scopes
   <div class="six-col prepend-one last-col">
   <div class="vertical-align">
   <h3>Settings</h3>
-  <p>From the ‘Settings’ icon in the scope header, the user will be presented with a checklist with the data sources they wish the scope to be fed with.</p>
+  <p>From the &#8216;Settings&#8217; icon in the scope header, the user will be presented with a checklist with the data sources they wish the scope to be fed with.</p>
 </div>
 </div>
 </div>
@@ -216,7 +216,7 @@ body-class: scopes
   <div class="six-col">
   <div class="vertical-align">
   <h3>Horizontal-list layout</h3>
-  <p>This is an example taken from our NearBy scope, where it shows events in the user’s local area using a header that overlays the art (image).</p>
+  <p>This is an example taken from our NearBy scope, where it shows events in the user&#8217;s local area using a header that overlays the art (image).</p>
 </div>
 </div>
   <div class="five-col prepend-one last-col">
@@ -257,7 +257,7 @@ body-class: scopes
   <div class="four-col">
   <img class="alignnone size-large" src="https://assets.ubuntu.com/v1/a2ab01cc-I_am_hungry_png1-567x1024.png" alt="I_am_hungry_png" width="567" height="1024">
 </div>
-  <h3>I’m hungry</h3>
+  <h3>I&#8217;m hungry</h3>
   <ul class="list"><li>Restaurants – from TimeOut</li><li>Local ATMs</li></ul>
 </div>
 </div>

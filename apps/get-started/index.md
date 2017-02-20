@@ -37,7 +37,7 @@ body-class: guidelines
   <div class="five-col last-col">
   <p><img src="https://assets.ubuntu.com/v1/b27d45cd-366w_Overview_MakeItUbuntu-2.png" alt="366w_Overview_MakeItUbuntu (2)" width="366" height="230"></p>
   <h3>Make it Ubuntu</h3>
-  <p>Apply Ubuntu’s key components and patterns to achieve a great user experience inside your app.</p>
+  <p>Apply Ubuntu&#8217;s key components and patterns to achieve a great user experience inside your app.</p>
   <p><a href="/apps/get-started/make-it-ubuntu">Use the bottom edge &rsaquo;</a></p>
 </div>
 </div>

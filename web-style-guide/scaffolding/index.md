@@ -662,7 +662,7 @@ body-class: "web-style-guide"
     </div>
     <div class="four-col last-col">
     <div class="box">
-    <p><strong>Warning:</strong> Warm grey must not be used as a background to text on the web, as it doesn’t provide enough contrast with either light or dark text colours, which causes accessibility problems.</p>  
+    <p><strong>Warning:</strong> Warm grey must not be used as a background to text on the web, as it doesn&#8217;t provide enough contrast with either light or dark text colours, which causes accessibility problems.</p>  
     </div>
     </div>
     </div>
@@ -670,7 +670,7 @@ body-class: "web-style-guide"
     <div class="twelve-col">
     <h3>Colour distribution</h3>
     <div class="eight-col">
-    <p>When planning your pages, make sure there is an even distribution and well-balanced percentage of light (such as white) and strong colours (such as Ubuntu orange). Think of the screen as a whole &ndash; a unit. It shouldn’t be top- or bottom-heavy.</p>
+    <p>When planning your pages, make sure there is an even distribution and well-balanced percentage of light (such as white) and strong colours (such as Ubuntu orange). Think of the screen as a whole &ndash; a unit. It shouldn&#8217;t be top- or bottom-heavy.</p>
     </div>
     </div>
 

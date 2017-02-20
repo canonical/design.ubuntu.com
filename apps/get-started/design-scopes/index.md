@@ -23,7 +23,7 @@ body-class: guidelines
   <section class="row no-padding-right no-padding-left">
   <div class="ten-col">
   <h2>What is a scope?</h2>
-  <p>Ubuntu’s scopes provide a means to display any content delivered using a web API to users in a consistent and visually attractive manner. Scopes provide a low cost, easy to develop option for bringing content to the Ubuntu platform without having to commit to the development and maintenance costs of building a fully fledged application.</p>
+  <p>Ubuntu&#8217;s scopes provide a means to display any content delivered using a web API to users in a consistent and visually attractive manner. Scopes provide a low cost, easy to develop option for bringing content to the Ubuntu platform without having to commit to the development and maintenance costs of building a fully fledged application.</p>
 </div>
   <div class="ten-col">
   <div class="image-container ten-col">
@@ -41,7 +41,7 @@ body-class: guidelines
 </div>
   <div class="ten-col">
   <h2 id="customization-and-branding">Customization and branding</h2>
-  <p>Scopes come in a very flexible customization package where you can add your brand’s identity through colors, logos and arranging cards and categories.</p>
+  <p>Scopes come in a very flexible customization package where you can add your brand&#8217;s identity through colors, logos and arranging cards and categories.</p>
 </div>
   <div class="five-col">
   <div class="ten-col image-container">

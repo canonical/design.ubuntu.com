@@ -10,7 +10,7 @@ body-class: "guidelines"
 <div id="loop-guidelines" class="ten-col last-col">
 <p><img class="aligncenter size-full" title="The Ubuntu logo" src="https://assets.ubuntu.com/v1/8dd99b80-ubuntu-logo14.png" alt="The Ubuntu logo" width="540" height="243" srcset="https://assets.ubuntu.com/v1/8dd99b80-ubuntu-logo14.png 540w, https://assets.ubuntu.com/v1/65c201dd-ubuntu-logo14-300x135.png 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
 <p>The Ubuntu logo captures the precise and reliable qualities of the brand in a straight forward symbol and wordmark.</p>
-<p>It is made up of a custom designed font (wordmark), carefully spaced with a re-drawn ‘Circle of Friends’ placed within a roundel.</p>
+<p>It is made up of a custom designed font (wordmark), carefully spaced with a re-drawn &#8216;Circle of Friends&#8217; placed within a roundel.</p>
 <p>Consistent use of the Ubuntu logo is essential in creating a united brand identity. The master logo is supplied as artwork and should never be altered, distorted or re-created in any way.</p>
 <div class="box">
 <p><strong>Note:</strong> The Ubuntu word and associated logos are registered trademarks. For more details please <a href="http://www.ubuntu.com/aboutus/trademarkpolicy">read our trademark policy</a>.</p>
@@ -29,7 +29,7 @@ body-class: "guidelines"
 <div class="wp-link-top clearfix"><a href="#">top</a></div>
 <p><img class="alignleft size-full" title="The Circle of Friends" src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" alt="The Circle of Friends" width="200" height="200" srcset="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png 200w, https://assets.ubuntu.com/v1/2843a612-ubuntu-logo32-140x140.png 140w" sizes="(max-width: 200px) 100vw, 200px" /></p>
 <h2>The Circle of Friends</h2>
-<p>The Ubuntu logo is made up of the Ubuntu wordmark and the Ubuntu symbol. This symbol is called the ‘Circle of Friends’.</p>
+<p>The Ubuntu logo is made up of the Ubuntu wordmark and the Ubuntu symbol. This symbol is called the &#8216;Circle of Friends&#8217;.</p>
 <p>It has been carefully re-drawn and positioned within a roundel for precision and added clarity. Wherever possible, the symbol should always appear as white on a flat orange-coloured background.</p>
 <div class="wp-link-top clearfix"><a href="#">top</a></div>
 <h2>Wordmark — Available colourways</h2>
@@ -68,14 +68,14 @@ body-class: "guidelines"
 <h3>No ® version</h3>
 <p>Below the width of 80mm, the no registered trademark version must be used. It must never be used at a width less than 30mm.</p>
 <h3>Small use version</h3>
-<p>When it is necessary to use the logo at a width less than 30mm a ‘small use version’ has been created. This version must never be used at a width less than 15mm.</p>
+<p>When it is necessary to use the logo at a width less than 30mm a &#8216;small use version&#8217; has been created. This version must never be used at a width less than 15mm.</p>
 <p><img class="aligncenter size-full" title="Minimum Size" src="https://assets.ubuntu.com/v1/a75c3082-ubuntu-logo81.png" alt="Minimum Size" width="540" height="154" srcset="https://assets.ubuntu.com/v1/a75c3082-ubuntu-logo81.png 540w, https://assets.ubuntu.com/v1/f0db934f-ubuntu-logo81-300x85.png 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
 <div class="wp-link-top clearfix"><a href="#">top</a></div>
 <h2>Centring the logo</h2>
 <p>When centring the logo, it is important to maintain a visual balance of surrounding space.</p>
 <p><img class="aligncenter size-full" title="centring the logo" src="https://assets.ubuntu.com/v1/86c4815d-ubuntu-logo91.png" alt="centring the logo" width="540" height="246" srcset="https://assets.ubuntu.com/v1/86c4815d-ubuntu-logo91.png 540w, https://assets.ubuntu.com/v1/12590b12-ubuntu-logo91-300x136.png 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
 <h3>Horizontal alignment</h3>
-<p>Align the mid-point between the ‘u’ and ‘n’ with the centre of the page/screen.</p>
+<p>Align the mid-point between the &#8216;u&#8217; and &#8216;n&#8217; with the centre of the page/screen.</p>
 <h3>Vertical alignment</h3>
 <p>Position the logo so that the roundel sits on the centre of the page/screen.</p>
 <div class="wp-link-top clearfix"><a href="#">top</a></div>
@@ -109,7 +109,7 @@ body-class: "guidelines"
 <div class="wp-link-top clearfix"><a href="#">top</a></div>
 <h2>Creating brand extensions</h2>
 <p><img class="alignnone size-full" title="Brand extensions measurements" src="https://assets.ubuntu.com/v1/3bf95801-brand-extensions-1.gif" alt="Brand extensions measurements" width="540" height="160" srcset="https://assets.ubuntu.com/v1/3bf95801-brand-extensions-1.gif 540w, https://assets.ubuntu.com/v1/0405489f-brand-extensions-1-300x88.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
-<p>When creating brand extensions, the logo should always be used in landscape format using the ‘half X’ exclusion zone ratio. The CAP height of the extension is equal to the height of the ‘u’ in the brandmark.</p>
+<p>When creating brand extensions, the logo should always be used in landscape format using the &#8216;half X&#8217; exclusion zone ratio. The CAP height of the extension is equal to the height of the &#8216;u&#8217; in the brandmark.</p>
 <p>Shown below are examples of correct colourways.</p>
 <p><img class="alignnone size-full" title="White on orange brand extension" src="https://assets.ubuntu.com/v1/6cbea6eb-brand-extensions-2.gif" alt="White on orange brand extension" width="540" height="153" srcset="https://assets.ubuntu.com/v1/6cbea6eb-brand-extensions-2.gif 540w, https://assets.ubuntu.com/v1/76bbf226-brand-extensions-2-300x85.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
 <p><img class="alignnone size-full" title="Orange on white brand extension" src="https://assets.ubuntu.com/v1/f7416cac-brand-extensions-3.gif" alt="Orange on white brand extension" width="540" height="154" srcset="https://assets.ubuntu.com/v1/f7416cac-brand-extensions-3.gif 540w, https://assets.ubuntu.com/v1/17a525d9-brand-extensions-3-300x85.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
