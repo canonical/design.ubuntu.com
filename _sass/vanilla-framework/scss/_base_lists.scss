@@ -1,0 +1,40 @@
+@mixin vf-b-lists {
+  ol,
+  ul {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+
+    ul,
+    ol {
+      margin-bottom: 0;
+    }
+
+    nav & {
+      list-style: none;
+      list-style-image: none;
+    }
+  }
+
+  li {
+    margin: 0 0 .5rem;
+    padding: 0;
+  }
+
+  dt {
+    border-top: 1px dotted $color-mid-dark;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    padding-top: 1rem;
+
+    &:first-of-type {
+      border-top: 0;
+    }
+  }
+
+  dd {
+    margin-left: $grid-gutter-width;
+    margin-top: .5rem;
+  }
+}

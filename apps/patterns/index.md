@@ -6,30 +6,30 @@ body-id: apps
 body-class: guidelines
 ---
 
-{% include side-nav-apps.html %}
 
-<div id="loop-guidelines" class="ten-col last-col">
+
+<div id="loop-guidelines" class="col-10">
   <section class="row no-padding-top no-padding-right no-padding-left">
-  <div class="ten-col">
+  <div class="col-10">
   <h2>Solve reoccurring design problems with common patterns to provide a familiar and usable interface.</h2>
 </div>
-  <div class="ten-col">
-  <div class="five-col">
-  <p><img src="https://assets.ubuntu.com/v1/eab8c5a2-366w_Overview_Gestures-1.png" alt="366w_Overview_Gestures (1)" width="366" height="230"></p>
+  <div class="col-10">
+  <div class="col-5">
+  <p><img src="{{ site.assets_path }}eab8c5a2-366w_Overview_Gestures-1.png" alt="366w_Overview_Gestures (1)" width="366" height="230"></p>
   <h3>Gestures</h3>
   <p>Apply natural and progressive gestures to your app to allow users to get where they want to be.</p>
   <p><a title="Design vision" href="/apps/patterns/gestures">Gestures activities&nbsp;&rsaquo;</a></p>
 </div>
-  <div class="five-col last-col">
-  <p><img src="https://assets.ubuntu.com/v1/801c7daa-366w_Ovreview_Navigation-1.png" alt="366w_Ovreview_Navigation (1)" width="371" height="233"></p>
+  <div class="col-5">
+  <p><img src="{{ site.assets_path }}801c7daa-366w_Ovreview_Navigation-1.png" alt="366w_Ovreview_Navigation (1)" width="371" height="233"></p>
   <h3>Navigation</h3>
   <p>Allow users to navigate through your app in logical steps using components with innate behaviour.</p>
   <p><a title="Design vision" href="/apps/patterns/navigation">Understand page stack&nbsp;&rsaquo;</a></p>
 </div>
 </div>
-  <div class="five-col">
+  <div class="col-5">
   <p>
-  <img src="https://assets.ubuntu.com/v1/33684f26-366w_GetStarted_BuildingBlock-2.png" alt="366w_GetStarted_BuildingBlock (2)" width="368" height="225">
+  <img src="{{ site.assets_path }}33684f26-366w_GetStarted_BuildingBlock-2.png" alt="366w_GetStarted_BuildingBlock (2)" width="368" height="225">
 </p>
   <h3>Layouts</h3>
   <p>Use predefined layouts to help you achieve a seamless experience across all devices.</p>

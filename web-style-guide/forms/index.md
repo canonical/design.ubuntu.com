@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: web-guidelines-iframe
 title: "Forms"
 body-id: "web-style-guide"
 body-class: "web-style-guide"
@@ -48,7 +48,7 @@ body-class: "web-style-guide"
 </form>
 </div>
 
-<div class="ten-col">
+<div class="col-10">
 <p class="smaller note"><strong>Code:</strong></p>
 <pre>&lt;form&gt;
 &lt;fieldset&gt;
@@ -101,7 +101,7 @@ body-class: "web-style-guide"
 <pre>&lt;a href="#" class="link-cta-ubuntu"&gt;Main button&lt;/a&gt;</pre>
 </div>
 </div>
-<div class="four-col last-col">
+<div class="four-col">
 <div class="box">
 <p><strong>Note:</strong> Avoid using more than one call to action button per page.</p>
 </div>

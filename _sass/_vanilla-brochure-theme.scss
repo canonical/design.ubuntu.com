@@ -1,0 +1,7 @@
+// scss build manifest
+
+$color-brand:         #E95420 !default;
+$color-link:          #E95420 !default;
+
+@import 'vanilla-brochure-theme/scss/theme';
+@include vanilla-brochure-theme;

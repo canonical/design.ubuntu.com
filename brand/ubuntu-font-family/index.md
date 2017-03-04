@@ -10,7 +10,7 @@ body-class: "guidelines"
 <h1>Ubuntu font family</h1>
 </div>
 <div class="row no-border">
-<div class="two-col filter">
+<div class="col-2 filter">
 <div id="accordion">
 <h3><a href="#">Brand assets</a></h3>
 <div>
@@ -32,7 +32,7 @@ body-class: "guidelines"
 </div>
 </div>
 
-<div id="loop-guidelines" class="ten-col last-col">
+<div id="loop-guidelines" class="col-10">
 <div style="font-size: 53px; color: #aea79f; line-height: 1.2; padding: 20px 10px; border: 1px dotted #AEA79F; border-width: 1px 0; margin: 24px 0;"><span style="color: #E95420;">This is the Ubuntu Font Family.</span><br />
 It is a unique, custom designed font that has a very distinctive look and feel.</div>
 <p>The way that typography is used says as much about our brand as the words themselves.</p>

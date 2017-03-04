@@ -14,7 +14,7 @@ body-class: scopes
   <ul class="six-col list"><li><a href="#header-and-background">Header and background&nbsp;&rsaquo;</a></li><li><a href="#card-and-category-design">Card and category design&nbsp;&rsaquo;</a></li></ul>
 </div>
  <div class="eight-col box box-grey vertical-align vertical-align--image-left">
-    <p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/0d9d7281-developer_links..png" alt="developer_links." width="32" height="32"></p>
+    <p><img class="vertical-align__image" src="{{ site.assets_path }}0d9d7281-developer_links..png" alt="developer_links." width="32" height="32"></p>
     <div class="vertical-align__content">
         <p>For code templates and visual examples see our<a href="https://developer.ubuntu.com/en/scopes/guides/scopes-customization-branding/"> developer guide</a>.</p>
     </div>
@@ -30,13 +30,13 @@ body-class: scopes
   <div class="six-col">
   <h3>Standard header</h3>
   <p>
-  <img class="alignnone size-full" src="https://assets.ubuntu.com/v1/98658783-standard_header-1024x2191.png" alt="standard_header-1024x219" width="540" height="91">
+  <img class="alignnone size-full" src="{{ site.assets_path }}98658783-standard_header-1024x2191.png" alt="standard_header-1024x219" width="540" height="91">
 </p>
 </div>
-  <div class="six-col last-col">
+  <div class="six-col">
   <h3>BBC scope</h3>
   <p>
-  <img class="alignnone size-full" src="https://assets.ubuntu.com/v1/cddd334c-bbc-news.png" alt="bbc-news" width="540" height="91">
+  <img class="alignnone size-full" src="{{ site.assets_path }}cddd334c-bbc-news.png" alt="bbc-news" width="540" height="91">
 </p>
 </div>
 </div>
@@ -44,19 +44,19 @@ body-class: scopes
   <div class="six-col">
   <h3>7 Digital</h3>
   <p>
-  <img class="alignnone size-full" src="https://assets.ubuntu.com/v1/002f50f3-7d.png" alt="7d" width="540" height="91">
+  <img class="alignnone size-full" src="{{ site.assets_path }}002f50f3-7d.png" alt="7d" width="540" height="91">
 </p>
 </div>
-  <div class="six-col last-col">
+  <div class="six-col">
   <h3>SoundCloud scope</h3>
   <p>
-  <img class="alignnone size-full" src="https://assets.ubuntu.com/v1/c1c5f0e0-soundcloud.png" alt="soundcloud" width="540" height="90">
+  <img class="alignnone size-full" src="{{ site.assets_path }}c1c5f0e0-soundcloud.png" alt="soundcloud" width="540" height="90">
 </p>
 </div>
 </div>
 
 <div class="eight-col box box-grey vertical-align vertical-align--image-left">
-    <p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/7024ba0f-information-link.png" alt="information-link" width="32" height="32"></p>
+    <p><img class="vertical-align__image" src="{{ site.assets_path }}7024ba0f-information-link.png" alt="information-link" width="32" height="32"></p>
     <div class="vertical-align__content">
         <p>Creating a logo and using a specific color helps users identify more with a brand. You can use the color of your logo in the text, background or buttons also to create an overall look and feel.</p>
     </div>
@@ -77,7 +77,7 @@ body-class: scopes
   <li>Logo overlay color</li>
 </ul>
 </div>
-  <div class="six-col last-col">
+  <div class="six-col">
   <ul class="list">
   <li>Page header logo</li>
   <li>Page header foreground color</li>
@@ -88,18 +88,18 @@ body-class: scopes
 </div>
 </div>
   <div class="six-col box box-grey">
-  <div class="one-col last-col align-centre">
-  <img class="alignnone size-full" src="https://assets.ubuntu.com/v1/0d9d7281-developer_links..png" alt="developer_links." width="32" height="32">
+  <div class="one-col align-centre">
+  <img class="alignnone size-full" src="{{ site.assets_path }}0d9d7281-developer_links..png" alt="developer_links." width="32" height="32">
 </div>
-  <div class="five-col last-col">
+  <div class="col-5">
   <p>To get inspired why not check out how the branded SoundCloud scope was created in this handy <a href="https://developer.ubuntu.com/en/scopes/tutorials/write-a-json-scope-in-cpp/">tutorial</a>, or simply flick through the default scopes on your Ubuntu device.</p>
 </div>
 </div>
-  <div class="six-col last-col box box-grey">
-  <div class="one-col last-col align-centre">
-  <img class="alignnone size-full" src="https://assets.ubuntu.com/v1/9e8b37dd-link_external.png" alt="link_external" width="32" height="32">
+  <div class="six-col box box-grey">
+  <div class="one-col align-centre">
+  <img class="alignnone size-full" src="{{ site.assets_path }}9e8b37dd-link_external.png" alt="link_external" width="32" height="32">
 </div>
-  <div class="five-col last-col">
+  <div class="col-5">
   <p>See where each header component can sit in our <a href="/components">Component</a> section.</p>
 </div>
 </div>
@@ -114,8 +114,8 @@ body-class: scopes
   <p>The templates define how result cards are laid out within a category, where you are free to use your own layout and rendering style using a template declared in your scope code; but there are rules.</p>
 </div>
   <div class="eight-col box box-grey">
-  <div class="one-col last-col align-centre">
-  <img class="alignnone size-full" src="https://assets.ubuntu.com/v1/9e8b37dd-link_external.png" alt="link_external" width="32" height="32">
+  <div class="one-col align-centre">
+  <img class="alignnone size-full" src="{{ site.assets_path }}9e8b37dd-link_external.png" alt="link_external" width="32" height="32">
 </div>
   <p>See our <a href="/scopes/core-scopes">Core Scope</a> page for inspiration or the <a href="/components">Components</a> section on the different ways you can place components in cards, as well as card sizes and layouts.</p>
 </div>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: web-guidelines-iframe
 title: "Typography"
 body-id: "web-style-guide"
 body-class: "web-style-guide"
@@ -31,7 +31,7 @@ Use this class to make text smaller than the body copy size, reducing it to <cod
 This class will reduce the <code>font-size</code> of the text to <code>13px</code> and change its colour to warm grey. It should be used cautiously and only in instances when the content is nonessential.</li>
 </ul>
 </div>
-<div class="four-col last-col">
+<div class="four-col">
 <div class="box">
 <p><strong>Tip:</strong> To know more about and download the Ubuntu font, visit the <a href="http://font.ubuntu.com">Ubuntu font site</a>.</p>
 </div>
@@ -79,7 +79,7 @@ This class will reduce the <code>font-size</code> of the text to <code>13px</cod
 &lt;li&gt;Third item&lt;/li&gt;
 &lt;/ul&gt;</pre>
 </div>
-<div class="four-col last-col">
+<div class="four-col">
 </div>
 
 <div class="four-col">
@@ -100,7 +100,7 @@ This class will reduce the <code>font-size</code> of the text to <code>13px</cod
 <li>Third item</li>
 </ul>
 </div>
-<div class="four-col last-col">
+<div class="four-col">
 <h3>List with dividers and ticks</h3>
 <p class="smaller note"><strong>Example:</strong></p>
 <ul class="list-canonical">
@@ -126,7 +126,7 @@ This class will reduce the <code>font-size</code> of the text to <code>13px</cod
 &lt;li&gt;Third item&lt;/li&gt;
 &lt;/ul&gt;</pre>
 </div>
-<div class="four-col last-col">
+<div class="four-col">
 <p class="smaller note"><strong>Code:</strong></p>
 <pre>&lt;ul class="list-canonical"&gt;
 &lt;li&gt;First item&lt;/li&gt;
@@ -160,7 +160,7 @@ This class will reduce the <code>font-size</code> of the text to <code>13px</cod
 <p>There are a few different ways of having block and pullquotes on Ubuntu sites.</p>
 <p>To the left: an example of a pullquote that sits in a separate column to the right of a block of text.</p>
 <p class="smaller note"><strong>Code:</strong></p>
-<pre>&lt;div class="three-col prepend-one last-col"&gt;
+<pre>&lt;div class="three-col prepend-one"&gt;
 &lt;blockquote class="pull-quote"&gt;
 &lt;p&gt;&lt;span&gt;“&lt;/span&gt; Ubuntu is an ancient African word meaning 'humanity to others'. &lt;span&gt;”&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;cite&gt;Canonical&lt;/cite&gt;&lt;/p&gt;
@@ -168,7 +168,7 @@ This class will reduce the <code>font-size</code> of the text to <code>13px</cod
 &lt;/div&gt;</pre>
 <p>An example of a blockquote occupying an entire row can be seen in the <a href="http://design.ubuntu.com/web-style-guide/scaffolding#rows">Scaffolding</a> section of this guide.</p>                    
 </div>
-<div class="three-col prepend-one last-col">
+<div class="three-col prepend-one">
 <blockquote class="pull-quote">
 <p><span>“</span>&nbsp;Ubuntu is an ancient African word meaning &#8216;humanity to others&#8217;.&nbsp;<span>”</span> </p>
 <p><cite>Canonical</cite></p>

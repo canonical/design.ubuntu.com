@@ -3,25 +3,32 @@
 
 {% include head.html %}
 
-<body id="{{ page.body-id }}" class="{{ page.body-class }}">
+<body id="wrapper" class="{{ page.body-class }}">
 
   {% include header.html %}
 
-  <div class="wrapper">
-    <div id="main-content" class="inner-wrapper">
-
-      {% if page.body-id=="web-style-guide" %}
+  {% if page.body-id=="web-style-guide" %}
+  <div class="p-strip">
+    <div class="row">
+      <div class="12-col">
         {% include side-nav-web.html %}
-      {% endif %}
+      </div><!-- /.12-col -->
+    </div><!-- /.row -->
+  </div><!-- /.p-strip -->
+  {% endif %}
 
-      {{ content }}
+  <div class="p-strip">
+    <div class="row">
+      <div class="12-col">
 
-    </div><!-- /.inner-wrapper -->
-  </div><!-- /.wrapper -->
+        {{ content }}
+
+      </div><!-- /.12-col -->
+    </div><!-- /.row -->
+  </div><!-- /.p-strip -->
 
 
   {% include footer.html %}
 
 </body>
-
 </html>

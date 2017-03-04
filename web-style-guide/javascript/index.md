@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: web-guidelines-iframe
 title: "JavaScript"
 body-id: "web-style-guide"
 body-class: "web-style-guide"
@@ -31,7 +31,7 @@ body-class: "web-style-guide"
 <div class="four-col box">
 <p>Ubuntu is an ancient African word meaning &#8216;humanity to others&#8217;. It also means &#8216;I am what I am because of who we all are&#8217;. The Ubuntu operating system brings the spirit of Ubuntu to the world of computers.</p>
 </div>
-<div class="eight-col box last-col">
+<div class="eight-col box">
 <p>Ubuntu is an ancient African word meaning &#8216;humanity to others&#8217;. It also means &#8216;I am what I am because of who we all are&#8217;. The Ubuntu operating system brings the spirit of Ubuntu to the world of computers.</p>
 </div>
 </div>
@@ -45,7 +45,7 @@ body-class: "web-style-guide"
 &lt;!-- Content goes here --&gt;
 &lt;/div&gt;
 
-&lt;div class="eight-col box last-col"&gt;
+&lt;div class="eight-col box"&gt;
 &lt;!-- Content goes here --&gt;
 &lt;/div&gt;
 
@@ -62,22 +62,22 @@ body-class: "web-style-guide"
 <p class="smaller note"><strong>Example:</strong></p>
 <div class="six-col">
 <ul class="inline-icons">
-<li><img src="https://assets.ubuntu.com/v1/e11d98f6-icon-firefox-32x32.png" alt="Firefox" title="Firefox" class="tooltip" /></li>
-<li><img src="https://assets.ubuntu.com/v1/abe96510-icon-gimp-35x35.png" alt="GIMP" title="GIMP" class="tooltip" /></li>
-<li><img src="https://assets.ubuntu.com/v1/6ea3c2c9-icon-inkscape-35x35.png" alt="Inkscape" title="Inkscape" class="tooltip" /></li>
-<li><img src="https://assets.ubuntu.com/v1/f03f9cbc-icon-pidgin-35x35.png" alt="Pidgin" title="Pidgin" class="tooltip" /></li>
-<li><img src="https://assets.ubuntu.com/v1/8d10c23b-icon-thunderbird-32x32.png" alt="Thunderbird" title="Thunderbird" class="tooltip" /></li>
+<li><img src="{{ site.assets_path }}e11d98f6-icon-firefox-32x32.png" alt="Firefox" title="Firefox" class="tooltip" /></li>
+<li><img src="{{ site.assets_path }}abe96510-icon-gimp-35x35.png" alt="GIMP" title="GIMP" class="tooltip" /></li>
+<li><img src="{{ site.assets_path }}6ea3c2c9-icon-inkscape-35x35.png" alt="Inkscape" title="Inkscape" class="tooltip" /></li>
+<li><img src="{{ site.assets_path }}f03f9cbc-icon-pidgin-35x35.png" alt="Pidgin" title="Pidgin" class="tooltip" /></li>
+<li><img src="{{ site.assets_path }}8d10c23b-icon-thunderbird-32x32.png" alt="Thunderbird" title="Thunderbird" class="tooltip" /></li>
 </ul>
 </div>
 
 <div class="twelve-col">
 <p class="smaller note"><strong>Code:</strong></p>
 <pre>&lt;ul class="inline-icons"&gt;
-&lt;li&gt;&lt;img src="https://assets.ubuntu.com/v1/e11d98f6-icon-firefox-32x32.png" alt="Firefox" title="Firefox" class="tooltip" /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;img src="https://assets.ubuntu.com/v1/abe96510-icon-gimp-35x35.png" alt="GIMP" title="GIMP" class="tooltip" /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;img src="https://assets.ubuntu.com/v1/6ea3c2c9-icon-inkscape-35x35.png" alt="Inkscape" title="Inkscape" class="tooltip" /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;img src="https://assets.ubuntu.com/v1/f03f9cbc-icon-pidgin-35x35.png" alt="Pidgin" title="Pidgin" class="tooltip" /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;img src="https://assets.ubuntu.com/v1/8d10c23b-icon-thunderbird-32x32.png" alt="Thunderbird" title="Thunderbird" class="tooltip" /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src="{{ site.assets_path }}e11d98f6-icon-firefox-32x32.png" alt="Firefox" title="Firefox" class="tooltip" /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src="{{ site.assets_path }}abe96510-icon-gimp-35x35.png" alt="GIMP" title="GIMP" class="tooltip" /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src="{{ site.assets_path }}6ea3c2c9-icon-inkscape-35x35.png" alt="Inkscape" title="Inkscape" class="tooltip" /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src="{{ site.assets_path }}f03f9cbc-icon-pidgin-35x35.png" alt="Pidgin" title="Pidgin" class="tooltip" /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src="{{ site.assets_path }}8d10c23b-icon-thunderbird-32x32.png" alt="Thunderbird" title="Thunderbird" class="tooltip" /&gt;&lt;/li&gt;
 &lt;/ul&gt;</pre>
 </div>
 </div>
@@ -99,7 +99,7 @@ body-class: "web-style-guide"
 <li><a class="slideless" href="#authentication-service">Authentication</a></li>
 <li><a class="slideless" href="#management-service">Management</a></li>
 </ul>
-<img src="https://assets.ubuntu.com/v1/1000a177-tabbed-nav-arrow.png" class="arrow" height="6" width="12">
+<img src="{{ site.assets_path }}1000a177-tabbed-nav-arrow.png" class="arrow" height="6" width="12">
 </div>
 <div id="compute" class="tabbed-content compute twelve-col">
 <a class="accordion-button slideless" href="#compute" data-hash="compute">Compute</a>
@@ -125,7 +125,7 @@ body-class: "web-style-guide"
 <p>The OpenStack management service or dashboard (codenamed Horizon) provides OpenStack users with a web-based user interface with which to control OpenStack&#8217;s component services (Nova, Swift, Keystone, Glance) and a single API with which to access them.</p>
 <p>The Horizon application also ships with a set of API abstractions for the core OpenStack projects, enabling developers to work on OpenStack without intimate knowledge of the APIs of every component.</p>
 </div>
-<div class="six-col last-col">
+<div class="six-col">
 <p>There are three central dashboards, covering the core OpenStack applications:</p>
 <ul class="list-canonical">
 <li>Raw</li>

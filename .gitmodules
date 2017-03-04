@@ -1,0 +1,6 @@
+[submodule "_sass/vanilla-brochure-theme"]
+	path = _sass/vanilla-brochure-theme
+	url = https://github.com/vanilla-framework/vanilla-brochure-theme.git
+[submodule "vanilla-framework"]
+	path = vanilla-framework
+	url = https://github.com/vanilla-framework/vanilla-framework.git

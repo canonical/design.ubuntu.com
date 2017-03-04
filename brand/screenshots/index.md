@@ -6,9 +6,9 @@ body-class: "guidelines"
 ---
 
 
-{% include side-nav-brand.html %}
 
-<div id="loop-guidelines" class="ten-col last-col">
+
+<div id="loop-guidelines" class="col-10">
 <p>When producing materials for end-users, try to include a screenshot of the “whole machine experience”, i.e. a screenshot of the feature you have in mind displayed on a real laptop or other screen. You can reinforce that with more detailed shots of the specific feature.</p>
 <p>For developers, you should remove as much of the non-relevant content from the screenshot as possible, including (for example) window decoration and wallpapers, to focus attention on the specific element being discussed.</p>
 <p><!-- NOTE - grabs for these examples need updating --></p>

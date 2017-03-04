@@ -1,15 +1,11 @@
-<nav role="navigation" class="nav-secondary clearfix">
-  <ul class="breadcrumb">
-    <li><a href="/web-style-guide/">Web Style Guide</a> &rsaquo;</li>
-  </ul>
-  <ul class="second-level-nav">
-    <li class="first {% if page.url == "/web-style-guide/" %}active{% endif %}"><a href="/web-style-guide/">Overview</a></li>
-    <li {% if page.title == "Scaffolding" %}class="active"{% endif %}><a href="/web-style-guide/scaffolding">Scaffolding</a></li>
-    <li {% if page.title == "Typography" %}class="active"{% endif %}><a href="/web-style-guide/typography">Typography</a></li>
-    <li {% if page.title == "Forms" %}class="active"{% endif %}><a href="/web-style-guide/forms">Forms</a></li>
-    <li {% if page.title == "Tables" %}class="active"{% endif %}><a href="/web-style-guide/tables">Tables</a></li>
-    <li {% if page.title == "Media" %}class="active"{% endif %}><a href="/web-style-guide/media">Media</a></li>
-    <li {% if page.title == "Components" %}class="active"{% endif %}><a href="/web-style-guide/components">Components</a></li>
-    <li {% if page.title == "JavaScript" %}class="active"{% endif %}><a href="/web-style-guide/javascript">JavaScript</a></li>
-  </ul>
-</nav>
+<ul class="p-breadcrumbs">
+  <li class="p-breadcrumbs__item" href="/web-style-guide/">Web Style Guide</li>
+  <li class="p-breadcrumbs__item{% if page.url == "/web-style-guide/" %} active{% endif %}"><a href="/web-style-guide/">Overview</a></li>
+  <li class="p-breadcrumbs__item{% if page.title == "Scaffolding" %} active{% endif %}"><a href="/web-style-guide/scaffolding">Scaffolding</a></li>
+  <li class="p-breadcrumbs__item{% if page.title == "Typography" %} active{% endif %}"><a href="/web-style-guide/typography">Typography</a></li>
+  <li class="p-breadcrumbs__item{% if page.title == "Forms" %} active{% endif %}"><a href="/web-style-guide/forms">Forms</a></li>
+  <li class="p-breadcrumbs__item{% if page.title == "Tables" %} active{% endif %}"><a href="/web-style-guide/tables">Tables</a></li>
+  <li class="p-breadcrumbs__item{% if page.title == "Media" %} active{% endif %}"><a href="/web-style-guide/media">Media</a></li>
+  <li class="p-breadcrumbs__item{% if page.title == "Components" %} active{% endif %}"><a href="/web-style-guide/components">Components</a></li>
+  <li class="p-breadcrumbs__item{% if page.title == "JavaScript" %} active{% endif %}"><a href="/web-style-guide/javascript">JavaScript</a></li>
+</ul>

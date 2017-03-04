@@ -7,7 +7,7 @@ body-class: "guidelines"
 
 
           <div class="row no-border">
-     <div class="two-col">
+     <div class="col-2">
           <div id="accordion">
                <h3><a href="ubuntu-and-canonical-web-universe#">Web</a></h3>
                <div>
@@ -23,7 +23,7 @@ body-class: "guidelines"
           </div>
      </div>
 
-     <div id="loop-guidelines" class="ten-col last-col">
+     <div id="loop-guidelines" class="col-10">
                          <h1>Ubuntu web universe</h1>
                <p>It&#8217;s important to know where your website sits in the Ubuntu web universe when creating design work. This factor will dictate how closely you need to follow the guidelines. Remember: the Ubuntu and Canonical logos must <em>always</em> be used according to the guidelines.</p>
 <table>

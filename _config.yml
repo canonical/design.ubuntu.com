@@ -21,10 +21,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+assets_path: https://assets.ubuntu.com/v1/
 
 # Build settings
 markdown: kramdown
-#theme: minima
+sass:
+    style: compressed
+    sass_dir: _sass
 gems:
   - jekyll-feed
 exclude:

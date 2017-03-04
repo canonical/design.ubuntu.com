@@ -26,7 +26,7 @@ body-class: scopes
   <div class="eight-col">
   <h3>Actions</h3>
   <div class="eight-col">
-  <img class="alignnone size-large eight-col" src="https://assets.ubuntu.com/v1/4008e9d9-Scope-header-nav-2-1024x179.png" alt="Scope header nav 2" width="1024" height="179">
+  <img class="alignnone size-large eight-col" src="{{ site.assets_path }}4008e9d9-Scope-header-nav-2-1024x179.png" alt="Scope header nav 2" width="1024" height="179">
 </div>
   <div class="eight-col">
   <ol>
@@ -37,14 +37,14 @@ body-class: scopes
 </div>
 </div>
   <div class="six-col box box-grey">
-  <div class="one-col align-center last-col">
-  <img class="alignnone size-full" src="https://assets.ubuntu.com/v1/9e8b37dd-link_external.png" alt="link_external" width="32" height="32">
+  <div class="one-col align-center">
+  <img class="alignnone size-full" src="{{ site.assets_path }}9e8b37dd-link_external.png" alt="link_external" width="32" height="32">
 </div>
   <p>See our <a href="/components">Component</a> section on how to best place these actions inside your scope header.</p>
 </div>
-  <div class="six-col last-col box box-grey">
-  <div class="one-col align-center last-col">
-  <img class="alignnone size-full" src="https://assets.ubuntu.com/v1/0d9d7281-developer_links..png" alt="developer_links." width="32" height="32">
+  <div class="six-col box box-grey">
+  <div class="one-col align-center">
+  <img class="alignnone size-full" src="{{ site.assets_path }}0d9d7281-developer_links..png" alt="developer_links." width="32" height="32">
 </div>
   <p>For more information on how to implement settings in your scope, see our <a href="https://developer.ubuntu.com/en/scopes/tutorials/adding-settings-to-your-scope/">SDK</a>.</p>
 </div>
@@ -56,18 +56,18 @@ body-class: scopes
   <p>Links to child scopes can be placed within the category header.</p>
   </div>
   <div class="four-col">
-  <p><img class="alignnone size-large four-col" src="https://assets.ubuntu.com/v1/79432557-Scope-links-NearBy-a2-618x1024.png" alt="Scope links NearBy a" width="618" height="1024"></p>
+  <p><img class="alignnone size-large four-col" src="{{ site.assets_path }}79432557-Scope-links-NearBy-a2-618x1024.png" alt="Scope links NearBy a" width="618" height="1024"></p>
   <h3>NearBy scope</h3>
   </div>
-  <div class="four-col last-col">
-  <p><img class="alignnone size-large" src="https://assets.ubuntu.com/v1/02a07bd1-Scope-links-Timeout-b-1-618x1024.png" alt="Scope links Timeout b (1)" width="618" height="1024"></p>
+  <div class="four-col">
+  <p><img class="alignnone size-large" src="{{ site.assets_path }}02a07bd1-Scope-links-Timeout-b-1-618x1024.png" alt="Scope links Timeout b (1)" width="618" height="1024"></p>
   <h3>TimeOut scope</h3>
 </div>
   <div class="eight-col">
   <p>If the scope is invoked by an aggregator scope, then it will have a back button.</p>
-  <div class="eight-col last-col box box-grey">
-  <div class="one-col last-col align-center">
-  <img class="alignnone size-full" src="https://assets.ubuntu.com/v1/7024ba0f-information-link.png" alt="information-link" width="32" height="32">
+  <div class="eight-col box box-grey">
+  <div class="one-col align-center">
+  <img class="alignnone size-full" src="{{ site.assets_path }}7024ba0f-information-link.png" alt="information-link" width="32" height="32">
 </div>
   <p>You cannot swipe to navigate through a scope link. You must use a chevron to indicate to the user that it leads somewhere. As swiping may take the user to the next/previous scope.</p>
   <p>Scope links can only be added by the scope author.</p>
@@ -84,7 +84,7 @@ body-class: scopes
   <p>Departments are an optional feature that can be placed under the scope header to give the user a more targeted and narrower search.</p>
 </div>
   <div class="six-col">
-  <img class="alignnone size-large" src="https://assets.ubuntu.com/v1/0f76e6d1-Departments-21-1024x751.png" alt="Departments 2" width="1024" height="751">
+  <img class="alignnone size-large" src="{{ site.assets_path }}0f76e6d1-Departments-21-1024x751.png" alt="Departments 2" width="1024" height="751">
 </div>
   <div class="eight-col">
   <h3>Layout:</h3>
@@ -94,7 +94,7 @@ body-class: scopes
 </div>
   <div class="eight-col box box-grey">
   <div class="one-col align-center">
-  <img class="alignnone size-full" src="https://assets.ubuntu.com/v1/7024ba0f-information-link.png" alt="information-link" width="32" height="32">
+  <img class="alignnone size-full" src="{{ site.assets_path }}7024ba0f-information-link.png" alt="information-link" width="32" height="32">
 </div>
   <p>The scope author chooses what content goes in the navigation paths. Categorize your content to give the user easy access to specific results.</p>
 </div>
@@ -109,13 +109,13 @@ body-class: scopes
   <p>Users can navigate through a scope in a single hierarchy navigation or multiple levels.</p>
 </div>
   <div class="four-col">
-  <img class="alignnone size-large" src="https://assets.ubuntu.com/v1/3b0eb504-Hierarchy-13-618x1024.png" alt="Hierarchy 1" width="618" height="1024">
+  <img class="alignnone size-large" src="{{ site.assets_path }}3b0eb504-Hierarchy-13-618x1024.png" alt="Hierarchy 1" width="618" height="1024">
 </div>
   <div class="four-col">
-  <img class="alignnone size-large" src="https://assets.ubuntu.com/v1/6a4c92d1-Hierarchy-22-618x1024.png" alt="Hierarchy 2" width="618" height="1024">
+  <img class="alignnone size-large" src="{{ site.assets_path }}6a4c92d1-Hierarchy-22-618x1024.png" alt="Hierarchy 2" width="618" height="1024">
 </div>
-  <div class="four-col last-col">
-  <img class="alignnone size-large" src="https://assets.ubuntu.com/v1/b3b11c0d-Hierarchy-32-618x1024.png" alt="Hierarchy 3" width="618" height="1024">
+  <div class="four-col">
+  <img class="alignnone size-large" src="{{ site.assets_path }}b3b11c0d-Hierarchy-32-618x1024.png" alt="Hierarchy 3" width="618" height="1024">
 </div>
   <div class="eight-col">
   <h3>Single hierarchy</h3>
@@ -125,13 +125,13 @@ body-class: scopes
 </div>
   <div class="six-col box box-grey">
   <div class="one-col align-center">
-  <img class="alignnone size-full" src="https://assets.ubuntu.com/v1/7024ba0f-information-link.png" alt="information-link" width="32" height="32">
+  <img class="alignnone size-full" src="{{ site.assets_path }}7024ba0f-information-link.png" alt="information-link" width="32" height="32">
 </div>
   <p>We use it in some of core scopes such as Music and Shopping, where users can browse by genre or departments.</p>
 </div>
-  <div class="six-col last-col box box-grey">
+  <div class="six-col box box-grey">
   <div class="one-col align-center">
-  <img class="alignnone size-full" src="https://assets.ubuntu.com/v1/0d9d7281-developer_links..png" alt="developer_links." width="32" height="32">
+  <img class="alignnone size-full" src="{{ site.assets_path }}0d9d7281-developer_links..png" alt="developer_links." width="32" height="32">
 </div>
   <p>Learn how to create departments and use them in queries in our <a href="https://developer.ubuntu.com/en/scopes/tutorials/adding-departments-to-your-scope/">SDK</a>.</p>
 </div>
@@ -150,19 +150,19 @@ body-class: scopes
 </div>
   <div class="four-col">
   <div class="four-col">
-  <img class="alignnone size-large" src="https://assets.ubuntu.com/v1/98605bd3-multiply-level-12-618x1024.png" alt="multiply level 1" width="618" height="1024">
+  <img class="alignnone size-large" src="{{ site.assets_path }}98605bd3-multiply-level-12-618x1024.png" alt="multiply level 1" width="618" height="1024">
 </div>
   <p>When the user first comes to the scope they will be presented with an &#8216;all departments&#8217; menu.</p>
 </div>
   <div class="four-col">
   <div class="four-col">
-  <img class="alignnone size-large" src="https://assets.ubuntu.com/v1/726cf267-multiply-level-22-618x1024.png" alt="multiply level 2" width="618" height="1024">
+  <img class="alignnone size-large" src="{{ site.assets_path }}726cf267-multiply-level-22-618x1024.png" alt="multiply level 2" width="618" height="1024">
 </div>
   <p>On tap, the menu will expand and reveal a list of available departments.</p>
 </div>
-  <div class="four-col last-col">
   <div class="four-col">
-  <img class="alignnone size-large" src="https://assets.ubuntu.com/v1/45d43336-multiply-level-51-618x1024.png" alt="multiply level 5" width="618" height="1024">
+  <div class="four-col">
+  <img class="alignnone size-large" src="{{ site.assets_path }}45d43336-multiply-level-51-618x1024.png" alt="multiply level 5" width="618" height="1024">
 </div>
   <p>The menu will then split into two rows”Featured” and the selected department.</p>
   <p>In the department view the user can navigate back to &#8216;all departments&#8217; using the back chevron, or select another category or department.</p>
@@ -172,25 +172,25 @@ body-class: scopes
 </div>
   <div class="four-col">
   <div class="four-col">
-  <img class="alignnone size-large" src="https://assets.ubuntu.com/v1/e78d262c-multiple-level-41-618x1024.png" alt="multiple level 4" width="618" height="1024">
+  <img class="alignnone size-large" src="{{ site.assets_path }}e78d262c-multiple-level-41-618x1024.png" alt="multiple level 4" width="618" height="1024">
 </div>
   <p>When the user has selected a department, the &#8216;Featured&#8217; menu will appear on the left hand side of the &#8216;Department&#8217; menu.</p>
 </div>
   <div class="four-col">
   <div class="four-col">
-  <img class="alignnone size-large" src="https://assets.ubuntu.com/v1/45d43336-multiply-level-52-618x1024.png" alt="multiply level 5" width="618" height="1024">
+  <img class="alignnone size-large" src="{{ site.assets_path }}45d43336-multiply-level-52-618x1024.png" alt="multiply level 5" width="618" height="1024">
 </div>
   <p>The &#8216;Featured&#8217; menu allows the user to sort results by order e.g.”Price: high to low”, which changes the view of the results.</p>
 </div>
-  <div class="four-col last-col">
   <div class="four-col">
-  <img class="alignnone size-large" src="https://assets.ubuntu.com/v1/d3367513-multiple-level-61-618x1024.png" alt="multiple level 6" width="618" height="1024">
+  <div class="four-col">
+  <img class="alignnone size-large" src="{{ site.assets_path }}d3367513-multiple-level-61-618x1024.png" alt="multiple level 6" width="618" height="1024">
 </div>
   <p>Once the user has selected a feature, the scope page will rearrange the results according to the feature selected.</p>
 </div>
   <div class="eight-col box box-grey">
   <div class="one-col align-center">
-  <img class="alignnone size-full" src="https://assets.ubuntu.com/v1/7024ba0f-information-link.png" alt="information-link" width="32" height="32">
+  <img class="alignnone size-full" src="{{ site.assets_path }}7024ba0f-information-link.png" alt="information-link" width="32" height="32">
 </div>
   <p>Where there are multiple choices in each department branch a chevron is used to indicate to the user that there are options available.</p>
 </div>

@@ -23,7 +23,7 @@ You need to assess who you are representing, what kind of audience you are talki
 
 Before you start your design, you should draw these three sliders and identify where your communication sits on each of them. Once set correctly, this device will tell you which design elements you can use.
 
-<img src="https://assets.ubuntu.com/v1/d418b185-sliders.gif" alt="Ubuntu brand sliders" title="Ubuntu brand sliders" width="540" height="173" class="size-full" srcset="https://assets.ubuntu.com/v1/d418b185-sliders.gif 540w, https://assets.ubuntu.com/v1/57b63ce8-sliders-300x96.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
+<img src="{{ site.assets_path }}d418b185-sliders.gif" alt="Ubuntu brand sliders" title="Ubuntu brand sliders" width="540" height="173" class="size-full" srcset="{{ site.assets_path }}d418b185-sliders.gif 540w, {{ site.assets_path }}57b63ce8-sliders-300x96.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
 
 
 From top to bottom: Voice Slider, Audience Slider and Developer Slider
@@ -40,7 +40,7 @@ From top to bottom: Voice Slider, Audience Slider and Developer Slider
   * Closely spaced dots / widely spaced dots
 
 <div class="box-grey vertical-align vertical-align--image-left">
-<p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/e9f11635-information-link.png" alt="information-link" width="32" height="32" /></p>
+<p><img class="vertical-align__image" src="{{ site.assets_path }}e9f11635-information-link.png" alt="information-link" width="32" height="32" /></p>
 <div class="vertical-align__content">
 <h4>Be decisive</h4>
 <p>Most communications will have a definite audience, therefore, it would be very rare that the Audience or Developer Sliders would need to be positioned in the centre. If you find that you have positioned a slider in the centre, think carefully about the purpose of your communication and what it is trying to say. In general, the only time it&#8217;s useful to say “both” is for transitional or gateway pages, like a home page.</p>
@@ -61,7 +61,7 @@ From top to bottom: Voice Slider, Audience Slider and Developer Slider
 
 If the work you are producing is entirely community-based, then you are on the left. If it&#8217;s entirely Canonical-based, you are on the right. And if you are talking about work which includes contributions from both, you would be somewhere in between.
 
-<img src="https://assets.ubuntu.com/v1/ada86e58-voice-slider1.gif" alt="" title="voice-slider" width="540" height="39" class="size-full" srcset="https://assets.ubuntu.com/v1/ada86e58-voice-slider1.gif 540w, https://assets.ubuntu.com/v1/a9c0d8b3-voice-slider1-300x21.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
+<img src="{{ site.assets_path }}ada86e58-voice-slider1.gif" alt="" title="voice-slider" width="540" height="39" class="size-full" srcset="{{ site.assets_path }}ada86e58-voice-slider1.gif 540w, {{ site.assets_path }}a9c0d8b3-voice-slider1-300x21.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
 
 The voice slider
 
@@ -123,7 +123,7 @@ Your materials will be describing a product, or a service, or an event, or a tea
 
 Consumers make personal decisions about their technology. They use technology at home or on the road, sometimes for work but more often for personal communication. Enterprises make designs about technology for use in the workplace, both server and desktop.
 
-<img src="https://assets.ubuntu.com/v1/06e758a8-audience-slider.gif" alt="The audience slider" title="Audience Slider" width="540" height="39" class="size-full" srcset="https://assets.ubuntu.com/v1/06e758a8-audience-slider.gif 540w, https://assets.ubuntu.com/v1/0b921929-audience-slider-300x21.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
+<img src="{{ site.assets_path }}06e758a8-audience-slider.gif" alt="The audience slider" title="Audience Slider" width="540" height="39" class="size-full" srcset="{{ site.assets_path }}06e758a8-audience-slider.gif 540w, {{ site.assets_path }}0b921929-audience-slider-300x21.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
 
 The audience slider
 
@@ -167,7 +167,7 @@ The user experience is not a primary decision maker.
 
 This is a very specific slider. We identify Developer materials and treat them specially. Note that these are not just “materials for advanced users”, they are specifically materials for Developers, that will be used to support Software Development.
 
-<img src="https://assets.ubuntu.com/v1/80e8f128-developer-slider.gif" alt="Developer Slider" title="Developer Slider" width="540" height="39" class="size-full" srcset="https://assets.ubuntu.com/v1/80e8f128-developer-slider.gif 540w, https://assets.ubuntu.com/v1/4e7c64c8-developer-slider-300x21.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
+<img src="{{ site.assets_path }}80e8f128-developer-slider.gif" alt="Developer Slider" title="Developer Slider" width="540" height="39" class="size-full" srcset="{{ site.assets_path }}80e8f128-developer-slider.gif 540w, {{ site.assets_path }}4e7c64c8-developer-slider-300x21.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
 
 The developer slider
 
@@ -206,7 +206,7 @@ For example, it is tempting to think of server software as being appropriate for
 The Developer weighting is appropriate for API documentation, or developer guides or recipes, both for those who develop Ubuntu itself and those who are building software for use with Ubuntu, it&#8217;s about reflecting the voice of the work itself.
 
 <div class="box-grey vertical-align vertical-align--image-left">
-<p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/e9f11635-information-link.png" alt="information-link" width="32" height="32" /></p>
+<p><img class="vertical-align__image" src="{{ site.assets_path }}e9f11635-information-link.png" alt="information-link" width="32" height="32" /></p>
 <div class="vertical-align__content">
 <p><strong>Note:</strong> “Developer” is not the same as “Advanced”.</p>
 </div>
@@ -232,7 +232,7 @@ Here are the colours available for each of the 3 settings on the Voice Slider.
 
 <a href="/brand/colour-palette#the-voice-slider-determines-colour-balance" title="how to apply colour">Guidance on how to apply your colour&nbsp;&rsaquo;</a>
 
-<img src="https://assets.ubuntu.com/v1/18159ea2-voice-slider-colours.gif" alt="Voice Slider Colours" title="Voice Slider Colours" width="540" height="248" class="alignnone size-full" srcset="https://assets.ubuntu.com/v1/18159ea2-voice-slider-colours.gif 540w, https://assets.ubuntu.com/v1/e97b2134-voice-slider-colours-300x137.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
+<img src="{{ site.assets_path }}18159ea2-voice-slider-colours.gif" alt="Voice Slider Colours" title="Voice Slider Colours" width="540" height="248" class="alignnone size-full" srcset="{{ site.assets_path }}18159ea2-voice-slider-colours.gif 540w, {{ site.assets_path }}e97b2134-voice-slider-colours-300x137.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
 
 * **Community**
   * Ubuntu orange #E95420
@@ -257,7 +257,7 @@ Here are the colours available for each of the 3 settings on the Voice Slider.
 We use different tones of Aubergine based on the position of the Audience Slider. Work that has a heavier Enterprise weight uses more of the Mid or Dark Aubergine.
 
 
-<img src="https://assets.ubuntu.com/v1/05dba9d8-audience-slider-examples.gif" alt="Audience Slider Colours" title="audience-slider-colours" width="540" height="145" class="alignnone size-full" srcset="https://assets.ubuntu.com/v1/05dba9d8-audience-slider-examples.gif 540w, https://assets.ubuntu.com/v1/9b1ef606-audience-slider-examples-300x80.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
+<img src="{{ site.assets_path }}05dba9d8-audience-slider-examples.gif" alt="Audience Slider Colours" title="audience-slider-colours" width="540" height="145" class="alignnone size-full" srcset="{{ site.assets_path }}05dba9d8-audience-slider-examples.gif 540w, {{ site.assets_path }}9b1ef606-audience-slider-examples-300x80.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
 
 * **Consumer**
   * Light Aubergine #77216F
@@ -277,7 +277,7 @@ We use different tones of Aubergine based on the position of the Audience Slider
 
 Here are the Developer Dot Pattern, screenshot treatment, graphic style and guide to the amount of copy for each of the 3 settings on the Intent Slider.
 
-<img src="https://assets.ubuntu.com/v1/0902d937-developer-slider-colours.gif" alt="Developer Slider Colours" title="Developer Slider Colours" width="540" height="192" class="alignnone size-full" srcset="https://assets.ubuntu.com/v1/0902d937-developer-slider-colours.gif 540w, https://assets.ubuntu.com/v1/1a5196c4-developer-slider-colours-300x106.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
+<img src="{{ site.assets_path }}0902d937-developer-slider-colours.gif" alt="Developer Slider Colours" title="Developer Slider Colours" width="540" height="192" class="alignnone size-full" srcset="{{ site.assets_path }}0902d937-developer-slider-colours.gif 540w, {{ site.assets_path }}1a5196c4-developer-slider-colours-300x106.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
 
 * **End-user**
   * Graphic Style: Solid colour icons with reversed out graphics and text (for this example, the Voice Slider is set to Community giving us Ubuntu Orange)
@@ -308,7 +308,7 @@ The styling of Developer elements is inspired by engineering drawing and techniq
 Engineering documents and blueprints are not very loaded with photographs. They tend to use a lot of whitespace and illustrations aim for functionality rather than realism. Emphasise that when you are working on materials that have some Developer weighting.
 
 <div class="box-grey vertical-align vertical-align--image-left">
-<p><img class="vertical-align__image" src="https://assets.ubuntu.com/v1/e9f11635-information-link.png" alt="information-link" width="32" height="32" /></p>
+<p><img class="vertical-align__image" src="{{ site.assets_path }}e9f11635-information-link.png" alt="information-link" width="32" height="32" /></p>
 <div class="vertical-align__content">
 <p><strong>Note:</strong> Engineering documents have a particular feel.</p>
 </div>

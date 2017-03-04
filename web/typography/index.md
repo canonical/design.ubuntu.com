@@ -6,7 +6,7 @@ body-class: "guidelines"
 ---
 
           <div class="row no-border">
-     <div class="two-col">
+     <div class="col-2">
           <div id="accordion">
                <h3><a href="typography#">Web</a></h3>
                <div>
@@ -22,7 +22,7 @@ body-class: "guidelines"
           </div>
      </div>
 
-     <div id="loop-guidelines" class="ten-col last-col">
+     <div id="loop-guidelines" class="col-10">
                          <h1>Typography</h1>
                <h2>Ubuntu font family</h2>
 <p>The <a title="Ubuntu font family" href="http://design.ubuntu.com/brand-elements/ubuntu-font-family">Ubuntu font</a> has been carefully designed, hinted and kerned to provide the best experience and legibility on screen.</p>
