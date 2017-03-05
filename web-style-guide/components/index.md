@@ -1,5 +1,5 @@
 ---
-layout: web-guidelines-iframe
+layout: web-guidelines
 title: "Components"
 body-id: "web-style-guide"
 body-class: "web-style-guide"
@@ -11,7 +11,7 @@ body-class: "web-style-guide"
 <h2 id="boxes">Boxes</h2>
 <p>There are several box styles available to use, all of which are an expansion of the basic <code>.box</code> class. The width of the box depends on the width set to its parent container. All box styles should be used sparingly.</p>     
 </div>
-<div class="four-col">
+<div class="four-col last-col">
 <div class="box">
 <strong>Note:</strong> All boxes have a default <code>border-radius</code> value of <code>4px</code>.
 </div>
@@ -31,7 +31,7 @@ body-class: "web-style-guide"
 &lt;/div&gt;</pre>
 </div>
 
-<div class="six-col">
+<div class="six-col last-col">
 <h3>Highlighted box</h3>
 <p><code>.box-highlight</code><br>Adds a drop-shadow and a border to <code>.box</code>.</p>
 
@@ -56,7 +56,7 @@ body-class: "web-style-guide"
 &lt;/div&gt;</pre>
 </div>
 
-<div class="four-col">
+<div class="four-col last-col">
 <p class="smaller note"><strong>Example:</strong></p>
 <div class="box box-highlight resource">
 <h2><a href="#">Resource title&nbsp;&rsaquo;</a></h2>
@@ -83,8 +83,8 @@ body-class: "web-style-guide"
 <p><br></p>
 <p><a class="link-cta-ubuntu">Main button</a></p>
 </div>
-<div class="six-col">
-<img src="{{ site.assets_path }}447fbd48-hero-unit-image.jpg" alt="Ubuntu on a laptop" />
+<div class="six-col last-col">
+<img src="https://assets.ubuntu.com/v1/447fbd48-hero-unit-image.jpg" alt="Ubuntu on a laptop" />
 </div>
 </div>     
 <div class="row">
@@ -96,8 +96,8 @@ body-class: "web-style-guide"
 &lt;p class="intro"&gt;Here you can have a subtitle or short introduction to the page.&lt;/p&gt;
 &lt;p&gt;&lt;a class="link-cta-ubuntu">Main button&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="six-col"&gt;
-&lt;img src="/{{ site.assets_path }}447fbd48-hero-unit-image.jpg" alt="Ubuntu on a laptop" /&gt;
+&lt;div class="six-col last-col"&gt;
+&lt;img src="/https://assets.ubuntu.com/v1/447fbd48-hero-unit-image.jpg" alt="Ubuntu on a laptop" /&gt;
 &lt;/div&gt;
 &lt;/div&gt;</pre>
 </div>

@@ -7,26 +7,15 @@
 
   {% include header.html %}
 
-  {% if page.body-id=="web-style-guide" %}
-  <div class="p-strip">
+  {% if page.body-id=="scopes" %}
     <div class="row">
       <div class="12-col">
-        {% include side-nav-web.html %}
+        {% include side-nav-scopes.html %}
       </div><!-- /.12-col -->
     </div><!-- /.row -->
-  </div><!-- /.p-strip -->
   {% endif %}
 
-  <div class="p-strip">
-    <div class="row">
-      <div class="12-col">
-
-        {{ content }}
-
-      </div><!-- /.12-col -->
-    </div><!-- /.row -->
-  </div><!-- /.p-strip -->
-
+  {{ content }}
 
   {% include footer.html %}
 

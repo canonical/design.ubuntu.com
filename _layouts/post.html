@@ -17,15 +17,7 @@
 
   <div class="p-strip">
     <div class="row">
-      {% if page.body-id=="scopes" %}
-      <div class="col-3 suffix-1">
-        {% include side-nav-scopes.html %}
-      </div>
-      {% elsif page.body-id=="web-style-guide" %}
-      <div class="col-3 suffix-1">
-        {% include side-nav-web.html %}
-      </div>
-      {% elsif page.body-id=="brand-assets" %}
+      {% if page.body-id=="brand-assets" %}
       <div class="col-3 suffix-1">
         {% include side-nav-brand.html %}
       </div>

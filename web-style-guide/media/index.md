@@ -1,5 +1,5 @@
 ---
-layout: web-guidelines-iframe
+layout: web-guidelines
 title: "Media"
 body-id: "web-style-guide"
 body-class: "web-style-guide"
@@ -11,8 +11,8 @@ body-class: "web-style-guide"
 <h1>Media</h1>
 <p>As much as possible, pictograms and other visual media, such as videos, illustrations and photography, should be sized so that they align with and fit within the grid columns.</p>
 </div>
-<div class="col-5">
-<img src="{{ site.assets_path }}ba0ead7d-media-grid.jpg" />
+<div class="five-col last-col">
+<img src="https://assets.ubuntu.com/v1/ba0ead7d-media-grid.jpg" />
 </div>
 </div>
 

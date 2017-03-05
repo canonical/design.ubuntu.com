@@ -1,5 +1,5 @@
 ---
-layout: web-guidelines-iframe
+layout: web-guidelines
 title: "Tables"
 body-id: "web-style-guide"
 body-class: "web-style-guide"

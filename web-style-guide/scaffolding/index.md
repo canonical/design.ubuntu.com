@@ -1,5 +1,5 @@
 ---
-layout: web-guidelines-iframe
+layout: web-guidelines
 title: "Scaffolding"
 body-id: "web-style-guide"
 body-class: "web-style-guide"
@@ -41,7 +41,7 @@ body-class: "web-style-guide"
 <li><a href="#navigation">Navigation</a></li>
 </ul>
 </div>
-<div class="four-col">
+<div class="four-col last-col">
 <ul>
 <li><a href="#footer">Footer</a></li>
 <li><a href="#colours">Colours</a></li>
@@ -51,7 +51,7 @@ body-class: "web-style-guide"
 </div>
 
 <div class="row">
-<div class="col-5">
+<div class="five-col">
 <h2 id="grid">Grid</h2>
 <p>The default grid has 12 column (&#8220;col&#8221;) units and 20px gutters. Each col unit takes up 6.3053% of the total width.</p>
 <p>To create a fixed-width layout at large screen sizes (984px and up), add a pixel or em value to <code>.wrapper</code>, for example:</p>
@@ -65,8 +65,8 @@ body-class: "web-style-guide"
     <li>gutter width: 19px</li>
     </ul>
     </div>
-    <div class="seven-col">
-    <img class="right" src="{{ site.assets_path }}9eef2b45-grid.png">
+    <div class="seven-col last-col">
+    <img class="right" src="https://assets.ubuntu.com/v1/9eef2b45-grid.png">
     </div>
     </div>
 
@@ -84,7 +84,7 @@ body-class: "web-style-guide"
     <p>As an example, at medium screen sizes a row with four blocks will be become two rows of two blocks, and at small screen sizes the blocks become stacked.</p>
     </div>
     <div class="twelve-col">
-    <img src="{{ site.assets_path }}51c6af91-responsive-grid.png" alt="responsive-grid" width="904" height="413" class="alignnone size-full7" srcset="{{ site.assets_path }}51c6af91-responsive-grid.png 904w, {{ site.assets_path }}051d0bca-responsive-grid-300x137.png 300w" sizes="(max-width: 904px) 100vw, 904px" />
+    <img src="https://assets.ubuntu.com/v1/51c6af91-responsive-grid.png" alt="responsive-grid" width="904" height="413" class="alignnone size-full7" srcset="https://assets.ubuntu.com/v1/51c6af91-responsive-grid.png 904w, https://assets.ubuntu.com/v1/051d0bca-responsive-grid-300x137.png 300w" sizes="(max-width: 904px) 100vw, 904px" />
     </div>
     </div>
 
@@ -168,7 +168,7 @@ body-class: "web-style-guide"
     <p class="smaller note"><strong>Example:</strong></p>
     </div>
 
-    <div class="four-col">
+    <div class="four-col last-col">
     <div class="box">
     <p><strong>Note:</strong> By placing the <code>&lt;span&gt;</code> <em>before</em> the text it will place the image centered on the left.</p>
     </div>
@@ -179,7 +179,7 @@ body-class: "web-style-guide"
     <div class="six-col">
     <h3>An example title</h3>
     <p>Ubuntu is an ancient African word meaning &#8216;humanity to others&#8217;. It also means &#8216;I am what I am because of who we all are&#8217;. The Ubuntu operating system brings the spirit of Ubuntu to the world of computers. Ubuntu is an ancient African word meaning &#8216;humanity to others&#8217;. It also means &#8216;I am what I am because of who we all are&#8217;…</p>
-    </div><span><img src="{{ site.assets_path }}7db9facc-canonical-symbol-167x167.png" alt="Canonical symbol" /></span></div>
+    </div><span><img src="https://assets.ubuntu.com/v1/7db9facc-canonical-symbol-167x167.png" alt="Canonical symbol" /></span></div>
 
 <div class="row">
     <div class="twelve-col">
@@ -190,7 +190,7 @@ body-class: "web-style-guide"
     &lt;p&gt;Ubuntu is an ancient African word meaning 'humanity to others'. It also means 'I am what I am because of who we all are'. The Ubuntu operating system brings the spirit of Ubuntu to the world of computers.&lt;/p&gt;
     &lt;/div&gt;
     &lt;span&gt;
-    &lt;img src="/{{ site.assets_path }}7db9facc-canonical-symbol-167x167.png" alt="Canonical symbol" /&gt;
+    &lt;img src="/https://assets.ubuntu.com/v1/7db9facc-canonical-symbol-167x167.png" alt="Canonical symbol" /&gt;
     &lt;/span&gt;
     &lt;/div&gt;</pre>
     </div>
@@ -203,7 +203,7 @@ body-class: "web-style-guide"
     <div class="eight-col">
     <p>Layouts can be created combining rows with different number of columns to a <strong>maximum of 4 columns per row</strong>. Each column must span a minimum of 3 column units. The last <code>col</code> in a row must also include the class <code>.last-col</code> to remove the right margin, except <code>.twelve-col</code>.</p>
     </div>
-    <div class="four-col">
+    <div class="four-col last-col">
     <div class="box">
     <p><strong>Note:</strong> Text shouldn&#8217;t go across more than 8 column units (<code>.eight-col</code>).</p>
     </div>
@@ -221,9 +221,9 @@ body-class: "web-style-guide"
     <pre>&lt;div class="six-col"&gt;
     &lt;/div&gt;</pre>
     </div>
-    <div class="six-col">
+    <div class="six-col last-col">
     <p class="smaller note"><strong>Code:</strong></p>
-    <pre>&lt;div class="six-col"&gt;
+    <pre>&lt;div class="six-col last-col"&gt;
     &lt;/div&gt;</pre>
     </div>
 
@@ -232,9 +232,9 @@ body-class: "web-style-guide"
     <pre>&lt;div class="eight-col"&gt;
     &lt;/div&gt;</pre>
     </div>
-    <div class="four-col">
+    <div class="four-col last-col">
     <p class="smaller note"><strong>Code:</strong></p>
-    <pre>&lt;div class="four-col"&gt;
+    <pre>&lt;div class="four-col last-col"&gt;
     &lt;/div&gt;</pre>
     </div>
 
@@ -243,9 +243,9 @@ body-class: "web-style-guide"
     <pre>&lt;div class="nine-col"&gt;
     &lt;/div&gt;</pre>
     </div>
-    <div class="three-col">
+    <div class="three-col last-col">
     <p class="smaller note"><strong>Code:</strong></p>
-    <pre>&lt;div class="three-col"&gt;
+    <pre>&lt;div class="three-col last-col"&gt;
     &lt;/div&gt;</pre>
     </div>
 
@@ -260,9 +260,9 @@ body-class: "web-style-guide"
     <pre>&lt;div class="four-col"&gt;
     &lt;/div&gt;</pre>
     </div>
-    <div class="four-col">
+    <div class="four-col last-col">
     <p class="smaller note"><strong>Code:</strong></p>
-    <pre>&lt;div class="four-col"&gt;
+    <pre>&lt;div class="four-col last-col"&gt;
     &lt;/div&gt;</pre>
     </div>
 
@@ -276,9 +276,9 @@ body-class: "web-style-guide"
     <pre>&lt;div class="three-col"&gt;
     &lt;/div&gt;</pre>
     </div>
-    <div class="three-col">
+    <div class="three-col last-col">
     <p class="smaller note"><strong>Code:</strong></p>
-    <pre>&lt;div class="three-col"&gt;
+    <pre>&lt;div class="three-col last-col"&gt;
     &lt;/div&gt;</pre>
     </div>
 
@@ -298,9 +298,9 @@ body-class: "web-style-guide"
     <pre>&lt;div class="three-col"&gt;
     &lt;/div&gt;</pre>
     </div>
-    <div class="three-col">
+    <div class="three-col last-col">
     <p class="smaller note"><strong>Code:</strong></p>
-    <pre>&lt;div class="three-col"&gt;
+    <pre>&lt;div class="three-col last-col"&gt;
     &lt;/div&gt;</pre>
     </div>
     </div>
@@ -321,7 +321,7 @@ body-class: "web-style-guide"
     <div class="four-col">
     <p>Ubuntu is an ancient African word meaning &#8216;humanity to others&#8217;. It also means &#8216;I am what I am because of….</p>
     </div>
-    <div class="four-col">
+    <div class="four-col last-col">
     <p>Ubuntu is an ancient African word meaning &#8216;humanity to others&#8217;. It also means &#8216;I am what I am because of…</p>
     </div>
     </div>
@@ -334,7 +334,7 @@ body-class: "web-style-guide"
     &lt;div class="four-col"&gt;
     &lt;!-- Content --&gt;
     &lt;/div&gt;
-    &lt;div class="four-col"&gt;
+    &lt;div class="four-col last-col"&gt;
     &lt;!-- Content --&gt;
     &lt;/div&gt;
     &lt;/div&gt;</pre>
@@ -347,7 +347,7 @@ body-class: "web-style-guide"
     <p>Adding empty columns before or after an element might be useful when you need extra space between elements and columns than that provided by the default grid.</p>
     <p>The classes <code>.prepend-one</code>, <code>.prepend-two</code>, <code>.prepend-three</code>, and so on, will add empty columns before the element to the number of column units specified in the class.</p>
     </div>
-    <div class="four-col">
+    <div class="four-col last-col">
     <div class="box">
     <p><strong>Note:</strong> in small sized screens, empty columns won&#8217;t have an effect on the element they&#8217;re applied to, as the content is shown in a <a href="#responsive-grid">linear way</a>.</p>
     </div>
@@ -374,7 +374,7 @@ body-class: "web-style-guide"
     <p>The ability to offset columns can be useful when you want to expand an element beyond its parent container, usually to create interesting visual effects or simply to adjust element alignments.</p>
     <p>The classes <code>.pull-one</code>, <code>.pull-two</code>, <code>.pull-three</code>, and so on, will pull the element to the left the number of column units specified in the class.</p>
     </div>
-    <div class="four-col">
+    <div class="four-col last-col">
     <div class="box">
     <p><strong>Note:</strong> in small sized screens, offset columns won&#8217;t have an effect on the element they&#8217;re applied to, as the content is shown in a <a href="#responsive-grid">linear way</a>.</p>
     </div>
@@ -411,7 +411,7 @@ body-class: "web-style-guide"
     <li>Third level sections</li>
     </ol>
     </div>
-    <div class="four-col image-labels-small">
+    <div class="four-col last-col image-labels-small">
     <ol>
     <li style="left:101px; top:24px;">1</li>
     <li style="left:130px; top:110px;">2</li>
@@ -421,9 +421,9 @@ body-class: "web-style-guide"
     <li style="left:95px; top:408px;">7</li>
     <li style="left:8px; top:460px;">8</li>
     </ol>
-    <img src="{{ site.assets_path }}72051301-ubuntu-scaffolding-navigation-main-small-screen.png" style="max-width:100%" /><br /><br />
-    <img src="{{ site.assets_path }}529a6975-ubuntu-scaffolding-navigation-search-small-screen.png" style="max-width:100%" /><br /><br />
-    <img src="{{ site.assets_path }}27540521-ubuntu-scaffolding-navigation-breadcrumbs-small-screen.png" style="max-width:100%" />
+    <img src="https://assets.ubuntu.com/v1/72051301-ubuntu-scaffolding-navigation-main-small-screen.png" style="max-width:100%" /><br /><br />
+    <img src="https://assets.ubuntu.com/v1/529a6975-ubuntu-scaffolding-navigation-search-small-screen.png" style="max-width:100%" /><br /><br />
+    <img src="https://assets.ubuntu.com/v1/27540521-ubuntu-scaffolding-navigation-breadcrumbs-small-screen.png" style="max-width:100%" />
     </div>
     <div class="image-labels">
     <ol>
@@ -436,7 +436,7 @@ body-class: "web-style-guide"
     <li style="left:110px; top:105px;">7</li>
     <li style="left:220px; top:110px;">8</li>
     </ol>
-    <img src="{{ site.assets_path }}d2148451-top-nav1.png" style="max-width:100%" />
+    <img src="https://assets.ubuntu.com/v1/d2148451-top-nav1.png" style="max-width:100%" />
     </div>
     <p class="smaller note"><strong>Code:</strong></p>
     <pre>&lt;header class="banner global" role="banner"&gt;
@@ -499,7 +499,7 @@ body-class: "web-style-guide"
     <li>Ubuntu branding</li>
     </ol>
     </div>
-    <div class="four-col image-labels-small">
+    <div class="four-col last-col image-labels-small">
     <ol>
 
     <li style="left:-24px; top:51px;">1</li>
@@ -507,7 +507,7 @@ body-class: "web-style-guide"
     <li style="left:-24px; top:403px;">3</li>
 
     </ol>
-    <img alt="ubuntu.com footer" src="{{ site.assets_path }}9926560a-ubuntu-scaffolding-navigation-footer-small-screen.png" style="max-width:100%">
+    <img alt="ubuntu.com footer" src="https://assets.ubuntu.com/v1/9926560a-ubuntu-scaffolding-navigation-footer-small-screen.png" style="max-width:100%">
     </div>
     <div class="image-labels">
     <ol>
@@ -516,7 +516,7 @@ body-class: "web-style-guide"
     <li style="left:-15px; top:375px;">3</li>
     <li style="right:140px; top:380px;">4</li>
     </ol>
-    <img alt="ubuntu.com footer" src="{{ site.assets_path }}231dfc03-footer.png" style="max-width:100%">
+    <img alt="ubuntu.com footer" src="https://assets.ubuntu.com/v1/231dfc03-footer.png" style="max-width:100%">
     </div>
     <p class="smaller note"><strong>Code:</strong></p>
     <pre>&lt;footer class="global clearfix"&gt;
@@ -643,7 +643,7 @@ body-class: "web-style-guide"
     <li>Cool grey <code style="background:#333;color:white">#333333</code>: default text colour</li>
     </ul>
     </div>
-    <div class="four-col">
+    <div class="four-col last-col">
     <div class="box">
     <p><strong>Note:</strong> Avoid big blocks of orange. If possible, do not use full width orange. And remember that white text on an orange background is difficult to read.</p>
     </div>
@@ -660,7 +660,7 @@ body-class: "web-style-guide"
     <li>White (transparent) <code>rgba(255, 255, 255, 0.6)</code>: row backgrounds</li>
     </ul>
     </div>
-    <div class="four-col">
+    <div class="four-col last-col">
     <div class="box">
     <p><strong>Warning:</strong> Warm grey must not be used as a background to text on the web, as it doesn&#8217;t provide enough contrast with either light or dark text colours, which causes accessibility problems.</p>  
     </div>
@@ -711,7 +711,7 @@ body-class: "web-style-guide"
     <p class="smaller note"><strong>Code:</strong></p>
     <pre>&lt;div class="six-col"&gt;
     &lt;/div&gt;
-    &lt;div class="six-col"&gt;
+    &lt;div class="six-col last-col"&gt;
     &lt;/div&gt;</pre>
     <p>Note: The <code>.twelve-col</code> class doesn&#8217;t need the added <code>.last-col</code> class, as it doesn&#8217;t include default right margin.</p>
 
