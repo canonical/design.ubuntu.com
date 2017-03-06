@@ -232,7 +232,7 @@ Here are the colours available for each of the 3 settings on the Voice Slider.
 
 <a href="/brand/colour-palette#the-voice-slider-determines-colour-balance" title="how to apply colour">Guidance on how to apply your colour&nbsp;&rsaquo;</a>
 
-<img src="{{ site.assets_path }}18159ea2-voice-slider-colours.gif" alt="Voice Slider Colours" title="Voice Slider Colours" width="540" height="248" class="alignnone size-full" srcset="{{ site.assets_path }}18159ea2-voice-slider-colours.gif 540w, {{ site.assets_path }}e97b2134-voice-slider-colours-300x137.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
+<img src="{{ site.assets_path }}18159ea2-voice-slider-colours.gif" alt="Voice Slider Colours" title="Voice Slider Colours" width="540" height="248" srcset="{{ site.assets_path }}18159ea2-voice-slider-colours.gif 540w, {{ site.assets_path }}e97b2134-voice-slider-colours-300x137.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
 
 * **Community**
   * Ubuntu orange #E95420
@@ -257,7 +257,7 @@ Here are the colours available for each of the 3 settings on the Voice Slider.
 We use different tones of Aubergine based on the position of the Audience Slider. Work that has a heavier Enterprise weight uses more of the Mid or Dark Aubergine.
 
 
-<img src="{{ site.assets_path }}05dba9d8-audience-slider-examples.gif" alt="Audience Slider Colours" title="audience-slider-colours" width="540" height="145" class="alignnone size-full" srcset="{{ site.assets_path }}05dba9d8-audience-slider-examples.gif 540w, {{ site.assets_path }}9b1ef606-audience-slider-examples-300x80.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
+<img src="{{ site.assets_path }}05dba9d8-audience-slider-examples.gif" alt="Audience Slider Colours" title="audience-slider-colours" width="540" height="145" srcset="{{ site.assets_path }}05dba9d8-audience-slider-examples.gif 540w, {{ site.assets_path }}9b1ef606-audience-slider-examples-300x80.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
 
 * **Consumer**
   * Light Aubergine #77216F
@@ -277,7 +277,7 @@ We use different tones of Aubergine based on the position of the Audience Slider
 
 Here are the Developer Dot Pattern, screenshot treatment, graphic style and guide to the amount of copy for each of the 3 settings on the Intent Slider.
 
-<img src="{{ site.assets_path }}0902d937-developer-slider-colours.gif" alt="Developer Slider Colours" title="Developer Slider Colours" width="540" height="192" class="alignnone size-full" srcset="{{ site.assets_path }}0902d937-developer-slider-colours.gif 540w, {{ site.assets_path }}1a5196c4-developer-slider-colours-300x106.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
+<img src="{{ site.assets_path }}0902d937-developer-slider-colours.gif" alt="Developer Slider Colours" title="Developer Slider Colours" width="540" height="192" srcset="{{ site.assets_path }}0902d937-developer-slider-colours.gif 540w, {{ site.assets_path }}1a5196c4-developer-slider-colours-300x106.gif 300w" sizes="(max-width: 540px) 100vw, 540px">
 
 * **End-user**
   * Graphic Style: Solid colour icons with reversed out graphics and text (for this example, the Voice Slider is set to Community giving us Ubuntu Orange)

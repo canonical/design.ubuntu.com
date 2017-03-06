@@ -116,8 +116,8 @@ body-class: "web-style-guide"
 <p class="smaller note"><strong>Example:</strong></p>
 <h3 class="muted-heading">Certified software</h3>
 <ul class="inline-logos no-bullets">
-<li><img src="http://assets.ubuntu.com/sites/ubuntu/1049/u/img/logos/logo-pack/logo-centrify.png" alt="Centrify" style="height:45px;" /></li>
-<li><img src="http://assets.ubuntu.com/sites/ubuntu/1049/u/img/logos/logo-pack/logo-openbravo.png" alt="Openbravo" style="height:45px;" /></li>
+<li class="p-list__item"><img src="http://assets.ubuntu.com/sites/ubuntu/1049/u/img/logos/logo-pack/logo-centrify.png" alt="Centrify" style="height:45px;" /></li>
+<li class="p-list__item"><img src="http://assets.ubuntu.com/sites/ubuntu/1049/u/img/logos/logo-pack/logo-openbravo.png" alt="Openbravo" style="height:45px;" /></li>
 <li class="last-item"><img src="http://assets.ubuntu.com/sites/ubuntu/1049/u/img/logos/logo-pack/logo-likewise.png" alt="Likewise" style="height:45px;" /></li>
 </ul>
 </div>

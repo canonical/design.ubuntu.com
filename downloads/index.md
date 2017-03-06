@@ -8,7 +8,7 @@ body-class: "downloads"
 
 <div id="loop-downloads">
   <div id="loop-status" class="clearfix">
-    <p><span>94 results</span> | <span class="filters-total">0</span> filters applied</p>
+    <p><span>92 results</span> | <span class="filters-total">0</span> filters applied</p>
     <ol class="filters-list"></ol>
   </div>
   <ul class="loop-results clearfix">

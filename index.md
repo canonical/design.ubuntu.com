@@ -27,41 +27,41 @@ body-class: "home"
 <div class="row vertical-divider">
 <h2>Our values</h2>
 <p class="eight-col append-four">We believe everyone has the right to a great computing experience &mdash; and we also believe it should be free. Ubuntu is the result of a growing community, working together to provide just that. As such, the Ubuntu brand embodies four values:<br/><br/></p>
-<div class="three-col">
+<div class="col-3">
 <h3>Freedom</h3>
 <p>Ubuntu celebrates freedom. Freedom to choose, to change, to participate.</p>
 </div>
-<div class="three-col">
+<div class="col-3">
 <h3>Reliable</h3>
 <p>You can depend on Ubuntu. Like the people who make it, it is trustworthy and keeps its promises.</p>
 </div>
-<div class="three-col">
+<div class="col-3">
 <h3>Precise</h3>
 <p>Ubuntu is crisp and clean in engineering and attitude. There is beauty in the precision of the process and product.</p>
 </div>
-<div class="three-col">
+<div class="col-3">
 <h3>Collaborative</h3>
 <p>Working together is at the heart of Ubuntu. It is the essence of &rsquo;humanity towards others&lsquo;.</p>
 </div>
 </div>
 <div class="row">
-<div class="three-col">
+<div class="col-3">
 <h3><a href="audiences">Our audiences &rsaquo;</a></h3>
 <p>Find out how to tailor your designs depending on which audience you are catering for, with the help of three handy sliders.</p>
 </div>
-<div class="three-col">
+<div class="col-3">
 <h3><a href="brand">Brand assets &rsaquo;</a></h3>
 <p>Learn about the elements that constitute the Ubuntu brand and how to use them, such as the Ubuntu and Canonical logos, pictograms, photography, etc.</p>
 </div>
-<div class="three-col">
+<div class="col-3">
 <h3><a href="web-style-guide">Web guidelines &rsaquo;</a></h3>
 <p>See how to use the Ubuntu brand on the web, from the logo to the Ubuntu font family, colours, forms, navigation and more design patterns and components.</p>          
 </div>
-<div class="three-col">
+<div class="col-3">
 <h3>Quick links</h3>
-<ul class="list">
-<li><a href="/brand/ubuntu-logo">Ubuntu logo &rsaquo;</a></li>
-<li><a href="/brand/canonical-logo">Canonical logo &rsaquo;</a></li>
+<ul class="p-list">
+<li class="p-list__item"><a href="/brand/ubuntu-logo">Ubuntu logo &rsaquo;</a></li>
+<li class="p-list__item"><a href="/brand/canonical-logo">Canonical logo &rsaquo;</a></li>
 <li class="last"><a href="/brand/colour-palette">Colour palette &rsaquo;</a></li>
 </ul>
 </div>
@@ -76,22 +76,22 @@ body-class: "home"
 
 <div>
 <ul class="slider clearfix">
-<li>
+<li class="p-list__item">
 <a class="pretty-photo" href="{{ site.assets_path }}152a19e1-ubuntu-web-ubuntu-for-you.png">
 <img src="{{ site.assets_path }}b67fb5f7-ubuntu-web-ubuntu-for-you-140x140.png" width="140" height="140" title="Ubuntu for you page on Ubuntu.com" alt="Ubuntu for you page on Ubuntu.com" />
 </a>
 </li>
-<li>
+<li class="p-list__item">
 <a class="pretty-photo" href="{{ site.assets_path }}2571b5ee-landscape-homepage2.png">
 <img src="{{ site.assets_path }}f23d1298-landscape-homepage2-140x140.png" width="140" height="140" title="Landscape website homepage" alt="Landscape website homepage" />
 </a>
 </li>
-<li>
+<li class="p-list__item">
 <a class="pretty-photo" href="{{ site.assets_path }}4806a317-ubuntu-web-form-contact-canonical.png">
 <img src="{{ site.assets_path }}4da8641d-ubuntu-web-form-contact-canonical-140x140.png" width="140" height="140" title="Contact Canonical form on Ubuntu.com" alt="Contact Canonical form on Ubuntu.com" />
 </a>
 </li>
-<li>
+<li class="p-list__item">
 <a class="pretty-photo" href="{{ site.assets_path }}cdbac36f-ubuntu-web-homepage.png">
 <img src="{{ site.assets_path }}9ea48b2b-ubuntu-web-homepage-140x140.png" width="140" height="140" title="Ubuntu.com homepage" alt="Ubuntu.com homepage" />
 </a>
@@ -101,22 +101,22 @@ body-class: "home"
 <img src="{{ site.assets_path }}a43cdfad-canonical-white-paper-140x140.png" width="140" height="140" title="Canonical white paper" alt="Canonical white paper" />
 </a>
 </li>
-<li>
+<li class="p-list__item">
 <a class="pretty-photo" href="{{ site.assets_path }}7db1f2a9-ubuntu-we-are-cloud-ad.png">
 <img src="{{ site.assets_path }}26acb47e-ubuntu-we-are-cloud-ad-140x140.png" width="140" height="140" title="We are cloud campaign poster" alt="We are cloud campaign poster" />
 </a>
 </li>
-<li>
+<li class="p-list__item">
 <a class="pretty-photo" href="{{ site.assets_path }}298bce76-ubuntu-server-edition-cd-packaging-1010.png">
 <img src="{{ site.assets_path }}991870d8-ubuntu-server-edition-cd-packaging-1010-140x140.png" width="140" height="140" title="Ubuntu 10.10 Server Edition CD packaging" alt="Ubuntu 10.10 Server Edition CD packaging" />
 </a>
 </li>
-<li>
+<li class="p-list__item">
 <a class="pretty-photo" href="{{ site.assets_path }}f225b375-ubuntu-server-brochure-diagram.png">
 <img src="{{ site.assets_path }}2ebf6822-ubuntu-server-brochure-diagram-140x140.png" width="140" height="140" title="Ubuntu Server brochure diagrams" alt="Ubuntu Server brochure diagrams" />
 </a>
 </li>
-<li>
+<li class="p-list__item">
 <a class="pretty-photo" href="{{ site.assets_path }}6ea970f9-ubuntu-cd-packaging-1010.png">
 <img src="{{ site.assets_path }}48a841df-ubuntu-cd-packaging-1010-140x140.png" width="140" height="140" title="Ubuntu 10.10 CD packaging" alt="Ubuntu 10.10 CD packaging" />
 </a>
@@ -126,22 +126,22 @@ body-class: "home"
 <img src="{{ site.assets_path }}c32194fd-ubuntu-advantage-brochures-140x140.png" width="140" height="140" title="Ubuntu Advantage brochures" alt="Ubuntu Advantage brochures" />
 </a>
 </li>
-<li>
+<li class="p-list__item">
 <a class="pretty-photo" href="{{ site.assets_path }}180a7441-mug-notebook.png">
 <img src="{{ site.assets_path }}1609bb9f-mug-notebook-140x140.png" width="140" height="140" title="Ubuntu mug and notebook" alt="Ubuntu mug and notebook" />
 </a>
 </li>
-<li>
+<li class="p-list__item">
 <a class="pretty-photo" href="{{ site.assets_path }}93514a11-ubuntu-one-homepage.png">
 <img src="{{ site.assets_path }}ed7d2d69-ubuntu-one-homepage-140x140.png" width="140" height="140" title="Ubuntu One homepage" alt="Ubuntu One homepage" />
 </a>
 </li>
-<li>
+<li class="p-list__item">
 <a class="pretty-photo" href="{{ site.assets_path }}8c24b2c4-landscape-dashboard-logged-in.png">
 <img src="{{ site.assets_path }}b1dc7567-landscape-dashboard-logged-in-140x140.png" width="140" height="140" title="Landscape dashboard" alt="Landscape dashboard" />
 </a>
 </li>
-<li>
+<li class="p-list__item">
 <a class="pretty-photo" href="{{ site.assets_path }}ce7c79b5-font-ubuntu-com-homepage.png">
 <img src="{{ site.assets_path }}c8c93892-font-ubuntu-com-homepage-140x140.png" width="140" height="140" title="Ubuntu Font Family website" alt="Ubuntu Font Family website" />
 </a>

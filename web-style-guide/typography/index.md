@@ -22,12 +22,12 @@ body-class: "web-style-guide"
 
 <h3>Annotations</h3>
 <p>There are a few ways in which you can attribute less emphasis to a piece of text.</p>
-<ul>
-<li><strong><code>&lt;small&gt;</code></strong><br />
+<ul class="p-list">
+<li class="p-list__item"><strong><code>&lt;small&gt;</code></strong><br />
 Wrapping text within this tag will make its <code>font-size</code> <code>13px</code> &mdash; smaller than the body copy size</li>
-<li><strong><code>.smaller</code></strong><br />
+<li class="p-list__item"><strong><code>.smaller</code></strong><br />
 Use this class to make text smaller than the body copy size, reducing it to <code>13px</code>. This class can also be applied to buttons (see more detail in the <a href="/web-style-guide/forms.html">Forms</a> section of this style guide)</li>
-<li><strong><code>.note</code></strong><br />
+<li class="p-list__item"><strong><code>.note</code></strong><br />
 This class will reduce the <code>font-size</code> of the text to <code>13px</code> and change its colour to warm grey. It should be used cautiously and only in instances when the content is nonessential.</li>
 </ul>
 </div>
@@ -53,9 +53,9 @@ This class will reduce the <code>font-size</code> of the text to <code>13px</cod
 <h3>Ordered list</h3>
 <p class="smaller note"><strong>Example:</strong></p>
 <ol>
-<li>First item</li>
-<li>Second item</li>
-<li>Third item</li>
+<li class="p-list__item">First item</li>
+<li class="p-list__item">Second item</li>
+<li class="p-list__item">Third item</li>
 </ol>
 <p class="smaller note"><strong>Code:</strong></p>
 <pre>&lt;ol&gt;
@@ -67,10 +67,10 @@ This class will reduce the <code>font-size</code> of the text to <code>13px</cod
 <div class="four-col">
 <h3>Unordered list</h3>
 <p class="smaller note"><strong>Example:</strong></p>
-<ul>
-<li>First item</li>
-<li>Second item</li>
-<li>Third item</li>
+<ul class="p-list">
+<li class="p-list__item">First item</li>
+<li class="p-list__item">Second item</li>
+<li class="p-list__item">Third item</li>
 </ul>
 <p class="smaller note"><strong>Code:</strong></p>
 <pre>&lt;ul&gt;
@@ -85,34 +85,34 @@ This class will reduce the <code>font-size</code> of the text to <code>13px</cod
 <div class="four-col">
 <h3>List with dividers</h3>
 <p class="smaller note"><strong>Example:</strong></p>
-<ul class="list">
-<li>First item</li>
-<li>Second item</li>
-<li>Third item</li>
+<ul class="p-list">
+<li class="p-list__item">First item</li>
+<li class="p-list__item">Second item</li>
+<li class="p-list__item">Third item</li>
 </ul>
 </div>
 <div class="four-col">
 <h3>List with dividers and ticks</h3>
 <p class="smaller note"><strong>Example:</strong></p>
-<ul class="list-ubuntu">
-<li>First item</li>
-<li>Second item</li>
-<li>Third item</li>
+<ul class="p-list-ubuntu">
+<li class="p-list__item">First item</li>
+<li class="p-list__item">Second item</li>
+<li class="p-list__item">Third item</li>
 </ul>
 </div>
 <div class="four-col last-col">
 <h3>List with dividers and ticks</h3>
 <p class="smaller note"><strong>Example:</strong></p>
-<ul class="list-canonical">
-<li>First item</li>
-<li>Second item</li>
-<li>Third item</li>
+<ul class="p-list-canonical">
+<li class="p-list__item">First item</li>
+<li class="p-list__item">Second item</li>
+<li class="p-list__item">Third item</li>
 </ul>
 </div>
 
 <div class="four-col">
 <p class="smaller note"><strong>Code:</strong></p>
-<pre>&lt;ul class="list"&gt;
+<pre>&lt;ul class="p-list"&gt;
 &lt;li&gt;First item&lt;/li&gt;
 &lt;li&gt;Second item&lt;/li&gt;
 &lt;li&gt;Third item&lt;/li&gt;
@@ -120,7 +120,7 @@ This class will reduce the <code>font-size</code> of the text to <code>13px</cod
 </div>
 <div class="four-col">
 <p class="smaller note"><strong>Code:</strong></p>
-<pre>&lt;ul class="list-ubuntu"&gt;
+<pre>&lt;ul class="p-list-ubuntu"&gt;
 &lt;li&gt;First item&lt;/li&gt;
 &lt;li&gt;Second item&lt;/li&gt;
 &lt;li&gt;Third item&lt;/li&gt;
@@ -128,7 +128,7 @@ This class will reduce the <code>font-size</code> of the text to <code>13px</cod
 </div>
 <div class="four-col last-col">
 <p class="smaller note"><strong>Code:</strong></p>
-<pre>&lt;ul class="list-canonical"&gt;
+<pre>&lt;ul class="p-list-canonical"&gt;
 &lt;li&gt;First item&lt;/li&gt;
 &lt;li&gt;Second item&lt;/li&gt;
 &lt;li&gt;Third item&lt;/li&gt;
@@ -160,7 +160,7 @@ This class will reduce the <code>font-size</code> of the text to <code>13px</cod
 <p>There are a few different ways of having block and pullquotes on Ubuntu sites.</p>
 <p>To the left: an example of a pullquote that sits in a separate column to the right of a block of text.</p>
 <p class="smaller note"><strong>Code:</strong></p>
-<pre>&lt;div class="three-col prepend-one last-col"&gt;
+<pre>&lt;div class="col-3 prepend-one last-col"&gt;
 &lt;blockquote class="pull-quote"&gt;
 &lt;p&gt;&lt;span&gt;“&lt;/span&gt; Ubuntu is an ancient African word meaning 'humanity to others'. &lt;span&gt;”&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;cite&gt;Canonical&lt;/cite&gt;&lt;/p&gt;
@@ -168,7 +168,7 @@ This class will reduce the <code>font-size</code> of the text to <code>13px</cod
 &lt;/div&gt;</pre>
 <p>An example of a blockquote occupying an entire row can be seen in the <a href="http://design.ubuntu.com/web-style-guide/scaffolding#rows">Scaffolding</a> section of this guide.</p>                    
 </div>
-<div class="three-col prepend-one last-col">
+<div class="col-3 prepend-one last-col">
 <blockquote class="pull-quote">
 <p><span>“</span>&nbsp;Ubuntu is an ancient African word meaning &#8216;humanity to others&#8217;.&nbsp;<span>”</span> </p>
 <p><cite>Canonical</cite></p>

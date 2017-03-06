@@ -37,14 +37,14 @@
                     <span>Design</span>
                </a>
           </div>
-          <ul>
-               <li><a href="http://design.ubuntu.com/audiences" class="first ">Audiences</a></li>
-               <li><a href="../brand">Brand</a></li>
-               <li><a href="../web-style-guide" class="active">Web</a></li>
-               <li><a href="http://design.ubuntu.com/apps">Apps</a></li>
-               <li><a href="../scopes">Scopes</a></li>
-               <li><a href="http://design.ubuntu.com/examples">Examples</a></li>
-               <li><a href="http://design.ubuntu.com/downloads">Downloads</a></li>
+          <ul class="p-list">
+               <li class="p-list__item"><a href="http://design.ubuntu.com/audiences" class="first ">Audiences</a></li>
+               <li class="p-list__item"><a href="../brand">Brand</a></li>
+               <li class="p-list__item"><a href="../web-style-guide" class="active">Web</a></li>
+               <li class="p-list__item"><a href="http://design.ubuntu.com/apps">Apps</a></li>
+               <li class="p-list__item"><a href="../scopes">Scopes</a></li>
+               <li class="p-list__item"><a href="http://design.ubuntu.com/examples">Examples</a></li>
+               <li class="p-list__item"><a href="http://design.ubuntu.com/downloads">Downloads</a></li>
           </ul>
           <form id="form-search" class="header-search" action="http://design.ubuntu.com/search" method="get">
                <label class="accessibility-aid" for="search">Search:</label>
@@ -60,13 +60,13 @@
           <div id="accordion">
                <h3><a href="forms#">Web</a></h3>
                <div>
-                    <ul class="list">
-                         <li><a href="ubuntu-and-canonical-web-universe">Ubuntu web universe</a></li>
-<li><a href="http://design.ubuntu.com/web/typography">Typography</a></li>
-<li><a href="colour">Colour</a></li>
-<li><a href="links">Links</a></li>
+                    <ul class="p-list">
+                         <li class="p-list__item"><a href="ubuntu-and-canonical-web-universe">Ubuntu web universe</a></li>
+<li class="p-list__item"><a href="http://design.ubuntu.com/web/typography">Typography</a></li>
+<li class="p-list__item"><a href="colour">Colour</a></li>
+<li class="p-list__item"><a href="links">Links</a></li>
 <li class="current_page_item"><a href="forms">Forms</a></li>
-<li><a href="rounded-corners-and-drop-shadows">Rounded corners and drop-shadows</a></li>
+<li class="p-list__item"><a href="rounded-corners-and-drop-shadows">Rounded corners and drop-shadows</a></li>
                     </ul>
                </div>
           </div>
@@ -77,16 +77,16 @@
                <p>Form styles can vary greatly depending on the purpose of the form and from where it lives. These are recommended form styles for <a href="ubuntu-and-canonical-web-universe" title="Ubuntu web universe">Tier 1 and 2 sites</a>.</p>
 <div class="wp-link-top clearfix"><a href="forms#">top</a></div>
 <h2>Labels</h2>
-<p><img src="{{ site.assets_path }}2873c2d5-ubuntu-guidelines-web-forms-labels.gif" alt="Web guidelines - Form labels" title="Web guidelines - Form labels" width="540" height="124" class="alignnone size-full" srcset="{{ site.assets_path }}2873c2d5-ubuntu-guidelines-web-forms-labels.gif 540w, {{ site.assets_path }}2982982e-ubuntu-guidelines-web-forms-labels-300x68.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
-<ul>
-<li>Labels should inherit the default text font size (13px), with a bottom margin of 4px (if applicable).</li>
-<li>Labels should be placed above the input field, aligned left.</li>
+<p><img src="{{ site.assets_path }}2873c2d5-ubuntu-guidelines-web-forms-labels.gif" alt="Web guidelines - Form labels" title="Web guidelines - Form labels" width="540" height="124" srcset="{{ site.assets_path }}2873c2d5-ubuntu-guidelines-web-forms-labels.gif 540w, {{ site.assets_path }}2982982e-ubuntu-guidelines-web-forms-labels-300x68.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
+<ul class="p-list">
+<li class="p-list__item">Labels should inherit the default text font size (13px), with a bottom margin of 4px (if applicable).</li>
+<li class="p-list__item">Labels should be placed above the input field, aligned left.</li>
 </ul>
 <p>In web apps, where forms are usually long and its use is repetitive, labels can be placed to the left of the input field, aligned left.</p>
-<p><img src="{{ site.assets_path }}44cc54cb-ubuntu-guidelines-web-forms-labels-left.gif" alt="Web guidelines - Forms labels aligned left" title="Web guidelines - Forms labels aligned left" width="540" height="106" class="alignnone size-full" srcset="{{ site.assets_path }}44cc54cb-ubuntu-guidelines-web-forms-labels-left.gif 540w, {{ site.assets_path }}b2da1566-ubuntu-guidelines-web-forms-labels-left-300x58.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
+<p><img src="{{ site.assets_path }}44cc54cb-ubuntu-guidelines-web-forms-labels-left.gif" alt="Web guidelines - Forms labels aligned left" title="Web guidelines - Forms labels aligned left" width="540" height="106" srcset="{{ site.assets_path }}44cc54cb-ubuntu-guidelines-web-forms-labels-left.gif 540w, {{ site.assets_path }}b2da1566-ubuntu-guidelines-web-forms-labels-left-300x58.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
 <div class="wp-link-top clearfix"><a href="forms#">top</a></div>
 <h2>Input fields</h2>
-<p><img src="{{ site.assets_path }}2873c2d5-ubuntu-guidelines-web-forms-labels.gif" alt="Web guidelines - Form labels" title="Web guidelines - Form labels" width="540" height="124" class="alignnone size-full" srcset="{{ site.assets_path }}2873c2d5-ubuntu-guidelines-web-forms-labels.gif 540w, {{ site.assets_path }}2982982e-ubuntu-guidelines-web-forms-labels-300x68.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
+<p><img src="{{ site.assets_path }}2873c2d5-ubuntu-guidelines-web-forms-labels.gif" alt="Web guidelines - Form labels" title="Web guidelines - Form labels" width="540" height="124" srcset="{{ site.assets_path }}2873c2d5-ubuntu-guidelines-web-forms-labels.gif 540w, {{ site.assets_path }}2982982e-ubuntu-guidelines-web-forms-labels-300x68.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
 <p>Specification for input fields:</p>
 <pre>input, textarea {
 -moz-border-radius: 2px;
@@ -118,7 +118,7 @@ margin-bottom: 14px;
 <div class="wp-link-top clearfix"><a href="forms#">top</a></div>
 <h2>Radio buttons and checkboxes</h2>
 <p>Radio buttons and checkboxes should be placed to the left of its corresponding label, with a 5px space between the input field and the label. The input field should align vertically with the preceding and subsequent input fields.</p>
-<p><img src="{{ site.assets_path }}8026d541-ubuntu-guidelines-web-forms-input-types.gif" alt="Web guidelines - Input types" title="Web guidelines - Input types" width="540" height="77" class="alignnone size-full" srcset="{{ site.assets_path }}8026d541-ubuntu-guidelines-web-forms-input-types.gif 540w, {{ site.assets_path }}e12317fe-ubuntu-guidelines-web-forms-input-types-300x42.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
+<p><img src="{{ site.assets_path }}8026d541-ubuntu-guidelines-web-forms-input-types.gif" alt="Web guidelines - Input types" title="Web guidelines - Input types" width="540" height="77" srcset="{{ site.assets_path }}8026d541-ubuntu-guidelines-web-forms-input-types.gif 540w, {{ site.assets_path }}e12317fe-ubuntu-guidelines-web-forms-input-types-300x42.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
 <p>When more than one checkbox is necessary, these should be stacked vertically.</p>
 <p>If there are several options, you can use two columns to list the different options and save vertical space.</p>
 <div class="box smaller">
@@ -134,11 +134,11 @@ margin-bottom: 14px;
 <div class="wp-link-top clearfix"><a href="forms#">top</a></div>
 <h2>Notes and tips</h2>
 <p>Instructions on a specific field (and not the form in general) should be placed below the field itself, in the same font size as the label (regular text). The width of the instruction note should be the same as the input field.</p>
-<p><img src="{{ site.assets_path }}d9ea7936-ubuntu-guidelines-web-forms-notes.gif" alt="Web guidelines - Form notes" title="Web guidelines - Form notes" width="540" height="64" class="alignnone size-full" srcset="{{ site.assets_path }}d9ea7936-ubuntu-guidelines-web-forms-notes.gif 540w, {{ site.assets_path }}3b3e0314-ubuntu-guidelines-web-forms-notes-300x35.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
+<p><img src="{{ site.assets_path }}d9ea7936-ubuntu-guidelines-web-forms-notes.gif" alt="Web guidelines - Form notes" title="Web guidelines - Form notes" width="540" height="64" srcset="{{ site.assets_path }}d9ea7936-ubuntu-guidelines-web-forms-notes.gif 540w, {{ site.assets_path }}3b3e0314-ubuntu-guidelines-web-forms-notes-300x35.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
 <div class="wp-link-top clearfix"><a href="forms#">top</a></div>
 <h2>Fieldsets</h2>
 <p>When the form consists of more than one logical section, these should be separated into distinct fieldsets. The padding inside the container should be the default 20px.</p>
-<p><img src="{{ site.assets_path }}d0f804fd-ubuntu-guidelines-web-forms-fieldsets.gif" alt="Web guidelines - Form fieldsets" title="Web guidelines - Form fieldsets" width="540" height="607" class="alignnone size-full" srcset="{{ site.assets_path }}d0f804fd-ubuntu-guidelines-web-forms-fieldsets.gif 540w, {{ site.assets_path }}870d483f-ubuntu-guidelines-web-forms-fieldsets-266x300.gif 266w" sizes="(max-width: 540px) 100vw, 540px" /></p>
+<p><img src="{{ site.assets_path }}d0f804fd-ubuntu-guidelines-web-forms-fieldsets.gif" alt="Web guidelines - Form fieldsets" title="Web guidelines - Form fieldsets" width="540" height="607" srcset="{{ site.assets_path }}d0f804fd-ubuntu-guidelines-web-forms-fieldsets.gif 540w, {{ site.assets_path }}870d483f-ubuntu-guidelines-web-forms-fieldsets-266x300.gif 266w" sizes="(max-width: 540px) 100vw, 540px" /></p>
 <p>This also aids forms that only consist of a single section, particularly in multiple-steps forms, to better tighten the content together.</p>
 <p><strong>Numbering:</strong> Each step of a multi-fieldset form on a single page, should be numbered using a background image number.</p>
 <p>Headings within containers or fieldsets should have the following CSS:</p>
@@ -152,12 +152,12 @@ padding-bottom: 10px;
 <div class="wp-link-top clearfix"><a href="forms#">top</a></div>
                </div>
 
-     <!--<div class="three-col">
+     <!--<div class="col-3">
           <div id="section-menu"></div>
 
                     <h3>Examples of use</h3>
 <ul class="loop-results-panel panel-examples clearfix">
-     <li>
+     <li class="p-list__item">
           <a class="pretty-photo" href="{{ site.assets_path }}4806a317-ubuntu-web-form-contact-canonical.png">
                <img src="{{ site.assets_path }}4da8641d-ubuntu-web-form-contact-canonical-140x140.png" width="66" height="66" title="Contact Canonical form on Ubuntu.com" alt="Contact Canonical form on Ubuntu.com" />
           </a>

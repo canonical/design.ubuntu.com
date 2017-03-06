@@ -11,12 +11,12 @@ body-class: "guidelines"
           <div id="accordion">
                <h3><a href="rounded-corners-and-drop-shadows#">Web</a></h3>
                <div>
-                    <ul class="list">
-                         <li><a href="ubuntu-and-canonical-web-universe">Ubuntu web universe</a></li>
-<li><a href="http://design.ubuntu.com/web/typography">Typography</a></li>
-<li><a href="colour">Colour</a></li>
-<li><a href="links">Links</a></li>
-<li><a href="forms">Forms</a></li>
+                    <ul class="p-list">
+                         <li class="p-list__item"><a href="ubuntu-and-canonical-web-universe">Ubuntu web universe</a></li>
+<li class="p-list__item"><a href="http://design.ubuntu.com/web/typography">Typography</a></li>
+<li class="p-list__item"><a href="colour">Colour</a></li>
+<li class="p-list__item"><a href="links">Links</a></li>
+<li class="p-list__item"><a href="forms">Forms</a></li>
 <li class="current_page_item"><a href="rounded-corners-and-drop-shadows">Rounded corners and drop-shadows</a></li>
                     </ul>
                </div>
@@ -45,17 +45,17 @@ box-shadow: 0 2px 2px 0 #C2C2C2;
 <div class="wp-link-top clearfix"><a href="rounded-corners-and-drop-shadows#">top</a></div>
                </div>
 
-     <!--<div class="three-col">
+     <!--<div class="col-3">
           <div id="section-menu"></div>
 
                     <h3>Examples of use</h3>
 <ul class="loop-results-panel panel-examples clearfix">
-     <li>
+     <li class="p-list__item">
           <a class="pretty-photo" href="{{ site.assets_path }}cdbac36f-ubuntu-web-homepage.png">
                <img src="{{ site.assets_path }}9ea48b2b-ubuntu-web-homepage-140x140.png" width="66" height="66" title="Ubuntu.com homepage" alt="Ubuntu.com homepage" />
           </a>
      </li>
-     <li>
+     <li class="p-list__item">
           <a class="pretty-photo" href="{{ site.assets_path }}8c24b2c4-landscape-dashboard-logged-in.png">
                <img src="{{ site.assets_path }}b1dc7567-landscape-dashboard-logged-in-140x140.png" width="66" height="66" title="Landscape dashboard" alt="Landscape dashboard" />
           </a>

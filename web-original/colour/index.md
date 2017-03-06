@@ -11,13 +11,13 @@ body-class: "guidelines"
           <div id="accordion">
                <h3><a href="colour#">Web</a></h3>
                <div>
-                    <ul class="list">
-                         <li><a href="ubuntu-and-canonical-web-universe">Ubuntu web universe</a></li>
-<li><a href="http://design.ubuntu.com/web/typography">Typography</a></li>
+                    <ul class="p-list">
+                         <li class="p-list__item"><a href="ubuntu-and-canonical-web-universe">Ubuntu web universe</a></li>
+<li class="p-list__item"><a href="http://design.ubuntu.com/web/typography">Typography</a></li>
 <li class="current_page_item"><a href="colour">Colour</a></li>
-<li><a href="links">Links</a></li>
-<li><a href="forms">Forms</a></li>
-<li><a href="rounded-corners-and-drop-shadows">Rounded corners and drop-shadows</a></li>
+<li class="p-list__item"><a href="links">Links</a></li>
+<li class="p-list__item"><a href="forms">Forms</a></li>
+<li class="p-list__item"><a href="rounded-corners-and-drop-shadows">Rounded corners and drop-shadows</a></li>
                     </ul>
                </div>
           </div>
@@ -59,21 +59,21 @@ body-class: "guidelines"
 <h2>Other colours</h2>
 <h3>Colour coded status</h3>
 <p>From negative to positive:</p>
-<ul>
-<li><span style="color:#DF382C">Red</span>, for status that require immediate attention: <code>#DF382C</code></li>
-<li><span style="color:#AEA79F">Grey</span>, for disabled status or ones that don&#8217;t require attention: <code>#AEA79F</code></li>
-<li><span style="color:#EFB73E">Yellow</span>, for status that require attention: <code>#EFB73E</code></li>
-<li><span style="color:#19B6EE">Blue</span>, for status that don&#8217;t require action: <code>#19B6EE</code></li>
-<li><span style="color:#38B44A">Green</span>, for positive status: <code>#38B44A</code></li>
-<li>Icon: Canonical circle</li>
+<ul class="p-list">
+<li class="p-list__item"><span style="color:#DF382C">Red</span>, for status that require immediate attention: <code>#DF382C</code></li>
+<li class="p-list__item"><span style="color:#AEA79F">Grey</span>, for disabled status or ones that don&#8217;t require attention: <code>#AEA79F</code></li>
+<li class="p-list__item"><span style="color:#EFB73E">Yellow</span>, for status that require attention: <code>#EFB73E</code></li>
+<li class="p-list__item"><span style="color:#19B6EE">Blue</span>, for status that don&#8217;t require action: <code>#19B6EE</code></li>
+<li class="p-list__item"><span style="color:#38B44A">Green</span>, for positive status: <code>#38B44A</code></li>
+<li class="p-list__item">Icon: Canonical circle</li>
 </ul>
 <div id="attachment_304" style="width: 396px" class="wp-caption alignnone"><img src="{{ site.assets_path }}bff3da53-web-colour-others-colour_coded_status.png" alt="Ubuntu web colour - Colour coded status on Landscape" title="Ubuntu web colour - Colour coded status on Landscape" width="386" height="153" class="size-full" srcset="{{ site.assets_path }}bff3da53-web-colour-others-colour_coded_status.png 386w, {{ site.assets_path }}3ff9bcb0-web-colour-others-colour_coded_status-300x118.png 300w" sizes="(max-width: 386px) 100vw, 386px" /><p class="wp-caption-text">Figure 1: Colour coded status on Landscape</p></div>
 <h3>Notifications</h3>
-<ul>
-<li><span style="color:#DF382C">Error</span>: <code>#DF382C</code> (red)</li>
-<li><span style="color:#EFB73E">Warning</span>: <code>#ECA918</code> (yellow)</li>
-<li><span style="color:#38B44A">Success</span>: <code>#38B44A</code> (green)</li>
-<li><span style="color:#19B6EE">Information</span>: <code>#19B6EE</code> (cyan)</li>
+<ul class="p-list">
+<li class="p-list__item"><span style="color:#DF382C">Error</span>: <code>#DF382C</code> (red)</li>
+<li class="p-list__item"><span style="color:#EFB73E">Warning</span>: <code>#ECA918</code> (yellow)</li>
+<li class="p-list__item"><span style="color:#38B44A">Success</span>: <code>#38B44A</code> (green)</li>
+<li class="p-list__item"><span style="color:#19B6EE">Information</span>: <code>#19B6EE</code> (cyan)</li>
 </ul>
 <div id="attachment_308" style="width: 550px" class="wp-caption alignnone"><img src="{{ site.assets_path }}660d4332-web-components-notification-messages.gif" alt="Ubuntu web colour - Colour coded notification message on Landscape" title="Ubuntu web colour - Colour coded notification message on Landscape" width="540" height="63" class="size-full" srcset="{{ site.assets_path }}660d4332-web-components-notification-messages.gif 540w, {{ site.assets_path }}f69cec3d-web-components-notification-messages-300x35.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /><p class="wp-caption-text">Figure 2: Notification message on Landscape</p></div>
 <div class="wp-link-top clearfix"><a href="colour#">top</a></div>
@@ -82,17 +82,17 @@ body-class: "guidelines"
 <div class="wp-link-top clearfix"><a href="colour#">top</a></div>
                </div>
 
-     <!--<div class="three-col">
+     <!--<div class="col-3">
           <div id="section-menu"></div>
 
                     <h3>Examples of use</h3>
 <ul class="loop-results-panel panel-examples clearfix">
-     <li>
+     <li class="p-list__item">
           <a class="pretty-photo" href="{{ site.assets_path }}152a19e1-ubuntu-web-ubuntu-for-you.png">
                <img src="{{ site.assets_path }}b67fb5f7-ubuntu-web-ubuntu-for-you-140x140.png" width="66" height="66" title="Ubuntu for you page on Ubuntu.com" alt="Ubuntu for you page on Ubuntu.com" />
           </a>
      </li>
-     <li>
+     <li class="p-list__item">
           <a class="pretty-photo" href="{{ site.assets_path }}2571b5ee-landscape-homepage2.png">
                <img src="{{ site.assets_path }}f23d1298-landscape-homepage2-140x140.png" width="66" height="66" title="Landscape website homepage" alt="Landscape website homepage" />
           </a>
@@ -102,12 +102,12 @@ body-class: "guidelines"
                <img src="{{ site.assets_path }}4da8641d-ubuntu-web-form-contact-canonical-140x140.png" width="66" height="66" title="Contact Canonical form on Ubuntu.com" alt="Contact Canonical form on Ubuntu.com" />
           </a>
      </li>
-     <li>
+     <li class="p-list__item">
           <a class="pretty-photo" href="{{ site.assets_path }}cdbac36f-ubuntu-web-homepage.png">
                <img src="{{ site.assets_path }}9ea48b2b-ubuntu-web-homepage-140x140.png" width="66" height="66" title="Ubuntu.com homepage" alt="Ubuntu.com homepage" />
           </a>
      </li>
-     <li>
+     <li class="p-list__item">
           <a class="pretty-photo" href="{{ site.assets_path }}93514a11-ubuntu-one-homepage.png">
                <img src="{{ site.assets_path }}ed7d2d69-ubuntu-one-homepage-140x140.png" width="66" height="66" title="Ubuntu One homepage" alt="Ubuntu One homepage" />
           </a>
@@ -117,12 +117,12 @@ body-class: "guidelines"
                <img src="{{ site.assets_path }}b1dc7567-landscape-dashboard-logged-in-140x140.png" width="66" height="66" title="Landscape dashboard" alt="Landscape dashboard" />
           </a>
      </li>
-     <li>
+     <li class="p-list__item">
           <a class="pretty-photo" href="{{ site.assets_path }}ce7c79b5-font-ubuntu-com-homepage.png">
                <img src="{{ site.assets_path }}c8c93892-font-ubuntu-com-homepage-140x140.png" width="66" height="66" title="Ubuntu Font Family website" alt="Ubuntu Font Family website" />
           </a>
      </li>
-     <li>
+     <li class="p-list__item">
           <a class="pretty-photo" href="{{ site.assets_path }}296936bc-omgubuntu-homepage.png">
                <img src="{{ site.assets_path }}5efc7079-omgubuntu-homepage-140x140.png" width="66" height="66" title="OMG! Ubuntu! homepage" alt="OMG! Ubuntu! homepage" />
           </a>

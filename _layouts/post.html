@@ -18,20 +18,20 @@
   <div class="p-strip">
     <div class="row">
       {% if page.body-id=="brand-assets" %}
-      <div class="col-3 suffix-1">
+      <div class="col-2">
         {% include side-nav-brand.html %}
       </div>
       {% elsif page.body-id=="apps" %}
-      <div class="col-3 suffix-1">
+      <div class="col-2">
         {% include side-nav-apps.html %}
       </div>
       {% elsif page.body-id=="downloads" %}
-      <div class="col-3 suffix-1">
+      <div class="col-2">
         {% include side-nav-downloads.html %}
       </div>
       {% endif %}
 
-      <div class="{% if page.body-id=="downloads" %}col-9{% elsif page.body-id=="examples" %}col-12{% else %}col-8{% endif %}">
+      <div class="{% if page.body-id=="downloads" %}col-10{% elsif page.body-id=="examples" %}col-12{% elsif page.body-id=="brand-assets" %}col-10{% else %}col-10{% endif %}">
         {{ content }}
       </div><!-- /.8-col -->
     </div><!-- /.p-strip -->

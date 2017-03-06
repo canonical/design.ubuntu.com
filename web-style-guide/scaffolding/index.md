@@ -26,26 +26,26 @@ body-class: "web-style-guide"
 # Scaffolding
 
 <div class="four-col">
-<ul>
-<li><a href="#link">Grid</a></li>
-<li><a href="#responsive-grid">Responsive grid</a></li>
-<li><a href="#rows">Rows</a></li>
-<li><a href="#columns">Columns</a></li>
+<ul class="p-list">
+<li class="p-list__item"><a href="#link">Grid</a></li>
+<li class="p-list__item"><a href="#responsive-grid">Responsive grid</a></li>
+<li class="p-list__item"><a href="#rows">Rows</a></li>
+<li class="p-list__item"><a href="#columns">Columns</a></li>
 </ul>
 </div>
 <div class="four-col">
-<ul>
-<li><a href="#column-dividers">Column dividers</a></li>
-<li><a href="#empty-columns">Empty columns</a></li>
-<li><a href="#offset-columns">Offset columns</a></li>
-<li><a href="#navigation">Navigation</a></li>
+<ul class="p-list">
+<li class="p-list__item"><a href="#column-dividers">Column dividers</a></li>
+<li class="p-list__item"><a href="#empty-columns">Empty columns</a></li>
+<li class="p-list__item"><a href="#offset-columns">Offset columns</a></li>
+<li class="p-list__item"><a href="#navigation">Navigation</a></li>
 </ul>
 </div>
 <div class="four-col last-col">
-<ul>
-<li><a href="#footer">Footer</a></li>
-<li><a href="#colours">Colours</a></li>
-<li><a href="#utility-classes">Utility classes</a></li>
+<ul class="p-list">
+<li class="p-list__item"><a href="#footer">Footer</a></li>
+<li class="p-list__item"><a href="#colours">Colours</a></li>
+<li class="p-list__item"><a href="#utility-classes">Utility classes</a></li>
 </ul>
 </div>
 </div>
@@ -59,13 +59,13 @@ body-class: "web-style-guide"
     width: 984px;
     }</pre>
     <p>will result in:</p>
-    <ul>
-    <li>total content width: 904px</li>
-    <li>col unit width: 58px</li>
-    <li>gutter width: 19px</li>
+    <ul class="p-list">
+    <li class="p-list__item">total content width: 904px</li>
+    <li class="p-list__item">col unit width: 58px</li>
+    <li class="p-list__item">gutter width: 19px</li>
     </ul>
     </div>
-    <div class="seven-col last-col">
+    <div class="col-7 last-col">
     <img class="right" src="https://assets.ubuntu.com/v1/9eef2b45-grid.png">
     </div>
     </div>
@@ -76,10 +76,10 @@ body-class: "web-style-guide"
     <h2 id="responsive-grid">Responsive grid</h2>
     <p>When content is added within <a href="#rows">rows</a> and <a href="#columns">column units</a>, the grid becomes fluid and responsive, adapting to various screens sizes, with a default maximum width of 984 pixels.</p>
     <p>The framework currently uses three breakpoints:</p>
-    <ul>
-    <li>Small screen styles: 767px and below</li>
-    <li>Medium screen styles: 768px and up</li>
-    <li>Large screen styles: 984px and up</li>
+    <ul class="p-list">
+    <li class="p-list__item">Small screen styles: 767px and below</li>
+    <li class="p-list__item">Medium screen styles: 768px and up</li>
+    <li class="p-list__item">Large screen styles: 984px and up</li>
     </ul>
     <p>As an example, at medium screen sizes a row with four blocks will be become two rows of two blocks, and at small screen sizes the blocks become stacked.</p>
     </div>
@@ -243,9 +243,9 @@ body-class: "web-style-guide"
     <pre>&lt;div class="nine-col"&gt;
     &lt;/div&gt;</pre>
     </div>
-    <div class="three-col last-col">
+    <div class="col-3 last-col">
     <p class="smaller note"><strong>Code:</strong></p>
-    <pre>&lt;div class="three-col last-col"&gt;
+    <pre>&lt;div class="col-3 last-col"&gt;
     &lt;/div&gt;</pre>
     </div>
 
@@ -271,36 +271,36 @@ body-class: "web-style-guide"
     <pre>&lt;div class="six-col"&gt;
     &lt;/div&gt;</pre>
     </div>
-    <div class="three-col">
+    <div class="col-3">
     <p class="smaller note"><strong>Code:</strong></p>
-    <pre>&lt;div class="three-col"&gt;
+    <pre>&lt;div class="col-3"&gt;
     &lt;/div&gt;</pre>
     </div>
-    <div class="three-col last-col">
+    <div class="col-3 last-col">
     <p class="smaller note"><strong>Code:</strong></p>
-    <pre>&lt;div class="three-col last-col"&gt;
+    <pre>&lt;div class="col-3 last-col"&gt;
     &lt;/div&gt;</pre>
     </div>
 
     <h3>4-column layout</h3>
-    <div class="three-col">
+    <div class="col-3">
     <p class="smaller note"><strong>Code:</strong></p>
-    <pre>&lt;div class="three-col"&gt;
+    <pre>&lt;div class="col-3"&gt;
     &lt;/div&gt;</pre>
     </div>
-    <div class="three-col">
+    <div class="col-3">
     <p class="smaller note"><strong>Code:</strong></p>
-    <pre>&lt;div class="three-col"&gt;
+    <pre>&lt;div class="col-3"&gt;
     &lt;/div&gt;</pre>
     </div>
-    <div class="three-col">
+    <div class="col-3">
     <p class="smaller note"><strong>Code:</strong></p>
-    <pre>&lt;div class="three-col"&gt;
+    <pre>&lt;div class="col-3"&gt;
     &lt;/div&gt;</pre>
     </div>
-    <div class="three-col last-col">
+    <div class="col-3 last-col">
     <p class="smaller note"><strong>Code:</strong></p>
-    <pre>&lt;div class="three-col last-col"&gt;
+    <pre>&lt;div class="col-3 last-col"&gt;
     &lt;/div&gt;</pre>
     </div>
     </div>
@@ -401,14 +401,14 @@ body-class: "web-style-guide"
     <p>The default navigation used on ubuntu.com is composed of the following elements:</p>
     <div class="eight-col">
     <ol>
-    <li>Ubuntu brand</li>
-    <li>Main top level sections</li>
-    <li>Current section</li>
-    <li>Search input</li>               
-    <li>Breadcrumbs</li>
-    <li>Current top level section (large screens)</li>
-    <li>Current page</li>
-    <li>Third level sections</li>
+    <li class="p-list__item">Ubuntu brand</li>
+    <li class="p-list__item">Main top level sections</li>
+    <li class="p-list__item">Current section</li>
+    <li class="p-list__item">Search input</li>               
+    <li class="p-list__item">Breadcrumbs</li>
+    <li class="p-list__item">Current top level section (large screens)</li>
+    <li class="p-list__item">Current page</li>
+    <li class="p-list__item">Third level sections</li>
     </ol>
     </div>
     <div class="four-col last-col image-labels-small">
@@ -493,10 +493,10 @@ body-class: "web-style-guide"
     <div class="eight-col">
     <p>The default footer is composed of the following elements:</p>
     <ol>
-    <li>Footer level A</li>
-    <li>Footer level B</li>
-    <li>Legal section</li>
-    <li>Ubuntu branding</li>
+    <li class="p-list__item">Footer level A</li>
+    <li class="p-list__item">Footer level B</li>
+    <li class="p-list__item">Legal section</li>
+    <li class="p-list__item">Ubuntu branding</li>
     </ol>
     </div>
     <div class="four-col last-col image-labels-small">
@@ -638,9 +638,9 @@ body-class: "web-style-guide"
     <div class="twelve-col">
     <div class="eight-col">
     <h3>Core web colours</h3>
-    <ul>
-    <li>Ubuntu orange <code style="background:#E95420;color:white">#E95420</code>: links, row backgrounds, buttons</li>
-    <li>Cool grey <code style="background:#333;color:white">#333333</code>: default text colour</li>
+    <ul class="p-list">
+    <li class="p-list__item">Ubuntu orange <code style="background:#E95420;color:white">#E95420</code>: links, row backgrounds, buttons</li>
+    <li class="p-list__item">Cool grey <code style="background:#333;color:white">#333333</code>: default text colour</li>
     </ul>
     </div>
     <div class="four-col last-col">
@@ -653,11 +653,11 @@ body-class: "web-style-guide"
     <div class="twelve-col">
     <div class="eight-col">
     <h3>Secondary web colours</h3>
-    <ul>
-    <li>Dark aubergine <code style="background:#2C001E;color:white">#2C001E</code>: row backgrounds</li>
-    <li>Warm grey <code style="background:#888888;color:white">#888888</code>: secondary text on white, like notes and help text; horizontal and vertical dotted divider lines</li>
-    <li>Light grey <code style="background:#efefef;">#F7F7F7</code>: row backgrounds</li>
-    <li>White (transparent) <code>rgba(255, 255, 255, 0.6)</code>: row backgrounds</li>
+    <ul class="p-list">
+    <li class="p-list__item">Dark aubergine <code style="background:#2C001E;color:white">#2C001E</code>: row backgrounds</li>
+    <li class="p-list__item">Warm grey <code style="background:#888888;color:white">#888888</code>: secondary text on white, like notes and help text; horizontal and vertical dotted divider lines</li>
+    <li class="p-list__item">Light grey <code style="background:#efefef;">#F7F7F7</code>: row backgrounds</li>
+    <li class="p-list__item">White (transparent) <code>rgba(255, 255, 255, 0.6)</code>: row backgrounds</li>
     </ul>
     </div>
     <div class="four-col last-col">
@@ -749,10 +749,10 @@ body-class: "web-style-guide"
 
     <h3>Responsive images</h3>
     <p>There are three classes that can be used to hide/show images and other elements according to the size of the viewport:</p>
-    <ul>
-    <li><code>.for-small</code>: only shows in the smallest media query viewport</li>
-    <li><code>.for-medium</code>: only shows in the small and medium media query viewports</li>
-    <li><code>.not-for-small</code>: does not show in the smallest media query viewport</li>
+    <ul class="p-list">
+    <li class="p-list__item"><code>.for-small</code>: only shows in the smallest media query viewport</li>
+    <li class="p-list__item"><code>.for-medium</code>: only shows in the small and medium media query viewports</li>
+    <li class="p-list__item"><code>.not-for-small</code>: does not show in the smallest media query viewport</li>
     </ul>          
     </div>
 

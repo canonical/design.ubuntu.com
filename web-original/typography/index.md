@@ -10,13 +10,13 @@ body-class: "guidelines"
           <div id="accordion">
                <h3><a href="typography#">Web</a></h3>
                <div>
-                    <ul class="list">
-                         <li><a href="/web/ubuntu-and-canonical-web-universe">Ubuntu web universe</a></li>
+                    <ul class="p-list">
+                         <li class="p-list__item"><a href="/web/ubuntu-and-canonical-web-universe">Ubuntu web universe</a></li>
 <li class="current_page_item"><a href="typography">Typography</a></li>
-<li><a href="/web/colour">Colour</a></li>
-<li><a href="/web/links">Links</a></li>
-<li><a href="/web/forms">Forms</a></li>
-<li><a href="/web/rounded-corners-and-drop-shadows">Rounded corners and drop-shadows</a></li>
+<li class="p-list__item"><a href="/web/colour">Colour</a></li>
+<li class="p-list__item"><a href="/web/links">Links</a></li>
+<li class="p-list__item"><a href="/web/forms">Forms</a></li>
+<li class="p-list__item"><a href="/web/rounded-corners-and-drop-shadows">Rounded corners and drop-shadows</a></li>
                     </ul>
                </div>
           </div>

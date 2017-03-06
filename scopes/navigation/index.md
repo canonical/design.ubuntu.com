@@ -39,9 +39,9 @@ body-class: scopes
       <img src="{{ site.assets_path }}4008e9d9-Scope-header-nav-2-1024x179.png" alt="Scope header nav 2" width="1024" height="179">
 
       <ol>
-        <li><strong>Back – </strong> present if the scope is opened via tap from an installed scope list as opposed to swiped to in the Dash.</li>
-        <li><strong>Search – </strong> allows the user to input a search term.</li>
-        <li><strong>Settings – </strong> will take the user to the settings page of the scope where they can enable their location and online accounts to feed the scope.</li>
+        <li class="p-list__item"><strong>Back – </strong> present if the scope is opened via tap from an installed scope list as opposed to swiped to in the Dash.</li>
+        <li class="p-list__item"><strong>Search – </strong> allows the user to input a search term.</li>
+        <li class="p-list__item"><strong>Settings – </strong> will take the user to the settings page of the scope where they can enable their location and online accounts to feed the scope.</li>
       </ol>
     </div>
   </div>
@@ -91,11 +91,11 @@ body-class: scopes
       <p>If the scope is invoked by an aggregator scope, then it will have a back button.</p>
     </div>
 
-    <div class="col-8 p-card">
+    <div class="col-6 p-card u-vertically-center u-equal-height">
       <div class="col-1">
         <img src="{{ site.assets_path }}7024ba0f-information-link.png" alt="information-link" width="32" height="32">
       </div>
-      <div class="col-7">
+      <div class="col-5">
         <p class="p-card__content">You cannot swipe to navigate through a scope link. You must use a chevron to indicate to the user that it leads somewhere. As swiping may take the user to the next/previous scope.</p>
         <p class="p-card__content--footer">Scope links can only be added by the scope author.</p>
       </div>
@@ -123,21 +123,21 @@ body-class: scopes
     <div class="col-8">
       <h3>Layout:</h3>
       <ol>
-        <li><strong>Department area (below the header)</strong> – section of the scope layout dedicated to departments.</li>
-        <li><strong>Content area</strong> – section of the scope layout dedicated to categories.</li>
+        <li class="p-list__item"><strong>Department area (below the header)</strong> – section of the scope layout dedicated to departments.</li>
+        <li class="p-list__item"><strong>Content area</strong> – section of the scope layout dedicated to categories.</li>
       </ol>
 
       <h3>Things you can change:</h3>
-      <ul>
-        <li>Naming the top-level department e.g. &#8216;Shop by department&#8217; or &#8216;Genres&#8217;</li>
+      <ul class="p-list">
+        <li class="p-list__item">Naming the top-level department e.g. &#8216;Shop by department&#8217; or &#8216;Genres&#8217;</li>
       </ul>
     </div>
 
-    <div class="col-8 p-card">
+    <div class="col-6 p-card u-vertically-center u-equal-height">
       <div class="col-1 ">
         <img src="{{ site.assets_path }}7024ba0f-information-link.png" alt="information-link" width="32" height="32">
       </div>
-      <div class="col-7">
+      <div class="col-5">
         <p class="p-card__content">The scope author chooses what content goes in the navigation paths. Categorize your content to give the user easy access to specific results.</p>
       </div>
     </div>
@@ -176,35 +176,35 @@ body-class: scopes
 <div class="row">
   <div class="col-8">
     <h3>Single hierarchy</h3>
-    <ul>
-      <li>A chevron is used to indicate to the user that there are options available.</li>
-      <li>A checkmark is used to show the user what they have selected.</li>
+    <ul class="p-list">
+      <li class="p-list__item">A chevron is used to indicate to the user that there are options available.</li>
+      <li class="p-list__item">A checkmark is used to show the user what they have selected.</li>
     </ul>
 
     <h3>Behavior of departments:</h3>
-    <ul>
-      <li>They collapse or expand by default.</li>
-      <li>The widget shows departments returned by the scope per query (including “null” query).</li>
-      <li>When the top-level department is open a maximum of 5 departments can be shown with a &#8216;show more&#8217; button included.</li>
+    <ul class="p-list">
+      <li class="p-list__item">They collapse or expand by default.</li>
+      <li class="p-list__item">The widget shows departments returned by the scope per query (including “null” query).</li>
+      <li class="p-list__item">When the top-level department is open a maximum of 5 departments can be shown with a &#8216;show more&#8217; button included.</li>
     </ul>
   </div>
 </div>
 
 <div class="row">
   <div class="col-12 u-equal-height">
-    <div class="col-6 p-card">
+    <div class="col-6 p-card u-vertically-center u-equal-height">
       <div class="col-1">
         <img src="{{ site.assets_path }}7024ba0f-information-link.png" alt="information-link" width="32" height="32">
       </div>
-      <div class="col-7">
+      <div class="col-5">
         <p class="p-card__content">We use it in some of core scopes such as Music and Shopping, where users can browse by genre or departments.</p>
       </div>
     </div>
-    <div class="col-6 p-card">
+    <div class="col-6 p-card u-vertically-center u-equal-height">
       <div class="col-1">
         <img src="{{ site.assets_path }}0d9d7281-developer_links..png" alt="developer_links." width="32" height="32">
       </div>
-      <div class="col-7">
+      <div class="col-5">
         <p class="p-card__content">Learn how to create departments and use them in queries in our <a href="https://developer.ubuntu.com/en/scopes/tutorials/adding-departments-to-your-scope/">SDK</a>.</p>
       </div>
     </div>
@@ -271,19 +271,13 @@ body-class: scopes
   </div>
 
   <div class="row">
-    <div class="col-8 p-card">
+    <div class="col-6 p-card u-vertically-center u-equal-height">
       <div class="col-1">
         <img src="{{ site.assets_path }}7024ba0f-information-link.png" alt="information-link" width="32" height="32">
       </div>
-      <div class="col-7">
+      <div class="col-5">
         <p class="p-card__content">Where there are multiple choices in each department branch a chevron is used to indicate to the user that there are options available.</p>
       </div>
-    </div>
-  </div>
-  
-  <div class="row">
-    <div class="col-12 link-top">
-      <a href="#">Back to top</a>
     </div>
   </div>
 </div>

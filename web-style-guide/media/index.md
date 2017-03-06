@@ -7,7 +7,7 @@ body-class: "web-style-guide"
 
 
 <div class="row">
-<div class="seven-col">
+<div class="col-7">
 <h1>Media</h1>
 <p>As much as possible, pictograms and other visual media, such as videos, illustrations and photography, should be sized so that they align with and fit within the grid columns.</p>
 </div>

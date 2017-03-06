@@ -5,7 +5,7 @@ title: Lists
 # Lists
 
 If you want to display lists in a way that is more visually distinctive than the
- standard ```<ol>``` and ```<ul>```, Vanilla has 7 list styles at your disposal. 
+ standard ```<ol>``` and ```<ul class="p-list">```, Vanilla has 7 list styles at your disposal. 
 
 ## Simple list
 

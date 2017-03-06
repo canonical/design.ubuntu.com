@@ -11,13 +11,13 @@ body-class: "guidelines"
           <div id="accordion">
                <h3><a href="links#">Web</a></h3>
                <div>
-                    <ul class="list">
-                         <li><a href="ubuntu-and-canonical-web-universe">Ubuntu web universe</a></li>
-<li><a href="http://design.ubuntu.com/web/typography">Typography</a></li>
-<li><a href="colour">Colour</a></li>
+                    <ul class="p-list">
+                         <li class="p-list__item"><a href="ubuntu-and-canonical-web-universe">Ubuntu web universe</a></li>
+<li class="p-list__item"><a href="http://design.ubuntu.com/web/typography">Typography</a></li>
+<li class="p-list__item"><a href="colour">Colour</a></li>
 <li class="current_page_item"><a href="links">Links</a></li>
-<li><a href="forms">Forms</a></li>
-<li><a href="rounded-corners-and-drop-shadows">Rounded corners and drop-shadows</a></li>
+<li class="p-list__item"><a href="forms">Forms</a></li>
+<li class="p-list__item"><a href="rounded-corners-and-drop-shadows">Rounded corners and drop-shadows</a></li>
                     </ul>
                </div>
           </div>
@@ -41,7 +41,7 @@ The link is indicated by a right side angle quote (<code>&amp;rsaquo;</code>), a
 <div class="wp-link-top clearfix"><a href="links#">top</a></div>
                </div>
 
-     <!--<div class="three-col">
+     <!--<div class="col-3">
           <div id="section-menu"></div>
 
           <h3>Quick downloads</h3>
@@ -85,12 +85,12 @@ The link is indicated by a right side angle quote (<code>&amp;rsaquo;</code>), a
 </ul>
           <h3>Examples of use</h3>
 <ul class="loop-results-panel panel-examples clearfix">
-     <li>
+     <li class="p-list__item">
           <a class="pretty-photo" href="{{ site.assets_path }}152a19e1-ubuntu-web-ubuntu-for-you.png">
                <img src="{{ site.assets_path }}b67fb5f7-ubuntu-web-ubuntu-for-you-140x140.png" width="66" height="66" title="Ubuntu for you page on Ubuntu.com" alt="Ubuntu for you page on Ubuntu.com" />
           </a>
      </li>
-     <li>
+     <li class="p-list__item">
           <a class="pretty-photo" href="{{ site.assets_path }}2571b5ee-landscape-homepage2.png">
                <img src="{{ site.assets_path }}f23d1298-landscape-homepage2-140x140.png" width="66" height="66" title="Landscape website homepage" alt="Landscape website homepage" />
           </a>
@@ -100,12 +100,12 @@ The link is indicated by a right side angle quote (<code>&amp;rsaquo;</code>), a
                <img src="{{ site.assets_path }}4da8641d-ubuntu-web-form-contact-canonical-140x140.png" width="66" height="66" title="Contact Canonical form on Ubuntu.com" alt="Contact Canonical form on Ubuntu.com" />
           </a>
      </li>
-     <li>
+     <li class="p-list__item">
           <a class="pretty-photo" href="{{ site.assets_path }}cdbac36f-ubuntu-web-homepage.png">
                <img src="{{ site.assets_path }}9ea48b2b-ubuntu-web-homepage-140x140.png" width="66" height="66" title="Ubuntu.com homepage" alt="Ubuntu.com homepage" />
           </a>
      </li>
-     <li>
+     <li class="p-list__item">
           <a class="pretty-photo" href="{{ site.assets_path }}93514a11-ubuntu-one-homepage.png">
                <img src="{{ site.assets_path }}ed7d2d69-ubuntu-one-homepage-140x140.png" width="66" height="66" title="Ubuntu One homepage" alt="Ubuntu One homepage" />
           </a>
@@ -115,12 +115,12 @@ The link is indicated by a right side angle quote (<code>&amp;rsaquo;</code>), a
                <img src="{{ site.assets_path }}b1dc7567-landscape-dashboard-logged-in-140x140.png" width="66" height="66" title="Landscape dashboard" alt="Landscape dashboard" />
           </a>
      </li>
-     <li>
+     <li class="p-list__item">
           <a class="pretty-photo" href="{{ site.assets_path }}ce7c79b5-font-ubuntu-com-homepage.png">
                <img src="{{ site.assets_path }}c8c93892-font-ubuntu-com-homepage-140x140.png" width="66" height="66" title="Ubuntu Font Family website" alt="Ubuntu Font Family website" />
           </a>
      </li>
-     <li>
+     <li class="p-list__item">
           <a class="pretty-photo" href="{{ site.assets_path }}296936bc-omgubuntu-homepage.png">
                <img src="{{ site.assets_path }}5efc7079-omgubuntu-homepage-140x140.png" width="66" height="66" title="OMG! Ubuntu! homepage" alt="OMG! Ubuntu! homepage" />
           </a>

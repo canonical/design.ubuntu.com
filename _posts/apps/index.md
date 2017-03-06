@@ -13,36 +13,36 @@ body-class: "guidelines"
 <div id="accordion">
 <h3><a href="apps#">Get started</a></h3>
 <div>
-<ul>
-<li><a href="/apps/get-started/overview">Overview</a></li>
-<li><a href="/apps/get-started/convergence">Convergence</a></li>
-<li><a href="/apps/get-started/design-philosophy">Design philosophy</a></li>
-<li><a href="/apps/get-started/design-values">Design values</a></li>
-<li><a href="/apps/get-started/why-design-for-ubuntu">Why design for Ubuntu?</a></li>
-<li><a href="/apps/get-started/design-scopes">Design scopes</a></li>
-<li><a href="/apps/get-started/make-it-ubuntu">Make it Ubuntu</a></li>
+<ul class="p-list">
+<li class="p-list__item"><a href="/apps/get-started/overview">Overview</a></li>
+<li class="p-list__item"><a href="/apps/get-started/convergence">Convergence</a></li>
+<li class="p-list__item"><a href="/apps/get-started/design-philosophy">Design philosophy</a></li>
+<li class="p-list__item"><a href="/apps/get-started/design-values">Design values</a></li>
+<li class="p-list__item"><a href="/apps/get-started/why-design-for-ubuntu">Why design for Ubuntu?</a></li>
+<li class="p-list__item"><a href="/apps/get-started/design-scopes">Design scopes</a></li>
+<li class="p-list__item"><a href="/apps/get-started/make-it-ubuntu">Make it Ubuntu</a></li>
 </ul>
 </div>
 <h3><a href="apps#">Patterns</a></h3>
 <div>
-<ul>
-<li><a href="/apps/patterns/overview">Overview</a></li>
-<li><a href="/apps/patterns/layouts">Layouts</a></li>
-<li><a href="/apps/patterns/gestures">Gestures</a></li>
-<li><a href="/apps/patterns/navigation">Navigation</a></li>
+<ul class="p-list">
+<li class="p-list__item"><a href="/apps/patterns/overview">Overview</a></li>
+<li class="p-list__item"><a href="/apps/patterns/layouts">Layouts</a></li>
+<li class="p-list__item"><a href="/apps/patterns/gestures">Gestures</a></li>
+<li class="p-list__item"><a href="/apps/patterns/navigation">Navigation</a></li>
 </ul>
 </div>
 <h3><a href="apps#">Building blocks</a></h3>
 <div>
-<ul>
-<li><a href="/apps/building-blocks/overview">Overview</a></li>
-<li><a href="/apps/building-blocks/header">Header</a></li>
-<li><a href="/apps/building-blocks/bottom-edge">Bottom edge</a></li>
-<li><a href="/apps/building-blocks/list-items">List items</a></li>
-<li><a href="/apps/building-blocks/context-menus">Context menus</a></li>
-<li><a href="/apps/building-blocks/selection-controls">Selection controls</a></li>
-<li><a href="/apps/building-blocks/scrolling">Scrolling</a></li>
-<li><a href="/apps/building-blocks/activity-indicators">Activity indicators</a></li>
+<ul class="p-list">
+<li class="p-list__item"><a href="/apps/building-blocks/overview">Overview</a></li>
+<li class="p-list__item"><a href="/apps/building-blocks/header">Header</a></li>
+<li class="p-list__item"><a href="/apps/building-blocks/bottom-edge">Bottom edge</a></li>
+<li class="p-list__item"><a href="/apps/building-blocks/list-items">List items</a></li>
+<li class="p-list__item"><a href="/apps/building-blocks/context-menus">Context menus</a></li>
+<li class="p-list__item"><a href="/apps/building-blocks/selection-controls">Selection controls</a></li>
+<li class="p-list__item"><a href="/apps/building-blocks/scrolling">Scrolling</a></li>
+<li class="p-list__item"><a href="/apps/building-blocks/activity-indicators">Activity indicators</a></li>
 </ul>
 </div>
 </div>
@@ -60,7 +60,7 @@ body-class: "guidelines"
 <p><a title="Design vision" href="/apps/get-started/design-values">Design values&nbsp;&rsaquo;</a></p>
 </div>
 <div class="col-5">
-<img class="alignnone size-full" src="{{ site.assets_path }}6778c396-366w_GetStarted_Style-2.png" alt="366w_GetStarted_Style (2)" width="340" height="208" /></p>
+<img src="{{ site.assets_path }}6778c396-366w_GetStarted_Style-2.png" alt="366w_GetStarted_Style (2)" width="340" height="208" /></p>
 <h3>Style (coming soon)</h3>
 <p>Make your app look beautiful by using the uniquely designed Ubuntu fonts and colors.</p>
 </div>
@@ -98,11 +98,11 @@ body-class: "guidelines"
 <div class="col-10">
 <h3>Release phases</h3>
 <p>The new App Guide will be released in phases over the coming days and weeks.</p>
-<ul>
-<li>Phase 1 &#8211; Get started and Building blocks</li>
-<li>Phase 2 &#8211; Patterns</li>
-<li>Phase 3 &#8211; System integration</li>
-<li>Phase 4 &#8211; Resources and Style</li>
+<ul class="p-list">
+<li class="p-list__item">Phase 1 &#8211; Get started and Building blocks</li>
+<li class="p-list__item">Phase 2 &#8211; Patterns</li>
+<li class="p-list__item">Phase 3 &#8211; System integration</li>
+<li class="p-list__item">Phase 4 &#8211; Resources and Style</li>
 </ul>
 <div class="col-10 box-grey vertical-align vertical-align--image-left">
 <p><img class="vertical-align__image" src="{{ site.assets_path }}e9f11635-information-link.png" alt="" width="32" height="32" /></p>
@@ -119,7 +119,7 @@ Follow us on <a class="external" title="Ubuntu Developers Google Plus" href="htt
 </section>
 </div>
 
-<!--<div class="three-col">
+<!--<div class="col-3">
 <div id="section-menu"></div>
 </div>-->
 </div>
