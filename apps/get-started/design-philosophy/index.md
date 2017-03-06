@@ -45,7 +45,7 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
@@ -60,22 +60,27 @@ body-class: guidelines
 
 <div class="row">
   <div class="col-10">
-    <div class="col-5">
-      <h3>Origami</h3>
+    <div class="row">
+      <div class="col-5">
+        <h3>Origami</h3>
 
-      <img src="{{ site.assets_path }}84d9a3f0-366w_DesignPhilosophy_origami.png" alt="366w_DesignPhilosophy_origami" width="366" height="302">
+        <img src="{{ site.assets_path }}84d9a3f0-366w_DesignPhilosophy_origami.png" alt="366w_DesignPhilosophy_origami" width="366" height="302">
 
-      <p>Origami has long been associated with good fortune and represents the visual style for the Ubuntu Phone. Origami folds are used to define the design.</p>
-    </div>
-    <div class="col-5">
-      <h3>Simple details</h3>
+        <p>Origami has long been associated with good fortune and represents the visual style for the Ubuntu Phone. Origami folds are used to define the design.</p>
+      </div>
+      <div class="col-5">
+        <h3>Simple details</h3>
 
-      <img src="{{ site.assets_path }}6b3e4bcc-366w_DesignPhilosophy_simple.png" alt="366w_DesignPhilosophy_simple" width="366" height="302">
+        <img src="{{ site.assets_path }}6b3e4bcc-366w_DesignPhilosophy_simple.png" alt="366w_DesignPhilosophy_simple" width="366" height="302">
 
-      <p>What is most important is that screen layouts retain a natural, rhythmic quality, and a neatness and clarity that helps the user find things quickly and use them intuitively.</p>
+        <p>What is most important is that screen layouts retain a natural, rhythmic quality, and a neatness and clarity that helps the user find things quickly and use them intuitively.</p>
+      </div>
     </div>
   </div>
-  <div class="col-10">
+</div>
+
+<div class="row">
+  <div class="col-8">
     <h3>Using subtle grids for accuracy</h3>
     <p>The folds from origami produce simple graphical details that allow designers to create a subtle grid for positioning brand elements and components, such as logos, icons or copylines. This helps maintain focus on the main image or graphic element.</p>
 
@@ -84,14 +89,14 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
 
 
 <div class="row">
-  <div class="col-10">
+  <div class="col-8">
     <h2 id="#suru-mood-board">Suru mood board</h2>
 
     <h3>Influences and inspiration</h3>

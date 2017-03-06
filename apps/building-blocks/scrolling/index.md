@@ -28,12 +28,14 @@ body-class: guidelines
   <div class="col-10">
     <h2>ScrollView vs. Scrollbar APIs</h2>
     <p>The ScrollView API works by wrapping the Scrollbar API in a view and provides additional features such as:</p>
+
     <ul class="p-list">
       <li class="p-list__item is-ticked">keyboard navigation and focus handling for a complete convergent experience</li>
       <li class="p-list__item is-ticked">automatic positioning of vertical and horizontal scrollbars, which prevents them from overlapping one another when both are present on screen</li>
     </ul>
 
     <p>The Scrollbar API doesn&#8217;t handle keyboard input and has the following requirements:</p>
+
     <ul class="p-list">
       <li class="p-list__item is-ticked">the content position is driven through the attached Flickable item</li>
       <li class="p-list__item is-ticked">the alignment management has to adhere to the anchors for built-in alignment functionality</li>
@@ -47,23 +49,25 @@ body-class: guidelines
 
 <div class="row">
   <div class="col-10">
-    <div class="col-5">
-      <h4>Scrollbar</h4>
-      <span class="image-container"><img src="{{ site.assets_path }}6591cecc-366w_Scrollbar_HandlingOverlay_Good.png" alt="366w_Scrollbar_HandlingOverlay_Good" width="336" height="336"></span>
-      <img src="{{ site.assets_path }}74c13c17-do_32+%281%29.png" alt="do_32" width="32" height="32" style="float: left; margin-right: 1em;">
-      <h4 style="text-align: left; margin-top: 4px;"><span style="color: #3eb34f;">Do</span></h4>
-    </div>
-    <div class="col-5">
-      <h4>ScrollView</h4>
-      <span class="image-container"><img src="{{ site.assets_path }}3a6877c8-366w_Scrollbar_HandlingOverlay_Bad.png" alt="366w_Scrollbar_HandlingOverlay_Bad" width="336" height="336"></span>
-      <img src="{{ site.assets_path }}01fb853b-dont_32.png" alt="dont_32" width="32" height="32" style="float: left; margin-right: 1em;">
-      <h4 style="text-align: left; margin-top: 4px;"><span style="color: #ed3146;">Don&#8217;t</span></h4>
+    <div class="row">
+      <div class="col-5">
+        <h4>Scrollbar</h4>
+        <span class="image-container"><img src="{{ site.assets_path }}6591cecc-366w_Scrollbar_HandlingOverlay_Good.png" alt="366w_Scrollbar_HandlingOverlay_Good" width="336" height="336"></span>
+        <img src="{{ site.assets_path }}74c13c17-do_32+%281%29.png" alt="do_32" width="32" height="32" style="float: left; margin-right: 1em;">
+        <h4 style="text-align: left; margin-top: 4px;"><span style="color: #3eb34f;">Do</span></h4>
+      </div>
+      <div class="col-5">
+        <h4>ScrollView</h4>
+        <span class="image-container"><img src="{{ site.assets_path }}3a6877c8-366w_Scrollbar_HandlingOverlay_Bad.png" alt="366w_Scrollbar_HandlingOverlay_Bad" width="336" height="336"></span>
+        <img src="{{ site.assets_path }}01fb853b-dont_32.png" alt="dont_32" width="32" height="32" style="float: left; margin-right: 1em;">
+        <h4 style="text-align: left; margin-top: 4px;"><span style="color: #ed3146;">Don&#8217;t</span></h4>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
@@ -78,17 +82,19 @@ body-class: guidelines
 
 <div class="row">
   <div class="col-10">
-    <div class="col-5">
-      <h4>Borderless</h4>
-      <span class="image-container"><img src="{{ site.assets_path }}4fcd5fea-366w_Scrollbar_BorderlessContent_Good.png" alt="366w_Scrollbar_BorderlessContent_Good" width="335" height="335"></span>
-      <img src="{{ site.assets_path }}74c13c17-do_32+%281%29.png" alt="do_32" width="32" height="32" style="float: left; margin-right: 1em;">
-      <h4 style="text-align: left; margin-top: 4px;"><span style="color: #3eb34f;">Do</span></h4>
-    </div>
-    <div class="col-5">
-      <h4>With scrollbars</h4>
-      <span class="image-container"><img src="{{ site.assets_path }}d375f85c-366w_Scrollbar_BorderlessContent_Bad.png" alt="366w_Scrollbar_BorderlessContent_Bad" width="335" height="335"></span>
-      <img src="{{ site.assets_path }}01fb853b-dont_32.png" alt="dont_32" width="32" height="32" style="float: left; margin-right: 1em;">
-      <h4 style="text-align: left; margin-top: 4px;"><span style="color: #ed3146;">Don&#8217;t</span></h4>
+    <div class="row">
+      <div class="col-5">
+        <h4>Borderless</h4>
+        <span class="image-container"><img src="{{ site.assets_path }}4fcd5fea-366w_Scrollbar_BorderlessContent_Good.png" alt="366w_Scrollbar_BorderlessContent_Good" width="335" height="335"></span>
+        <img src="{{ site.assets_path }}74c13c17-do_32+%281%29.png" alt="do_32" width="32" height="32" style="float: left; margin-right: 1em;">
+        <h4 style="text-align: left; margin-top: 4px;"><span style="color: #3eb34f;">Do</span></h4>
+      </div>
+      <div class="col-5">
+        <h4>With scrollbars</h4>
+        <span class="image-container"><img src="{{ site.assets_path }}d375f85c-366w_Scrollbar_BorderlessContent_Bad.png" alt="366w_Scrollbar_BorderlessContent_Bad" width="335" height="335"></span>
+        <img src="{{ site.assets_path }}01fb853b-dont_32.png" alt="dont_32" width="32" height="32" style="float: left; margin-right: 1em;">
+        <h4 style="text-align: left; margin-top: 4px;"><span style="color: #ed3146;">Don&#8217;t</span></h4>
+      </div>
     </div>
   </div>
 </div>
@@ -103,10 +109,11 @@ body-class: guidelines
     <h3>Scrolling through a list</h3>
     <p>Place any ListView API inside a ScrollView to present a scrollbar when items have scrolled off-screen.</p>
   </div>
-  <div class="col-8">
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}312f5973-366w_Scrollbar_List.png" alt="366w_Scrollbar_List" width="340" height="340"></span>
-    </div>
+</div>
+
+<div class="row">
+  <div class="col-5">
+    <span class="image-container"><img src="{{ site.assets_path }}312f5973-366w_Scrollbar_List.png" alt="366w_Scrollbar_List" width="340" height="340"></span>
   </div>
 </div>
 
@@ -127,11 +134,15 @@ body-class: guidelines
     <p>If your app allows for multi-line input inside a text field, then the user will expect to scroll the content.</p>
     <p>In a text field, such as in the Messaging app, the field automatically displays a scrollbar that overlays the content to allow users to scroll once they have entered more than five lines of text.</p>
   </div>
-  <div class="col-8">
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}a2adf439-366w_Scrollbar_Text.png" alt="366w_Scrollbar_Text" width="340" height="340"></span>
-    </div>
+</div>
+
+<div class="row">
+  <div class="col-5">
+    <span class="image-container"><img src="{{ site.assets_path }}a2adf439-366w_Scrollbar_Text.png" alt="366w_Scrollbar_Text" width="340" height="340"></span>
   </div>
+</div>
+
+<div class="row">
   <div class="col-8">
     <h3>Scrolling inside panels</h3>
     <p>The toolkit provides panels that can be used to display anything from images, large amount of text or videos. The user will expect to scroll either vertically or horizontally, or both to view the content.</p>

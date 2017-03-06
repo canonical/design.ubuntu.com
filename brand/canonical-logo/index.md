@@ -20,7 +20,7 @@ body-class: "guidelines"
   </div>
 
   <div class="row">
-    <div class="col-12 link-top">
+    <div class="col-10 link-top">
       <a href="#">Back to top</a>
     </div>
   </div>
@@ -50,7 +50,7 @@ body-class: "guidelines"
   <p>It has been carefully drawn for precision and added clarity.</p>
 
   <div class="row">
-    <div class="col-12 link-top">
+    <div class="col-10 link-top">
       <a href="#">Back to top</a>
     </div>
   </div>
@@ -65,7 +65,7 @@ body-class: "guidelines"
 
 
   <div class="row">
-    <div class="col-12 link-top">
+    <div class="col-10 link-top">
       <a href="#">Back to top</a>
     </div>
   </div>
@@ -80,7 +80,7 @@ body-class: "guidelines"
 
 
   <div class="row">
-    <div class="col-12 link-top">
+    <div class="col-10 link-top">
       <a href="#">Back to top</a>
     </div>
   </div>
@@ -98,7 +98,7 @@ body-class: "guidelines"
       This logo version should be used in support of the master version (for example, this logo could be used in the footer of a web page as opposed to repeating the master version).</p>
 
       <div class="row">
-        <div class="col-12 link-top">
+        <div class="col-10 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>
@@ -118,7 +118,7 @@ body-class: "guidelines"
       <p>To define this area, measure the height of the &#8216;Canonical Circle&#8217; and use a quarter of this measure to create the boundary of clear space.</p>
 
       <div class="row">
-        <div class="col-12 link-top">
+        <div class="col-10 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>
@@ -137,7 +137,7 @@ body-class: "guidelines"
 
 
       <div class="row">
-        <div class="col-12 link-top">
+        <div class="col-10 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>
@@ -157,7 +157,7 @@ body-class: "guidelines"
       <p>Position the logo so that the centre of the Canonical Circle sits on the centre of the page/screen.</p>
 
       <div class="row">
-        <div class="col-12 link-top">
+        <div class="col-10 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>
@@ -182,7 +182,7 @@ body-class: "guidelines"
       </ol>
 
       <div class="row">
-        <div class="col-12 link-top">
+        <div class="col-10 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>

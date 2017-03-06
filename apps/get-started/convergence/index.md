@@ -14,11 +14,7 @@ body-class: guidelines
     <ul class="p-list--divided">
       <li class="p-list__item"><a href="#what-is-convergence">What is convergence?&nbsp;&rsaquo;</a></li>      <li class="p-list__item"><a href="#why-are-we-doing-it">Why are we doing it?&nbsp;&rsaquo;</a></li>      <li class="p-list__item"><a href="#how-are-we-doing-it">How are we doing it?&nbsp;&rsaquo;</a></li>      <li class="p-list__item"><a href="#see-for-yourself">See for yourself&nbsp;&rsaquo;</a></li>
     </ul>
-  </div>
-</div>
 
-<div class="row">
-  <div class="col-10">
     <h2 id="what-is-convergence">What is convergence?</h2>
     <p>Convergence is a single user experience that spans to all form factors and adapts to the different contexts of use. It means exactly the same operating system and applications run on phones, tablets and desktops. This is done by using responsive layouts that adapt to the different screen or window sizes.</p>
     <p>Convergence supports all input types equally and simultaneously to allow users to interact using a pointer, touch or keyboard; whenever and however they choose.</p>
@@ -26,13 +22,13 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-10">
+  <div class="col-8">
     <h2 id="why-are-we-doing-it">Why are we doing it?</h2>
     <p>Over the last twenty years computing has become exponentially faster, cheaper and more power efficient. As a result, phones and tablets today have the processing power to undertake tasks that only a few years ago required PC hardware. The boundaries between form factors are becoming blurred; there is very little difference in terms of hardware between an ultrabook with a touchscreen and a 12in tablet with a keyboard attached.</p>
     <p>By using convergence we breakdown the last barrier between form factors with a single operating system and app ecosystem for all different types of hardware. This enables new forms of interaction. For example, drafting an email on your phone during your journey to work, and then when you arrive at your desk you can plug the phone into a monitor and continue composing the same email in a desktop environment.</p>
@@ -40,13 +36,13 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-10">
+  <div class="col-8">
     <h2 id="how-are-we-doing-it">How are we doing it?</h2>
     <p>In 2013, Ubuntu announced a crowdfunding effort to build a flagship device called the Ubuntu Edge. It was to be a next-generation smartphone that also worked as a full desktop PC. Although the device was never realized, the vision of a convergent operating system that shifts seamlessly from smartphone to desktop is still alive and well.</p>
 
@@ -59,7 +55,7 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-10">
+  <div class="col-8">
     <h4>Dekko app</h4>
     <p>The Dekko app responses to more real-estate and keeps its look and feel from mobile to tablet to desktop.</p>
 
@@ -98,13 +94,13 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-10">
+  <div class="col-8">
     <h2 id="see-for-yourself">See for yourself</h2>
     <p>Ubuntu devices are shipped with built-in apps that converge over multiple devices, such as: Dekko, Calendar, Contacts and Music. They all work in the same way on your phone, tablet and desktop, giving you a seamless experience across all devices.</p>
 

@@ -79,7 +79,7 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
@@ -138,7 +138,7 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
@@ -173,7 +173,7 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>

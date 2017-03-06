@@ -41,32 +41,42 @@ body-class: guidelines
     <h2 id="use-cases">Overview</h2>
     <p>Lists are displayed in a single column layout and are made up of items that can contain one or more controls. Items should be grouped together in a logical way that makes sense to the user.</p>
   </div>
+</div>
+
+<div class="row">
   <div class="col-10">
-    <div class="col-5">
-      <h4>Items in a form</h4>
-      <span class="image-container"><img src="{{ site.assets_path }}afc631f2-366w_ListItems_UseCases1-2.png" alt="366w_ListItems_UseCases1 (2)" width="336" height="336"></span>
-    </div>
-    <div class="col-5">
-      <h4>A list of settings</h4>
-      <span class="image-container"><img src="{{ site.assets_path }}2903062e-366w_ListItems_UseCases2-2.png" alt="366w_ListItems_UseCases2 (2)" width="336" height="336"></span>
-    </div>
-  </div>
-  <div class="col-10">
-    <div class="col-5">
-      <h4>Use appropriately to the content</h4>
-      <span class="image-container"><img src="{{ site.assets_path }}755e0c6f-366w_ListItems_ImageList-1.png" alt="366w_ListItems_ImageList (1)" width="336" height="336"></span>
-      <p>When images or icons are presented without text or actions, it would make more sense to show them inside a grid rather than a list; like in a photo gallery.</p>
-    </div>
-    <div class="col-5">
-      <h4>Use search function</h4>
-      <span class="image-container"><img src="{{ site.assets_path }}a9e74185-366w_ListItems_UseCaseSearchFunction-2.png" alt="366w_ListItems_UseCaseSearchFunction (2)" width="336" height="336"></span>
-      <p>Consider adding a search function for lists that are likely to contain a large number of items, in order for the users to quickly search a particular item.</p>
+    <div class="row">
+      <div class="col-5">
+        <h4>Items in a form</h4>
+        <span class="image-container"><img src="{{ site.assets_path }}afc631f2-366w_ListItems_UseCases1-2.png" alt="366w_ListItems_UseCases1 (2)" width="336" height="336"></span>
+      </div>
+      <div class="col-5">
+        <h4>A list of settings</h4>
+        <span class="image-container"><img src="{{ site.assets_path }}2903062e-366w_ListItems_UseCases2-2.png" alt="366w_ListItems_UseCases2 (2)" width="336" height="336"></span>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10">
+    <div class="row">
+      <div class="col-5">
+        <h4>Use appropriately to the content</h4>
+        <span class="image-container"><img src="{{ site.assets_path }}755e0c6f-366w_ListItems_ImageList-1.png" alt="366w_ListItems_ImageList (1)" width="336" height="336"></span>
+        <p>When images or icons are presented without text or actions, it would make more sense to show them inside a grid rather than a list; like in a photo gallery.</p>
+      </div>
+      <div class="col-5">
+        <h4>Use search function</h4>
+        <span class="image-container"><img src="{{ site.assets_path }}a9e74185-366w_ListItems_UseCaseSearchFunction-2.png" alt="366w_ListItems_UseCaseSearchFunction (2)" width="336" height="336"></span>
+        <p>Consider adding a search function for lists that are likely to contain a large number of items, in order for the users to quickly search a particular item.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
@@ -78,34 +88,44 @@ body-class: guidelines
     <p>Touch and pointer interactions perform the same functions across convergent devices for consistency and familiarity across the platform. Swiping right may reveal a button for the leading action, such as &#8216;Delete&#8217; or something similar. Swiping left may reveal buttons for (up to) three other important actions; these are the trailing actions. When the user interacts with an item using a mouse, right-clicking will reveal the context menu, and click and drag will reveal the leading and trailing actions either side of the item. This gives the same experience as swiping.</p>
     <p>The actions are placed within two categories: leading for negative actions and trailing for positive actions. Grouping actions into positive and negative areas inside your list items will reinforce familiarity inside your app; allowing users to find and identify important actions easily.</p>
   </div>
+</div>
+
+<div class="row">
   <div class="col-10">
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}f0bff2bc-366w_ListItems_ContextualActions1-3.png" alt="366w_ListItems_ContextualActions1 (3)" width="336" height="220"></span>
-      <h4>Touch – Leading action</h4>
-      <p>Swipe left to right</p>
-    </div>
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}0238f83e-366w_ListItems_ContextualActions2.png" alt="366w_ListItems_ContextualActions2" width="336" height="220"></span>
-      <h4>Touch – Trailing action</h4>
-      <p>Swipe right to left</p>
-    </div>
-  </div>
-  <div class="col-10">
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}ffb1c374-366w_ListItems_ContextualActionsPointer-3.png" alt="366w_ListItems_ContextualActionsPointer (3)" width="336" height="211"></span>
-      <h4>Pointer</h4>
-      <p>A user can right-click to reveal the contextual menu, or drag right to left to reveal the leading or trailing options in an item.</p>
-    </div>
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}93863db6-366w_ListItems_ContextualActionsFocus.png" alt="366w_ListItems_ContextualActionsFocus" width="336" height="211"></span>
-      <h4>Focus</h4>
-      <p>A user can reveal the contextual menu by focusing on an item using keyboard navigation and hitting a keyboard key to reveal it.</p>
+    <div class="row">
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}f0bff2bc-366w_ListItems_ContextualActions1-3.png" alt="366w_ListItems_ContextualActions1 (3)" width="336" height="220"></span>
+        <h4>Touch – Leading action</h4>
+        <p>Swipe left to right</p>
+      </div>
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}0238f83e-366w_ListItems_ContextualActions2.png" alt="366w_ListItems_ContextualActions2" width="336" height="220"></span>
+        <h4>Touch – Trailing action</h4>
+        <p>Swipe right to left</p>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10">
+    <div class="row">
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}ffb1c374-366w_ListItems_ContextualActionsPointer-3.png" alt="366w_ListItems_ContextualActionsPointer (3)" width="336" height="211"></span>
+        <h4>Pointer</h4>
+        <p>A user can right-click to reveal the contextual menu, or drag right to left to reveal the leading or trailing options in an item.</p>
+      </div>
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}93863db6-366w_ListItems_ContextualActionsFocus.png" alt="366w_ListItems_ContextualActionsFocus" width="336" height="211"></span>
+        <h4>Focus</h4>
+        <p>A user can reveal the contextual menu by focusing on an item using keyboard navigation and hitting a keyboard key to reveal it.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
@@ -118,15 +138,22 @@ body-class: guidelines
 
     <h3>Use case</h3>
   </div>
+</div>
+
+<div class="row">
   <div class="col-10">
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}03e5997a-366w_ListItems_ListEditMode1-4.png" alt="366w_ListItems_ListEditMode1 (4)" width="336" height="336"></span>
-    </div>
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}880961a6-366w_ListItems_ListEditMode2-3.png" alt="366w_ListItems_ListEditMode2 (3)" width="336" height="336"></span>
+    <div class="row">
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}03e5997a-366w_ListItems_ListEditMode1-4.png" alt="366w_ListItems_ListEditMode1 (4)" width="336" height="336"></span>
+      </div>
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}880961a6-366w_ListItems_ListEditMode2-3.png" alt="366w_ListItems_ListEditMode2 (3)" width="336" height="336"></span>
+      </div>
     </div>
   </div>
+</div>
 
+<div class="row">
   <div class="col-8">
     <h4>Edit contacts</h4>
     <p>In the Contacts app for example, the list of contacts is made editable to allow users to delete or edit a contact&#8217;s information.</p>
@@ -151,7 +178,7 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
@@ -204,11 +231,15 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-5">
-    <span class="image-container"><img src="{{ site.assets_path }}08b912ae-366w_ListItems_Chevron1-4.png" alt="366w_ListItems_Chevron1 (4)" width="336" height="605"></span>
-  </div>
-  <div class="col-5">
-    <span class="image-container"><img src="{{ site.assets_path }}912aaefd-366w_ListItems_Chevron2-3.png" alt="366w_ListItems_Chevron2 (3)" width="336" height="605"></span>
+  <div class="col-10">
+    <div class="row">
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}08b912ae-366w_ListItems_Chevron1-4.png" alt="366w_ListItems_Chevron1 (4)" width="336" height="605"></span>
+      </div>
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}912aaefd-366w_ListItems_Chevron2-3.png" alt="366w_ListItems_Chevron2 (3)" width="336" height="605"></span>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -217,11 +248,7 @@ body-class: guidelines
     <h3>Content</h3>
     <p>If you use the ListItemLayout API then Slot A can contain a 1 line title, a subtitle, and a 2 line summary. If you use SlotsLayout API, you can put whatever you choose in to Slot A. A recommendation is to place the most distinguishing content in the first line of your list item.</p>
     <p>Text is always aligned according to the currently displayed language. For example, in the case of English it is left to right, whereas Arabic is right to left.</p>
-  </div>
-</div>
 
-<div class="row">
-  <div class="col-8">
     <span class="image-container"><img src="{{ site.assets_path }}b71e1e47-750w_ListItems_Content3.png" alt="750w_ListItems_Content3" width="677" height="142"></span>
 
     <h4>ListItemLayout labels:</h4>
@@ -246,7 +273,7 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
@@ -262,11 +289,7 @@ body-class: guidelines
     <p>A secondary action is an action the user may wish to perform instead of the primary action.</p>
 
     <span class="image-container"><img src="{{ site.assets_path }}b861e52d-750w_ListItems_1action2action-3.png" alt="750w_ListItems_1action2action (3)" width="679" height="679"></span>
-  </div>
-</div>
 
-<div class="row">
-  <div class="col-8">
     <h4>One action</h4>
     <p>Primary action: a user wants to turn their dial paid sound on or off.</p>
     <h4>Two actions</h4>
@@ -299,11 +322,13 @@ body-class: guidelines
 
 <div class="row">
   <div class="col-10">
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}7ab1c77d-366w_ListItems_ActionsPrimary-1.png" alt="366w_ListItems_ActionsPrimary (1)" width="336" height="223"></span>
-    </div>
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}a70a0b6c-366w_ListItems_ActionsSecondary-1.png" alt="366w_ListItems_ActionsSecondary (1)" width="336" height="223"></span>
+    <div class="row">
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}7ab1c77d-366w_ListItems_ActionsPrimary-1.png" alt="366w_ListItems_ActionsPrimary (1)" width="336" height="223"></span>
+      </div>
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}a70a0b6c-366w_ListItems_ActionsSecondary-1.png" alt="366w_ListItems_ActionsSecondary (1)" width="336" height="223"></span>
+      </div>
     </div>
   </div>
 </div>
@@ -316,7 +341,7 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
@@ -343,11 +368,13 @@ body-class: guidelines
 
 <div class="row">
   <div class="col-10">
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}7c36aac8-366w_ListItems_CommunicatingFeedback1-1.png" alt="366w_ListItems_CommunicatingFeedback1 (1)" width="338" height="410"></span>
-    </div>
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}9c48008e-366w_ListItems_CommunicatingFeedback2-1.png" alt="366w_ListItems_CommunicatingFeedback2 (1)" width="338" height="410"></span>
+    <div class="row">
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}7c36aac8-366w_ListItems_CommunicatingFeedback1-1.png" alt="366w_ListItems_CommunicatingFeedback1 (1)" width="338" height="410"></span>
+      </div>
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}9c48008e-366w_ListItems_CommunicatingFeedback2-1.png" alt="366w_ListItems_CommunicatingFeedback2 (1)" width="338" height="410"></span>
+      </div>
     </div>
   </div>
 </div>
@@ -359,7 +386,7 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
@@ -390,26 +417,31 @@ body-class: guidelines
 
 <div class="row">
   <div class="col-10 u-equal-height">
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}26479ed7-366w_ListItems_OneSlotSmall-2.png" alt="366w_ListItems_OneSlotSmall (2)" width="338" height="117"></span>
-      <h4>One slot</h4>
-    </div>
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}f4572937-366w_ListItems_TwoSlotSmall2.png" alt="366w_ListItems_TwoSlotSmall2" width="338" height="118"></span>
-      <h4>Two slot</h4>
+    <div class="row">
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}26479ed7-366w_ListItems_OneSlotSmall-2.png" alt="366w_ListItems_OneSlotSmall (2)" width="338" height="117"></span>
+        <h4>One slot</h4>
+      </div>
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}f4572937-366w_ListItems_TwoSlotSmall2.png" alt="366w_ListItems_TwoSlotSmall2" width="338" height="118"></span>
+        <h4>Two slot</h4>
+      </div>
     </div>
   </div>
 </div>
 
+
 <div class="row">
   <div class="col-10 u-equal-height">
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}0ef2a52e-366w_ListItems_ThreeSlotSmall2-1.png" alt="366w_ListItems_ThreeSlotSmall2 (1)" width="338" height="118"></span>
-      <h4>Three slot</h4>
-    </div>
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}c161036d-366w_ListItems_FourSlotSmall2-1.png" alt="366w_ListItems_FourSlotSmall2 (1)" width="338" height="118"></span>
-      <h4>Four slot</h4>
+    <div class="row">
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}0ef2a52e-366w_ListItems_ThreeSlotSmall2-1.png" alt="366w_ListItems_ThreeSlotSmall2 (1)" width="338" height="118"></span>
+        <h4>Three slot</h4>
+      </div>
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}c161036d-366w_ListItems_FourSlotSmall2-1.png" alt="366w_ListItems_FourSlotSmall2 (1)" width="338" height="118"></span>
+        <h4>Four slot</h4>
+      </div>
     </div>
   </div>
 </div>

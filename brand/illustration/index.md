@@ -30,7 +30,7 @@ The height and width of rows and columns within a chart must be in increments of
 <h3>General tips</h3>
 <p>Don&#8217;t overcrowd the chart or diagram. Think about what you need to say and be selective about the information you need to communicate.</p>
 <p>Use the correct typeface and colour palette. Use the audience spectrum to identify the colours you should be using.</p>
-<div class="row"><div class="col-12 link-top"><a href="#">Back to top</a></div></div>
+<div class="row"><div class="col-10 link-top"><a href="#">Back to top</a></div></div>
 <h2>Checklist</h2>
 <ol>
 <li class="p-list__item">Where does the piece of work fit on the audience spectrum?</li>
@@ -40,4 +40,4 @@ The height and width of rows and columns within a chart must be in increments of
 <li class="p-list__item">Am I using the correct version of the brandmark?</li>
 <li class="p-list__item">Am I using the correct tone of voice?</li>
 </ol>
-<div class="row"><div class="col-12 link-top"><a href="#">Back to top</a></div></div>
+<div class="row"><div class="col-10 link-top"><a href="#">Back to top</a></div></div>

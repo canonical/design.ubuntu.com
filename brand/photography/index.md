@@ -12,11 +12,11 @@ body-class: "guidelines"
   <p><img src="{{ site.assets_path }}50252b56-photography.gif" alt="Photography examples" title="photography" width="540" height="246" srcset="{{ site.assets_path }}50252b56-photography.gif 540w, {{ site.assets_path }}c7b5f4e1-photography-300x136.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
   <p>Photography is a good way to help us contextualise and humanise content. We use &#8216;product&#8217; photography and &#8216;people&#8217; photography. We&#8217;re more likely to use &#8216;product&#8217; photography in relation to Ubuntu and &#8216;people&#8217; photography in relation to Canonical.</p>
   <p>Our photography uses an aubergine duotone effect.</p>
-  <div class="row"><div class="col-12 link-top"><a href="#">Back to top</a></div></div>
+  <div class="row"><div class="col-10 link-top"><a href="#">Back to top</a></div></div>
   <h2>How to photograph people</h2>
   <p>We have explored a natural photographic style, a more reportage feel rather than staged. In these examples we worked with our people at Canonical in the office to demonstrate what can be done.</p>
   <p>The style focuses on the individual person/people or item and having a short depth of field (a small depth of field is more effective, emphasising the subject while deemphasising the foreground and background).</p>
-  <div class="row"><div class="col-12 link-top"><a href="#">Back to top</a></div></div>
+  <div class="row"><div class="col-10 link-top"><a href="#">Back to top</a></div></div>
   <h2>Photographic style</h2>
   <p><img src="{{ site.assets_path }}224bcf04-photography-people.gif" alt="" title="photography-people" width="540" height="139" srcset="{{ site.assets_path }}224bcf04-photography-people.gif 540w, {{ site.assets_path }}3fda32de-photography-people-300x77.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /><br />
     Our photographic style should, wherever possible, reflect our brand values: freedom, collaboration, reliability, precision.</p>
@@ -32,7 +32,7 @@ body-class: "guidelines"
       <li class="p-list__item is-ticked">We can add a dot-pattern flourish to signal Canonical ownership and re-enforce the brand.</li>
       <li class="p-list__item is-ticked">Text on photographs should be white, either directly on the darker portion of the image, or on a dark swatch of colour placed on to the image.</li>
     </ul>
-    <div class="row"><div class="col-12 link-top"><a href="#">Back to top</a></div></div>
+    <div class="row"><div class="col-10 link-top"><a href="#">Back to top</a></div></div>
     <h2>Colour treatment</h2>
     <p><img src="{{ site.assets_path }}2b03abc8-photography-colours.gif" alt="Photography colours based on the voice slider" title="photography-colours" width="540" height="208" srcset="{{ site.assets_path }}2b03abc8-photography-colours.gif 540w, {{ site.assets_path }}9f7db092-photography-colours-300x115.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /><br />
       <a href="/brand//values/sliders" title="Audience, Voice and Developer Sliders">Learn more about the voice slider.</a></p>
@@ -47,7 +47,7 @@ body-class: "guidelines"
             Duotone of black and Canonical Aubergine should be used.<br />
             <img src="{{ site.assets_path }}7da70ebc-photography-canonical-with-ubuntu.gif" alt="Photography Canonical with Ubuntu elements" title="photography-canonical-with-ubuntu" width="540" height="139" srcset="{{ site.assets_path }}7da70ebc-photography-canonical-with-ubuntu.gif 540w, {{ site.assets_path }}79823b2e-photography-canonical-with-ubuntu-300x77.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /><br />
             A hint of Ubuntu orange should also be used if the communication features an Ubuntu product.</p>
-            <div class="row"><div class="col-12 link-top"><a href="#">Back to top</a></div></div>
+            <div class="row"><div class="col-10 link-top"><a href="#">Back to top</a></div></div>
             <h2>Using dots in photography</h2>
             <p>Both enterprise and developer dots can be used to add texture to photography as long as it is appropriate to do so according to the audience and developer sliders.</p>
             <p><a href="/brand//values/sliders" title="The voice, audience and developer sliders">Learn more about the sliders.</a></p>
@@ -73,7 +73,7 @@ body-class: "guidelines"
                       <p><img src="{{ site.assets_path }}5a3ccf44-photography-dots-6.gif" alt="Enterprise to developer" title="Enterprise to developer" width="301" height="274" srcset="{{ site.assets_path }}5a3ccf44-photography-dots-6.gif 301w, {{ site.assets_path }}3af49c6b-photography-dots-6-300x273.gif 300w" sizes="(max-width: 301px) 100vw, 301px" /><br />
                         When the audience slider is set to enterprise, you can use a large amount of enterprise dots.</p>
                         <p>When the developer slider is set to developer, you can overlap the enterprise dots with a large amount of developer dots.</p>
-                        <div class="row"><div class="col-12 link-top"><a href="#">Back to top</a></div></div>
+                        <div class="row"><div class="col-10 link-top"><a href="#">Back to top</a></div></div>
                         <h2>Checklist</h2>
                         <ol>
                           <li class="p-list__item">Where does the piece of work fit on the audience spectrum?</li>
@@ -82,4 +82,4 @@ body-class: "guidelines"
                           <li class="p-list__item">Have I cropped the image in the correct way?</li>
                           <li class="p-list__item">Have I used images from the correct source?</li>
                         </ol>
-                        <div class="row"><div class="col-12 link-top"><a href="#">Back to top</a></div></div>
+                        <div class="row"><div class="col-10 link-top"><a href="#">Back to top</a></div></div>

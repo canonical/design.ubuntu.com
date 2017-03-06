@@ -9,7 +9,6 @@ body-class: guidelines
   <div class="col-8">
     <p>Use a context menu to provide quick access to important actions within your application.</p>
     <span class="image-container"><img src="{{ site.assets_path }}942b2526-750w_Menus_MainImage.png" alt="750w_Menus_MainImage" width="679" height="334"></span>
-
     <ul class="p-list--divided">
       <li class="p-list__item"><a href="#overview">Overview&nbsp;&rsaquo;</a></li>
       <li class="p-list__item"><a href="#revealing-actions">Revealing actions&nbsp;&rsaquo;</a></li>
@@ -31,10 +30,15 @@ body-class: guidelines
 
 <div class="row">
   <div class="col-10">
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}ceed065d-366w_Menus_ContextualStaged-2.png" alt="366w_Menus_ContextualStaged (2)" width="336" height="490"></span>
+    <div class="row">
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}ceed065d-366w_Menus_ContextualStaged-2.png" alt="366w_Menus_ContextualStaged (2)" width="336" height="490"></span>
+      </div>
     </div>
   </div>
+</div>
+
+<div class="row">
   <div class="col-10">
     <h4>Windowed</h4>
     <p>The same context menu appears with more commands when a user right-clicks on a web image.</p>
@@ -81,7 +85,7 @@ body-class: guidelines
 
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
@@ -99,22 +103,26 @@ body-class: guidelines
 
 <div class="row">
   <div class="col-10 u-equal-height">
-    <div class="col-5">
-      <h4>Right-click</h4>
-      <span class="image-container"><img src="{{ site.assets_path }}7ba08e66-366w_ListItems_ContextualActions3.png" width="336" height="238"></span>
-    </div>
-    <div class="col-5">
-      <h4>Long-press</h4>
-      <span class="image-container"><img src="{{ site.assets_path }}7438a96d-366w_Menus_ContextualActionsTouch.png" alt="366w_Menus_ContextualActionsTouch" width="336" height="241"></span>
+    <div class="row">
+      <div class="col-5">
+        <h4>Right-click</h4>
+        <span class="image-container"><img src="{{ site.assets_path }}7ba08e66-366w_ListItems_ContextualActions3.png" width="336" height="238"></span>
+      </div>
+      <div class="col-5">
+        <h4>Long-press</h4>
+        <span class="image-container"><img src="{{ site.assets_path }}7438a96d-366w_Menus_ContextualActionsTouch.png" alt="366w_Menus_ContextualActionsTouch" width="336" height="241"></span>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="row">
   <div class="col-10">
-    <div class="col-5">
-      <h4>Focus</h4>
-      <span class="image-container"><img src="{{ site.assets_path }}26ddf7b9-366w_Menus_ContextualActionsFocus.png" alt="366w_Menus_ContextualActionsFocus" width="336" height="238"></span>
+    <div class="row">
+      <div class="col-5">
+        <h4>Focus</h4>
+        <span class="image-container"><img src="{{ site.assets_path }}26ddf7b9-366w_Menus_ContextualActionsFocus.png" alt="366w_Menus_ContextualActionsFocus" width="336" height="238"></span>
+      </div>
     </div>
   </div>
 </div>
@@ -128,17 +136,18 @@ body-class: guidelines
 
 <div class="row">
   <div class="col-10">
-    <div class="col-5">
-      <h4>Swipe right – Leading action</h4>
-      <span class="image-container"><img src="{{ site.assets_path }}0238f83e-366w_ListItems_ContextualActions2-1-1.png" alt="366w_ListItems_ContextualActions2 (1)" width="336" height="220"></span>
-    </div>
-    <div class="col-5">
-      <h4>Swipe left – Trailing actions</h4>
-      <span class="image-container"><img src="{{ site.assets_path }}115cb70d-366w_ListItems_ContextualActions1-1.png" alt="366w_ListItems_ContextualActions1 (1)" width="336" height="220"></span>
+    <div class="row">
+      <div class="col-5">
+        <h4>Swipe right – Leading action</h4>
+        <span class="image-container"><img src="{{ site.assets_path }}0238f83e-366w_ListItems_ContextualActions2-1-1.png" alt="366w_ListItems_ContextualActions2 (1)" width="336" height="220"></span>
+      </div>
+      <div class="col-5">
+        <h4>Swipe left – Trailing actions</h4>
+        <span class="image-container"><img src="{{ site.assets_path }}115cb70d-366w_ListItems_ContextualActions1-1.png" alt="366w_ListItems_ContextualActions1 (1)" width="336" height="220"></span>
+      </div>
     </div>
   </div>
 </div>
-
 
 <div class="row">
   <div class="col-6 p-card u-vertically-center">
@@ -152,7 +161,7 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
@@ -162,6 +171,9 @@ body-class: guidelines
     <h2 id="layouts">Layouts</h2>
     <p>It is important that each menu retains a consistency in its layout and content when used across different devices.</p>
   </div>
+</div>
+
+<div class="row">
   <div class="col-5">
     <span class="image-container"><img src="{{ site.assets_path }}edecf53d-366w_Menus_LayoutMenuItems.png" alt="366w_Menus_LayoutMenuItems" width="305" height="319"></span>
   </div>
@@ -180,15 +192,17 @@ body-class: guidelines
 
 <div class="row">
   <div class="col-10">
-    <div class="col-5">
-      <img src="{{ site.assets_path }}74c13c17-do_32+%281%29.png" alt="do_32" width="32" height="32" style="float: left; margin-right: 1em;">
-      <h4 style="text-align: left; margin-top: 4px;"><span style="color: #3eb34f;">Do</span></h4>
-      <p>Place the most frequently used menu items at the top of the menu. Use sentence capitalisation for each command name.</p>
-    </div>
-    <div class="col-5">
-      <img src="{{ site.assets_path }}01fb853b-dont_32.png" alt="dont_32" width="32" height="32" style="float: left; margin-right: 1em;">
-      <h4 style="text-align: left; margin-top: 4px;"><span style="color: #ed3146;">Don&#8217;t</span></h4>
-      <p>Place negative actions close to positive actions, because users may accidentally trigger them.</p>
+    <div class="row">
+      <div class="col-5">
+        <img src="{{ site.assets_path }}74c13c17-do_32+%281%29.png" alt="do_32" width="32" height="32" style="float: left; margin-right: 1em;">
+        <h4 style="text-align: left; margin-top: 4px;"><span style="color: #3eb34f;">Do</span></h4>
+        <p>Place the most frequently used menu items at the top of the menu. Use sentence capitalisation for each command name.</p>
+      </div>
+      <div class="col-5">
+        <img src="{{ site.assets_path }}01fb853b-dont_32.png" alt="dont_32" width="32" height="32" style="float: left; margin-right: 1em;">
+        <h4 style="text-align: left; margin-top: 4px;"><span style="color: #ed3146;">Don&#8217;t</span></h4>
+        <p>Place negative actions close to positive actions, because users may accidentally trigger them.</p>
+      </div>
     </div>
   </div>
 </div>
@@ -209,17 +223,19 @@ body-class: guidelines
 
 <div class="row">
   <div class="col-10">
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}e646c370-366w_Menus_TextLabelsDo-1.png" width="335" height="140"></span>
-      <img src="{{ site.assets_path }}74c13c17-do_32+%281%29.png" alt="do_32" width="32" height="32" style="float: left; margin-right: 1em;">
-      <h4 style="text-align: left; margin-top: 4px;"><span style="color: #3eb34f;">Do</span></h4>
-      <p>Be concise and clear to avoid confusing or misinforming the user.</p>
-    </div>
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}bdefc93f-366w_Menus_TextLabelsDont-1.png" width="335" height="140"></span>
-      <img src="{{ site.assets_path }}01fb853b-dont_32.png" alt="dont_32" width="32" height="32" style="float: left; margin-right: 1em;">
-      <h4 style="text-align: left; margin-top: 4px;"><span style="color: #ed3146;">Don&#8217;t</span></h4>
-      <p>Use over-long text labels that result in truncation (…).</p>
+    <div class="row">
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}e646c370-366w_Menus_TextLabelsDo-1.png" width="335" height="140"></span>
+        <img src="{{ site.assets_path }}74c13c17-do_32+%281%29.png" alt="do_32" width="32" height="32" style="float: left; margin-right: 1em;">
+        <h4 style="text-align: left; margin-top: 4px;"><span style="color: #3eb34f;">Do</span></h4>
+        <p>Be concise and clear to avoid confusing or misinforming the user.</p>
+      </div>
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}bdefc93f-366w_Menus_TextLabelsDont-1.png" width="335" height="140"></span>
+        <img src="{{ site.assets_path }}01fb853b-dont_32.png" alt="dont_32" width="32" height="32" style="float: left; margin-right: 1em;">
+        <h4 style="text-align: left; margin-top: 4px;"><span style="color: #ed3146;">Don&#8217;t</span></h4>
+        <p>Use over-long text labels that result in truncation (…).</p>
+      </div>
     </div>
   </div>
 </div>
@@ -239,12 +255,10 @@ body-class: guidelines
 <div class="row">
   <div class="col-8">
     <h4>Label examples</h4>
-
     <ul class="p-list--divided">
       <li class="p-list__item">Add</li>
       <li class="p-list__item">Edit</li>      <li class="p-list__item">New (rather than &#8216;create&#8217;)</li>      <li class="p-list__item">Move</li>      <li class="p-list__item">Save/ Save As</li>      <li class="p-list__item">Delete/ Remove</li>      <li class="p-list__item">Send</li>      <li class="p-list__item">Share</li>
     </ul>
-
     <h4>Grouping menu items</h4>
     <p>Items should be grouped in a logical manner using dividers to separate related actions that have been grouped together.</p>
   </div>
@@ -252,15 +266,17 @@ body-class: guidelines
 
 <div class="row">
   <div class="col-10">
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}9e38797b-366w_Menus_ItemGroupingDo.png" alt="366w_Menus_ItemGroupingDo" width="334" height="369"></span>
-      <img src="{{ site.assets_path }}74c13c17-do_32+%281%29.png" alt="do_32" width="32" height="32" style="float: left; margin-right: 1em;">
-      <h4 style="text-align: left; margin-top: 4px;"><span style="color: #3eb34f;">Do</span></h4>
-    </div>
-    <div class="col-5">
-      <span class="image-container"><img src="{{ site.assets_path }}785e56ec-menu-level-1-dont.png" alt="menu level 1 dont" width="644" height="712"></span>
-      <img src="{{ site.assets_path }}01fb853b-dont_32.png" alt="dont_32" width="32" height="32" style="float: left; margin-right: 1em;">
-      <h4 style="text-align: left; margin-top: 4px;"><span style="color: #ed3146;">Don&#8217;t</span></h4>
+    <div class="row">
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}9e38797b-366w_Menus_ItemGroupingDo.png" alt="366w_Menus_ItemGroupingDo" width="334" height="369"></span>
+        <img src="{{ site.assets_path }}74c13c17-do_32+%281%29.png" alt="do_32" width="32" height="32" style="float: left; margin-right: 1em;">
+        <h4 style="text-align: left; margin-top: 4px;"><span style="color: #3eb34f;">Do</span></h4>
+      </div>
+      <div class="col-5">
+        <span class="image-container"><img src="{{ site.assets_path }}785e56ec-menu-level-1-dont.png" alt="menu level 1 dont" width="644" height="712"></span>
+        <img src="{{ site.assets_path }}01fb853b-dont_32.png" alt="dont_32" width="32" height="32" style="float: left; margin-right: 1em;">
+        <h4 style="text-align: left; margin-top: 4px;"><span style="color: #ed3146;">Don&#8217;t</span></h4>
+      </div>
     </div>
   </div>
 </div>
@@ -272,7 +288,7 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
@@ -308,19 +324,21 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-10">
   <div class="col-5">
     <span class="image-container"><img src="{{ site.assets_path }}0d2ec1aa-366w_Menus_DisablingActions.png" alt="366w_Menus_DisablingActions" width="336" height="307"></span>
   </div>
+</div>
+
+<div class="row">
   <div class="col-10">
     <p>In this example, &#8216;Rename&#8217; is greyed out in order to indicate to the user that it is not possible to select this option at this time (as no name has been given).</p>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
-    <a href="#">Back to top</a>
-   </div>
+  <div class="col-10 link-top">
+    <a href="#">Back to top</a>
+  </div>
 </div>
 
 <div class="row">
@@ -328,6 +346,9 @@ body-class: guidelines
     <h3>Flag gutters</h3>
     <p>The Flag Gutter will always be present in the context menu in order to allow flags for toggle or radio actions to be displayed. For example, if you want the user to make a selection from your context menu, you can add checkboxes for multiple selections within the flag gutter.</p>
   </div>
+</div>
+
+<div class="row">
   <div class="col-5">
     <span class="image-container"><img src="{{ site.assets_path }}a2d578bc-366w_Menus_FlagGutter.png" alt="366w_Menus_FlagGutter" width="334" height="310"></span>
   </div>
@@ -345,9 +366,9 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
-    <a href="#">Back to top</a>
-   </div>
+  <div class="col-10 link-top">
+    <a href="#">Back to top</a>
+  </div>
 </div>
 
 <div class="row">

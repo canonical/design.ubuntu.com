@@ -2,6 +2,10 @@
 # build the vanillaframework.io brochure theme
 ---
 
+
+$color-brand:         #E95420 !default;
+$color-link:          #E95420 !default;
+
 @import 'vanilla-brochure-theme/scss/build';
 
 .p-navigation__logo {
@@ -9,8 +13,11 @@
 }
 
 /* some space on row ! */
-.row {
+.row .row {
   margin-bottom: 2em;
+  & .row .row {
+    margin: 0;
+  }
 }
 
 /* back to top links */

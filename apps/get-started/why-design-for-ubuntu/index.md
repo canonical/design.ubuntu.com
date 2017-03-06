@@ -11,7 +11,6 @@ body-class: guidelines
 
     <img src="{{ site.assets_path }}bea0942d-750w_WhyDesignUbuntu_MainImage-2.png" alt="750w_WhyDesignUbuntu_MainImage (2)" width="750" height="325">
 
-
     <ul class="p-list">
       <li class="p-list__item is-ticked">Your app will be part of the third most deployed desktop OS in the world, which is free and accessible to all</li>
       <li class="p-list__item is-ticked">Your app will be able to work seamlessly across all Ubuntu client platforms (desktop, phone, tablet)</li>
@@ -85,13 +84,13 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-12 link-top">
+  <div class="col-10 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-10">
+  <div class="col-8">
     <h2 id="get-involved">Get involved</h2>
 
     <h3>Design</h3>
