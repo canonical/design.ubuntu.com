@@ -1,0 +1,21 @@
+// Default button styling
+@mixin theme-p-button {
+  @include theme-p-button--wide;
+  @include theme-p-button--large;
+
+}
+
+@mixin theme-p-button--wide {
+
+  [class*='p-button'].is-wide {
+    width: 100%;
+  }
+}
+
+@mixin theme-p-button--large {
+
+  [class*='p-button'].is-large {
+    border-width: 1.5px;
+    padding: 1.03125rem 2.25rem;
+  }
+}

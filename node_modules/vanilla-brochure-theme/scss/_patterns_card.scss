@@ -1,0 +1,20 @@
+// Brochure themes card styling
+@mixin theme-p-card {
+  @include theme-p-card--overlay;
+}
+
+// Pattern should be created for strips with bg images
+@mixin theme-p-card--overlay {
+  .p-card {
+    &--overlay {
+      $bg-color: rgba($color-x-light, .85);
+      background: $bg-color;
+      color: $color-dark;
+      padding: 1.3333rem;
+
+      @media only (min-width: $breakpoint-medium) {
+        padding: 1.25rem;
+      }
+    }
+  }
+}

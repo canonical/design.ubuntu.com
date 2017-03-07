@@ -1,0 +1,24 @@
+@mixin theme-p-divider {
+
+  .p-divider {
+
+    &__block {
+      border-bottom: 1px solid $color-mid-light;
+
+      &:last-child {
+        border-bottom: 0;
+      }
+
+      @media (min-width: $breakpoint-medium) {
+        border-bottom: 0;
+        border-right: 1px solid $color-mid-light;
+        padding-right: 1rem;
+
+        &:last-child {
+          border-right: 0;
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}

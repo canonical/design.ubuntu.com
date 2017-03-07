@@ -1,0 +1,49 @@
+@mixin theme-p-stepped-list {
+
+  .p-stepped-list {
+
+    &--detailed {
+
+      list-style: none;
+      padding: 0 2rem 0 3rem;
+
+      @media (max-width: $grid-max-width) {
+        margin-top: 2.5rem;
+      }
+
+      .p-list-step__item {
+        margin-bottom: 3rem;
+
+        @media (min-width: $breakpoint-medium) {
+          display: flex;
+          margin: 0;
+
+          > * {
+            width: 50%;
+          }
+        }
+      }
+
+      .p-list-step__content {
+        background: $color-x-light;
+        color: $color-x-dark;
+        margin-left: -4rem;
+        margin-right: -2rem;
+        margin-top: 2.5rem;
+        padding: 1.3333rem;
+
+        @media (min-width: $breakpoint-medium) {
+          border-bottom: 1px solid $color-light;
+          margin: -2.5rem 0 0;
+          padding: 2.5rem;
+        }
+      }
+
+      @media (min-width: $breakpoint-medium) {
+        .p-list-step__bullet {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}

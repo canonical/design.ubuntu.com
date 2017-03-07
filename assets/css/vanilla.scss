@@ -6,7 +6,10 @@
 $color-brand:         #E95420 !default;
 $color-link:          #E95420 !default;
 
-@import 'vanilla-brochure-theme/scss/build';
+@import "vanilla-brochure-theme/scss/build";
+
+// Run the vanilla framework
+@include vanilla-brochure-theme;
 
 .p-navigation__logo {
   margin: .5rem;
