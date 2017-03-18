@@ -18,7 +18,7 @@
     }
 
     &__title {
-      @extend %heading-4;
+      @include heading-4;
       margin-bottom: .5rem;
     }
 

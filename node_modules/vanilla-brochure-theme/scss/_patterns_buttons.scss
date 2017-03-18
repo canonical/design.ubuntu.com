@@ -15,7 +15,7 @@
 @mixin theme-p-button--large {
 
   [class*='p-button'].is-large {
-    border-width: 1.5px;
-    padding: 1.03125rem 2.25rem;
+    font-size: 1.5rem;
+    padding: 1.125rem 2.25rem;
   }
 }

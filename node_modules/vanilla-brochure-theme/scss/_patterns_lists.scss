@@ -20,6 +20,10 @@
           &:nth-child(2n-1) {
             margin-right: 1rem;
           }
+
+          &:nth-last-child(2) {
+            border-bottom: 0;
+          }
         }
       }
     }

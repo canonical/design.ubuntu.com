@@ -1,5 +1,4 @@
 @mixin theme-p-stepped-list {
-
   .p-stepped-list {
 
     &--detailed {
@@ -24,6 +23,14 @@
         }
       }
 
+      .p-list-step__title {
+
+        @media (min-width: $breakpoint-medium) {
+          padding-top: 2.75rem;
+        }
+
+      }
+
       .p-list-step__content {
         background: $color-x-light;
         color: $color-x-dark;
@@ -34,7 +41,7 @@
 
         @media (min-width: $breakpoint-medium) {
           border-bottom: 1px solid $color-light;
-          margin: -2.5rem 0 0;
+          margin: .25rem 0 0;
           padding: 2.5rem;
         }
       }
@@ -42,6 +49,7 @@
       @media (min-width: $breakpoint-medium) {
         .p-list-step__bullet {
           margin-right: 1rem;
+          top: 2.25rem;
         }
       }
     }
