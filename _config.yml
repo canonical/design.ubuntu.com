@@ -28,6 +28,8 @@ markdown: kramdown
 sass:
     style: compressed
     sass_dir: _sass
+    load_paths:
+        - node_modules
 gems:
   - jekyll-feed
 exclude:
