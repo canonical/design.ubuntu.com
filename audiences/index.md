@@ -117,8 +117,9 @@ Your materials will be describing a product, or a service, or an event, or a tea
    </div>
 </div>
 
-<div class="row">
-  <div class="col-8" markdown="1">
+<div class="p-strip">
+  <div class="row">
+    <div class="col-8" markdown="1">
 
 ## Audience Slider
 
@@ -155,15 +156,16 @@ This person thinks on a corporate scale and has to consider what works for multi
 The user experience is not a primary decision maker.
 
 <a href="examples?metadata=audience-enterprise" title="Examples of enterprise audience">Examples of enterprise audience&nbsp;&rsaquo;</a>
+    </div>
   </div>
-</div>
-
 <div class="row">
   <div class="col-10 link-top">
     <a href="#">Back to top</a>
    </div>
 </div>
+</div>
 
+<div class="p-strip">
 <div class="row">
   <div class="col-8" markdown="1">
 
@@ -318,25 +320,27 @@ Engineering documents and blueprints are not very loaded with photographs. They 
   </div>
 </div>
 
-<div class="row">
-  <div class="col-6 p-card u-vertically-center">
-    <div class="col-1">
-      <img src="{{ site.assets_path }}e9f11635-information-link.png" alt="information-link" width="32" height="32" />
+  <div class="row">
+    <div class="col-6 p-card u-vertically-center">
+      <div class="col-1">
+        <img src="{{ site.assets_path }}e9f11635-information-link.png" alt="information-link" width="32" height="32" />
+      </div>
+      <div class="col-5">
+        <p class="p-card__content"><strong>Note:</strong> Engineering documents have a particular feel.</p>
+      </div>
     </div>
-    <div class="col-5">
-      <p class="p-card__content"><strong>Note:</strong> Engineering documents have a particular feel.</p>
-    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+     </div>
   </div>
 </div>
 
-<div class="row">
-  <div class="col-10 link-top">
-    <a href="#">Back to top</a>
-   </div>
-</div>
-
-<div class="row">
-  <div class="col-8" markdown="1">
+<div class="p-strip">
+  <div class="row">
+    <div class="col-8" markdown="1">
 
 ## Made to measure
 
@@ -360,5 +364,7 @@ This means that we can publish content that spans the full range of audiences, a
 * **Internal audience**  (eg. Some Hands materials)
   * Emphasis on aubergine with an orange flourish
   * Both widely spaced dots and closely spaced dots should be used here.
-</div>
+
+    </div>
+  </div>
 </div>

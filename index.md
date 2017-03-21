@@ -39,7 +39,7 @@ body-class: "home"
       <p>We believe everyone has the right to a great computing experience &mdash; and we also believe it should be free. Ubuntu is the result of a growing community, working together to provide just that. As such, the Ubuntu brand embodies four values:</p>
     </div>
   </div>
-  <div class="row row p-divider u-equal-height">
+  <div class="row p-divider u-equal-height">
     <div class="col-3 p-divider__block">
       <h3>Freedom</h3>
       <p>Ubuntu celebrates freedom. Freedom to choose, to change, to participate.</p>

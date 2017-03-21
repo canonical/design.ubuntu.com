@@ -5,6 +5,7 @@ body-id: scopes
 body-class: scopes
 ---
 
+<div class="p-strip">
 <div class="row">
   <div class="col-8">
     <h1 id="navigation">Navigation</h1>
@@ -22,11 +23,15 @@ body-class: scopes
   </div>
 </div>
 
-<div class="row">
-  <div class="col-10 link-top">
-    <a href="#">Back to top</a>
+
+<div class="p-strip">
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+    </div>
   </div>
-</div>
+
+
 
 <div class="row">
   <div class="col-8">
@@ -108,11 +113,15 @@ body-class: scopes
   </div>
 </div>
 
-<div class="row">
-  <div class="col-10 link-top">
-    <a href="#">Back to top</a>
+
+<div class="p-strip">
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+    </div>
   </div>
-</div>
+
+
 
 <div class="row">
   <div class="col-8">
@@ -154,11 +163,15 @@ body-class: scopes
   </div>
 </div>
 
-<div class="row">
-  <div class="col-10 link-top">
-    <a href="#">Back to top</a>
+
+<div class="p-strip">
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+    </div>
   </div>
-</div>
+
+
 
 <div class="row">
   <div class="col-8">
@@ -223,11 +236,15 @@ body-class: scopes
   </div>
 </div>
 
-<div class="row">
-  <div class="col-10 link-top">
-    <a href="#">Back to top</a>
+
+<div class="p-strip">
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+    </div>
   </div>
-</div>
+
+
 
 <div class="row">
   <div class="col-8">
@@ -295,4 +312,5 @@ body-class: scopes
       <p class="p-card__content">Where there are multiple choices in each department branch a chevron is used to indicate to the user that there are options available.</p>
     </div>
   </div>
+</div>
 </div>

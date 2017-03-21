@@ -5,6 +5,8 @@ body-id: scopes
 body-class: scopes
 ---
 
+
+<div class="p-strip">
 <div class="row">
   <div class="col-8">
     <h1>Components</h1>
@@ -128,13 +130,18 @@ body-class: scopes
       <p class="p-card__content">Implement the <a href="https://developer.ubuntu.com/api/scopes/cpp/sdk-14.10/unity.scopes.SearchReply/">SearchReply</a> element from our SDK, which allows the results of a search query to be sent to the query source. Also see: <a href="https://developer.ubuntu.com/api/scopes/cpp/sdk-14.10/unity.scopes.SearchListenerBase/">SearchListenerBase</a>, <a href="https://developer.ubuntu.com/api/scopes/cpp/sdk-14.10/unity.scopes.SearchMetadata/">SearchMetadata</a> and <a href="https://developer.ubuntu.com/api/scopes/cpp/sdk-14.10/unity.scopes.SearchQueryBase/">SearchQueryBase</a> elements.</p>
     </div>
   </div>
-</div>
 
-<div class="row">
-  <div class="link-top">
-    <a href="#">Back to top</a>
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+    </div>
   </div>
 </div>
+
+<div class="p-strip">
+
+
+
 
 <div class="row">
   <div class="col-8">
@@ -320,11 +327,15 @@ body-class: scopes
 </div>
 </div>
 
-<div class="row">
-  <div class="col-10 link-top">
-    <a href="#">Back to top</a>
+
+<div class="p-strip">
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+    </div>
   </div>
-</div>
+
+
 
 <div class="row">
   <div class="col-8">
@@ -351,11 +362,15 @@ body-class: scopes
   </div>
 </div>
 
-<div class="row">
-  <div class="col-10 link-top">
-    <a href="#">Back to top</a>
+
+<div class="p-strip">
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+    </div>
   </div>
-</div>
+
+
 
 <div class="row">
   <div class="col-8">
@@ -489,11 +504,15 @@ body-class: scopes
   </div>
 </div>
 
-<div class="row">
-  <div class="col-10 link-top">
-    <a href="#">Back to top</a>
+
+<div class="p-strip">
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+    </div>
   </div>
-</div>
+
+
 
 <div class="row">
   <div class="col-8">
@@ -508,11 +527,15 @@ body-class: scopes
   </div>
 </div>
 
-<div class="row">
-  <div class="col-10 link-top">
-    <a href="#">Back to top</a>
+
+<div class="p-strip">
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+    </div>
   </div>
-</div>
+
+
 
 <div class="row">
   <div class="col-8">
@@ -543,11 +566,15 @@ body-class: scopes
   </div>
 </div>
 
-<div class="row">
-  <div class="col-10 link-top">
-    <a href="#">Back to top</a>
+
+<div class="p-strip">
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+    </div>
   </div>
-</div>
+
+
 
 <div class="row">
   <div class="col-8">
@@ -610,11 +637,15 @@ body-class: scopes
   </div>
 </div>
 
-<div class="row">
-  <div class="col-10 link-top">
-    <a href="#">Back to top</a>
+
+<div class="p-strip">
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+    </div>
   </div>
-</div>
+
+
 
 <div class="row">
   <div class="col-12">
@@ -635,11 +666,15 @@ body-class: scopes
   </div>
 </div>
 
-<div class="row">
-  <div class="col-10 link-top">
-    <a href="#">Back to top</a>
+
+<div class="p-strip">
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+    </div>
   </div>
-</div>
+
+
 
 <div class="row">
   <div class="col-8">
@@ -736,11 +771,15 @@ body-class: scopes
     </div>
   </div>
 
+
+<div class="p-strip">
   <div class="row">
     <div class="col-10 link-top">
       <a href="#">Back to top</a>
     </div>
   </div>
+
+
 
   <div class="row">
     <div class="col-8">
@@ -774,11 +813,15 @@ body-class: scopes
     </div>
   </div>
 
+
+<div class="p-strip">
   <div class="row">
     <div class="col-10 link-top">
       <a href="#">Back to top</a>
     </div>
   </div>
+
+
 
   <div class="row">
     <div class="col-8">
@@ -824,11 +867,15 @@ body-class: scopes
   </div>
 </div>
 
-<div class="row">
-  <div class="col-10 link-top">
-    <a href="#">Back to top</a>
+
+<div class="p-strip">
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+    </div>
   </div>
-</div>
+
+
 
 <div class="row">
   <div class="col-8">
@@ -963,11 +1010,15 @@ body-class: scopes
   </div>
 </div>
 
-<div class="row">
-  <div class="col-10 link-top">
-    <a href="#">Back to top</a>
+
+<div class="p-strip">
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+    </div>
   </div>
-</div>
+
+
 
 <div class="row">
   <div class="col-8">
@@ -1004,4 +1055,5 @@ body-class: scopes
       </div>
     </div>
   </div>
+</div>
 </div>

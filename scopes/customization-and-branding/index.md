@@ -5,6 +5,7 @@ body-id: scopes
 body-class: scopes
 ---
 
+<div class="p-strip">
 <div class="row">
   <div class="col-8">
     <h1>Customization and branding</h1>
@@ -30,13 +31,18 @@ body-class: scopes
       <p class="p-card__content">For code templates and visual examples see our <a href="https://developer.ubuntu.com/en/scopes/guides/scopes-customization-branding/"> developer guide</a>.</p>
     </div>
   </div>
-</div>
 
-<div class="row">
-  <div class="link-top">
-    <a href="#">Back to top</a>
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+    </div>
   </div>
 </div>
+
+<div class="p-strip">
+
+
+
 
 <div class="row">
   <div class="col-8">
@@ -93,13 +99,18 @@ body-class: scopes
       <p class="p-card__content">Creating a logo and using a specific color helps users identify more with a brand. You can use the color of your logo in the text, background or buttons also to create an overall look and feel.</p>
     </div>
   </div>
-</div>
 
-<div class="row">
-  <div class="link-top">
-    <a href="#">Back to top</a>
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+    </div>
   </div>
 </div>
+
+<div class="p-strip">
+
+
+
 
 <div class="row">
   <div class="col-10">
@@ -141,13 +152,18 @@ body-class: scopes
       </div>
     </div>
   </div>
-</div>
 
-<div class="row">
-  <div class="link-top">
-    <a href="#">Back to top</a>
+  <div class="row">
+    <div class="col-10 link-top">
+      <a href="#">Back to top</a>
+    </div>
   </div>
 </div>
+
+<div class="p-strip">
+
+
+
 
 <div class="row">
   <div class="col-8">
@@ -165,4 +181,5 @@ body-class: scopes
       <p class="p-card__content">See our <a href="/scopes/core-scopes">Core Scope</a> page for inspiration or the <a href="/components">Components</a> section on the different ways you can place components in cards, as well as card sizes and layouts.</p>
     </div>
   </div>
+</div>
 </div>

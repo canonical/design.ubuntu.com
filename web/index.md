@@ -19,22 +19,34 @@ body-class: guidelines
       <li class="p-list__item is-ticked"><a href="https://github.com/ubuntudesign/vanilla-design">Vanilla Design on GitHub</a></li>
       <li class="p-list__item is-ticked"><a href="https://docs.vanillaframework.io/">Vanilla Framework documentation</a></li>
     </ul>
+  </div>
+</div>
 
-    <h2 id="our-work-practices">Our work practices</h2>
+<div class="p-strip">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="our-work-practices">Our work practices</h2>
 
-    <p>We try as much as possible to document the practices and principles we follow on the Web Team.</p>
+      <p>We try as much as possible to document the practices and principles we follow on the Web Team.</p>
 
-    <ul class="p-list">
-      <li class="p-list__item is-ticked"><a href="https://github.com/ubuntudesign/webteam-practices">Web team practices on GitHub</a></li>
-    </ul>
+      <ul class="p-list">
+        <li class="p-list__item is-ticked"><a href="https://github.com/ubuntudesign/webteam-practices">Web team practices on GitHub</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-    <h2 id="looking-for-web-guidelines">Looking for Web Guidelines?</h2>
+<div class="p-strip">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="looking-for-web-guidelines">Looking for Web Guidelines?</h2>
 
-    <p>If you are using the previous version of the web style guide, you can still access the documentation.</p>
+      <p>If you are using the previous version of the web style guide, you can still access the documentation.</p>
 
-    <ul class="p-list">
-      <li class="p-list__item is-ticked"><a href="/web-style-guide">View Web Guidelines</a></li>
-    </ul>
+      <ul class="p-list">
+        <li class="p-list__item is-ticked"><a href="/web-style-guide">View Web Guidelines</a></li>
+      </ul>
 
+    </div>
   </div>
 </div>
