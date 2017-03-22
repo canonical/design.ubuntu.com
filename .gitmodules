@@ -1,0 +1,3 @@
+[submodule "vanilla-framework"]
+	path = vanilla-framework
+	url = https://github.com/vanilla-framework/vanilla-framework.git

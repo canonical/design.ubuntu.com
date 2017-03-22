@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: web-guidelines
 title: "JavaScript"
 body-id: "web-style-guide"
 body-class: "web-style-guide"
@@ -62,11 +62,11 @@ body-class: "web-style-guide"
 <p class="smaller note"><strong>Example:</strong></p>
 <div class="six-col">
 <ul class="inline-icons">
-<li><img src="https://assets.ubuntu.com/v1/e11d98f6-icon-firefox-32x32.png" alt="Firefox" title="Firefox" class="tooltip" /></li>
-<li><img src="https://assets.ubuntu.com/v1/abe96510-icon-gimp-35x35.png" alt="GIMP" title="GIMP" class="tooltip" /></li>
-<li><img src="https://assets.ubuntu.com/v1/6ea3c2c9-icon-inkscape-35x35.png" alt="Inkscape" title="Inkscape" class="tooltip" /></li>
-<li><img src="https://assets.ubuntu.com/v1/f03f9cbc-icon-pidgin-35x35.png" alt="Pidgin" title="Pidgin" class="tooltip" /></li>
-<li><img src="https://assets.ubuntu.com/v1/8d10c23b-icon-thunderbird-32x32.png" alt="Thunderbird" title="Thunderbird" class="tooltip" /></li>
+<li class="p-list__item"><img src="https://assets.ubuntu.com/v1/e11d98f6-icon-firefox-32x32.png" alt="Firefox" title="Firefox" class="tooltip" /></li>
+<li class="p-list__item"><img src="https://assets.ubuntu.com/v1/abe96510-icon-gimp-35x35.png" alt="GIMP" title="GIMP" class="tooltip" /></li>
+<li class="p-list__item"><img src="https://assets.ubuntu.com/v1/6ea3c2c9-icon-inkscape-35x35.png" alt="Inkscape" title="Inkscape" class="tooltip" /></li>
+<li class="p-list__item"><img src="https://assets.ubuntu.com/v1/f03f9cbc-icon-pidgin-35x35.png" alt="Pidgin" title="Pidgin" class="tooltip" /></li>
+<li class="p-list__item"><img src="https://assets.ubuntu.com/v1/8d10c23b-icon-thunderbird-32x32.png" alt="Thunderbird" title="Thunderbird" class="tooltip" /></li>
 </ul>
 </div>
 
@@ -94,10 +94,10 @@ body-class: "web-style-guide"
 
 <div class="tabbed-menu">
 <ul class="no-bullets">
-<li><a class="slideless active" href="#compute">Compute</a></li>
-<li><a class="slideless" href="#object-storage">Object storage</a></li>
-<li><a class="slideless" href="#authentication-service">Authentication</a></li>
-<li><a class="slideless" href="#management-service">Management</a></li>
+<li class="p-list__item"><a class="slideless active" href="#compute">Compute</a></li>
+<li class="p-list__item"><a class="slideless" href="#object-storage">Object storage</a></li>
+<li class="p-list__item"><a class="slideless" href="#authentication-service">Authentication</a></li>
+<li class="p-list__item"><a class="slideless" href="#management-service">Management</a></li>
 </ul>
 <img src="https://assets.ubuntu.com/v1/1000a177-tabbed-nav-arrow.png" class="arrow" height="6" width="12">
 </div>
@@ -127,9 +127,9 @@ body-class: "web-style-guide"
 </div>
 <div class="six-col last-col">
 <p>There are three central dashboards, covering the core OpenStack applications:</p>
-<ul class="list-canonical">
-<li>Raw</li>
-<li>VHD (Hyper-V)</li>
+<ul class="p-list-canonical">
+<li class="p-list__item">Raw</li>
+<li class="p-list__item">VHD (Hyper-V)</li>
 <li class="last-item">VDI (VirtualBox)</li>
 </ul>
 </div>

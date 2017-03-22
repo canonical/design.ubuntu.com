@@ -3,25 +3,21 @@
 
 {% include head.html %}
 
-<body id="{{ page.body-id }}" class="{{ page.body-class }}">
+<body id="wrapper" class="{{ page.body-class }}">
 
   {% include header.html %}
 
-  <div class="wrapper">
-    <div id="main-content" class="inner-wrapper">
+  {% if page.body-id=="scopes" %}
+    <div class="row">
+      <div class="12-col">
+        {% include side-nav-scopes.html %}
+      </div><!-- /.12-col -->
+    </div><!-- /.row -->
+  {% endif %}
 
-      {% if page.body-id=="web-style-guide" %}
-        {% include side-nav-web.html %}
-      {% endif %}
-
-      {{ content }}
-
-    </div><!-- /.inner-wrapper -->
-  </div><!-- /.wrapper -->
-
+  {{ content }}
 
   {% include footer.html %}
 
 </body>
-
 </html>

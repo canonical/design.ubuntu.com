@@ -1,0 +1,120 @@
+
+$color-brand:         #E95420 !default;
+$color-link:          #E95420 !default;
+
+
+// Run the vanilla framework
+@import "vanilla-brochure-theme/scss/theme";
+@include vanilla-brochure-theme;
+
+// Get the local scratch file
+@import "_sass/scratch";
+
+.p-navigation__logo {
+  margin: .5rem;
+}
+
+/* back to top links */
+.link-top {
+  clear: both;
+  margin: 40px 0 0 0;
+  text-align: right;
+  border-top: 1px dotted #ccc;
+}
+
+/* make cards grey */
+.p-card {
+  background: #f7f7f7;
+  color: #333;
+  margin: 2em auto;
+}
+
+/* made inline list work like a secondary menu */
+.p-inline-list__item {
+  position: relative;
+
+  &:first-child:after {
+    color: $color-dark;
+    content: '›';
+    font-size: 1.4rem;
+    line-height: 0;
+    position: absolute;
+    right: -1rem;
+    top: .55rem;
+  }
+
+  a {
+    color: $color-dark;
+  }
+
+  &.active > a {
+    color: $color-link;
+  }
+}
+
+/* Header search styling - borrowed from docs - https://github.com/CanonicalLtd/documentation-builder/blob/75cbc7629a1cc780960d5438ae0e826903ebb6e0/ubuntudesign/documentation_builder/resources/template.html just added marin to the .search--header and changed the field background color to white */
+.search__label {
+  display: none;
+}
+
+.search--header {
+  margin: .5rem;
+  float: right;
+  margin-left: auto;
+}
+
+.search__field,
+.search__field[type='search'] {
+  max-width: 480px;
+  padding: 6px 38px 6px 10px;
+  float: left;
+  margin-right: -38px;
+  border-color: #cdcdcd;
+  display: block;
+  background-color: #ffffff;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.search--header .search__field {
+  width: 250px;
+}
+
+@media (max-width: 767px) {
+
+  .search__button {
+    width: auto;
+  }
+}
+
+.search__button,
+.search__button:focus,
+.search__button:active {
+  border: none;
+  display: block;
+  padding: 6px;
+  margin: 0;
+  vertical-align: middle;
+  background-color: transparent;
+  line-height: 0;
+}
+
+.search__button:hover {
+  background-color: transparent;
+  border: none;
+}
+
+.search__svg-frame {
+  stroke: #888
+}
+.search__button:hover .search__svg-frame {
+  stroke: #111;
+}
+
+.search__svg-handle {
+  fill: #888;
+}
+
+.search__button:hover .search__svg-handle {
+  fill: #111;
+}
