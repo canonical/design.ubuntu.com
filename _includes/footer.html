@@ -20,13 +20,19 @@ if(!core){ var core = {}; }
 core.globalPrepend = 'body';
 </script>
 
-<script src="/assets/js/core.js"></script>
+<!--script src="/assets/js/core.js"></script-->
 <!--GLOBAL NAV script src="{{ site.assets_path }}94052790-global.js"></script-->
-<script src="{{ site.assets_path }}ea5f3f25-scratch.js"></script>
+<!--script src="{{ site.assets_path }}ea5f3f25-scratch.js"></script-->
 
+{% if page.body-id=="fonts" %}
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/assets/js/font.js"></script>
+{% else %}
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.scratch.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.prettyPhoto.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.slider.js"></script>
 <script type="text/javascript" src="/assets/js/base.js"></script>
+{% endif %}
