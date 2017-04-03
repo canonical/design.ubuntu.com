@@ -5,7 +5,7 @@ body-id: fonts
 body-class: fonts
 ---
 
-<div class="p-strip--accent">
+<div class="p-strip--light">
   <div class="row">
     <div class="col-8">
       <h2>Version 1.0</h2>

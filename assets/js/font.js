@@ -11,10 +11,6 @@ page_id = null;
 $(document).ready(function() {
   base.setPageId();
   base.readyFontTester();
-  base.readyCharsetNav();
-  base.readyGalleryLinks();
-  base.readyRandomSample();
-  base.getRandomSample();
 });
 
 /* Init methods */
@@ -87,64 +83,6 @@ base.readyFontTester = function() {
   $('select').bind('change', testerValidateAndUpdate);
 }
 
-// Ready the charset links
-base.readyCharsetNav = function() {
-  if (page_id != 'fonts') return false;
-
-  $('.nav-page a').bind('click', function(e) {
-    var anchor = $(this);
-    $('html, body').stop().animate({scrollTop: $(anchor.attr('href')).offset().top}, 1000);
-
-    e.preventDefault();
-  });
-}
-
-// Ready the gallery items (for those items that link out, ensure the whole image is clickable)
-base.readyGalleryLinks = function() {
-  if (page_id != 'gallery') return false;
-
-  var items = $('#gallery li a').closest('li');
-  items.css('cursor', 'pointer');
-  items.bind('click', function(e) {
-    location.href = $('a', this).attr('href');
-  });
-}
-
-// Ready the random sample container
-base.readyRandomSample = function() {
-  if (page_id != 'about' && page_id != 'licence') return false;
-
-  $('#sample').bind('click', function(e) {
-    base.getRandomSample();
-  });
-}
-
-// Display a random sample
-base.getRandomSample = function() {
-  if (page_id != 'about' && page_id != 'licence') return false;
-
-  var samples = [
-    '\u0151',
-    '\u016E',
-    '\u01C4',
-    '\u01FD',
-    '\u0221',
-    '\u03A3',
-    '\u0424',
-    '\u042F',
-    '\u04A6',
-    '\u04DC',
-    '\u1F97',
-    '\u20B9',
-    '\u2116',
-    'a<em>a</em>',
-    '<span lang="sr">\u0431</span><span lang="ru">\u0431</span>'
-  ];
-  var rand_num = Math.floor(Math.random() * (samples.length - 1));
-  $('#sample').empty().append('<p>' + samples[rand_num] + '</p>');
-};
-
-/* Non-init methods */
 
 // Get the current page ID
 base.getPageId = function() {

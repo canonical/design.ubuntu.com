@@ -5,7 +5,7 @@ body-id: fonts
 body-class: fonts
 ---
 
-<div class="p-strip">
+<div class="p-strip--light">
   <div class="row">
     <div class="col-12">
       <div id="tester">
@@ -56,7 +56,7 @@ body-class: fonts
   </div>
 </div>
 
-<div class="p-strip">
+<div class="p-strip--accent">
   <div class="row">
     <div class="col-8">
       <h2>About the Ubuntu Font Family</h2>

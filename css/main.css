@@ -2883,7 +2883,6 @@ sub {
       margin-bottom: 20px;
       display: block; }
   #tester-controls {
-    padding: 20px;
     display: inline; }
     #tester-controls select {
       font-size: .85rem;
@@ -2891,7 +2890,6 @@ sub {
       width: auto; }
     #tester-controls input[type='text'] {
       margin-bottom: 15px;
-      border: 3px solid #ccc;
       width: 100%; }
     #tester-controls label {
       display: inline;

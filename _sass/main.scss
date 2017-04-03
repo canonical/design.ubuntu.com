@@ -2,7 +2,6 @@
 $color-brand:         #E95420 !default;
 $color-link:          #E95420 !default;
 
-
 // Run the vanilla framework
 @import "vanilla-brochure-theme/scss/theme";
 @include vanilla-brochure-theme;
@@ -12,6 +11,23 @@ $color-link:          #E95420 !default;
 
 // Get the local scratch file
 @import "_sass/scratch";
+
+
+@mixin button-brand {
+  .p-button--brand {
+    @include button-pattern (
+      $button-background-color: $color-brand,
+      $button-border-color: $color-brand,
+      $button-text-color: $color-x-light,
+      $button-hover-background-color: darken($color-brand, 10%),
+      $button-hover-border-color: darken($color-brand, 10%),
+      $button-disabled-background-color: $color-brand,
+      $button-disabled-border-color: $color-brand
+    );
+  }
+}
+
+
 
 .p-navigation__logo {
   margin: .5rem;
