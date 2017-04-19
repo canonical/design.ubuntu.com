@@ -8,49 +8,55 @@ body-class: fonts
 <div class="p-strip--light">
   <div class="row">
     <div class="col-12">
-      <div id="tester">
-        <h1><span>This is the Ubuntu Font Family.</span> <span itemtype="description">It is a unique, custom designed font that has a very distinctive look and feel.</span></h1>
-
-        <div id="tester-controls">
-          <input id="tester-input" name="tester-input" type="text" value="Write your own text!" />
-
-          <label for="tester-font">Font:</label>
-          <select id="tester-font">
-            <option value="Ubuntu Condensed">Ubuntu Condensed</option>
-            <option value="Ubuntu" selected="selected">Ubuntu</option>
-            <option value="Ubuntu Mono">Ubuntu Monospace</option>
-          </select>
-
-          <label for="tester-weight">Weight:</label>
-          <select id="tester-weight">
-            <option value="300">Light</option>
-            <option value="400" selected="selected">Regular</option>
-            <option value="500">Medium</option>
-            <option value="700">Bold</option>
-          </select>
-
-          <label for="tester-style">Style:</label>
-          <select id="tester-style">
-            <option value="normal" selected="selected">Normal</option>
-            <option value="italic">Italic</option>
-          </select>
-
-          <label for="tester-size">Size:</label>
-          <select id="tester-size">
-            <option value="48" selected="selected">48</option>
-            <option value="36">36</option>
-            <option value="24">24</option>
-            <option value="16">16</option>
-          </select>
-
-          <label for="tester-colour">Colour:</label>
-          <select id="tester-colour">
-            <option value="333" selected="selected">Ubuntu grey</option>
-            <option value="aea79f">Ubuntu One grey</option>
-            <option value="772953">Canonical aubergine</option>
-            <option value="dd4814">Ubuntu orange</option>
-          </select>
-        </div>
+      <div class="font-tester">
+        <h5 class="font-tester__title">Font:</h5>
+        <input class="font-tester__option" type="radio" name="font" value="ubuntu" id="font-ubuntu" checked>
+        <label class="font-tester__label" for="font-ubuntu">Ubuntu</label>
+        <input class="font-tester__option" type="radio" name="font" id="font-condensed" value="condensed">
+        <label class="font-tester__label" for="font-condensed">Ubuntu Condensed</label>
+        <input class="font-tester__option" type="radio" name="font" id="font-monospace" value="monospace">
+        <label class="font-tester__label" for="font-monospace">Ubuntu Monospace</label>
+        <br />
+        <h5 class="font-tester__title">Size:</h5>
+        <input class="font-tester__option" type="radio" for="size-16" id="size-16" name="font-size" value="16" checked>
+        <label class="font-tester__label" for="size-16">16px</label>
+        <input class="font-tester__option" type="radio" id="size-21" name="font-size" value="21">
+        <label class="font-tester__label" for="size-21">21px</label>
+        <input class="font-tester__option" type="radio" id="size-24" name="font-size" value="24">
+        <label class="font-tester__label" for="size-24">24px</label>
+        <input class="font-tester__option" type="radio" id="size-36" name="font-size" value="36">
+        <label class="font-tester__label" for="size-36">36px</label>
+        <input class="font-tester__option" type="radio" id="size-48" name="font-size" value="48">
+        <label class="font-tester__label" for="size-48">48px</label>
+        <br />
+        <h5 class="font-tester__title">Weight:</h5>
+        <input class="font-tester__option" type="radio" id="weight-light" name="font-weight" value="light" checked>
+        <label class="font-tester__label" for="weight-light">Light</label>
+        <input class="font-tester__option" type="radio" id="weight-regular" name="font-weight" value="regular">
+        <label class="font-tester__label" for="weight-regular">Regular</label>
+        <input class="font-tester__option" type="radio" id="weight-medium" name="font-weight" value="medium">
+        <label class="font-tester__label" for="weight-medium">Medium</label>
+        <input class="font-tester__option" type="radio" id="weight-bold" name="font-weight" value="bold">
+        <label class="font-tester__label" for="weight-bold">Bold</label>
+        <br />
+        <h5 class="font-tester__title">Style:</h5>
+        <input class="font-tester__option" type="radio" id="style-normal" name="font-style" value="normal" checked>
+        <label class="font-tester__label" for="style-normal">Normal</label>
+        <input class="font-tester__option" type="radio" id="style-italic" name="font-style" value="italic">
+        <label class="font-tester__label" for="style-italic">Italic</label>
+        <br />
+        <h5 class="font-tester__title">Colour:</h5>
+        <input class="font-tester__option" type="radio" id="color-black" name="color" value="black" checked>
+        <label class="font-tester__label" for="color-black">Black</label>
+        <input class="font-tester__option" type="radio" id="color-aubergine" name="color" value="aubergine">
+        <label class="font-tester__label" for="color-aubergine">Aubergine</label>
+        <input class="font-tester__option" type="radio" id="color-orange" name="color" value="orange">
+        <label class="font-tester__label" for="color-orange">Orange</label>
+        <br /><br />
+        <textarea class="font-tester__demo">
+This is the Ubuntu Font Family.
+It is a unique, custom designed font that has a very distinctive look and feel.
+</textarea>
       </div>
     </div>
   </div>

@@ -1,17 +1,17 @@
 
-$color-brand:         #E95420 !default;
-$color-link:          #E95420 !default;
+$color-brand:         #E95420;
+$color-aubergine:     #5e2750;
+$color-link:          #E95420;
 
 // Run the vanilla framework
 @import "vanilla-brochure-theme/scss/theme";
 @include vanilla-brochure-theme;
 
-// Get the font file
-@import "_sass/font";
+@import "_patterns-font-tester";
+@import "scratch";
 
-// Get the local scratch file
-@import "_sass/scratch";
-
+// Site patterns
+@include design-p-font-tester;
 
 @mixin button-brand {
   .p-button--brand {
@@ -27,8 +27,6 @@ $color-link:          #E95420 !default;
   }
 }
 
-
-
 .p-navigation__logo {
   margin: .5rem;
 }
@@ -43,7 +41,7 @@ $color-link:          #E95420 !default;
 
 /* make cards grey */
 .p-card {
-  background: #f7f7f7;
+  background: $color-light;
   color: #333;
   margin: 2em auto;
 }
