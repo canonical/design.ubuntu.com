@@ -7,23 +7,23 @@ body-class: "guidelines"
 
 
           <div class="row no-border">
-     <div class="two-col">
+     <div class="col-2">
           <div id="accordion">
                <h3><a href="ubuntu-and-canonical-web-universe#">Web</a></h3>
                <div>
-                    <ul class="list">
+                    <ul class="p-list">
                          <li class="current_page_item"><a href="ubuntu-and-canonical-web-universe">Ubuntu web universe</a></li>
-<li><a href="http://design.ubuntu.com/web/typography">Typography</a></li>
-<li><a href="colour">Colour</a></li>
-<li><a href="links">Links</a></li>
-<li><a href="forms">Forms</a></li>
-<li><a href="rounded-corners-and-drop-shadows">Rounded corners and drop-shadows</a></li>
+<li class="p-list__item"><a href="http://design.ubuntu.com/web/typography">Typography</a></li>
+<li class="p-list__item"><a href="colour">Colour</a></li>
+<li class="p-list__item"><a href="links">Links</a></li>
+<li class="p-list__item"><a href="forms">Forms</a></li>
+<li class="p-list__item"><a href="rounded-corners-and-drop-shadows">Rounded corners and drop-shadows</a></li>
                     </ul>
                </div>
           </div>
      </div>
 
-     <div id="loop-guidelines" class="ten-col last-col">
+     <div id="loop-guidelines" class="col-10">
                          <h1>Ubuntu web universe</h1>
                <p>It&#8217;s important to know where your website sits in the Ubuntu web universe when creating design work. This factor will dictate how closely you need to follow the guidelines. Remember: the Ubuntu and Canonical logos must <em>always</em> be used according to the guidelines.</p>
 <table>
@@ -37,23 +37,23 @@ body-class: "guidelines"
 <td>
 This covers all sites on the ubuntu.com namespace.</p>
 <p>Examples:</p>
-<ul>
-<li>wiki.ubuntu.com</li>
-<li>loco.ubuntu.com</li>
-<li>forums.ubuntu.com</li>
-<li>developer.ubuntu.com</li>
-<li>qa.ubuntu.com</li>
+<ul class="p-list">
+<li class="p-list__item">wiki.ubuntu.com</li>
+<li class="p-list__item">loco.ubuntu.com</li>
+<li class="p-list__item">forums.ubuntu.com</li>
+<li class="p-list__item">developer.ubuntu.com</li>
+<li class="p-list__item">qa.ubuntu.com</li>
 </ul>
 </td>
 <td>
 These are sites that sit in the wider Ubuntu ecosystem but not within the ubuntu.com namespace.</p>
 <p>Examples:</p>
-<ul>
-<li>ubuntuone.com</li>
-<li>omgubuntu.co.uk</li>
-<li>askubuntu.com</li>
-<li>http://ubuntu-it.org/</li>
-<li>http://ubuntu-fr.org/</li>
+<ul class="p-list">
+<li class="p-list__item">ubuntuone.com</li>
+<li class="p-list__item">omgubuntu.co.uk</li>
+<li class="p-list__item">askubuntu.com</li>
+<li class="p-list__item">http://ubuntu-it.org/</li>
+<li class="p-list__item">http://ubuntu-fr.org/</li>
 </ul>
 </td>
 </tr>

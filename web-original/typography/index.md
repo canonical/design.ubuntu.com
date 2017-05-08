@@ -6,23 +6,23 @@ body-class: "guidelines"
 ---
 
           <div class="row no-border">
-     <div class="two-col">
+     <div class="col-2">
           <div id="accordion">
                <h3><a href="typography#">Web</a></h3>
                <div>
-                    <ul class="list">
-                         <li><a href="/web/ubuntu-and-canonical-web-universe">Ubuntu web universe</a></li>
+                    <ul class="p-list">
+                         <li class="p-list__item"><a href="/web/ubuntu-and-canonical-web-universe">Ubuntu web universe</a></li>
 <li class="current_page_item"><a href="typography">Typography</a></li>
-<li><a href="/web/colour">Colour</a></li>
-<li><a href="/web/links">Links</a></li>
-<li><a href="/web/forms">Forms</a></li>
-<li><a href="/web/rounded-corners-and-drop-shadows">Rounded corners and drop-shadows</a></li>
+<li class="p-list__item"><a href="/web/colour">Colour</a></li>
+<li class="p-list__item"><a href="/web/links">Links</a></li>
+<li class="p-list__item"><a href="/web/forms">Forms</a></li>
+<li class="p-list__item"><a href="/web/rounded-corners-and-drop-shadows">Rounded corners and drop-shadows</a></li>
                     </ul>
                </div>
           </div>
      </div>
 
-     <div id="loop-guidelines" class="ten-col last-col">
+     <div id="loop-guidelines" class="col-10">
                          <h1>Typography</h1>
                <h2>Ubuntu font family</h2>
 <p>The <a title="Ubuntu font family" href="http://design.ubuntu.com/brand-elements/ubuntu-font-family">Ubuntu font</a> has been carefully designed, hinted and kerned to provide the best experience and legibility on screen.</p>
