@@ -1,0 +1,81 @@
+@mixin design-p-font-tester {
+  .font-tester {
+    &__demo {
+      width: 100%;
+      height: 300px;
+      overflow: hidden;
+      font-family: "Ubuntu";
+      background-color: transparent;
+    }
+
+    &__title {
+      display: inline-block;
+      margin: 0 1rem 1rem 0;
+      width: 5rem;
+    }
+
+    &__label {
+      @include button-pattern (
+        $button-background-color: $color-light,
+        $button-border-color: $color-mid-light,
+        $button-hover-background-color: darken($color-light, 10%),
+        $button-hover-border-color: darken($color-mid-light, 10%)
+      );
+
+      margin-bottom: .5rem;
+
+      @media only screen and (min-width: $breakpoint-medium) {
+        width: auto !important;
+        margin-bottom: 0;
+      }
+    }
+
+    // XXX Ant 19.04.17
+    // Temporary styling until the following issue is resolved:
+    // https://github.com/vanilla-framework/vanilla-framework/issues/1027
+    &__option {
+      float: none !important;
+      margin-right: 0 !important;
+      display: none;
+
+      &:checked + .font-tester__label {
+        @include button-pattern (
+          $button-background-color: $color-positive,
+          $button-border-color: $color-positive,
+          $button-text-color: $color-x-light,
+          $button-hover-background-color: darken($color-positive, 10%),
+          $button-hover-border-color: darken($color-positive, 10%)
+        );
+
+        margin-bottom: .5rem;
+
+        @media only screen and (min-width: $breakpoint-medium) {
+          width: auto !important;
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    &__option[name="font-size"][value="16"]:checked ~ &__demo { font-size: 16px;}
+    &__option[name="font-size"][value="21"]:checked ~ &__demo { font-size: 21px;}
+    &__option[name="font-size"][value="24"]:checked ~ &__demo { font-size: 24px;}
+    &__option[name="font-size"][value="36"]:checked ~ &__demo { font-size: 36px;}
+    &__option[name="font-size"][value="48"]:checked ~ &__demo { font-size: 48px;}
+
+    &__option[name="font-weight"][value="light"]:checked ~ &__demo { font-weight: 300;}
+    &__option[name="font-weight"][value="regular"]:checked ~ &__demo { font-weight: 400; }
+    &__option[name="font-weight"][value="medium"]:checked ~ &__demo { font-weight: 500; }
+    &__option[name="font-weight"][value="bold"]:checked ~ &__demo { font-weight: 700; }
+
+    &__option[name="font-style"][value="normal"]:checked ~ &__demo { font-style: normal; }
+    &__option[name="font-style"][value="italic"]:checked ~ &__demo { font-style: italic; }
+
+    &__option[name="font"][value="ubuntu"]:checked ~ &__demo { font-family: 'Ubuntu'; }
+    &__option[name="font"][value="condensed"]:checked ~ &__demo { font-family: 'Ubuntu Condensed'; }
+    &__option[name="font"][value="monospace"]:checked ~ &__demo { font-family: 'Ubuntu Mono'; }
+
+    &__option[name="color"][value="black"]:checked ~ &__demo { color: $color-dark; }
+    &__option[name="color"][value="aubergine"]:checked ~ &__demo { color: $color-aubergine; }
+    &__option[name="color"][value="orange"]:checked ~ &__demo { color: $color-brand; }
+  }
+}

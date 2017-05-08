@@ -24,6 +24,7 @@ github_username:  jekyll
 assets_path: https://assets.ubuntu.com/v1/
 
 # Build settings
+incremental: true
 markdown: kramdown
 sass:
     style: compressed

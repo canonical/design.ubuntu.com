@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body id="wrapper" class="{{ page.body-class }}">
+<body id="{{ page.body-id }}" class="{{ page.body-class }}">
 
   {% include header.html %}
 
@@ -31,7 +31,7 @@
       </div>
       {% endif %}
 
-      <div class="{% if page.body-id=="downloads" %}col-10{% elsif page.body-id=="examples" %}col-12{% elsif page.body-id=="brand-assets" %}col-10{% else %}col-10{% endif %}">
+      <div class="{% if page.body-id=="downloads" %}col-10{% elsif page.body-id=="examples" %}col-12{% elsif page.body-id=="brand-assets" %}col-10{% else %}col-12{% endif %}">
         {{ content }}
       </div><!-- /.8-col -->
     </div><!-- /.p-strip -->
