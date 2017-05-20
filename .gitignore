@@ -1,6 +1,47 @@
-_site
-.sass-cache
-.jekyll-metadata
-.DS_Store
-node_modules
-css
+# OS & editor files
+Desktop.ini
+Thumbs.db
+._*
+*.DS_Store
+*~
+\#*\#
+__*
+.AppleDouble
+.LSOverride
+.spelling
+
+# Cache and backup
+*.bak
+*.pyc
+*-cache/
+
+# Local data
+*.sqlite*
+*.log
+logs/
+pids
+*.pid
+*.seed
+.*-metadata
+
+# Local dependencies
+.bundle/
+node_modules/
+bower_components/
+vendor/
+
+# Build files
+/build/
+_site/
+
+# Local environment settings
+.docker-project
+.envrc
+env/
+env3/
+
+# Sass
+*.css
+*.css.map
+
+# Project-specific ignores
