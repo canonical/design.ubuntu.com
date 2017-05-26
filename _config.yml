@@ -40,3 +40,4 @@ exclude:
   - package.json
   - run
   - yarn.lock
+  - node_modules
