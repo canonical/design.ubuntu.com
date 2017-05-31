@@ -36,3 +36,8 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - package.json
+  - run
+  - yarn.lock
+  - node_modules

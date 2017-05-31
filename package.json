@@ -1,37 +1,23 @@
 {
   "name": "design.ubuntu.com",
-  "version": "1.0.0",
   "description": "code for design.ubuntu.com",
-  "main": "index.js",
-  "directories": {
-    "example": "examples"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "sass-lint static/**/*.scss --verbose --no-exit",
+    "watch": "node-sass --include-path node_modules --source-map true --watch _sass --output css",
+    "build": "node-sass --include-path node_modules _sass --output css",
+    "clean": "rm -rf node_modules yarn-error.log css *.log *.sqlite _site/ build/ .jekyll-metadata"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/canonical-websites/design.ubuntu.com.git"
   },
-  "keywords": [
-    "brochure"
-  ],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/canonical-websites/design.ubuntu.com/issues"
   },
   "homepage": "https://github.com/canonical-websites/design.ubuntu.com#readme",
-  "dependencies": {
-   "browser-sync": "^2.11.1",
-   "gulp": "^3.9.0",
-   "gulp-autoprefixer": "^3.1.0",
-   "gulp-sass": "^3.1.0",
-   "vanilla-brochure-theme": "1.0.4"
- },
- "devDependencies": {
-   "gulp-gh-pages": "^0.5.4",
-   "gulp-uglify": "^1.5.3",
-   "gulp-sourcemaps": "1.8.1"
- }
+  "devDependencies": {
+    "sass-lint": "^1.10.2",
+    "node-sass": "^4.5.3",
+    "vanilla-brochure-theme": "1.0.4"
+  }
 }
