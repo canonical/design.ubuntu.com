@@ -27,8 +27,19 @@ $color-link:          #E95420;
   }
 }
 
-.p-navigation__logo {
-  margin: .5rem;
+.p-navigation {
+  background-color: $color-brand;
+  margin-bottom: 0;
+  font-weight: 400;
+
+  @media (max-width: $breakpoint-medium) {
+    font-weight: 300;
+    border-bottom: 1px solid $color-light;
+  }
+
+  &__logo {
+    margin: .5rem;
+  }
 }
 
 /* back to top links */
