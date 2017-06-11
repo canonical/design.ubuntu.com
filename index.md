@@ -60,23 +60,22 @@ body-class: "home"
 <section class="p-strip is-deep">
   <div class="row">
     <div class="col-3">
-      <h3><a href="audiences">Our audiences &rsaquo;</a></h3>
-      <p>Find out how to tailor your designs depending on which audience you are catering for, with the help of three handy sliders.</p>
+      <h3><a href="brand">Brand&nbsp;&rsaquo;</a></h3>
+      <p>Learn about the elements that constitute the Ubuntu brand and how to use them, such as the Ubuntu and Canonical logos, pictograms and product photography.</p>
     </div>
     <div class="col-3">
-      <h3><a href="brand">Brand assets &rsaquo;</a></h3>
-      <p>Learn about the elements that constitute the Ubuntu brand and how to use them, such as the Ubuntu and Canonical logos, pictograms, photography, etc.</p>
+      <h3><a href="web-style-guide">Web&nbsp;&rsaquo;</a></h3>
+      <p>Find out about the Vanilla Framework, created to ease design and development of Ubuntu and Canonical sites, and free to use on your own projects too.</p>
     </div>
     <div class="col-3">
-      <h3><a href="web-style-guide">Web guidelines &rsaquo;</a></h3>
-      <p>See how to use the Ubuntu brand on the web, from the logo to the Ubuntu font family, colours, forms, navigation and more design patterns and components.</p>
+      <h3><a href="font">Font&nbsp;&rsaquo;</a></h3>
+      <p>Learn more about the Ubuntu font family, the available fonts, weights and languages, and how to get it for free.</p>
     </div>
     <div class="col-3">
-      <h3>Quick links</h3>
+      <h3>More</h3>
       <ul class="p-list--divided">
-        <li class="p-list__item"><a href="/brand/ubuntu-logo">Ubuntu logo &rsaquo;</a></li>
-        <li class="p-list__item"><a href="/brand/canonical-logo">Canonical logo &rsaquo;</a></li>
-        <li class="p-list__item"><a href="/brand/colour-palette">Colour palette &rsaquo;</a></li>
+        <li class="p-list__item"><a href="/brand/examples">Examples&nbsp;&rsaquo;</a></li>
+        <li class="p-list__item"><a href="/downloads">Downloads&nbsp;&rsaquo;</a></li>
       </ul>
     </div>
   </div>
