@@ -5,85 +5,99 @@ body-id: fonts
 body-class: fonts
 ---
 
-<div class="p-strip--light">
+<div class="p-strip is-deep u-no-padding--top">
   <div class="row">
     <div class="col-12">
       <div class="font-tester">
-        <h5 class="font-tester__title">Font:</h5>
-        <input class="font-tester__option" type="radio" name="font" value="ubuntu" id="font-ubuntu" checked>
-        <label class="font-tester__label" for="font-ubuntu">Ubuntu</label>
-        <input class="font-tester__option" type="radio" name="font" id="font-condensed" value="condensed">
-        <label class="font-tester__label" for="font-condensed">Ubuntu Condensed</label>
-        <input class="font-tester__option" type="radio" name="font" id="font-monospace" value="monospace">
-        <label class="font-tester__label" for="font-monospace">Ubuntu Monospace</label>
-        <br />
-        <h5 class="font-tester__title">Size:</h5>
-        <input class="font-tester__option" type="radio" for="size-16" id="size-16" name="font-size" value="16" checked>
-        <label class="font-tester__label" for="size-16">16px</label>
-        <input class="font-tester__option" type="radio" id="size-21" name="font-size" value="21">
-        <label class="font-tester__label" for="size-21">21px</label>
-        <input class="font-tester__option" type="radio" id="size-24" name="font-size" value="24">
-        <label class="font-tester__label" for="size-24">24px</label>
-        <input class="font-tester__option" type="radio" id="size-36" name="font-size" value="36">
-        <label class="font-tester__label" for="size-36">36px</label>
-        <input class="font-tester__option" type="radio" id="size-48" name="font-size" value="48">
-        <label class="font-tester__label" for="size-48">48px</label>
-        <br />
-        <h5 class="font-tester__title">Weight:</h5>
-        <input class="font-tester__option" type="radio" id="weight-light" name="font-weight" value="light" checked>
-        <label class="font-tester__label" for="weight-light">Light</label>
-        <input class="font-tester__option" type="radio" id="weight-regular" name="font-weight" value="regular">
-        <label class="font-tester__label" for="weight-regular">Regular</label>
-        <input class="font-tester__option" type="radio" id="weight-medium" name="font-weight" value="medium">
-        <label class="font-tester__label" for="weight-medium">Medium</label>
-        <input class="font-tester__option" type="radio" id="weight-bold" name="font-weight" value="bold">
-        <label class="font-tester__label" for="weight-bold">Bold</label>
-        <br />
-        <h5 class="font-tester__title">Style:</h5>
-        <input class="font-tester__option" type="radio" id="style-normal" name="font-style" value="normal" checked>
-        <label class="font-tester__label" for="style-normal">Normal</label>
-        <input class="font-tester__option" type="radio" id="style-italic" name="font-style" value="italic">
-        <label class="font-tester__label" for="style-italic">Italic</label>
-        <br />
-        <h5 class="font-tester__title">Colour:</h5>
-        <input class="font-tester__option" type="radio" id="color-black" name="color" value="black" checked>
-        <label class="font-tester__label" for="color-black">Black</label>
-        <input class="font-tester__option" type="radio" id="color-aubergine" name="color" value="aubergine">
-        <label class="font-tester__label" for="color-aubergine">Aubergine</label>
-        <input class="font-tester__option" type="radio" id="color-orange" name="color" value="orange">
-        <label class="font-tester__label" for="color-orange">Orange</label>
-        <br /><br />
+
+        <select class="font-tester__option js-font-select col-3" data-selected="16">
+          <option value="16" selected>16px</option>
+          <option value="21">21px</option>
+          <option value="24">24px</option>
+          <option value="36">36px</option>
+          <option value="48">48px</option>
+        </select>
+
+        <select class="font-tester__option js-font-select col-3" data-selected="ubuntu">
+          <option value="ubuntu" selected>Ubuntu</option>
+          <option value="condensed">Ubuntu Condensed</option>
+          <option value="monospace">Ubuntu Monospace</option>
+        </select>
+
+        <select class="font-tester__option js-font-select col-2" data-selected="light">
+          <option value="light" selected>Light</option>
+          <option value="regular">Regular</option>
+          <option value="medium">Medium</option>
+          <option value="bold">Bold</option>
+        </select>
+
+        <select class="font-tester__option js-font-select col-2" data-selected="normal">
+          <option value="normal" selected>Normal</option>
+          <option value="italic">Italic</option>
+        </select>
+
+        <select class="font-tester__option js-font-select col-2" data-selected="black">
+          <option value="black" selected>Black</option>
+          <option value="aubergine">Aubergine</option>
+          <option value="orange">Orange</option>
+        </select>
+
         <textarea class="font-tester__demo">
-This is the Ubuntu Font Family.
-It is a unique, custom designed font that has a very distinctive look and feel.
+Type your text here
 </textarea>
       </div>
     </div>
   </div>
 </div>
 
-<div class="p-strip--accent">
+<div class="p-strip--accent is-deep">
   <div class="row">
     <div class="col-8">
-      <h2>About the Ubuntu Font Family</h2>
-      <p>The way typography is used says as much about our brand as the words themselves.</p>
-      <p itemprop="about">The Ubuntu typeface has been specially created to complement the Ubuntu tone of voice. It has a contemporary style and contains characteristics unique to the Ubuntu brand that convey a precise, reliable and free attitude.</p>
-      <a href="./about">More about the Ubuntu Font Family &rsaquo;</a>
+      <h2>About the Ubuntu font family</h2>
+      <p>The Ubuntu font family are a set of matching new libre/open fonts. The development is being funded by <a href="http://www.canonical.com/" class="p-link--external">Canonical</a> on behalf the wider Free Software community and the Ubuntu project. The technical font design work and implementation is being undertaken by <a href="http://www.daltonmaag.com/" class="p-link--external">Dalton&nbsp;Maag</a>.</p>
+      <p>Both the final font Truetype/OpenType files and the design files used to produce the font family are distributed under an <a href="http://font.ubuntu.com/licence" class="p-link--external">open licence</a> and you are expressly encouraged to experiment, modify, share and improve. The typeface is sans-serif, uses OpenType features and is manually hinted for clarity on desktop and mobile computing screens.</p>
+      <p>The scope of the Ubuntu Font Family includes all the languages used by the various Ubuntu users around the world in tune with Ubuntu&apos;s philosophy which states that every user should be able to use their software in the language of their choice. So the Ubuntu Font Family project will be extended to cover many more written languages.</p>
     </div>
   </div>
 </div>
 
-<div class="p-strip">
+<div class="p-strip is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h2>Facts and figures</h2>
+      <p>The Ubuntu font family is a sans-serif typeface family with an intended coverage of thirteen fonts.</p>
+      <h3>Coverage</h3>
+      <p>1,200 glyphs, 200-250 languages (native languages of 3 billion people!).</p>
+      <h3>Technology</h3>
+      <ul class="p-list">
+        <li class="p-list__item is-ticked">OpenType-based TTF (TrueType)</li>
+        <li class="p-list__item is-ticked">Alternative glyphs (e.g. proportional/non-proportional/superscript/subscript numerals)</li>
+        <li class="p-list__item is-ticked">Debugging glyphs (U+EFFD, U+EFFE, U+EFFF, U+F000) giving face, version, grayscale level and pixels-per-em digit display</li>
+      </ul>
+      <p>The pixels-per-em 7-segment digits are driven by the hint engine (substituted from the Deja fonts), so if hinting is by default off (e.g. Firefox) then the output will show as a pair of &ldquo;88&rdquo; numerals.</p>
+      <h3>Design</h3>
+      <p>The four Latin characters, &apos;n o H O&apos; helped to define a guide for around 80-percent of the remaining characters. Extensive manual hinting has been performed for rendered sizes below 60 pixels-per-em.</p>
+      <p>Software used:</p>
+      <ul class="p-list">
+        <li class="p-list__item is-ticked">Fontlab Studio</li>
+        <li class="p-list__item is-ticked">Microsoft Visual Truetype (VTT)</li>
+        <li class="p-list__item is-ticked">In-house Python-based accent placement scripts</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="p-strip is-deep is-bordered">
   <div class="row">
     <div class="col-8">
       <h2>Resources</h2>
-      <p><a class="p-button--brand" href="/assets/ubuntu-font-family-0.83.zip" type="application/zip">Download for free (2.0MB) &rsaquo;</a></p>
-
-      <ul class="p-list">
-        <li class="p-list__item is-ticked">Want to use the Ubuntu Font Family on the web? Visit <a href="https://fonts.google.com/?query=Ubuntu">Google Fonts &rsaquo;</a></li>
-        <li class="p-list__item is-ticked"><a href="/assets/ubuntu-font-family-sources_0.83.orig.tar.gz">Download the Ubuntu Font Family source code &rsaquo;</a> (For font designers with a copy of Font Lab Studio, 7.8MB)</li>
-        <li class="p-list__item is-ticked">Ubuntu font source code on <a href="http://launchpad.net/ubuntu-font-family">Launchpad &rsaquo;</a></li>
-        <li class="p-list__item is-ticked"><a href="http://wiki.ubuntu.com/Ubuntu_Font_Family">Wiki documentation &rsaquo;</a></li>
+      <p><a href="" class="p-button--brand">Download for free</a></p>
+      <ul class="p-list--divided">
+        <li class="p-list__item js-font-test-input"><a href="https://assets.ubuntu.com/v1/fad7939b-ubuntu-font-family-0.83.zip" class="p-link--external">Download the Ubuntu Font Family</a> (2.0MB)</li>
+        <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/4cd05122-ubuntu-font-family-sources_0.83.orig.tar.gz" class="p-link--external">Download the Ubuntu Font Family source code</a><br />(For font designers with a copy of Font Lab Studio, 7.8MB)</li>
+        <li class="p-list__item"><a href="https://fonts.google.com/?query=Ubuntu" class="p-link--external">Google Web Fonts</a></li>
+        <li class="p-list__item"><a href="http://launchpad.net/ubuntu-font-family" class="p-link--external">Launchpad</a></li>
+        <li class="p-list__item"><a href="http://wiki.ubuntu.com/Ubuntu_Font_Family" class="p-link--external">Wiki documentation</a></li>
       </ul>
     </div>
   </div>
