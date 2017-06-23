@@ -7,46 +7,53 @@ body-class: fonts
 
 <div class="p-strip is-deep u-no-padding--top">
   <div class="row">
-    <div class="col-12">
-      <div class="font-tester">
-
-        <select class="font-tester__option js-font-select col-3" data-selected="16">
+    <form class="font-tester">
+      <div class="col-3">
+        <label for="size">Size</label>
+        <select class="font-tester__option js-font-select" name="size" >
           <option value="16" selected>16px</option>
           <option value="21">21px</option>
           <option value="24">24px</option>
           <option value="36">36px</option>
           <option value="48">48px</option>
         </select>
-
-        <select class="font-tester__option js-font-select col-3" data-selected="ubuntu">
+      </div>
+      <div class="col-3">
+        <label for="family">Family</label>
+        <select class="font-tester__option js-font-select" name="family" >
           <option value="ubuntu" selected>Ubuntu</option>
           <option value="condensed">Ubuntu Condensed</option>
           <option value="monospace">Ubuntu Monospace</option>
         </select>
-
-        <select class="font-tester__option js-font-select col-2" data-selected="light">
+      </div>
+      <div class="col-2">
+        <label for="weight">Weight</label>
+        <select class="font-tester__option js-font-select" name="weight" >
           <option value="light" selected>Light</option>
           <option value="regular">Regular</option>
           <option value="medium">Medium</option>
           <option value="bold">Bold</option>
         </select>
-
-        <select class="font-tester__option js-font-select col-2" data-selected="normal">
+      </div>
+      <div class="col-2">
+        <label for="style">Style</label>
+        <select class="font-tester__option js-font-select" name="style" >
           <option value="normal" selected>Normal</option>
           <option value="italic">Italic</option>
         </select>
-
-        <select class="font-tester__option js-font-select col-2" data-selected="black">
+      </div>
+      <div class="col-2">
+        <label for="color">Color</label>
+        <select class="font-tester__option js-font-select" name="color" >
           <option value="black" selected>Black</option>
           <option value="aubergine">Aubergine</option>
           <option value="orange">Orange</option>
         </select>
-
-        <textarea class="font-tester__demo">
+      </div>
+      <textarea class="font-tester__demo js-font-demo" data-size="16" data-family="ubuntu" data-weight="light" data-style="normal" data-color="black">
 Type your text here
 </textarea>
-      </div>
-    </div>
+    </form>
   </div>
 </div>
 
@@ -91,9 +98,9 @@ Type your text here
   <div class="row">
     <div class="col-8">
       <h2>Resources</h2>
-      <p><a href="" class="p-button--brand">Download for free</a></p>
+      <p><a href="https://assets.ubuntu.com/v1/fad7939b-ubuntu-font-family-0.83.zip" class="p-button--brand">Download for free</a></p>
       <ul class="p-list--divided">
-        <li class="p-list__item js-font-test-input"><a href="https://assets.ubuntu.com/v1/fad7939b-ubuntu-font-family-0.83.zip" class="p-link--external">Download the Ubuntu Font Family</a> (2.0MB)</li>
+        <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/fad7939b-ubuntu-font-family-0.83.zip" class="p-link--external">Download the Ubuntu Font Family</a> (2.0MB)</li>
         <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/4cd05122-ubuntu-font-family-sources_0.83.orig.tar.gz" class="p-link--external">Download the Ubuntu Font Family source code</a><br />(For font designers with a copy of Font Lab Studio, 7.8MB)</li>
         <li class="p-list__item"><a href="https://fonts.google.com/?query=Ubuntu" class="p-link--external">Google Web Fonts</a></li>
         <li class="p-list__item"><a href="http://launchpad.net/ubuntu-font-family" class="p-link--external">Launchpad</a></li>

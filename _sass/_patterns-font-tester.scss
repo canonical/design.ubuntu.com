@@ -14,26 +14,28 @@
       width: 5rem;
     }
 
-    &__option[data-selected="16"] ~ &__demo { font-size: 16px;}
-    &__option[data-selected="21"] ~ &__demo { font-size: 21px;}
-    &__option[data-selected="24"] ~ &__demo { font-size: 24px;}
-    &__option[data-selected="36"] ~ &__demo { font-size: 36px;}
-    &__option[data-selected="48"] ~ &__demo { font-size: 48px;}
+    &__demo {
+      &[data-size="16"] { font-size: 16px;}
+      &[data-size="21"] { font-size: 21px;}
+      &[data-size="24"] { font-size: 24px;}
+      &[data-size="36"] { font-size: 36px;}
+      &[data-size="48"] { font-size: 48px;}
 
-    &__option[data-selected="light"] ~ &__demo { font-weight: 300;}
-    &__option[data-selected="regular"] ~ &__demo { font-weight: 400; }
-    &__option[data-selected="medium"] ~ &__demo { font-weight: 500; }
-    &__option[data-selected="bold"] ~ &__demo { font-weight: 700; }
+      &[data-weight="light"] { font-weight: 300;}
+      &[data-weight="regular"] { font-weight: 400; }
+      &[data-weight="medium"] { font-weight: 500; }
+      &[data-weight="bold"] { font-weight: 700; }
 
-    &__option[data-selected="normal"] ~ &__demo { font-style: normal; }
-    &__option[data-selected="italic"] ~ &__demo { font-style: italic; }
+      &[data-style="normal"] { font-style: normal; }
+      &[data-style="italic"] { font-style: italic; }
 
-    &__option[data-selected="ubuntu"] ~ &__demo { font-family: 'Ubuntu'; }
-    &__option[data-selected="condensed"] ~ &__demo { font-family: 'Ubuntu Condensed'; }
-    &__option[data-selected="monospace"] ~ &__demo { font-family: 'Ubuntu Mono'; }
+      &[data-family="ubuntu"] { font-family: 'Ubuntu'; }
+      &[data-family="condensed"] { font-family: 'Ubuntu Condensed'; }
+      &[data-family="monospace"] { font-family: 'Ubuntu Mono'; }
 
-    &__option[data-selected="black"] ~ &__demo { color: $color-dark; }
-    &__option[data-selected="aubergine"] ~ &__demo { color: $color-aubergine; }
-    &__option[data-selected="orange"] ~ &__demo { color: $color-brand; }
+      &[data-color="black"] { color: $color-dark; }
+      &[data-color="aubergine"] { color: $color-aubergine; }
+      &[data-color="orange"] { color: $color-brand; }
+    }
   }
 }

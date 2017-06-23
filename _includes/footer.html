@@ -32,6 +32,9 @@ core.globalPrepend = 'body';
 {% if page.body-id=="fonts" %}
 <script src="https://assets.ubuntu.com/v1/49d19be0-polyfills.js"></script>
 <script type="text/javascript" src="/assets/js/font.js"></script>
+<script>
+  core.fontSelecter();
+</script>
 {% else %}
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
