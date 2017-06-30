@@ -38,7 +38,6 @@
                </a>
           </div>
           <ul class="p-list">
-               <li class="p-list__item"><a href="http://design.ubuntu.com/audiences" class="first ">Audiences</a></li>
                <li class="p-list__item"><a href="../brand">Brand</a></li>
                <li class="p-list__item"><a href="../web-style-guide" class="active">Web</a></li>
                <li class="p-list__item"><a href="http://design.ubuntu.com/apps">Apps</a></li>
