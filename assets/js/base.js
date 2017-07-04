@@ -74,7 +74,7 @@ base.setPageClass = function() {
 
 // Get first result set and cache it
 base.getFirstResultSet = function() {
-  if (page_class != 'examples' && page_class != 'downloads') return false;
+  if (page_class != 'downloads') return false;
 
   var container = $('#loop-' + page_class);
   first_result_set = container.html();
@@ -132,8 +132,8 @@ base.readyOverlay = function() {
 
 // Prep checkboxes
 base.readyCheckboxes = function() {
-  // Just examples and downloads
-  if (page_class != 'examples' && page_class != 'downloads') return false;
+  // Just downloads
+  if (page_class != 'downloads') return false;
 
   $('input[type=checkbox]:not(".slider-check")').bind('click', function() {
     base.getFilteredResults(base.getFilterValues());
@@ -142,8 +142,8 @@ base.readyCheckboxes = function() {
 
 // Prep sliders
 base.readySliders = function() {
-  // Just examples
-  if (page_class != 'examples' && page_class != 'downloads') return false;
+  // Just downloads
+  if (page_class != 'downloads') return false;
 
   $('.slider').slider({
     disabled: true, // Disabled by default
@@ -169,7 +169,7 @@ base.readySliders = function() {
 
 // Prep slider switches
 base.readySliderCheckboxes = function() {
-  if (page_class != 'examples' && page_class != 'downloads') return false;
+  if (page_class != 'downloads') return false;
 
   $('.slider-check').bind('click', function() {
     base.toggleSlider($(this));

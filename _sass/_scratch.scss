@@ -192,7 +192,6 @@ input {
 
 /* END loop results */
 
-#loop-examples .loop-results li a:first-child,
 #loop-downloads .loop-results li a:first-child {
     display: table-cell;
 
@@ -351,26 +350,6 @@ a.colour-white {
 /*
  * Side panels
  */
-.panel-examples {
-    margin-top: 8px;
-    margin-left: 0;
-}
-.panel-examples li {
-    float: left;
-
-    margin: 0 10px 10px 0;
-
-    list-style: none;
-}
-.panel-examples li.row-end {
-    margin-right: 0;
-}
-.panel-examples li.last {
-    clear: left;
-}
-.panel-examples li img:first-child {
-    margin-top: 5px;
-}
 .panel-downloads li {
     margin-bottom: 10px;
 
