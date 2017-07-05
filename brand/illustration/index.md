@@ -23,7 +23,6 @@ body-class: "guidelines"
     <p>When creating diagrams, use either the widely or tightly spaced dots as a background grid. The tightly spaced dots are used to define the top and bottom of the diagram along with creating a title bar and section breaks within the diagram.</p>
     <p><img src="{{ site.assets_path }}83e61f97-dots-dev-diagram.gif" alt="Diagram using a developer dots background" title="dots-dev-diagram" width="540" height="234" srcset="{{ site.assets_path }}83e61f97-dots-dev-diagram.gif 540w, {{ site.assets_path }}d4c19c5a-dots-dev-diagram-300x130.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
     <p><img src="{{ site.assets_path }}9d934818-dots-enterprise-diagram.gif" alt="" title="dots-enterprise-diagram" width="540" height="360" srcset="{{ site.assets_path }}9d934818-dots-enterprise-diagram.gif 540w, {{ site.assets_path }}f114927e-dots-enterprise-diagram-300x200.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
-    <p><a href="/brand//assets/dot-patterns">More about dot patterns</a></p>
     <p><a href="/brand//assets/colour-palette">More about the colour palette</a></p>
     <h3>Keylines and graphic accents</h3>
     <h4>Chart keylines</h4>
