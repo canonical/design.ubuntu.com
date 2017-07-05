@@ -74,7 +74,6 @@ body-class: "home"
     <div class="col-3">
       <h3>More</h3>
       <ul class="p-list--divided">
-        <li class="p-list__item"><a href="/brand/examples">Examples&nbsp;&rsaquo;</a></li>
         <li class="p-list__item"><a href="/downloads">Downloads&nbsp;&rsaquo;</a></li>
       </ul>
     </div>
