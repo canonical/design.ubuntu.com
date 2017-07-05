@@ -62,15 +62,6 @@ body-class: "guidelines"
     <div class="col-10">
       <div class="col-5">
         <div class="col-2">
-          <a href="/brand/dot-patterns"><img src="{{ site.assets_path }}dda85fa2-dots-elements.png" alt="Dot patterns" title="Dot patterns" width="140" height="140" class="alignleft size-full2" /></a>
-        </div>
-        <div class="col-3">
-          <h3><a href="/brand/dot-patterns" title="About the dot patterns">The dot patterns &rsaquo;</a></h3>
-          <p>We have introduced two different dot patterns to give texture to your work.</p>
-        </div>
-      </div>
-      <div class="col-5">
-        <div class="col-2">
           <a href="/brand/photography"><img src="{{ site.assets_path }}1f7e6da1-photography-elements.png" alt="Photography" title="Photography" width="140" height="140" class="alignleft size-full3" /></a>
         </div>
         <div class="col-3">
@@ -78,13 +69,6 @@ body-class: "guidelines"
           <p>Photography is a good way to help us contextualise and humanise content. Our style is free and natural, focused and precise.</p>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-
-<div class="p-strip">
-  <div class="row">
-    <div class="col-10">
       <div class="col-5">
         <div class="col-2">
           <a href="/brand/illustration"><img src="{{ site.assets_path }}7ac01077-illustration-elements.png" alt="Illustration" title="Illustration" width="140" height="140" class="alignleft size-full4" /></a>

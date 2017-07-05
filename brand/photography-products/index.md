@@ -70,10 +70,8 @@ body-class: "guidelines"
 <div class="p-strip">
   <div class="row">
     <div class="col-8">
-
       <h2>Using the dots in product photography</h2>
       <p><img src="{{ site.assets_path }}10df854b-dots-in-product-photography.gif" alt="Dots in product photography" title="Dots in product photography" width="540" height="316" srcset="{{ site.assets_path }}10df854b-dots-in-product-photography.gif 540w, {{ site.assets_path }}a365431a-dots-in-product-photography-300x175.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
-      <p>Both the enterprise and developer dots can be used in conjunction with product photography. See the <a href="/brand//assets/dot-patterns" title="Dot patterns">section on dot patterns</a> in order to learn about when each type of dot is appropriate.</p>
     </div>
   </div>
 </div>
