@@ -63,7 +63,6 @@ body-class: "guidelines"
       <h3>Using Light and Regular</h3>
       <h4>Ubuntu Regular</h4>
       <p>Use Ubuntu Regular for continuous text and sub-headings and highlighted copy within body copy.</p>
-      <p>Refer to the <a title="" href="text">text section</a> and <a title="Web typography guidelines" href="../web/typography">web typography section</a> for examples of how to use typography correctly.</p>
       <h4>Leading (line spacing)</h4>
       <p>For headlines please use 27/30pt. For continuous text please use Ubuntu Regular or Ubuntu Light. Please use a 3pt space. For legibility 9/12 pt is the ideal size and leading.</p>
 
