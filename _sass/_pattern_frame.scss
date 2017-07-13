@@ -1,0 +1,14 @@
+@mixin design-p-frame {
+  .p-frame {
+
+    &__heading,
+    &__heading:visited {
+      color: $color-dark;
+    }
+
+    &__wrapper {
+      min-height: 220px;
+      background-color: $color-light;
+    }
+  }
+}
