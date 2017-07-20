@@ -1,20 +1,12 @@
-<div class="filter">
-  <div id="accordion">
-    <h3><a href="#">Brand assets</a></h3>
-    <div>
-      <ul>
-        <li {% if page.title == "Brand" %}class="current_page_item"{% endif %}><a href="/brand">Overview</a></li>
-        <li {% if page.title == "Ubuntu logo" %}class="current_page_item"{% endif %}><a href="/brand/ubuntu-logo">Ubuntu logo</a></li>
-        <li {% if page.title == "Ubuntu partner logos" %}class="current_page_item"{% endif %}><a href="/brand/ubuntu-partner-logos">Ubuntu partner logos</a></li>
-        <li {% if page.title == "Canonical logo" %}class="current_page_item"{% endif %}><a href="/brand/canonical-logo">Canonical logo</a></li>
-        <li {% if page.title == "Colour palette" %}class="current_page_item"{% endif %}><a href="/brand/colour-palette">Colour palette</a></li>
-        <li {% if page.title == "Ubuntu font family" %}class="current_page_item"{% endif %}><a href="/brand/ubuntu-font-family">Ubuntu font family</a></li>
-        <li {% if page.title == "Pictograms" %}class="current_page_item"{% endif %}><a href="/brand/pictograms">Pictograms</a></li>
-        <li {% if page.title == "Photography" %}class="current_page_item"{% endif %}><a href="/brand/photography">Photography</a></li>
-        <li {% if page.title == "Photography: products" %}class="current_page_item"{% endif %}><a href="/brand/photography-products">Photography: products</a></li>
-        <li {% if page.title == "Screenshots" %}class="current_page_item"{% endif %}><a href="/brand/screenshots">Screenshots</a></li>
-        <li {% if page.title == "Illustration" %}class="current_page_item"{% endif %}><a href="/brand/illustration">Illustration</a></li>
-      </ul>
-    </div>
-  </div>
-</div><!-- /.filter -->
+<div class="col-4 p-card p-side-nav">
+  <ul class="p-list--divided p-side-nav__list">
+    <li class="p-list__item{% if page.title == "Brand" %} current_page_item{% endif %}"><a href="/brand">Overview</a></li>
+    <li class="p-list__item{% if page.title == "Ubuntu logo" %} current_page_item{% endif %}"><a href="/brand/ubuntu-logo">Ubuntu logo</a></li>
+    <li class="p-list__item{% if page.title == "Canonical logo" %} current_page_item{% endif %}"><a href="/brand/canonical-logo">Canonical logo</a></li>
+    <li class="p-list__item{% if page.title == "Ubuntu partner logos" %} current_page_item{% endif %}"><a href="/brand/ubuntu-partner-logos">Ubuntu partner logos</a></li>
+    <li class="p-list__item{% if page.title == "Colour palette" %} current_page_item{% endif %}"><a href="/brand/colour-palette">Colour palette</a></li>
+    <li class="p-list__item{% if page.title == "Pictograms" %} current_page_item{% endif %}"><a href="/brand/pictograms">Pictograms</a></li>
+    <li class="p-list__item{% if page.title == "Screenshots" %} current_page_item{% endif %}"><a href="/brand/screenshots">Screenshots</a></li>
+    <li class="p-list__item{% if page.title == "Photography: products" %} current_page_item{% endif %}"><a href="/brand/photography-products">Product photography</a></li>
+  </ul>
+</div>

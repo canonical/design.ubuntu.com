@@ -1,0 +1,8 @@
+@mixin design-p-side-nav {
+  .p-side-nav {
+    &__list {
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+}

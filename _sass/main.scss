@@ -7,11 +7,15 @@ $color-link:          #E95420;
 @import "vanilla-brochure-theme/scss/theme";
 @include vanilla-brochure-theme;
 
+@import "_pattern_frame";
+@import "_pattern_side-nav";
 @import "_patterns-font-tester";
 @import "scratch";
 
 // Site patterns
 @include design-p-font-tester;
+@include design-p-frame;
+@include design-p-side-nav;
 
 @mixin button-brand {
   .p-button--brand {
@@ -48,13 +52,6 @@ $color-link:          #E95420;
   margin: 40px 0 0 0;
   text-align: right;
   border-top: 1px dotted #ccc;
-}
-
-/* make cards grey */
-.p-card {
-  background: $color-light;
-  color: #333;
-  margin: 2em auto;
 }
 
 /* made inline list work like a secondary menu */
