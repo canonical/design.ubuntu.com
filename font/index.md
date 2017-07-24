@@ -62,7 +62,7 @@ Type your text here
     <div class="col-8">
       <h2>About the Ubuntu font family</h2>
       <p>The Ubuntu font family are a set of matching new libre/open fonts. The development is being funded by <a href="http://www.canonical.com/" class="p-link--external">Canonical</a> on behalf the wider Free Software community and the Ubuntu project. The technical font design work and implementation is being undertaken by <a href="http://www.daltonmaag.com/" class="p-link--external">Dalton&nbsp;Maag</a>.</p>
-      <p>Both the final font Truetype/OpenType files and the design files used to produce the font family are distributed under an <a href="http://font.ubuntu.com/licence" class="p-link--external">open licence</a> and you are expressly encouraged to experiment, modify, share and improve. The typeface is sans-serif, uses OpenType features and is manually hinted for clarity on desktop and mobile computing screens.</p>
+      <p>Both the final font Truetype/OpenType files and the design files used to produce the font family are distributed under an <a href="http://www.ubuntu.com/legal/terms-and-policies/font-licence" class="p-link--external">open licence</a> and you are expressly encouraged to experiment, modify, share and improve. The typeface is sans-serif, uses OpenType features and is manually hinted for clarity on desktop and mobile computing screens.</p>
       <p>The scope of the Ubuntu Font Family includes all the languages used by the various Ubuntu users around the world in tune with Ubuntu&apos;s philosophy which states that every user should be able to use their software in the language of their choice. So the Ubuntu Font Family project will be extended to cover many more written languages.</p>
     </div>
   </div>
