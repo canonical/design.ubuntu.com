@@ -41,3 +41,4 @@ exclude:
   - run
   - yarn.lock
   - node_modules
+  - vendor/bundle
