@@ -5,16 +5,6 @@ body-id: "brand-assets"
 body-class: "guidelines"
 ---
 
-
-<div class="row">
-  <div id="loop-guidelines" class="col-10">
-    <p><img src="{{ site.assets_path }}de523767-photography-products.gif" alt="Product photography" title="Product photography" width="540" height="358" srcset="{{ site.assets_path }}de523767-photography-products.gif 540w, {{ site.assets_path }}0a4313c2-photography-products-300x198.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
-    <p>People allow us to talk about our services, products allow us to talk about our&#8230; products.</p>
-    <p>To date we have used imagery from our partners. It is a mishmash of styles, treatments and focus.</p>
-    <p>We will standardise the way product shots are made, thus creating a consistent style.</p>
-  </div>
-</div>
-
 <div class="p-strip">
   <div class="row">
     <div class="col-8">
