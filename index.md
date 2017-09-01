@@ -64,18 +64,16 @@ body-class: "home"
       <p>Learn about the elements that constitute the Ubuntu brand and how to use them, such as the Ubuntu and Canonical logos, pictograms and product photography.</p>
     </div>
     <div class="col-3">
-      <h3><a href="web-style-guide">Web&nbsp;&rsaquo;</a></h3>
-      <p>Find out about the Vanilla Framework, created to ease design and development of Ubuntu and Canonical sites, and free to use on your own projects too.</p>
+      <h3><a href="web">Web&nbsp;&rsaquo;</a></h3>
+      <p>Find out about Vanilla Framework, created to ease design and development of Ubuntu and Canonical sites, and free to use on your own projects&nbsp;too.</p>
     </div>
     <div class="col-3">
       <h3><a href="font">Font&nbsp;&rsaquo;</a></h3>
-      <p>Learn more about the Ubuntu font family, the available fonts, weights and languages, and how to get it for free.</p>
+      <p>Learn more about the Ubuntu font family, the available fonts, weights and languages, and how to get it for&nbsp;free.</p>
     </div>
     <div class="col-3">
-      <h3>More</h3>
-      <ul class="p-list--divided">
-        <li class="p-list__item"><a href="/downloads">Downloads&nbsp;&rsaquo;</a></li>
-      </ul>
+      <h3><a href="/downloads">Downloads&nbsp;&rsaquo;</a></h3>
+      <p>Search, filter and download our files from our archive of official Ubuntu brand&nbsp;assets.</p>
     </div>
   </div>
 </section>
