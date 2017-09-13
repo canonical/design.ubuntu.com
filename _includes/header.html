@@ -1,38 +1,25 @@
-<header class="p-navigation" role="banner">
-  <div class="p-navigation__logo">
-    <a class="p-navigation__link" href="/">
-      <img width="118" height="27" src="{{ site.assets_path }}2f6198a2-ubuntu-logo.png" alt="Ubuntu logo for print" />
-      <span>design</span>
-    </a>
+<header id="navigation" class="p-navigation">
+  <div class="row">
+    <div class="p-navigation__banner">
+      <div class="p-navigation__logo">
+        <a class="p-navigation__link" href="/">
+          <img width="118" height="27" src="{{ site.assets_path }}2f6198a2-ubuntu-logo.png" alt="Ubuntu logo for print" />
+          <span>design</span>
+        </a>
+      </div>
+      <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
+      <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Menu</a>
+    </div>
+    <nav class="p-navigation__nav">
+      <span class="u-off-screen">
+        <a href="#main-content">Jump to main content</a>
+      </span>
+      <ul class="p-navigation__links">
+        <li class="p-navigation__link"><a href="/brand/">Brand</a></li>
+        <li class="p-navigation__link"><a href="/font/">Font</a></li>
+        <li class="p-navigation__link"><a href="/web/">Web</a></li>
+        <li class="p-navigation__link"><a href="/downloads/">Downloads</a></li>
+      </ul>
+    </nav>
   </div>
-  <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
-  <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Menu</a>
-  <nav class="p-navigation__nav">
-    <span class="u-off-screen">
-      <a href="#main-content">Jump to main content</a>
-    </span>
-    <ul class="p-navigation__links">
-      <li class="p-navigation__link"><a href="/brand/">Brand</a></li>
-      <li class="p-navigation__link"><a href="/font/">Font</a></li>
-      <li class="p-navigation__link"><a href="/web/">Web</a></li>
-      <li class="p-navigation__link"><a href="/downloads/">Downloads</a></li>
-    </ul>
-    <form id="search" action="https://design.ubuntu.com/search" class="search--header">
-      <label for="edit-keys" class="search__label">Search</label>
-      <input class="search__field" type="search" name="search" id="search" placeholder="Search design">
-
-      <input type="hidden" name="domain" value="docs.ubuntu.com/maas">
-
-      <button type="submit" class="search__button">
-        <svg xmlns="https://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 90 90">
-          <g color="#000">
-            <path fill="none" stroke-width="4" overflow="visible" enable-background="accumulate" d="M0 0h90v90H0z"></path>
-            <path class="search__svg-frame" d="M69 36.5a33 33.5 0 1 1-66 0 33 33.5 0 1 1 66 0z" transform="matrix(.636 0 0 .627 16.114 16.12)" fill="none" stroke="#fff" stroke-width="9.5" overflow="visible" enable-background="accumulate"></path>
-            <path class="search__svg-handle" style="text-indent:0;text-align:start;line-height:normal;text-transform:none;block-progression:tb;-inkscape-font-specification:Sans" d="M55.773 52.917L52.94 55.75l14 14 2.833-2.833-14-14z" font-size="xx-small" fill="#fff" stroke-width="6" overflow="visible" enable-background="accumulate" font-family="Sans"></path>
-            <path class="search__svg-handle" style="text-indent:0;text-align:start;line-height:normal;text-transform:none;block-progression:tb;-inkscape-font-specification:Sans" d="M60.972 57.03c-1.55.01-3.045 1.023-3.626 2.46-.58 1.436-.21 3.207.898 4.29l9.194 9.2c2.683 2.85 3.262 2.464 5.643.083 2.384-2.38 2.77-2.792-.08-5.646l-9.195-9.2c-.734-.753-1.78-1.192-2.83-1.188z" fill="#fff" stroke-width="11.804"></path>
-          </g>
-        </svg>
-      </button>
-    </form>
-  </nav>
 </header>
