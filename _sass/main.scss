@@ -1,7 +1,7 @@
 
 $color-brand:         #E95420;
 $color-aubergine:     #5e2750;
-$color-link:          #E95420;
+$color-accent-background: #5e2750;
 
 // Run the vanilla framework
 @import 'node_modules/vanilla-framework/scss/build';
@@ -9,7 +9,6 @@ $color-link:          #E95420;
 @import "_pattern_frame";
 @import "_pattern_side-nav";
 @import "_patterns-font-tester";
-@import "scratch";
 
 // Site patterns
 @include design-p-font-tester;
