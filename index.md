@@ -17,12 +17,12 @@ body-class: "home"
     </div>
 </section>
 
-<section class="p-strip--image is-light is-deep" style="background-image:url('{{ site.assets_path }}f8a323a7-image-background-paper.png');">
+<section class="p-strip--accent is-dark is-deep">
   <div class="row u-vertically-center">
-    <div class="col-3">
-      <img src="{{ site.assets_path }}54cd98ab-knowledge_orange_hex2.png" alt="knowledge pictogram" title="knowledge_orange_hex" width="140" height="113"/>
+    <div class="col-3 u-align--center">
+      <img src="{{ site.assets_path }}e2047558-pictogram-knowledge-orange-white-background.svg" alt="" title="knowledge_orange_hex"/>
     </div>
-    <div class="col-9 suffix-1">
+    <div class="col-9 prefix-1">
       <h2>Why do we need guidelines?</h2>
       <p>Our values should be evident wherever Ubuntu is encountered, whether online or via traditional marketing material. If we follow these guidelines consistently, the brand will grow strong enough to attract people, encouraging them to look even more positively on the product itself.</p>
       <p>These guidelines provide everything you need to create professional communication <br/>materials that will build the Ubuntu brand. To help ensure the continued success of Ubuntu, please use them.</p>
@@ -30,7 +30,7 @@ body-class: "home"
   </div>
 </section>
 
-<section class="p-strip--accent is-dark is-deep">
+<section class="p-strip--light is-deep is-bordered">
   <div class="row">
     <div class="col-8">
         <div>
