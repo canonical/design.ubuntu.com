@@ -7,15 +7,15 @@
 
   {% include header.html %}
 
-  <div class="p-strip">
+  <div class="p-strip is-shallow">
     <div class="row">
       <div class="col-12">
-        <h1>{{ page.title }}</h1>
+        <h1 class="u-no-margin--bottom">{{ page.title }}</h1>
       </div>
     </div>
   </div>
 
-  <div class="p-strip">
+  <div class="p-strip is-shallow">
     <div class="row">
       {% if page.body-id=="brand-assets" %}
           {% include side-nav-brand.html %}
@@ -23,13 +23,13 @@
         {% include side-nav-downloads.html %}
       {% endif %}
 
-      <div class="{% if page.body-id=="downloads" %}col-9{% else %}col-12{% endif %}">
+      <div class="col-9">
         {{ content }}
       </div>
     </div>
   </div>
 
   {% include footer.html %}
-
+  <script src="/assets/js/p-accordian.js"></script>
 </body>
 </html>
