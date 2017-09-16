@@ -6,7 +6,7 @@ body-class: "guidelines"
 ---
 <div class="p-strip">
   <div class="row">
-    <div id="loop-guidelines" class="col-10">
+    <div id="loop-guidelines" class="col-12">
 
       <img src="{{ site.assets_path }}7de55930-canonical-logo1.png" alt="The Canonical logo" title="The Canonical logo" width="540" height="245" class="aligncenter size-full wp-image-83" srcset="{{ site.assets_path }}7de55930-canonical-logo1.png 540w, {{ site.assets_path }}232595c9-canonical-logo1-300x136.png 300w" sizes="(max-width: 540px) 100vw, 540px" />
 
