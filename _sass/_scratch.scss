@@ -13,6 +13,7 @@
  * Accordion styles
  */
 .p-accordion__panel > p > label {
+  clear: both;
   display: inline;
   vertical-align: top;
 }
