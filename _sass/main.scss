@@ -1,4 +1,5 @@
-
+// settings
+$font-allow-cyrillic-greek-latin: true;
 $color-brand:         #E95420;
 $color-aubergine:     #5e2750;
 $color-link:          #E95420;
@@ -10,6 +11,15 @@ $color-link:          #E95420;
 @import "_pattern_side-nav";
 @import "_patterns-font-tester";
 @import "scratch";
+
+// Ubuntu thin font - XXX remove when added to vanilla
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 100;
+  src: url('#{$assets-path}7f100985-Ubuntu-Th_W.woff2') format('woff2'), url('#{$assets-path}502cc3a1-Ubuntu-Th_W.woff') format('woff');
+}
+
 
 // Site patterns
 @include design-p-font-tester;
