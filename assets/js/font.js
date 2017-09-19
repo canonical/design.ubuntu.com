@@ -1,4 +1,6 @@
-core = core || {};
+if (typeof(core) == "undefined") {
+  var core = {};
+}
 
 core.fontSelecter = function() {
   var options = document.querySelectorAll('.js-font-select option');
