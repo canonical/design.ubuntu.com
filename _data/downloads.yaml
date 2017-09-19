@@ -1,0 +1,367 @@
+- download: http://design.ubuntu.com/wp-content/uploads/a129/canonical-symbol-set-web.zip
+  image: http://design.ubuntu.com/wp-content/uploads/logo-canonical_symbol-aubergine-hex-140x140.png
+  name: Canonical symbol set for web (367 KB)
+
+- download: https://assets.ubuntu.com/v1/aa7310c5-canonical-symbol-set-print.zip
+  image: http://design.ubuntu.com/wp-content/uploads/logo-canonical_symbol-aubergine-hex-140x140.png
+  name: Canonical symbol set for print (404 KB)
+
+- download: https://assets.ubuntu.com/v1/3784ad61-canonical-logo-set-web.zip
+  image: http://design.ubuntu.com/wp-content/uploads/canonical-brandmark-thumb.png
+  name: Canonical logo set for web (663 KB)
+
+- download: https://assets.ubuntu.com/v1/8c03536d-canonical-logo-set-print.zip
+  image: http://design.ubuntu.com/wp-content/uploads/canonical-brandmark-thumb.png
+  name: Canonical logo set for print (9.3 MB)
+
+- download: https://assets.ubuntu.com/v1/b1e7e303-ubuntu-logo-set-web-svg.zip
+  image: https://assets.ubuntu.com/v1/048f7fde-ubuntu_black-orange_hex.jpg
+  name: Ubuntu SVG logo set for web (61 KB)
+
+- download: https://assets.ubuntu.com/v1/f63d0009-ubuntu-logo-set-web-jpeg.zip
+  image: https://assets.ubuntu.com/v1/048f7fde-ubuntu_black-orange_hex.jpg
+  name: Ubuntu JPEG logo set for web (409 KB)
+
+- download: https://assets.ubuntu.com/v1/8d029862-ubuntu-logo-set-web-png.zip
+  image: https://assets.ubuntu.com/v1/048f7fde-ubuntu_black-orange_hex.jpg
+  name: Ubuntu PNG logo set for web (172 KB)
+
+- download: https://assets.ubuntu.com/v1/9fbc8a44-circle-of-friends-web.zip
+  image: https://assets.ubuntu.com/v1/1be42010-cof_orange_hex.jpg
+  name: Ubuntu Circle of Friends set for web (513 KB)
+
+- download: https://assets.ubuntu.com/v1/2eb408bc-circle-of-friends-print.zip
+  image: https://assets.ubuntu.com/v1/1be42010-cof_orange_hex.jpg
+  name: Ubuntu Circle of Friends set for print (593 KB)
+
+- download: https://assets.ubuntu.com/v1/979cb311-ubuntu-logo-set-print-cmyk.zip
+  image: https://assets.ubuntu.com/v1/7426ea30-ubuntu-logo-set.png
+  name: Ubuntu CMYK logo set for print (10.8 MB)
+
+- download: https://assets.ubuntu.com/v1/a531e05a-ubuntu-logo-set-print-pantone.zip
+  image: https://assets.ubuntu.com/v1/7426ea30-ubuntu-logo-set.png
+  name: Ubuntu PANTONE logo set for print (15.7 MB)
+
+- download: https://assets.ubuntu.com/v1/63bd2ced-ubuntu-logo-set-print-black-white.zip
+  image: https://assets.ubuntu.com/v1/cedf583d-ubuntu-logo-set-black.png
+  name: Ubuntu black and white logo set for print (4 MB)
+
+- download: http://design.ubuntu.com/wp-content/uploads/b25b/6a.-JUJU_BRANDMARK_AW.zip
+  image: https://assets.ubuntu.com/v1/4a98c944-juju_black-orange_hex.png
+  name: Juju logo set
+
+- download: https://assets.ubuntu.com/v1/31f7b323-core-logo-set.zip
+  image: https://assets.ubuntu.com/v1/1519d940-core_black-orange_st_hex.png
+  name: Core logo set (4 MB)
+
+- download: https://assets.ubuntu.com/v1/f446c9fa-public-cloud-partner-logo-set.zip
+  image: https://assets.ubuntu.com/v1/4a3d54c7-public_cloud_partner_hex.gif
+  name: Public cloud partner logo set (805 KB)
+
+- download: https://assets.ubuntu.com/v1/c733970a-by-canonical-and-friends-print.zip
+  image: http://design.ubuntu.com/wp-content/uploads/canonical-friends_orange_hex-140x140.jpg
+  name: By Canonical and friends for print (6.6 MB)
+
+- download: https://assets.ubuntu.com/v1/fcdd80b9-by-canonical-and-friends-web.zip
+  image: http://design.ubuntu.com/wp-content/uploads/canonical-friends_orange_hex-140x140.jpg
+  name: By Canonical and friends for web (2 MB)
+
+- download: https://assets.ubuntu.com/v1/02296630-delivered-by-canonical-for-web.zip
+  image: http://design.ubuntu.com/wp-content/uploads/delivered-by_orange_hex1-140x140.png
+  name: Delivered by Canonical for web (1.9 MB)
+
+- download: https://assets.ubuntu.com/v1/af00a2a0-delivered-by-canonical-for-print.zip
+  image: http://design.ubuntu.com/wp-content/uploads/delivered-by_orange_hex1-140x140.png
+  name: Delivered by Canonical for print (6.5 MB)
+
+- download: https://assets.ubuntu.com/v1/487d400d-cloud-init-logo-set.zip
+  image: http://design.ubuntu.com/wp-content/uploads/cloud-init-logo-140x140.gif
+  name: Cloud-init logo set (4.8 MB)
+
+- download: https://assets.ubuntu.com/v1/edbccd9c-maas-logo-set.zip
+  image: https://assets.ubuntu.com/v1/fa230d21-maas-logo.png
+  name: MAAS logo set (4.5 MB)
+
+- download: https://assets.ubuntu.com/v1/b726355a-landscape-logo-set.zip
+  image: https://assets.ubuntu.com/v1/c4262363-landscape_orange_hex.png
+  name: Landscape logo set (5 MB)
+
+- download: https://assets.ubuntu.com/v1/a2d22e73-premier-cloud-partner-logo-set.zip
+  image: https://assets.ubuntu.com/v1/059e5877-premier_cloud_partner_hex.png
+  name: Premier cloud partner logo set (555 MB)
+
+- download: https://assets.ubuntu.com/v1/fbd83df1-certified-cloud-partner-logo-set.zip
+  image: https://assets.ubuntu.com/v1/9822313a-certified_cloud_partner_hex.png
+  name: Certified cloud partner logo set (1.1 MB)
+
+- download: https://assets.ubuntu.com/v1/f68d8303-pictogram-core_power-orange.svg
+  image: https://assets.ubuntu.com/v1/f68d8303-pictogram-core_power-orange.svg
+  name: Core power pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/69eecceb-pictogram-cloud-orange.svg
+  image: https://assets.ubuntu.com/v1/69eecceb-pictogram-cloud-orange.svg
+  name: Cloud pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/b66d7752-pictogram-calendar-orange.svg
+  image: https://assets.ubuntu.com/v1/b66d7752-pictogram-calendar-orange.svg
+  name: Calendar pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/aec4e944-pictogram-audio-orange.svg
+  image: https://assets.ubuntu.com/v1/aec4e944-pictogram-audio-orange.svg
+  name: Audio pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/5f075201-pictogram-bookmark-orange.svg
+  image: https://assets.ubuntu.com/v1/5f075201-pictogram-bookmark-orange.svg
+  name: Bookmark pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/b1bb4879-pictogram-accessories-orange.svg
+  image: https://assets.ubuntu.com/v1/b1bb4879-pictogram-accessories-orange.svg
+  name: Accessories pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/223ea29f-pictogram-tablet-orange.svg
+  image: https://assets.ubuntu.com/v1/223ea29f-pictogram-tablet-orange.svg
+  name: Tablet pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/d7c810c6-pictogram-windows_compatible-orange.svg
+  image: https://assets.ubuntu.com/v1/d7c810c6-pictogram-windows_compatible-orange.svg
+  name: Windows compatible pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/879c852e-pictogram-virtualisation.svg
+  image: https://assets.ubuntu.com/v1/879c852e-pictogram-virtualisation.svg
+  name: Virtualisation pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/2ffbc5f2-pictogram-upload-orange.svg
+  image: https://assets.ubuntu.com/v1/2ffbc5f2-pictogram-upload-orange.svg
+  name: Upload pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/f4080033-pictogram-upgrade-orange.svg
+  image: https://assets.ubuntu.com/v1/f4080033-pictogram-upgrade-orange.svg
+  name: Upgrade pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/3083604b-pictogram-tweet-orange.svg
+  image: https://assets.ubuntu.com/v1/3083604b-pictogram-tweet-orange.svg
+  name: Tweet pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/6b053d72-pictogram-training-orange.svg
+  image: https://assets.ubuntu.com/v1/6b053d72-pictogram-training-orange.svg
+  name: Training pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/b51433a2-pictogram-thank_you-orange.svg
+  image: https://assets.ubuntu.com/v1/b51433a2-pictogram-thank_you-orange.svg
+  name: Thank you pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/e60711e6-pictogram-support-orange.svg
+  image: https://assets.ubuntu.com/v1/e60711e6-pictogram-support-orange.svg
+  name: Support pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/598ccd75-pictogram-start_first-orange.svg
+  image: https://assets.ubuntu.com/v1/598ccd75-pictogram-start_first-orange.svg
+  name: Start first pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/e70884db-pictogram-shop-orange.svg
+  image: https://assets.ubuntu.com/v1/e70884db-pictogram-shop-orange.svg
+  name: Shop pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/85d219a8-pictogram-share-orange.svg
+  image: https://assets.ubuntu.com/v1/85d219a8-pictogram-share-orange.svg
+  name: Share pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/16e21217-pictogram-safety-orange.svg
+  image: https://assets.ubuntu.com/v1/16e21217-pictogram-safety-orange.svg
+  name: Safety pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/67d43e01-pictogram-reduce_risk-orange.svg
+  image: https://assets.ubuntu.com/v1/67d43e01-pictogram-reduce_risk-orange.svg
+  name: Reduce risk pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/b5d0d631-pictogram-reduce_costs-orange.svg
+  image: https://assets.ubuntu.com/v1/b5d0d631-pictogram-reduce_costs-orange.svg
+  name: Reduce costs pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/488a496b-pictogram-rate-orange.svg
+  image: https://assets.ubuntu.com/v1/488a496b-pictogram-rate-orange.svg
+  name: Rate pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/4cf926fd-pictogram-quote-orange.svg
+  image: https://assets.ubuntu.com/v1/4cf926fd-pictogram-quote-orange.svg
+  name: Quote pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/9cdbc37a-pictogram-projects_we_love-orange.svg
+  image: https://assets.ubuntu.com/v1/9cdbc37a-pictogram-projects_we_love-orange.svg
+  name: Projects we love pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/7dc9afb1-pictogram-printer-orange.svg
+  image: https://assets.ubuntu.com/v1/7dc9afb1-pictogram-printer-orange.svg
+  name: Printer pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/f6dcc14d-pictogram-partner-orange.svg
+  image: https://assets.ubuntu.com/v1/f6dcc14d-pictogram-partner-orange.svg
+  name: Partner pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/d40d2839-pictogram-office_application-orange.svg
+  image: https://assets.ubuntu.com/v1/d40d2839-pictogram-office_application-orange.svg
+  name: Office application pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/70fe4340-pictogram-notes-orange.svg
+  image: https://assets.ubuntu.com/v1/70fe4340-pictogram-notes-orange.svg
+  name: Notes pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/e233b34b-pictogram-notes_sync-orange.svg
+  image: https://assets.ubuntu.com/v1/e233b34b-pictogram-notes_sync-orange.svg
+  name: Notes sync pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/f0bca6b1-pictogram-music_stream-orange.svg
+  image: https://assets.ubuntu.com/v1/f0bca6b1-pictogram-music_stream-orange.svg
+  name: Music stream pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/805259c8-pictogram-music_store-orange.svg
+  image: https://assets.ubuntu.com/v1/805259c8-pictogram-music_store-orange.svg
+  name: Music store pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/cda9b77e-pictogram-merge_contacts-orange.svg
+  image: https://assets.ubuntu.com/v1/cda9b77e-pictogram-merge_contacts-orange.svg
+  name: Merge contacts pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/c717efde-pictogram-locations-orange.svg
+  image: https://assets.ubuntu.com/v1/c717efde-pictogram-locations-orange.svg
+  name: Locations pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/4ab63f20-pictogram-knowledge-orange.svg
+  image: https://assets.ubuntu.com/v1/4ab63f20-pictogram-knowledge-orange.svg
+  name: Knowledge pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/b7e683d8-pictogram-ipod-orange.svg
+  image: https://assets.ubuntu.com/v1/b7e683d8-pictogram-ipod-orange.svg
+  name: iPod pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/c37a4f6c-pictogram-internet-orange.svg
+  image: https://assets.ubuntu.com/v1/c37a4f6c-pictogram-internet-orange.svg
+  name: Internet pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/90eb86bf-pictogram-help-orange.svg
+  image: https://assets.ubuntu.com/v1/90eb86bf-pictogram-help-orange.svg
+  name: Help pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/9c92c6f2-pictogram-guidelines-orange.svg
+  image: https://assets.ubuntu.com/v1/9c92c6f2-pictogram-guidelines-orange.svg
+  name: Guidelines pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/2e434aff-pictogram-grow_on_demand-orange.svg
+  image: https://assets.ubuntu.com/v1/2e434aff-pictogram-grow_on_demand-orange.svg
+  name: Grow on demand pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/74d4b94c-pictogram-generic-orange.svg
+  image: https://assets.ubuntu.com/v1/74d4b94c-pictogram-generic-orange.svg
+  name: Generic pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/ea1bf517-pictogram-forum-orange.svg
+  image: https://assets.ubuntu.com/v1/ea1bf517-pictogram-forum-orange.svg
+  name: Forum pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/0bd11872-pictogram-file_sync-orange.svg
+  image: https://assets.ubuntu.com/v1/0bd11872-pictogram-file_sync-orange.svg
+  name: File sync pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/dc4aeceb-pictogram-engineering-orange.svg
+  image: https://assets.ubuntu.com/v1/dc4aeceb-pictogram-engineering-orange.svg
+  name: Engineering pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/b6c00bf6-pictogram-email-orange.svg
+  image: https://assets.ubuntu.com/v1/b6c00bf6-pictogram-email-orange.svg
+  name: Email pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/924e4fba-pictogram-email_and_chat-orange.svg
+  image: https://assets.ubuntu.com/v1/924e4fba-pictogram-email_and_chat-orange.svg
+  name: Email and chat pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/71e85375-pictogram-education-orange.svg
+  image: https://assets.ubuntu.com/v1/71e85375-pictogram-education-orange.svg
+  name: Education pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/0cec0c83-pictogram-easy_to_manage-orange.svg
+  image: https://assets.ubuntu.com/v1/0cec0c83-pictogram-easy_to_manage-orange.svg
+  name: Easy to manage pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/ed9b8473-pictogram-easy_integration-orange.svg
+  image: https://assets.ubuntu.com/v1/ed9b8473-pictogram-easy_integration-orange.svg
+  name: Easy integration pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/225595a1-pictogram-easy_admin-orange.svg
+  image: https://assets.ubuntu.com/v1/225595a1-pictogram-easy_admin-orange.svg
+  name: Easy admin pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/b2e5de7f-pictogram-download-orange.svg
+  image: https://assets.ubuntu.com/v1/b2e5de7f-pictogram-download-orange.svg
+  name: Download pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/6e4b0350-pictogram-discussion-orange.svg
+  image: https://assets.ubuntu.com/v1/6e4b0350-pictogram-discussion-orange.svg
+  name: Discussion pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/16a9aa26-pictogram-developer-orange.svg
+  image: https://assets.ubuntu.com/v1/16a9aa26-pictogram-developer-orange.svg
+  name: Developer pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/86e32804-pictogram-deploy_anywhere-orange.svg
+  image: https://assets.ubuntu.com/v1/86e32804-pictogram-deploy_anywhere-orange.svg
+  name: Deploy anywhere pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/c363f7d1-pictogram-delete-orange.svg
+  image: https://assets.ubuntu.com/v1/c363f7d1-pictogram-delete-orange.svg
+  name: Delete pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/97d06095-pictogram-dashboard-orange.svg
+  image: https://assets.ubuntu.com/v1/97d06095-pictogram-dashboard-orange.svg
+  name: Dashboard pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/53c87486-pictogram-contacts-orange.svg
+  image: https://assets.ubuntu.com/v1/53c87486-pictogram-contacts-orange.svg
+  name: Contacts pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/355c6d3b-pictogram-contacts_sync-orange.svg
+  image: https://assets.ubuntu.com/v1/355c6d3b-pictogram-contacts_sync-orange.svg
+  name: Contacts sync pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/647f1ae7-pictogram-community-orange.svg
+  image: https://assets.ubuntu.com/v1/647f1ae7-pictogram-community-orange.svg
+  name: Community pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/81ed1bc9-pictogram-cloud_computing-orange.svg
+  image: https://assets.ubuntu.com/v1/81ed1bc9-pictogram-cloud_computing-orange.svg
+  name: Cloud computing pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/ccd29831-pictogram-certification-orange.svg
+  image: https://assets.ubuntu.com/v1/ccd29831-pictogram-certification-orange.svg
+  name: Certification pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/b4d4a3c6-pictogram-cd_dvd-orange.svg
+  image: https://assets.ubuntu.com/v1/b4d4a3c6-pictogram-cd_dvd-orange.svg
+  name: CD DVD pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/fff3a3d9-pictogram-careers-orange.svg
+  image: https://assets.ubuntu.com/v1/fff3a3d9-pictogram-careers-orange.svg
+  name: Careers pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/31ee0159-pictogram-camera-orange.svg
+  image: https://assets.ubuntu.com/v1/31ee0159-pictogram-camera-orange.svg
+  name: Camera pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/a840a864-pictogram-business-orange.svg
+  image: https://assets.ubuntu.com/v1/a840a864-pictogram-business-orange.svg
+  name: Business pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/d11d6d3d-pictogram-business_as_usual-orange.svg
+  image: https://assets.ubuntu.com/v1/d11d6d3d-pictogram-business_as_usual-orange.svg
+  name: Business as usual pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/5adac81f-pictogram-bike-orange.svg
+  image: https://assets.ubuntu.com/v1/5adac81f-pictogram-bike-orange.svg
+  name: Bike pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/be2aa3c6-pictogram-articles-orange.svg
+  image: https://assets.ubuntu.com/v1/be2aa3c6-pictogram-articles-orange.svg
+  name: Articles pictogram (orange, hex)
+
+- download: https://assets.ubuntu.com/v1/85d8870e-pictogram-add-orange.svg
+  image: https://assets.ubuntu.com/v1/85d8870e-pictogram-add-orange.svg
+  name: Add pictogram (orange, hex)

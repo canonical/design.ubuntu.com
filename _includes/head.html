@@ -6,18 +6,8 @@
   <link rel="icon" type="image/png" href="{{ site.assets_path }}cb22ba5d-favicon-16x16.png" sizes="16x16" />
   <link rel="icon" type="image/png" href="{{ site.assets_path }}49a1a858-favicon-32x32.png" sizes="32x32" />
 
-  <!-- fonts -->
-{% if page.body-id=="fonts" %}
-  <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic&amp;subset=latin,greek,cyrillic" rel="stylesheet" type="text/css" />
-  <link href="http://fonts.googleapis.com/css?family=Ubuntu+Condensed:400&amp;subset=latin,greek,cyrillic" rel="stylesheet" type="text/css" />
-  <link href="http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic&amp;subset=latin,greek,cyrillic" rel="stylesheet" type="text/css" />
-{% else %}
-  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
-{% endif %}
-
   <!-- stylesheets -->
-  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.min.css" />
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
