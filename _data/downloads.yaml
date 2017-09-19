@@ -1,17 +1,17 @@
-- download: http://design.ubuntu.com/wp-content/uploads/a129/canonical-symbol-set-web.zip
-  image: http://design.ubuntu.com/wp-content/uploads/logo-canonical_symbol-aubergine-hex-140x140.png
+- download: https://assets.ubuntu.com/v1/d8a99c78-canonical-symbol-set-web.zip
+  image: https://assets.ubuntu.com/v1/40b8122a-logo-canonical_symbol-aubergine-hex-140x140.png
   name: Canonical symbol set for web (367 KB)
 
 - download: https://assets.ubuntu.com/v1/aa7310c5-canonical-symbol-set-print.zip
-  image: http://design.ubuntu.com/wp-content/uploads/logo-canonical_symbol-aubergine-hex-140x140.png
+  image: https://assets.ubuntu.com/v1/40b8122a-logo-canonical_symbol-aubergine-hex-140x140.png
   name: Canonical symbol set for print (404 KB)
 
 - download: https://assets.ubuntu.com/v1/3784ad61-canonical-logo-set-web.zip
-  image: http://design.ubuntu.com/wp-content/uploads/canonical-brandmark-thumb.png
+  image: https://assets.ubuntu.com/v1/3bcb5240-canonical-brandmark-thumb.png
   name: Canonical logo set for web (663 KB)
 
 - download: https://assets.ubuntu.com/v1/8c03536d-canonical-logo-set-print.zip
-  image: http://design.ubuntu.com/wp-content/uploads/canonical-brandmark-thumb.png
+  image: https://assets.ubuntu.com/v1/3bcb5240-canonical-brandmark-thumb.png
   name: Canonical logo set for print (9.3 MB)
 
 - download: https://assets.ubuntu.com/v1/b1e7e303-ubuntu-logo-set-web-svg.zip
@@ -46,7 +46,7 @@
   image: https://assets.ubuntu.com/v1/cedf583d-ubuntu-logo-set-black.png
   name: Ubuntu black and white logo set for print (4 MB)
 
-- download: http://design.ubuntu.com/wp-content/uploads/b25b/6a.-JUJU_BRANDMARK_AW.zip
+- download: https://assets.ubuntu.com/v1/a14dcb39-6a.-JUJU_BRANDMARK_AW.zip
   image: https://assets.ubuntu.com/v1/4a98c944-juju_black-orange_hex.png
   name: Juju logo set
 
@@ -59,23 +59,23 @@
   name: Public cloud partner logo set (805 KB)
 
 - download: https://assets.ubuntu.com/v1/c733970a-by-canonical-and-friends-print.zip
-  image: http://design.ubuntu.com/wp-content/uploads/canonical-friends_orange_hex-140x140.jpg
+  image: https://assets.ubuntu.com/v1/36911e04-canonical-friends_orange_hex-140x140.jpg
   name: By Canonical and friends for print (6.6 MB)
 
 - download: https://assets.ubuntu.com/v1/fcdd80b9-by-canonical-and-friends-web.zip
-  image: http://design.ubuntu.com/wp-content/uploads/canonical-friends_orange_hex-140x140.jpg
+  image: https://assets.ubuntu.com/v1/36911e04-canonical-friends_orange_hex-140x140.jpg
   name: By Canonical and friends for web (2 MB)
 
 - download: https://assets.ubuntu.com/v1/02296630-delivered-by-canonical-for-web.zip
-  image: http://design.ubuntu.com/wp-content/uploads/delivered-by_orange_hex1-140x140.png
+  image: https://assets.ubuntu.com/v1/c7e94712-delivered-by_orange_hex1-140x140.png
   name: Delivered by Canonical for web (1.9 MB)
 
 - download: https://assets.ubuntu.com/v1/af00a2a0-delivered-by-canonical-for-print.zip
-  image: http://design.ubuntu.com/wp-content/uploads/delivered-by_orange_hex1-140x140.png
+  image: https://assets.ubuntu.com/v1/c7e94712-delivered-by_orange_hex1-140x140.png
   name: Delivered by Canonical for print (6.5 MB)
 
 - download: https://assets.ubuntu.com/v1/487d400d-cloud-init-logo-set.zip
-  image: http://design.ubuntu.com/wp-content/uploads/cloud-init-logo-140x140.gif
+  image: https://assets.ubuntu.com/v1/16175fab-cloud-init-logo-140x140.gif
   name: Cloud-init logo set (4.8 MB)
 
 - download: https://assets.ubuntu.com/v1/edbccd9c-maas-logo-set.zip
