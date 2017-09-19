@@ -5,7 +5,7 @@ body-id: "downloads"
 body-class: "downloads"
 ---
 
-<div class="p-strip no-padding-top">
+<div class="p-strip is-shallow no-padding-top">
   <div class="row u-equal-height">
   {% for download in site.data.downloads %}{% if download.name != null %}{% assign modulo = forloop.index | modulo: 4 %}
   {% if modulo == 1 %}
