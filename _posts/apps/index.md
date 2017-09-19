@@ -48,7 +48,7 @@ body-class: "guidelines"
 </div>
 </div>
 
-<div id="loop-guidelines" class="col-10">
+<div class="col-10">
 <section class="row no-padding-top no-padding-right no-padding-left">
 <div class="col-10">
 <h2>Together we can design and build beautiful and usable apps for Ubuntu.</h2>

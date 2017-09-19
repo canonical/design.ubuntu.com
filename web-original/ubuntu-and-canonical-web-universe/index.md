@@ -23,7 +23,7 @@ body-class: "guidelines"
           </div>
      </div>
 
-     <div id="loop-guidelines" class="col-10">
+     <div class="col-10">
                          <h1>Ubuntu web universe</h1>
                <p>It&#8217;s important to know where your website sits in the Ubuntu web universe when creating design work. This factor will dictate how closely you need to follow the guidelines. Remember: the Ubuntu and Canonical logos must <em>always</em> be used according to the guidelines.</p>
 <table>

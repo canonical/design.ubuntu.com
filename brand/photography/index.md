@@ -7,7 +7,7 @@ body-class: "guidelines"
 
 
 <div class="row">
-  <div id="loop-guidelines" class="col-8">
+  <div class="col-11">
     <p><img src="{{ site.assets_path }}50252b56-photography.gif" alt="Photography examples" title="photography" width="540" height="246" srcset="{{ site.assets_path }}50252b56-photography.gif 540w, {{ site.assets_path }}c7b5f4e1-photography-300x136.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
     <p>Photography is a good way to help us contextualise and humanise content. We use &#8216;product&#8217; photography and &#8216;people&#8217; photography. We&#8217;re more likely to use &#8216;product&#8217; photography in relation to Ubuntu and &#8216;people&#8217; photography in relation to Canonical.</p>
     <p>Our photography uses an aubergine duotone effect.</p>
@@ -15,14 +15,14 @@ body-class: "guidelines"
 </div>
 
 <div class="row">
-  <div class="col-10 link-top">
+  <div class="col-11 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-8">
+    <div class="col-11">
       <h2>How to photograph people</h2>
       <p>We have explored a natural photographic style, a more reportage feel rather than staged. In these examples we worked with our people at Canonical in the office to demonstrate what can be done.</p>
       <p>The style focuses on the individual person/people or item and having a short depth of field (a small depth of field is more effective, emphasising the subject while deemphasising the foreground and background).</p>
@@ -30,7 +30,7 @@ body-class: "guidelines"
   </div>
 
   <div class="row">
-    <div class="col-10 link-top">
+    <div class="col-11 link-top">
       <a href="#">Back to top</a>
     </div>
   </div>
@@ -38,7 +38,7 @@ body-class: "guidelines"
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-8">
+    <div class="col-11">
       <h2>Photographic style</h2>
       <p><img src="{{ site.assets_path }}224bcf04-photography-people.gif" alt="" title="photography-people" width="540" height="139" srcset="{{ site.assets_path }}224bcf04-photography-people.gif 540w, {{ site.assets_path }}3fda32de-photography-people-300x77.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
       <p>Our photographic style should, wherever possible, reflect our brand values: freedom, collaboration, reliability, precision.</p>
@@ -58,7 +58,7 @@ body-class: "guidelines"
   </div>
 
   <div class="row">
-    <div class="col-10 link-top">
+    <div class="col-11 link-top">
       <a href="#">Back to top</a>
     </div>
   </div>
@@ -66,7 +66,7 @@ body-class: "guidelines"
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-8">
+    <div class="col-11">
       <h2>Colour treatment</h2>
       <p><img src="{{ site.assets_path }}2b03abc8-photography-colours.gif" alt="Photography colours based on the voice slider" title="photography-colours" width="540" height="208" srcset="{{ site.assets_path }}2b03abc8-photography-colours.gif 540w, {{ site.assets_path }}9f7db092-photography-colours-300x115.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
       <p>    <a href="/brand//values/sliders" title="Audience, Voice and Developer Sliders">Learn more about the voice slider.</a></p>
@@ -85,7 +85,7 @@ body-class: "guidelines"
   </div>
 
   <div class="row">
-    <div class="col-10 link-top">
+    <div class="col-11 link-top">
       <a href="#">Back to top</a>
     </div>
   </div>
@@ -93,7 +93,7 @@ body-class: "guidelines"
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-8">
+    <div class="col-11">
       <h2>Using dots in photography</h2>
       <p>Both enterprise and developer dots can be used to add texture to photography as long as it is appropriate to do so according to the audience and developer sliders.</p>
       <p><a href="/brand//values/sliders" title="The voice, audience and developer sliders">Learn more about the sliders.</a></p>
@@ -123,7 +123,7 @@ body-class: "guidelines"
   </div>
 
   <div class="row">
-    <div class="col-10 link-top">
+    <div class="col-11 link-top">
       <a href="#">Back to top</a>
     </div>
   </div>
@@ -132,7 +132,7 @@ body-class: "guidelines"
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-8">
+    <div class="col-11">
       <h2>Checklist</h2>
       <ol>
         <li class="p-list__item">Where does the piece of work fit on the audience spectrum?</li>

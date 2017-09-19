@@ -72,7 +72,7 @@ body-class: "brand"
   -->
 </div>
 <div class="row">
-  <div class="col-10">
+  <div class="col-11">
     <h2>We&rsquo;ve come full circle</h2>
     <p>Both of the Ubuntu and Canonical logos feature a roundel element as an integral part of their design. This circular idea has been extended into our pictograms and now into our photography too. This adds an &lsquo;ownable&rsquo; feature to our communications and provides a subtle link back to the logo.</p>
     <h3>Circular inspiration</h3>

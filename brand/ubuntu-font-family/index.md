@@ -6,7 +6,7 @@ body-class: "guidelines"
 ---
 
 <div class="row">
-  <div class="col-10">
+  <div class="col-11">
     <div style="font-size: 48px; color: #aea79f; line-height: 1.2; padding: 20px 10px; border: 1px dotted #AEA79F; border-width: 1px 0; margin: 24px 0;">
       <p style="color: #E95420;">This is the Ubuntu Font Family.</p>
       <p>It is a unique, custom designed font that has a very distinctive look and feel.</p>
@@ -25,7 +25,7 @@ body-class: "guidelines"
   </div>
 
   <div class="row">
-    <div class="col-10 link-top">
+    <div class="col-11 link-top">
       <a href="#">Back to top</a>
     </div>
   </div>
@@ -46,7 +46,7 @@ body-class: "guidelines"
       <p>Available in the following weights: Regular, Bold.</p>
 
       <div class="row">
-        <div class="col-10 link-top">
+        <div class="col-11 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>
@@ -67,7 +67,7 @@ body-class: "guidelines"
       <p>For headlines please use 27/30pt. For continuous text please use Ubuntu Regular or Ubuntu Light. Please use a 3pt space. For legibility 9/12 pt is the ideal size and leading.</p>
 
       <div class="row">
-        <div class="col-10 link-top">
+        <div class="col-11 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>

@@ -22,7 +22,7 @@ body-class: "guidelines"
           </div>
      </div>
 
-     <div id="loop-guidelines" class="col-10">
+     <div class="col-10">
                          <h1>Typography</h1>
                <h2>Ubuntu font family</h2>
 <p>The <a title="Ubuntu font family" href="http://design.ubuntu.com/brand-elements/ubuntu-font-family">Ubuntu font</a> has been carefully designed, hinted and kerned to provide the best experience and legibility on screen.</p>
