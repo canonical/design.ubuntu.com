@@ -1,12 +1,32 @@
-<div class="col-4 p-card p-side-nav">
-  <ul class="p-list--divided p-side-nav__list">
-    <li class="p-list__item{% if page.title == "Brand" %} current_page_item{% endif %}"><a href="/brand">Overview</a></li>
-    <li class="p-list__item{% if page.title == "Ubuntu logo" %} current_page_item{% endif %}"><a href="/brand/ubuntu-logo">Ubuntu logo</a></li>
-    <li class="p-list__item{% if page.title == "Canonical logo" %} current_page_item{% endif %}"><a href="/brand/canonical-logo">Canonical logo</a></li>
-    <li class="p-list__item{% if page.title == "Ubuntu partner logos" %} current_page_item{% endif %}"><a href="/brand/ubuntu-partner-logos">Ubuntu partner logos</a></li>
-    <li class="p-list__item{% if page.title == "Colour palette" %} current_page_item{% endif %}"><a href="/brand/colour-palette">Colour palette</a></li>
-    <li class="p-list__item{% if page.title == "Pictograms" %} current_page_item{% endif %}"><a href="/brand/pictograms">Pictograms</a></li>
-    <li class="p-list__item{% if page.title == "Screenshots" %} current_page_item{% endif %}"><a href="/brand/screenshots">Screenshots</a></li>
-    <li class="p-list__item{% if page.title == "Photography: products" %} current_page_item{% endif %}"><a href="/brand/photography-products">Product photography</a></li>
-  </ul>
+<div class="col-3">
+  <aside class="p-accordion" role="tablist" aria-multiselect="true">
+    <ul class="p-accordion__list">
+      <li class="p-accordion__group">
+        <section class="p-accordion__panel {% if page.title == " Brand " %} is-active{% endif %}" role="tabpanel" aria-hidden="false">
+          <p><a href="/brand">Overview</a></p>
+        </section>
+        <section class="p-accordion__panel {% if page.title == " Ubuntu logo " %} current_page_item{% endif %}">
+          <p><a href="/brand/ubuntu-logo">Ubuntu logo</a></p>
+        </section>
+        <section class="p-accordion__panel {% if page.title == " Canonical logo " %} current_page_item{% endif %}">
+          <p><a href="/brand/canonical-logo">Canonical logo</a></p>
+        </section>
+        <section class="p-accordion__panel {% if page.title == " Ubuntu partner logos " %} current_page_item{% endif %}">
+          <p><a href="/brand/ubuntu-partner-logos">Ubuntu partner logos</a></p>
+        </section>
+        <section class="p-accordion__panel {% if page.title == " Colour palette " %} current_page_item{% endif %}">
+          <p><a href="/brand/colour-palette">Colour palette</a></p>
+        </section>
+        <section class="p-accordion__panel {% if page.title == " Pictograms " %} current_page_item{% endif %}">
+          <p><a href="/brand/pictograms">Pictograms</a></p>
+        </section>
+        <section class="p-accordion__panel {% if page.title == " Screenshots " %} current_page_item{% endif %}">
+          <p><a href="/brand/screenshots">Screenshots</a></p>
+        </section>
+        <section class="p-accordion__panel {% if page.title == " Photography: products " %} current_page_item{% endif %}">
+          <p><a href="/brand/photography-products">Product photography</a></p>
+        </section>
+      </li>
+    </ul>
+  </aside>
 </div>

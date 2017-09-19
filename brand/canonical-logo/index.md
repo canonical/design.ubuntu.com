@@ -4,7 +4,7 @@ title: "Canonical logo"
 body-id: "brand-assets"
 body-class: "guidelines"
 ---
-<div class="p-strip">
+<div class="p-strip u-no-padding--top">
   <div class="row">
     <div id="loop-guidelines" class="col-10">
 
