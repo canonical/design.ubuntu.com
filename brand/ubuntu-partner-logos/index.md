@@ -8,14 +8,14 @@ body-class: "guidelines"
 
 
 <div class="row">
-  <div id="loop-guidelines" class="col-10">
+  <div class="col-11">
     <h2>Software, training and solution provider</h2>
     <p><img src="{{ site.assets_path }}1a696fd3-partner-logos-2.gif" alt="Software, training and solution provider" title="Software, training and solution provider" width="540" height="167" srcset="{{ site.assets_path }}1a696fd3-partner-logos-2.gif 540w, {{ site.assets_path }}aaf61f76-partner-logos-2-300x92.gif 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-10">
+  <div class="col-11">
     <h3>Ubuntu orange</h3>
     <p><strong>Screen</strong><br />
       HEX #E95420</p>
@@ -27,7 +27,7 @@ body-class: "guidelines"
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-10">
+    <div class="col-11">
 
       <h2>Partner logo elements</h2>
 
@@ -43,7 +43,7 @@ body-class: "guidelines"
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-10">
+    <div class="col-11">
 
       <h2>Defining the exclusion zone</h2>
 
@@ -59,7 +59,7 @@ body-class: "guidelines"
 <div class="p-strip">
   <div class="row">
 
-    <div class="col-10">
+    <div class="col-11">
       <h2>Minimum size</h2>
 
       <img src="{{ site.assets_path }}beb12612-partner-logos-minimum.gif" alt="Minimum size" title="Minimum size" width="140" height="140" class="alignleft size-full8" />
@@ -72,13 +72,13 @@ body-class: "guidelines"
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-10">
+    <div class="col-11">
       <h2>Creating Ubuntu partner logos</h2>
     </div>
   </div>
 
   <div class="row">
-    <div class="col-10 u-vertically-center">
+    <div class="col-11 u-vertically-center">
       <div class="col-4">
         <img src="{{ site.assets_path }}d1e937e9-partner-logo-step-1.gif" alt="Step 1" title="Step 1" width="140" height="167" class="alignleft size-full" />
       </div>
@@ -89,7 +89,7 @@ body-class: "guidelines"
     </div>
 
     <div class="row">
-      <div class="col-10 u-vertically-center">
+      <div class="col-11 u-vertically-center">
         <div class="col-4">
           <img src="{{ site.assets_path }}6d722200-partner-logo-step-2.gif" alt="Step 2" title="Step 2" width="210" height="210" class="alignleft size-full" srcset="{{ site.assets_path }}6d722200-partner-logo-step-2.gif 210w, {{ site.assets_path }}2a10aafb-partner-logo-step-2-140x140.gif 140w" sizes="(max-width: 210px) 100vw, 210px" />
         </div>
@@ -102,7 +102,7 @@ body-class: "guidelines"
     </div>
 
     <div class="row">
-      <div class="col-10 u-vertically-center">
+      <div class="col-11 u-vertically-center">
         <div class="col-4">
           <img src="{{ site.assets_path }}98776d67-partner-logo-step-3.gif" alt="Step 3" title="Step 3" width="140" height="167" class="alignleft size-full" />
         </div>

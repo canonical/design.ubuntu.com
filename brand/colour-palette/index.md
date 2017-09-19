@@ -6,8 +6,8 @@ body-class: guidelines
 ---
 
 <div class="row">
-  <div class="col-8">
-    <img src="{{ site.assets_path }}61956028-ubuntu-colour-pantones.jpg" alt="Ubuntu colour pantones" title="Ubuntu colour pantones" width="540" height="247" class="aligncenter size-full" srcset="{{ site.assets_path }}61956028-ubuntu-colour-pantones.jpg 540w, {{ site.assets_path }}cdc130b4-ubuntu-colour-pantones-300x137.jpg 300w" sizes="(max-width: 540px) 100vw, 540px">
+  <div class="col-11">
+    <img src="{{ site.assets_path }}61956028-ubuntu-colour-pantones.jpg" alt="Ubuntu colour pantones" title="Ubuntu colour pantones" width="540" height="247" srcset="{{ site.assets_path }}61956028-ubuntu-colour-pantones.jpg 540w, {{ site.assets_path }}cdc130b4-ubuntu-colour-pantones-300x137.jpg 300w" sizes="(max-width: 540px) 100vw, 540px">
 
     <p>Colour is an effective, powerful and instantly recognisable medium for visual communications. To convey the brand personality and brand values, there is a sophisticated colour palette.</p>
     <p>We have introduced a palette which includes both a fresh, lively orange, and a rich, mature aubergine. The use of aubergine indicates commercial involvement, while orange is a signal of community engagement.</p>
@@ -16,14 +16,14 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-10 link-top">
+  <div class="col-11 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-8">
+    <div class="col-11">
 
       <h2>Ubuntu core colours</h2>
       <p>The Ubuntu colour palette has been created to reflect the spirit of our brand. Orange for a community feel. White for a clean, fresh and light feel.</p>
@@ -32,7 +32,7 @@ body-class: guidelines
   </div>
 
   <div class="row">
-    <div class="col-10">
+    <div class="col-11">
       <div class="col-4">
         <img src="{{ site.assets_path }}f3b89168-orange.png" alt="Ubuntu orange" title="Ubuntu orange" width="300" height="140">
       </div>
@@ -45,7 +45,7 @@ body-class: guidelines
   </div>
 
   <div class="row">
-    <div class="col-10">
+    <div class="col-11">
       <div class="col-4">
         <img src="{{ site.assets_path }}54f4e9da-white.png" alt="White" title="White" width="300" height="140">
       </div>
@@ -58,7 +58,7 @@ body-class: guidelines
   </div>
 
   <div class="row">
-    <div class="col-10">
+    <div class="col-11">
       <div class="col-4">
         <img src="{{ site.assets_path }}47afbf87-black.png" alt="Black" title="Black" width="300" height="140">
       </div>
@@ -76,14 +76,14 @@ body-class: guidelines
 </div>
 
 <div class="row">
-  <div class="col-10 link-top">
+  <div class="col-11 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-8">
+    <div class="col-11">
       <h2>Supporting colours</h2>
       <p>In addition, there is a supporting colour palette for when communications have a consumer or enterprise focus.</p>
       <ul class="p-list--divided">
@@ -93,7 +93,7 @@ body-class: guidelines
       </ul>
 
       <div class="row">
-        <div class="col-10">
+        <div class="col-11">
           <div class="col-4">
             <img src="{{ site.assets_path }}9560ddb5-light-aubergine.png" alt="Light aubergine" title="Light aubergine" width="300" height="140">
           </div>
@@ -106,7 +106,7 @@ body-class: guidelines
       </div>
 
       <div class="row">
-        <div class="col-10">
+        <div class="col-11">
           <div class="col-4">
             <img src="{{ site.assets_path }}9f3a00dd-mid-aubergine.png" alt="Mid aubergine" title="Mid aubergine" width="300" height="140">
           </div>
@@ -119,7 +119,7 @@ body-class: guidelines
       </div>
 
       <div class="row">
-        <div class="col-10">
+        <div class="col-11">
           <div class="col-4">
             <img src="{{ site.assets_path }}a87f4612-dark-aubergine.png" alt="Dark aubergine" title="Dark aubergine" width="300" height="140">
           </div>
@@ -132,7 +132,7 @@ body-class: guidelines
       </div>
 
       <div class="row">
-        <div class="col-10 link-top">
+        <div class="col-11 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>
@@ -140,7 +140,7 @@ body-class: guidelines
 
     <div class="p-strip">
       <div class="row">
-        <div class="col-8">
+        <div class="col-11">
 
           <h2>Neutral colours</h2>
           <h3>Warm grey</h3>
@@ -153,7 +153,7 @@ body-class: guidelines
       </div>
 
       <div class="row">
-        <div class="col-10">
+        <div class="col-11">
           <div class="col-4">
             <img src="{{ site.assets_path }}58db45e6-warm-grey.png" alt="Warm grey" title="Warm grey" width="300" height="140">
           </div>
@@ -165,7 +165,7 @@ body-class: guidelines
       </div>
 
       <div class="row">
-        <div class="col-10">
+        <div class="col-11">
           <div class="col-4">
             <img src="{{ site.assets_path }}2bab75fe-cool-grey.png" alt="Cool grey" title="Cool grey" width="300" height="140">
           </div>
@@ -178,7 +178,7 @@ body-class: guidelines
       </div>
 
       <div class="row">
-        <div class="col-10">
+        <div class="col-11">
           <div class="col-4">
             <img src="{{ site.assets_path }}a945036e-small-dot-grey.png" alt="Small dot grey" title="Small dot grey" width="300" height="140">
           </div>
@@ -191,7 +191,7 @@ body-class: guidelines
       </div>
 
       <div class="row">
-        <div class="col-10">
+        <div class="col-11">
 
           <h3>Text grey</h3>
           <p><strong>Screen</strong><br />HEX #333333</p>
@@ -201,7 +201,7 @@ body-class: guidelines
       </div>
 
       <div class="row">
-        <div class="col-10 link-top">
+        <div class="col-11 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>
@@ -209,12 +209,12 @@ body-class: guidelines
 
       <div class="p-strip">
         <div class="row">
-          <div class="col-8">
+          <div class="col-11">
             <h2>Canonical core colours</h2>
             <p>The Canonical colour palette has been created to reflect the spirit of our brand. Aubergine for a smart, focussed feel. White for a clean, fresh and light feel.</p>
 
             <div class="row">
-              <div class="col-10">
+              <div class="col-11">
                 <div class="col-4">
                   <img src="{{ site.assets_path }}b8514097-canonical-aubergine.png" alt="Canonical aubergine" title="Canonical aubergine" width="300" height="140" class="alignleft size-full1">
                 </div>
@@ -227,7 +227,7 @@ body-class: guidelines
             </div>
 
             <div class="row">
-              <div class="col-10">
+              <div class="col-11">
                 <div class="col-4">
                   <img src="{{ site.assets_path }}54f4e9da-white.png" alt="White" title="White" width="300" height="140">
                 </div>
@@ -244,7 +244,7 @@ body-class: guidelines
           </div>
 
           <div class="row">
-            <div class="col-10 link-top">
+            <div class="col-11 link-top">
               <a href="#">Back to top</a>
             </div>
           </div>
@@ -253,7 +253,7 @@ body-class: guidelines
 
         <div class="p-strip">
           <div class="row">
-            <div class="col-10">
+            <div class="col-11">
               <h2>Tints</h2>
               <div>
                 <ol class="swatch" style="background-color:#E95420;"><li class="light" style="background-color:#E95420;"><h4>
@@ -284,7 +284,7 @@ body-class: guidelines
           </div>
 
           <div class="row">
-            <div class="col-10 link-top">
+            <div class="col-11 link-top">
               <a href="#">Back to top</a>
             </div>
           </div>
@@ -292,10 +292,10 @@ body-class: guidelines
 
         <div class="p-strip">
           <div class="row">
-            <div class="col-8">
+            <div class="col-11">
               <h2>The amount of colour we use</h2>
               <p>
-                <img src="{{ site.assets_path }}13e0eef4-ubuntu-colour-wheel-voice.png" alt="Colour pie chart" title="Colour pie chart" width="540" height="264" class="aligncenter size-full" srcset="{{ site.assets_path }}13e0eef4-ubuntu-colour-wheel-voice.png 540w, {{ site.assets_path }}0a0191b4-ubuntu-colour-wheel-voice-300x146.png 300w" sizes="(max-width: 540px) 100vw, 540px">
+                <img src="{{ site.assets_path }}13e0eef4-ubuntu-colour-wheel-voice.png" alt="Colour pie chart" title="Colour pie chart" width="540" height="264" srcset="{{ site.assets_path }}13e0eef4-ubuntu-colour-wheel-voice.png 540w, {{ site.assets_path }}0a0191b4-ubuntu-colour-wheel-voice-300x146.png 300w" sizes="(max-width: 540px) 100vw, 540px">
               </p>
               <p>Our colour palette consists of orange, aubergine, white and warm grey. The amount of colour we use for community and Canonical collateral varies according to the emphasis of the content.</p>
               <p>At one end of the scale, where the work is dominated by the community, the emphasis is on a fresh palette, the use of white and orange, and warm grey for balance. Aubergine is used only as a highlight.</p>

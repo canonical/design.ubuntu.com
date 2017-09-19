@@ -6,7 +6,7 @@ body-class: "guidelines"
 ---
 
 <div class="row">
-  <div id="loop-guidelines" class="col-10">
+  <div class="col-11">
     <h2>Charts and diagrams</h2>
     <p>Charts and diagrams are a great way to present complex information in a clear way. Our charts and diagrams make full use of our dot-pattern textures and our colour palette.</p>
     <ul class="p-list">
@@ -36,7 +36,7 @@ body-class: "guidelines"
 </div>
 
 <div class="row">
-  <div class="col-10 link-top">
+  <div class="col-11 link-top">
     <a href="#">Back to top</a>
   </div>
 </div>

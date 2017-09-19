@@ -6,7 +6,7 @@ body-class: "guidelines"
 ---
 
 <div class="row">
-  <div id="loop-guidelines" class="col-10">
+  <div class="col-11">
 
     <h2>Overview</h2>
     <p>When producing materials for end-users, try to include a screenshot of the “whole machine experience”, i.e. a screenshot of the feature you have in mind displayed on a real laptop or other screen. You can reinforce that with more detailed shots of the specific feature.</p>

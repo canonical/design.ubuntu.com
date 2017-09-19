@@ -6,7 +6,7 @@ body-class: "guidelines"
 ---
 <div class="p-strip u-no-padding--top">
   <div class="row">
-    <div id="loop-guidelines" class="col-10">
+    <div class="col-11">
 
       <img src="{{ site.assets_path }}7de55930-canonical-logo1.png" alt="The Canonical logo" title="The Canonical logo" width="540" height="245" class="aligncenter size-full wp-image-83" srcset="{{ site.assets_path }}7de55930-canonical-logo1.png 540w, {{ site.assets_path }}232595c9-canonical-logo1-300x136.png 300w" sizes="(max-width: 540px) 100vw, 540px" />
 
@@ -21,7 +21,7 @@ body-class: "guidelines"
       </div>
 
       <div class="row">
-        <div class="col-10 link-top">
+        <div class="col-11 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>
@@ -31,7 +31,7 @@ body-class: "guidelines"
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-10">
+    <div class="col-11">
 
       <h2>Logo elements</h2>
 
@@ -59,7 +59,7 @@ body-class: "guidelines"
 
 
       <div class="row">
-        <div class="col-10 link-top">
+        <div class="col-11 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>
@@ -69,7 +69,7 @@ body-class: "guidelines"
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-10">
+    <div class="col-11">
 
       <h2>Available logo colourways</h2>
 
@@ -80,7 +80,7 @@ body-class: "guidelines"
       <img src="{{ site.assets_path }}42a45bd7-canonical-logo4.png" alt="Available logo colourways" title="Available logo colourways" width="540" height="184" class="aligncenter size-full wp-image-86" srcset="{{ site.assets_path }}42a45bd7-canonical-logo4.png 540w, {{ site.assets_path }}4278c5a8-canonical-logo4-300x102.png 300w" sizes="(max-width: 540px) 100vw, 540px" />
 
       <div class="row">
-        <div class="col-10 link-top">
+        <div class="col-11 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>
@@ -90,7 +90,7 @@ body-class: "guidelines"
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-10">
+    <div class="col-11">
       <h2>Available Canonical Circle colourways</h2>
 
       <p>The Canonical Circle is supplied as Pantone and CMYK versions for print, and HEX versions for web. It can only be used on one of the Canonical colours.</p>
@@ -101,7 +101,7 @@ body-class: "guidelines"
 
 
       <div class="row">
-        <div class="col-10 link-top">
+        <div class="col-11 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>
@@ -111,7 +111,7 @@ body-class: "guidelines"
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-10">
+    <div class="col-11">
       <h2>Choosing the right logo version</h2>
 
       <img src="{{ site.assets_path }}b1530a03-canonical-white-on-aubergine.gif" alt="Canonical logo white on aubergine" title="canonical-white-on-aubergine" width="150" height="56" />
@@ -126,7 +126,7 @@ body-class: "guidelines"
       <p>This logo version should be used in support of the master version (for example, this logo could be used in the footer of a web page as opposed to repeating the master version).</p>
 
       <div class="row">
-        <div class="col-10 link-top">
+        <div class="col-11 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>
@@ -136,7 +136,7 @@ body-class: "guidelines"
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-10">
+    <div class="col-11">
       <h2>Defining the exclusion zone</h2>
 
       <img src="{{ site.assets_path }}a1e1b14a-canonical-logo6.png" alt="Defining the exclusion zone for the Canonical logo" title="Defining the exclusion zone for the Canonical logo" width="540" height="142" class="aligncenter size-full wp-image-88" srcset="{{ site.assets_path }}a1e1b14a-canonical-logo6.png 540w, {{ site.assets_path }}50d7ae48-canonical-logo6-300x78.png 300w" sizes="(max-width: 540px) 100vw, 540px" />
@@ -152,7 +152,7 @@ body-class: "guidelines"
       <p>To define this area, measure the height of the &#8216;Canonical Circle&#8217; and use a quarter of this measure to create the boundary of clear space.</p>
 
       <div class="row">
-        <div class="col-10 link-top">
+        <div class="col-11 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>
@@ -162,7 +162,7 @@ body-class: "guidelines"
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-10">
+    <div class="col-11">
       <h2>Minimum size</h2>
 
       <img src="{{ site.assets_path }}acb215ad-canonical-logo8.png" alt="Minimum size" title="Minimum size" width="498" height="220" class="aligncenter size-full wp-image-90" srcset="{{ site.assets_path }}acb215ad-canonical-logo8.png 498w, {{ site.assets_path }}3c58a46a-canonical-logo8-300x132.png 300w" sizes="(max-width: 498px) 100vw, 498px" />
@@ -177,7 +177,7 @@ body-class: "guidelines"
 
 
       <div class="row">
-        <div class="col-10 link-top">
+        <div class="col-11 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>
@@ -187,7 +187,7 @@ body-class: "guidelines"
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-10">
+    <div class="col-11">
       <h2>Centering the logo</h2>
 
       <img src="{{ site.assets_path }}d3b39ba4-canonical-logo9.png" alt="Centering the logo" title="Centering the logo" width="540" height="225" class="aligncenter size-full wp-image-91" srcset="{{ site.assets_path }}d3b39ba4-canonical-logo9.png 540w, {{ site.assets_path }}00ed485f-canonical-logo9-300x125.png 300w" sizes="(max-width: 540px) 100vw, 540px" />
@@ -203,7 +203,7 @@ body-class: "guidelines"
       <p>Position the logo so that the centre of the Canonical Circle sits on the centre of the page/screen.</p>
 
       <div class="row">
-        <div class="col-10 link-top">
+        <div class="col-11 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>
@@ -213,7 +213,7 @@ body-class: "guidelines"
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-10">
+    <div class="col-11">
       <h2>Incorrect use</h2>
 
       <p>Ensuring the correct application of the logo is paramount to the Canonical brand identity. By following the guidelines on how to use them you will help to build a powerful and united identity for the Canonical brand. This section shows examples of incorrect use.</p>
@@ -233,7 +233,7 @@ body-class: "guidelines"
       </ol>
 
       <div class="row">
-        <div class="col-10 link-top">
+        <div class="col-11 link-top">
           <a href="#">Back to top</a>
         </div>
       </div>
@@ -243,7 +243,7 @@ body-class: "guidelines"
 
 <div class="p-strip">
   <div class="row">
-    <div class="col-10">
+    <div class="col-11">
       <p><a href="../downloads?metadata=element-logo+brand-canonical" title="Download Canonical logos">View Canonical logos available for download&nbsp;&rsaquo;</a></p>
     </div>
   </div>
