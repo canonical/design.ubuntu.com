@@ -57,6 +57,19 @@ $color-accent-background: #5e2750;
   }
 }
 
+/* breadcrumb fix */
+.p-breadcrumbs {
+  margin: 2rem 0;
+
+  &__item {
+    font-size: 15px;
+
+    > .is-active {
+      color: $color-brand;
+    }
+  }
+}
+
 /* back to top links */
 .link-top {
   clear: both;
