@@ -3,7 +3,7 @@
   "description": "code for design.ubuntu.com",
   "scripts": {
     "test": "sass-lint static/**/*.scss --verbose --no-exit",
-    "watch": "node-sass --include-path node_modules --source-map true --watch _sass --output css",
+    "watch": "node-sass --include-path node_modules  _sass --output css && postcss --use autoprefixer -b 'last 2 versions' < css/main.css | postcss --use cssnano > css/main.min.css --source-map true --watch _sass --output css",
     "build": "node-sass --include-path node_modules _sass --output css && postcss --use autoprefixer -b 'last 2 versions' < css/main.css | postcss --use cssnano > css/main.min.css",
     "clean": "rm -rf node_modules yarn-error.log css *.log *.sqlite _site/ build/ .jekyll-metadata"
   },

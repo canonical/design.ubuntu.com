@@ -62,26 +62,3 @@ $color-accent-background: #5e2750;
   text-align: right;
   border-top: 1px dotted #ccc;
 }
-
-/* made inline list work like a secondary menu */
-.p-inline-list__item {
-  position: relative;
-
-  &:first-child:after {
-    color: $color-dark;
-    content: '›';
-    font-size: 1.4rem;
-    line-height: 0;
-    position: absolute;
-    right: -1rem;
-    top: .55rem;
-  }
-
-  a {
-    color: $color-dark;
-  }
-
-  &.active > a {
-    color: $color-link;
-  }
-}
