@@ -1,0 +1,75 @@
+@mixin design-p-social-icon {
+
+  .p-social-icon {
+
+    &__item {
+
+      &--twitter,
+      &--facebook,
+      &--canonical,
+      &--google-plus,
+      &--instagram,
+      &--youtube {
+        background-image: url('#{$assets-path}e1c22739-design-ubuntu-social-sprite.svg');
+        background-repeat: no-repeat;
+        background-size: 269px;
+        display: inline-block;
+        float: left;
+        height: 45px;
+        margin-left: 10px;
+        margin-right: 0;
+        overflow: hidden;
+        text-indent: -99999px;
+        width: 45px;
+      }
+
+      &--twitter {
+        background-position: 0 0;
+
+        &:hover {
+          background-position: 0 -45px;
+        }
+      }
+
+      &--google-plus {
+        background-position: -45px 0;
+
+        &:hover {
+          background-position: -45px -45px;
+        }
+      }
+
+      &--facebook {
+        background-position: -90px 0;
+
+        &:hover {
+          background-position: -90px -45px;
+        }
+      }
+
+      &--canonical {
+        background-position: -135px 0;
+
+        &:hover {
+          background-position: -135px -45px;
+        }
+      }
+
+      &--instagram {
+        background-position: -180px 0;
+
+        &:hover {
+          background-position: -180px -45px;
+        }
+      }
+
+      &--youtube {
+        background-position: -225px 0;
+
+        &:hover {
+          background-position: -225px -45px;
+        }
+      }
+    }
+  }
+}
