@@ -9,7 +9,8 @@ $color-accent-background: #5e2750;
 
 @import "_pattern_frame";
 @import "_pattern_side-nav";
-@import "_patterns-font-tester";
+@import "_pattern_font-tester";
+@import "_pattern_social-icon";
 
 // Ubuntu thin font - XXX remove when added to vanilla
 @font-face {
@@ -24,6 +25,7 @@ $color-accent-background: #5e2750;
 @include design-p-font-tester;
 @include design-p-frame;
 @include design-p-side-nav;
+@include design-p-social-icon;
 
 @mixin button-brand {
   .p-button--brand {
@@ -61,27 +63,4 @@ $color-accent-background: #5e2750;
   margin: 40px 0 0 0;
   text-align: right;
   border-top: 1px dotted #ccc;
-}
-
-/* made inline list work like a secondary menu */
-.p-inline-list__item {
-  position: relative;
-
-  &:first-child:after {
-    color: $color-dark;
-    content: '›';
-    font-size: 1.4rem;
-    line-height: 0;
-    position: absolute;
-    right: -1rem;
-    top: .55rem;
-  }
-
-  a {
-    color: $color-dark;
-  }
-
-  &.active > a {
-    color: $color-link;
-  }
 }
