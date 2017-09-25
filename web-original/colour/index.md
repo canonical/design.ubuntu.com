@@ -23,7 +23,7 @@ body-class: "guidelines"
           </div>
      </div>
 
-     <div id="loop-guidelines" class="col-10">
+     <div class="col-10">
                          <h1>Colour</h1>
                <p>The Ubuntu colour palette has been created to reflect the spirit of our brand. Orange for a community feel. White for a clean, fresh and light feel. Cool grey is used for body copy.</p>
 <div class="wp-link-top clearfix"><a href="colour#">top</a></div>

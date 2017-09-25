@@ -71,7 +71,7 @@
           </div>
      </div>
 
-     <div id="loop-guidelines" class="col-10">
+     <div class="col-10">
                          <h1>Forms</h1>
                <p>Form styles can vary greatly depending on the purpose of the form and from where it lives. These are recommended form styles for <a href="ubuntu-and-canonical-web-universe" title="Ubuntu web universe">Tier 1 and 2 sites</a>.</p>
 <div class="wp-link-top clearfix"><a href="forms#">top</a></div>

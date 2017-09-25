@@ -6,7 +6,7 @@ body-class: "guidelines"
 ---
 
 <div class="row">
-  <div id="loop-guidelines" class="col-10">
+  <div class="col-12">
     <h2>Charts and diagrams</h2>
     <p>Charts and diagrams are a great way to present complex information in a clear way. Our charts and diagrams make full use of our dot-pattern textures and our colour palette.</p>
     <ul class="p-list">
@@ -32,12 +32,6 @@ body-class: "guidelines"
     <h3>General tips</h3>
     <p>Don&#8217;t overcrowd the chart or diagram. Think about what you need to say and be selective about the information you need to communicate.</p>
     <p>Use the correct typeface and colour palette. Use the audience spectrum to identify the colours you should be using.</p>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-10 link-top">
-    <a href="#">Back to top</a>
   </div>
 </div>
 

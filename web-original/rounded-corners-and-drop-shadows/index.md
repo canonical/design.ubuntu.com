@@ -23,7 +23,7 @@ body-class: "guidelines"
           </div>
      </div>
 
-     <div id="loop-guidelines" class="col-10">
+     <div class="col-10">
                          <h1>Rounded corners and drop-shadows</h1>
                <p>Rounded corners and drop-shadows are used throughout most websites in the Ubuntu web universe. Make sure you are consistent with the guidelines.</p>
 <div id="attachment_1156" style="width: 485px" class="wp-caption alignnone"><img src="{{ site.assets_path }}4edaf3d7-web-rounded-corners-dropshadow.png" alt="Web - Rounded corners and drop-shadow" title="Web - Rounded corners and drop-shadow" width="475" height="176" class="size-full6" srcset="{{ site.assets_path }}4edaf3d7-web-rounded-corners-dropshadow.png 475w, {{ site.assets_path }}65807994-web-rounded-corners-dropshadow-300x111.png 300w" sizes="(max-width: 475px) 100vw, 475px" /><p class="wp-caption-text">Figure 1: A box on ubuntu.com with rounded corners and drop-shadow</p></div>

@@ -23,7 +23,7 @@ body-class: "guidelines"
           </div>
      </div>
 
-     <div id="loop-guidelines" class="col-10">
+     <div class="col-10">
                          <h1>Links</h1>
                <p>Links on the web should be visible and clear.</p>
 <div class="box">
