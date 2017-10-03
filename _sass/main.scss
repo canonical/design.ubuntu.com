@@ -1,16 +1,16 @@
 // settings
 $font-allow-cyrillic-greek-latin: true;
-$color-brand:         #E95420;
+$color-brand:         #e95420;
 $color-aubergine:     #5e2750;
 $color-accent-background: #5e2750;
 
 // Run the vanilla framework
 @import 'node_modules/vanilla-framework/scss/build';
 
-@import "_pattern_frame";
-@import "_pattern_side-nav";
-@import "_pattern_font-tester";
-@import "_pattern_social-icon";
+@import "pattern_frame";
+@import "pattern_side-nav";
+@import "pattern_font-tester";
+@import "pattern_social-icon";
 
 // Ubuntu thin font - XXX remove when added to vanilla
 @font-face {
@@ -43,21 +43,21 @@ $color-accent-background: #5e2750;
 
 .p-navigation {
   background-color: $color-brand;
-  margin-bottom: 0;
   font-weight: 400;
+  margin-bottom: 0;
 
   @media (max-width: $breakpoint-medium) {
-    font-weight: 300;
     border-bottom: 1px solid $color-light;
+    font-weight: 300;
   }
 
   &__logo {
-    margin: $sp-x-small;
     float: left;
+    margin: $sp-x-small;
   }
 }
 
-/* breadcrumb fix */
+// breadcrumb fix
 .p-breadcrumbs {
   margin: 2rem 0;
 
@@ -70,10 +70,3 @@ $color-accent-background: #5e2750;
   }
 }
 
-/* back to top links */
-.link-top {
-  clear: both;
-  margin: 40px 0 0 0;
-  text-align: right;
-  border-top: 1px dotted #ccc;
-}
