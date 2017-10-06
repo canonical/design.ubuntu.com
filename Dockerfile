@@ -3,7 +3,8 @@ FROM ubuntu:xenial
 RUN apt-get update && apt-get install --yes nginx
 
 # Set git commit ID
-ARG COMMIT_ID=""
+ARG COMMIT_ID
+RUN test -n "${COMMIT_ID}"
 
 # Copy over files
 WORKDIR /srv
