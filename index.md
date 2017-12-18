@@ -8,7 +8,7 @@ body-class: "home"
 <section class="p-strip is-deep is-bordered">
   <div class="row">
       <div class="col-6">
-        <h1><span>You make Ubuntu <br/>You use Ubuntu <br/>You talk Ubuntu</span> <br/>Ubuntu is yours</h1>
+        <h1><span>You make Ubuntu <br/>You use Ubuntu <br/>You talk Ubuntu <br/>Ubuntu is yours</span><br/></h1>
         <p>The Ubuntu Brand Guidelines exist so we can all communicate Ubuntu with the same precision we use to make it.</p>
       </div>
       <div class="col-6">

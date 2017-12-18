@@ -2,71 +2,42 @@
 $font-allow-cyrillic-greek-latin: true;
 $color-brand:         #e95420;
 $color-aubergine:     #5e2750;
-$color-accent-background: #5e2750;
+$color-accent-background: $color-aubergine;
+$color-navigation-background: $color-brand;
 
-// Run the vanilla framework
-@import 'node_modules/vanilla-framework/scss/build';
-
-@import "pattern_frame";
-@import "pattern_side-nav";
-@import "pattern_font-tester";
-@import "pattern_social-icon";
-
-// Ubuntu thin font - XXX remove when added to vanilla
-@font-face {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 100;
-  src: url('#{$assets-path}7f100985-Ubuntu-Th_W.woff2') format('woff2'), url('#{$assets-path}502cc3a1-Ubuntu-Th_W.woff') format('woff');
-}
-
+// Import Vanilla framework
+@import 'vanilla-framework/scss/build';
 
 // Site patterns
+@import "pattern_font-tester";
 @include design-p-font-tester;
-@include design-p-frame;
-@include design-p-side-nav;
-@include design-p-social-icon;
 
-@mixin button-brand {
-  .p-button--brand {
-    @include button-pattern (
-      $button-background-color: $color-brand,
-      $button-border-color: $color-brand,
-      $button-text-color: $color-x-light,
-      $button-hover-background-color: darken($color-brand, 10%),
-      $button-hover-border-color: darken($color-brand, 10%),
-      $button-disabled-background-color: $color-brand,
-      $button-disabled-border-color: $color-brand
-    );
-  }
-}
-
+// Hack to get the header link color white as dark is more accessible.
 .p-navigation {
-  background-color: $color-brand;
-  font-weight: 400;
-  margin-bottom: 0;
+  @include vf-navigation-pattern(
+    $background-color: $color-navigation-background,
+    $border-color: transparent,
+    $text-color: $color-light
+  );
 
-  @media (max-width: $breakpoint-medium) {
-    border-bottom: 1px solid $color-light;
-    font-weight: 300;
+  .p-navigation__links .p-navigation__link {
+    border-left: 1px solid $color-light;
   }
 
-  &__logo {
-    float: left;
-    margin: $sp-x-small;
+  .p-navigation__links:last-of-type {
+    border-right: 1px solid $color-light;
   }
 }
 
-// breadcrumb fix
-.p-breadcrumbs {
-  margin: 2rem 0;
+// Remove the hard set image height
+.p-card .p-card__header img {
+  max-height: none;
+}
 
-  &__item {
-    font-size: 15px;
-
-    > .is-active {
-      color: $color-brand;
-    }
-  }
+// Hide the text in the social icon
+.p-icon--twitter,
+.p-icon--instagram,
+.p-icon--canonical {
+  text-indent: -10000px !important;
 }
 

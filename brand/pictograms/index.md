@@ -41,7 +41,7 @@ body-class: "guidelines"
   </div>
 </div>
 
-<div class="p-strip is-shallow u-no-padding--bottom">
+<div class="p-strip is-shallow ">
   <div class="row">
     <div class="col-8">
       <p><a href="/downloads" title="All pictograms to download">View all pictograms available for download&nbsp;&rsaquo;</a></p>
