@@ -199,7 +199,7 @@ body-class: "guidelines"
   </div>
 </div>
 
-<div class="p-strip is-shallow u-no-padding--bottom">
+<div class="p-strip is-shallow ">
   <div class="row">
     <div class="col-8">
       <p><a title="logo downloads" href="/downloads/">View Ubuntu logo versions available for download&nbsp;&rsaquo;</a></p>

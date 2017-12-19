@@ -104,9 +104,9 @@ Greek sample:
   <div class="row">
     <div class="col-8">
       <h2>About the Ubuntu font family</h2>
-      <p>The Ubuntu font family are a set of matching new libre/open fonts. The development is being funded by <a href="http://www.canonical.com/" class="p-link--external">Canonical</a> on behalf the wider Free Software community and the Ubuntu project.
-        The technical font design work and implementation is being undertaken by <a href="http://www.daltonmaag.com/" class="p-link--external">Dalton&nbsp;Maag</a>.</p>
-      <p>Both the final font Truetype/OpenType files and the design files used to produce the font family are distributed under an <a href="http://www.ubuntu.com/legal/terms-and-policies/font-licence" class="p-link--external">open licence</a> and you are
+      <p>The Ubuntu font family are a set of matching new libre/open fonts. The development is being funded by <a href="http://www.canonical.com/" class="p-link--external p-link--inverted">Canonical</a> on behalf the wider Free Software community and the Ubuntu project.
+        The technical font design work and implementation is being undertaken by <a href="http://www.daltonmaag.com/" class="p-link--external p-link--inverted">Dalton&nbsp;Maag</a>.</p>
+      <p>Both the final font Truetype/OpenType files and the design files used to produce the font family are distributed under an <a href="http://www.ubuntu.com/legal/terms-and-policies/font-licence" class="p-link--external p-link--inverted">open licence</a> and you are
         expressly encouraged to experiment, modify, share and improve. The typeface is sans-serif, uses OpenType features and is manually hinted for clarity on desktop and mobile computing screens.</p>
       <p>The scope of the Ubuntu Font Family includes all the languages used by the various Ubuntu users around the world in tune with Ubuntu&apos;s philosophy which states that every user should be able to use their software in the language of their choice.
         So the Ubuntu Font Family project will be extended to cover many more written languages.</p>
@@ -148,13 +148,13 @@ Greek sample:
   </div>
 </div>
 
-<div class="p-strip is-deep u-no-padding--bottom">
+<div class="p-strip is-deep">
   <div class="row">
     <div class="col-8">
       <h2>Resources</h2>
       <ul class="p-list--divided">
         <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/fad7939b-ubuntu-font-family-0.83.zip" class="p-link--external">Download the Ubuntu Font Family</a> (2.0MB)</li>
-        <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/4cd05122-ubuntu-font-family-sources_0.83.orig.tar.gz" class="p-link--external">Download the Ubuntu Font Family source code</a><br />(For font designers with a copy of Font Lab Studio, 7.8MB)</li>
+        <li class="p-list__item"><p><a href="https://assets.ubuntu.com/v1/4cd05122-ubuntu-font-family-sources_0.83.orig.tar.gz" class="p-link--external">Download the Ubuntu Font Family source code</a></p> (For font designers with a copy of Font Lab Studio, 7.8MB)</li>
         <li class="p-list__item"><a href="https://fonts.google.com/?query=Ubuntu" class="p-link--external">Google Web Fonts</a></li>
         <li class="p-list__item"><a href="http://launchpad.net/ubuntu-font-family" class="p-link--external">Launchpad</a></li>
         <li class="p-list__item"><a href="http://wiki.ubuntu.com/Ubuntu_Font_Family" class="p-link--external">Wiki documentation</a></li>

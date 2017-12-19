@@ -153,7 +153,7 @@ body-class: "guidelines"
   </div>
 </div>
 
-<div class="p-strip is-shallow u-no-padding--bottom">
+<div class="p-strip is-shallow ">
   <div class="row">
     <div class="col-8">
       <p>
