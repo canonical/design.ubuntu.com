@@ -56,7 +56,7 @@ body-class: "guidelines"
     <div class="col-8">
       <h2>Wordmark — Available colourways</h2>
       <p>The logo is supplied as Pantone and CMYK versions for print, and HEX versions for web. It can only be used on one of the Ubuntu colours.</p>
-      <p>Never change any of the colours in the logo. For detailed colour specifications refer to the <a title="Colour palette" href="/assets/colour-palette">colours section</a>.</p>
+      <p>Never change any of the colours in the logo. For detailed colour specifications refer to the <a title="Colour palette" href="/brand/colour-palette">colours section</a>.</p>
       <p><img title="Wordmark colourways" src="{{ site.assets_path }}8aff3fa9-ubuntu-logo41.png" alt="Wordmark colourways" width="540" height="208" srcset="{{ site.assets_path }}8aff3fa9-ubuntu-logo41.png 540w, {{ site.assets_path }}af48e40d-ubuntu-logo41-300x115.png 300w"
           sizes="(max-width: 540px) 100vw, 540px" /></p>
     </div>
@@ -68,7 +68,7 @@ body-class: "guidelines"
     <div class="col-8">
       <h2>Circle of Friends — Available colourways</h2>
       <p>The Circle of Friends is also supplied as Pantone and CMYK versions for print, and HEX versions for web. It can only be used on one of the Ubuntu colours.</p>
-      <p>Never change any of the colours in the logo. For detailed colour specifications refer to the <a title="Colour palette" href="/assets/colour-palette">colours section</a>.</p>
+      <p>Never change any of the colours in the logo. For detailed colour specifications refer to the <a title="Colour palette" href="/brand/colour-palette">colours section</a>.</p>
       <p><img title="Circle of Friends colourways" src="{{ site.assets_path }}d41eabfc-ubuntu-logo51.png" alt="Circle of Friends colourways" width="540" height="143" srcset="{{ site.assets_path }}d41eabfc-ubuntu-logo51.png 540w, {{ site.assets_path }}fcd7501c-ubuntu-logo51-300x79.png 300w"
           sizes="(max-width: 540px) 100vw, 540px" /></p>
     </div>
