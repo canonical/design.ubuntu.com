@@ -41,7 +41,9 @@ body-class: "brand"
   </div>
   <div class="row" style="padding-top: 1rem;">
     <div class="col-4 p-card">
-      <a href="/brand/photography-products" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/0882a960-product-photography-brand-page.png" /></a>
+      <a href="/brand/photography-products" class="u-vertically-center u-align--center" style="display: block; min-height: 175px;">
+        <img src="https://assets.ubuntu.com/v1/0882a960-product-photography-brand-page.png" />
+      </a>
       <p class="p-card__content">Product photography is a good way to help us visualise our products on real hardware. We have developed precise guidelines for creating new product photography.</p>
       <p class="p-card__content"><a href="/brand/photography-products" >Product photography&nbsp;&rsaquo;</a></p>
     </div>
