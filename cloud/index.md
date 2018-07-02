@@ -1,61 +1,46 @@
 ---
-layout: post
-title: "Brand assets"
+layout: post_no-sidebar
+title: "Cloud"
 body-id: "brand-assets"
 body-class: "brand"
 ---
-<div class="p-strip">
-  <div class="row u-equal-height" style="padding-top: 1rem;">
-    <div class="col-4 p-card">
-      <a href="/brand/ubuntu-logo" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/adac6928-ubuntu.svg" width="160" /> </a>
-      <p class="p-card__content">The logo is the most recognisable feature of any brand identity. The Ubuntu logo is striking and clear, and it represents the brand’s core values.</p>
-      <p class="p-card__content"><a href="/brand/ubuntu-logo" >Ubuntu logo&nbsp;&rsaquo;</a></p>
-    </div>
-    <div class="col-4 p-card">
-      <a href="/brand/canonical-logo" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/5d6da5c4-logo-canonical-aubergine.svg" width="200"/></a>
-      <p class="p-card__content">The Canonical logo is designed to echo the values of the brand, and work in harmony with the Ubuntu logo.</p>
-      <p class="p-card__content"><a href="/brand/canonical-logo" >Canonical logo&nbsp;&rsaquo;</a></p>
-    </div>
-    <div class="col-4 p-card">
-      <a href="/brand/ubuntu-partner-logos" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/ca9768eb-ubuntu_partner_logo.svg"></a>
-      <p class="p-card__content">The Ubuntu partner logos were created to communicate the link between the partner brand and Ubuntu in a clear and unobtrusive manner.</p>
-      <p class="p-card__content"><a href="/brand/ubuntu-partner-logos" >Ubuntu partner logos&nbsp;&rsaquo;</a></p>
-    </div>
+<div class="row">
+  <div class="col-8">
+    <p>Find out about the tools and practices followed by the Ubuntu Web Team.</p>
+    <h2 id="our-sass-framework">How to use these guidelines</h2>
+    <p>The Web Team developed Vanilla, a Sass framework that is used by Canonical and anyone who wants a clean and flexible baseline to develop beautiful websites.</p>
+    <ul class="p-list">
+      <li class="p-list__item is-ticked"><a href="https://github.com/vanilla-framework/vanilla-framework">Vanilla Framework on GitHub</a></li>
+      <li class="p-list__item is-ticked"><a href="https://github.com/ubuntudesign/vanilla-design">Vanilla Design on GitHub</a></li>
+      <li class="p-list__item is-ticked"><a href="https://docs.vanillaframework.io/">Vanilla Framework documentation</a></li>
+    </ul>
   </div>
-  <div class="row u-equal-height" style="padding-top: 1rem;">
-    <div class="col-4 p-card">
-      <a href="/brand/colour-palette" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/ebb3f015-colour-palette.svg" /></a>
-      <p class="p-card__content">The vibrant Ubuntu colour palette was created and evolved to ensure that designs convey the correct meaning, while aligning to the brand colours.</p>
-      <p class="p-card__content"><a href="/brand/colour-palette" >Colour palette&nbsp;&rsaquo;</a></p>
-    </div>
-    <div class="col-4 p-card">
-      <a href="/brand/pictograms" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/c719d565-pictograms-brand-page.svg" /></a>
-      <p class="p-card__content">Our pictograms mirror the circular aspect of both the Ubuntu Circle of Friends and the Canonical logo. They are used to represent a word or an idea.</p>
-      <p class="p-card__content"><a href="/brand/pictograms" >Pictograms&nbsp;&rsaquo;</a></p>
-    </div>
-    <div class="col-4 p-card">
-      <a href="/brand/screenshots" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/98c99d7b-screenshots-brand-page.svg"/></a>
-      <p class="p-card__content">Screenshots are a quick way of showing users and visitors what our products look like. As such, it’s important to follow guidelines that create consistent screenshots to use on Ubuntu sites.</p>
-      <p class="p-card__content"><a href="/brand/screenshots" >Screenshots&nbsp;&rsaquo;</a></p>
-    </div>
-  </div>
-  <div class="row" style="padding-top: 1rem;">
-    <div class="col-4 p-card">
-      <a href="/brand/photography-products" class="u-vertically-center u-align--center" style="display: block; min-height: 175px;">
-        <img src="https://assets.ubuntu.com/v1/0882a960-product-photography-brand-page.png" />
-      </a>
-      <p class="p-card__content">Product photography is a good way to help us visualise our products on real hardware. We have developed precise guidelines for creating new product photography.</p>
-      <p class="p-card__content"><a href="/brand/photography-products" >Product photography&nbsp;&rsaquo;</a></p>
+</div>
+
+<div class="p-strip is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="our-work-practices">Another title</h2>
+      <p>We try as much as possible to document the practices and principles we follow on the Web Team.</p>
+      <ul class="p-list">
+        <li class="p-list__item is-ticked"><a href="https://github.com/ubuntudesign/webteam-practices">Web team practices on GitHub</a></li>
+      </ul>
     </div>
   </div>
 </div>
-<div class="p-strip--light">
+
+<div class="p-strip">
   <div class="row">
     <div class="col-8">
-      <h2>We&rsquo;ve come full circle</h2>
-      <p>Both of the Ubuntu and Canonical logos feature a roundel element as an integral part of their design. This circular idea has been extended into our pictograms and now into our photography too. This adds an &lsquo;ownable&rsquo; feature to our communications and provides a subtle link back to the logo.</p>
-      <h3>Circular inspiration</h3>
-      <p>We feel that there are other ways to introduce circular elements into our communications and we encourage you to expand this idea. This could be type in a circle, dots in a circle, a circle punched out of dots or a circular element within a photograph.</p>
+      <h2>What's new</h2>
+      <ul class="p-list--divided">
+        <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/fad7939b-ubuntu-font-family-0.83.zip" class="p-link--external">Download the Ubuntu Font Family</a> (2.0MB)</li>
+        <li class="p-list__item"><p><a href="https://assets.ubuntu.com/v1/4cd05122-ubuntu-font-family-sources_0.83.orig.tar.gz" class="p-link--external">Download the Ubuntu Font Family source code</a></p> (For font designers with a copy of Font Lab Studio, 7.8MB)</li>
+        <li class="p-list__item"><a href="https://fonts.google.com/?query=Ubuntu" class="p-link--external">Google Web Fonts</a></li>
+        <li class="p-list__item"><a href="http://launchpad.net/ubuntu-font-family" class="p-link--external">Launchpad</a></li>
+        <li class="p-list__item"><a href="http://wiki.ubuntu.com/Ubuntu_Font_Family" class="p-link--external">Wiki documentation</a></li>
+      </ul>
+      <p><a href="https://assets.ubuntu.com/v1/fad7939b-ubuntu-font-family-0.83.zip" class="p-button--brand">Download for free</a></p>
     </div>
   </div>
 </div>
