@@ -1,6 +1,6 @@
 ---
 layout: post_no-sidebar
-title: "Cloud"
+title: "Cloud guidelines"
 body-id: "brand-assets"
 body-class: "brand"
 ---
