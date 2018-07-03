@@ -1,22 +1,23 @@
 ---
-layout: post_no-sidebar
+layout: post_sidebar
 title: "Cloud guidelines"
 body-id: "brand-assets"
 body-class: "brand"
 ---
-
-<div class="row">
-  <div class="col-8">
-    <p>Find out about the tools and practices followed by the Ubuntu Web Team.</p>
-    <h2 id="our-sass-framework">How to use these guidelines</h2>
-    <p>The Web Team developed Vanilla, a Sass framework that is used by Canonical and anyone who wants a clean and flexible baseline to develop beautiful websites.</p>
-    <ul class="p-list">
-      <li class="p-list__item is-ticked"><a href="https://github.com/vanilla-framework/vanilla-framework">TEST LINE</a></li>
-      <li class="p-list__item is-ticked"><a href="https://github.com/vanilla-framework/vanilla-framework">Vanilla Framework on GitHub</a></li>
-      <li class="p-list__item is-ticked"><a href="https://github.com/ubuntudesign/vanilla-design">Vanilla Design on GitHub</a></li>
-      <li class="p-list__item is-ticked"><a href="https://docs.vanillaframework.io/">Vanilla Framework documentation</a></li>
-    </ul>
-  </div>
+<div class="p-strip is-shallow">
+	<div class="row">
+	  <div class="col-8">
+	    <p>Find out about the tools and practices followed by the Ubuntu Web Team.</p>
+	    <h2 id="our-sass-framework">How to use these guidelines</h2>
+	    <p>The Web Team developed Vanilla, a Sass framework that is used by Canonical and anyone who wants a clean and flexible baseline to develop beautiful websites.</p>
+	    <ul class="p-list">
+	      <li class="p-list__item is-ticked"><a href="https://github.com/vanilla-framework/vanilla-framework">TEST LINE</a></li>
+	      <li class="p-list__item is-ticked"><a href="https://github.com/vanilla-framework/vanilla-framework">Vanilla Framework on GitHub</a></li>
+	      <li class="p-list__item is-ticked"><a href="https://github.com/ubuntudesign/vanilla-design">Vanilla Design on GitHub</a></li>
+	      <li class="p-list__item is-ticked"><a href="https://docs.vanillaframework.io/">Vanilla Framework documentation</a></li>
+	    </ul>
+	  </div>
+	</div>
 </div>
 
 <div class="p-strip is-bordered">
