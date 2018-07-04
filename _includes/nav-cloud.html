@@ -1,94 +1,87 @@
-    <div class="p-navigation--sidebar">
-      <header id="navigation" role="banner">
-        <div class="p-navigation__banner">
-          <div class="row">
-            <div class="mobile-col-2">
-              <div class="p-navigation__logo">
-                <a class="p-navigation__link" href="#">
-                  Guidelines
-                </a>
-              </div>
-              <span class="p-navigation__tagline">Categories</span>
-            </div>
-            <div class="sidebar__cta mobile-col-2 u-align--right">
-              <ul class="p-inline-list u-no-margin--top u-float-right">
-                <li class="p-inline-list__item">
-                  <i class="p-icon--search"></i>
-                </li>
-                <li class="p-inline-list__item">
-                  <i class="p-icon--menu js-sidebar-toggle" aria-hidden="false"></i>
-                  <i class="p-icon--close js-sidebar-toggle u-hide" aria-hidden="true"></i>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </header>
+    <div class="p-navigation--sidebar p-sidebar-nav">
       <div class="sidebar__content js-sidebar-toggle u-hide" aria-hidden="true">
-        <select name="exampleSelect" id="exampleSelect">
+        <!-- <select name="exampleSelect" id="exampleSelect">
           <option value="" disabled="disabled" selected="">Select a version</option>
           <option value="1">Version 1</option>
           <option value="2">Version 2</option>
           <option value="3">Version 3</option>
-        </select>
-        <ul class="p-list sidebar__first-level" data-js="sidebar-first-level">
-          <li>
-            <a class="sidebar__link" href="#">Section title 1 <i class="p-icon--plus"></i><i class="p-icon--minus"></i></a>
-            <ul class="sidebar__second-level">
-              <li><a class="sidebar__link" href="#">Second level 1</a></li>
-              <li><a class="sidebar__link" href="#">Second level 2</a></li>
-              <li><a class="sidebar__link is-selected" href="#">Second level 3 <i class="p-icon--plus"></i><i class="p-icon--minus"></i></a>
-                <ul class="sidebar__third-level is-deepest-level">
-                  <li><a class="sidebar__link" href="#">Third level 1</a></li>
-                  <li><a class="sidebar__link" href="#">Third level 2</a></li>
-                  <li><a class="sidebar__link" href="#">Third level 3</a></li>
-                  <li><a class="sidebar__link" href="#">Third level 4</a></li>
-                  <li><a class="sidebar__link" href="#">Third level 5</a></li>
-                </ul>
-              </li>
-              <li><a class="sidebar__link" href="#">Second level 4</a></li>
-              <li><a class="sidebar__link" href="#">Second level 5</a></li>
+        </select> -->
+        <ul class="p-sidebar-nav__list">
+          <li class="p-sidebar-nav__item"><span class="p-sidebar-title">Welcome</span>
+            <ul class="p-sidebar-nav__list">
+              <li><a class="p-sidebar-nav__item" href="/cloud/">Get started</a></li>
             </ul>
           </li>
-          <li><a class="sidebar__link" href="#">Section title 2 <i class="p-icon--plus"></i><i class="p-icon--minus"></i></a>
-            <ul class="sidebar__second-level">
-              <li><a class="sidebar__link" href="#">Second level 1</a></li>
-              <li><a class="sidebar__link" href="#">Second level 2</a></li>
-              <li><a class="sidebar__link" href="#">Second level 3 <i class="p-icon--plus"></i><i class="p-icon--minus"></i></a>
-                <ul class="sidebar__third-level is-deepest-level">
-                  <li><a class="sidebar__link" href="#">Third level 1</a></li>
-                  <li><a class="sidebar__link" href="#">Third level 2</a></li>
-                  <li><a class="sidebar__link" href="#">Third level 3</a></li>
-                  <li><a class="sidebar__link" href="#">Third level 4</a></li>
-                  <li><a class="sidebar__link" href="#">Third level 5</a></li>
+          <br>
+
+          <li class="p-sidebar-nav__item"><span class="p-sidebar-title">Basics</span>
+            <ul class="p-sidebar-nav__list">
+              <li><a class="p-sidebar-nav__item" href="/cloud/basics/environment.html">Environment <!-- <i class="p-icon--plus"></i><i class="p-icon--minus"></i> --></a>
+                <ul class="p-sidebar-nav__item-deep">
+                  <li><a class="p-sidebar-nav__item" href="/cloud/basics/surfaces.html">Surfaces</a></li>
+                  <li><a class="p-sidebar-nav__item" href="/cloud/basics/ui-contrast.html">UI contrast</a></li>
+                  <li><a class="p-sidebar-nav__item" href="/cloud/basics/z-index.html">Z-index</a></li>
                 </ul>
               </li>
-              <li><a class="sidebar__link" href="#">Second level 4</a></li>
-              <li><a class="sidebar__link" href="#">Second level 5</a></li>
+              <li><a class="p-sidebar-nav__item" href="/cloud/basics/layout.html">Layout <!-- <i class="p-icon--plus"></i><i class="p-icon--minus"></i> --></a>
+                <ul class="p-sidebar-nav__item-deep">
+                  <li><a class="p-sidebar-nav__item" href="/cloud/basics/grid.html">Grid</a></li>
+                  <li><a class="p-sidebar-nav__item" href="/cloud/basics/white-space.html">White space</a></li>
+                </ul>
+              </li>
+              <li><a class="p-sidebar-nav__item" href="/cloud/basics/type-hierarchy.html">Type hierarchy <!-- <i class="p-icon--plus"></i><i class="p-icon--minus"></i> --></a>
+                <ul class="p-sidebar-nav__item-deep">
+                  <li><a class="p-sidebar-nav__item" href="/cloud/basics/h3-to-p.html">H3 to p</a></li>
+                </ul>
+              </li>
+              <li><a class="p-sidebar-nav__item" href="/cloud/basics/user-feedback.html">User feedback</a></li>
+              <li><a class="p-sidebar-nav__item" href="/cloud/basics/colour.html">Colour</a></li>
             </ul>
           </li>
-          <li><a class="sidebar__link" href="#">Section title 3 <i class="p-icon--plus"></i><i class="p-icon--minus"></i></a>
-            <ul class="sidebar__second-level">
-              <li><a class="sidebar__link" href="#">Second level 1</a></li>
-              <li><a class="sidebar__link" href="#">Second level 2</a></li>
-              <li><a class="sidebar__link is-selected" href="#">Second level 3 <i class="p-icon--plus"></i><i class="p-icon--minus"></i></a>
-                <ul class="sidebar__third-level is-deepest-level">
-                  <li><a class="sidebar__link" href="#">Third level 1</a></li>
-                  <li><a class="sidebar__link" href="#">Third level 2</a></li>
-                  <li><a class="sidebar__link" href="#">Third level 3</a></li>
-                  <li><a class="sidebar__link" href="#">Third level 4</a></li>
-                  <li><a class="sidebar__link" href="#">Third level 5</a></li>
-                </ul>
-              </li>
-              <li><a class="sidebar__link" href="#">Second level 4</a></li>
-              <li><a class="sidebar__link" href="#">Second level 5</a></li>
+          <br>
+
+          <li class="p-sidebar-nav__item"><span class="p-sidebar-title">Navigation</span>
+            <ul class="p-sidebar-nav__list">
+              <li><a class="p-sidebar-nav__item" href="/cloud/navigation/navigation.html">Navigation</a></li>
+            </ul>
+          </li>
+          <br>
+
+          <li class="p-sidebar-nav__item"><span class="p-sidebar-title">Page structure</span>
+            <ul class="p-sidebar-nav__list">
+              <li><a class="p-sidebar-nav__item" href="/cloud/page-structure/cards.html">Cards</a></li>
+              <li><a class="p-sidebar-nav__item" href="/cloud/page-structure/notifications.html">Notifications</a></li>
+            </ul>
+          </li>
+          <br>
+
+          <li class="p-sidebar-nav__item"><span class="p-sidebar-title">Text</span>
+            <ul class="p-sidebar-nav__list">
+              <li><a class="p-sidebar-nav__item" href="/cloud/text/text.html">Text</a></li>
+            </ul>
+          </li>
+          <br>
+
+          <li class="p-sidebar-nav__item"><span class="p-sidebar-title">Tables</span>
+            <ul class="p-sidebar-nav__list">
+              <li><a class="p-sidebar-nav__item" href="/cloud/tables/tables.html">Tables</a></li>
+            </ul>
+          </li>
+          <br>
+
+          <li class="p-sidebar-nav__item"><span class="p-sidebar-title">Interactive elements</span>
+            <ul class="p-sidebar-nav__list">
+              <li><a class="p-sidebar-nav__item" href="/cloud/interactive-elements/actions-menu.html">Actions menu</a></li>
+              <li><a class="p-sidebar-nav__item" href="/cloud/interactive-elements/buttons.html">Buttons</a></li>
+              <li><a class="p-sidebar-nav__item" href="/cloud/interactive-elements/editing.html">Editing</a></li>
+              <li><a class="p-sidebar-nav__item" href="/cloud/interactive-elements/forms.html">Forms</a></li>
             </ul>
           </li>
         </ul>
-        <hr>
+
         <ul class="p-list">
-          <li><a class="p-link--external sidebar__link" href="#">Supplementary link 1</a></li>
-          <li><a class="p-link--external sidebar__link" href="#">Supplementary link 2</a></li>
+          <li><a class="p-link--external sidebar__link" href="https://vanillaframework.io/">Vanilla framework</a></li>
+          <li><a class="p-link--external sidebar__link" href="https://docs.vanillaframework.io/en/">Vanilla documentation</a></li>
         </ul>
       </div>
     </div>
