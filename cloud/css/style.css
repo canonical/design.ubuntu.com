@@ -1,4 +1,3 @@
-<style>
 .p-sidebar-nav {
   margin-top: -70px;
 }
@@ -84,5 +83,3 @@ form .p-list .p-list__item label, form .p-sidebar-nav__list .p-list__item label,
 .p-navigation--sidebar .sidebar__content {
   position: relative !important;
 }
-
-</style>
