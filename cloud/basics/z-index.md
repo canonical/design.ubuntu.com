@@ -1,6 +1,6 @@
 ---
 layout: post_sidebar
-title: "Cloud guidelines / Z-index"
+title: "Z-index"
 body-id: "brand-assets"
 body-class: "brand"
 ---

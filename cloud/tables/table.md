@@ -1,6 +1,6 @@
 ---
 layout: post_sidebar
-title: "Cloud guidelines / Tables"
+title: "Table"
 body-id: "brand-assets"
 body-class: "brand"
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post_sidebar
-title: "Cloud guidelines / Buttons"
+title: "Buttons"
 body-id: "brand-assets"
 body-class: "brand"
 ---

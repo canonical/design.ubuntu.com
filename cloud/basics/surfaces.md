@@ -1,6 +1,6 @@
 ---
 layout: post_sidebar
-title: "Cloud guidelines / Surfaces"
+title: "Surfaces"
 body-id: "brand-assets"
 body-class: "brand"
 ---
