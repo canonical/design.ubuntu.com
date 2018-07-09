@@ -1,6 +1,6 @@
 ---
 layout: post_sidebar
-title: "Cloud guidelines / Actions menu"
+title: "Actions menu"
 body-id: "brand-assets"
 body-class: "brand"
 ---

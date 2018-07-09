@@ -1,6 +1,6 @@
 ---
 layout: post_sidebar
-title: "Cloud guidelines / Cards"
+title: "Cards"
 body-id: "brand-assets"
 body-class: "brand"
 ---

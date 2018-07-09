@@ -1,6 +1,6 @@
 ---
 layout: post_sidebar
-title: "Cloud guidelines / Forms"
+title: "Forms"
 body-id: "brand-assets"
 body-class: "brand"
 ---

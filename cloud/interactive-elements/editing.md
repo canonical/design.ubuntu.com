@@ -1,6 +1,6 @@
 ---
 layout: post_sidebar
-title: "Cloud guidelines / Editing"
+title: "Editing"
 body-id: "brand-assets"
 body-class: "brand"
 ---
