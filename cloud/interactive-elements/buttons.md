@@ -7,9 +7,8 @@ body-class: "brand"
 <div class="p-strip is-shallow">
 	<div class="row">
 	  <div class="col-8">
-	    <p>Find out about the tools and practices followed by the Ubuntu Web Team.</p>
 	    <h2 id="our-sass-framework">Buttons</h2>
-	    <p>The Web Team developed Vanilla, a Sass framework that is used by Canonical and anyone who wants a clean and flexible baseline to develop beautiful websites.</p>
+	    <p>Buttons describe an action that will occur when the user clicks or taps it. They can also give actions different levels of emphasis within the UI.</p>
 	    <ul class="p-list">
 	      <li class="p-list__item is-ticked"><a href="https://github.com/vanilla-framework/vanilla-framework">TEST LINE</a></li>
 	      <li class="p-list__item is-ticked"><a href="https://github.com/vanilla-framework/vanilla-framework">Vanilla Framework on GitHub</a></li>
