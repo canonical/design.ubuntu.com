@@ -19,6 +19,8 @@ body-class: "brand"
 	</div>
 </div>
 
+![example image](example-image.jpg "An exemplary image")
+
 <div class="p-strip is-bordered">
   <div class="row">
     <div class="col-8">
