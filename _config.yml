@@ -34,11 +34,12 @@ sass:
 gems:
   - jekyll-feed
 exclude:
-  - Gemfile
-  - Gemfile.lock
+  - "Gemfile*"
   - README.md
   - package.json
   - run
   - yarn.lock
   - node_modules
   - vendor/bundle
+  - nginx.conf
+  - requirements.txt
