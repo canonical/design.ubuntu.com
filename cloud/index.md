@@ -4,12 +4,13 @@ title: "Cloud guidelines"
 body-id: "brand-assets"
 body-class: "brand"
 ---
-<div class="p-strip is-shallow u-no-padding--top">
+<div class="p-strip is-shallow">
 	<div class="row">
 	  <div class="col-8">
+			<h2 id="our-sass-framework">Getting started</h2>
 	    <p>Everything you need to start designing for Canonical’s cloud products.</p>
 	    <h3 id="our-sass-framework">Purpose</h3>
-	    <p>The aim of these guidelines is to develop a design system that creates consistency across the user experience and visual design of our cloud products, using the Vanilla Framework as a foundation.</p>
+	    <p>The aim of these guidelines is to provide a design system that creates consistency across the user experience and visual design of our cloud products, using the Vanilla Framework as a foundation.</p>
 	  </div>
 	</div>
 </div>
@@ -18,8 +19,7 @@ body-class: "brand"
   <div class="row">
     <div class="col-8">
       <h3 id="our-work-practices">How to use these guidelines</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis augue urna, id malesuada purus placerat et. Cras consectetur finibus ex, id posuere ex pharetra nec.</p>
-      <p>Aliquam nunc massa, ultrices sit amet eleifend non, varius gravida magna. Nam at porttitor dui. Donec sed lectus sit amet felis venenatis semper blandit id mauris.</p>
+      <p>These guidelines are a collection of design patterns and interactions; an example of the user experience that we developed for Canonical’s cloud products using the Vanilla Framework.We think this collection can be a useful presentation of our user-centred method and practice, and that can be applied to any website and application.</p>
     </div>
   </div>
 </div>
