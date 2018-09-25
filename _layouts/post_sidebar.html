@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{% include head.html %}
+
+<body id="{{ page.body-id }}" class="{{ page.body-class }}">
+
+  {% include header.html %}
+
+  <div class="p-strip is-shallow">
+	   <div class="row">
+	      <div class="col-3">
+		      {% include nav-cloud.html %}
+		    </div>
+		    <div class="col-9 guidelinescontent">
+		      {{ content }}
+		    </div>
+	   </div>
+  </div>
+
+  {% include footer.html %}
+
+</body>
+</html>
