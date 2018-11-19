@@ -173,7 +173,7 @@ padding-bottom: 10px;
      <div class="legal clearfix">
           <p>
                &copy; 2017 Canonical Ltd. Ubuntu and Canonical are registered trademarks of Canonical Ltd.
-               <a href="https://bugs.launchpad.net/ubuntu-brand-guidelines/+filebug" class="link-bug">Report a bug on this site</a>
+               <a href="https://github.com/canonical-websites/design.ubuntu.com/issues/new" class="link-bug">Report a bug on this site</a>
           </p>
      </div>
 </footer>
