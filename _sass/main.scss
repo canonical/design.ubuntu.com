@@ -41,3 +41,8 @@ $color-navigation-background: $color-brand;
   text-indent: -10000px !important;
 }
 
+//XXX KW 2018-12-12 - temp fix for:
+// https://github.com/vanilla-framework/vanilla-framework/issues/2080
+.p-card__content {
+  margin-top: 1rem;
+}

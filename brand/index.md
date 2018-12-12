@@ -4,10 +4,10 @@ title: "Brand assets"
 body-id: "brand-assets"
 body-class: "brand"
 ---
-<div class="p-strip">
+<div class="p-strip u-no-padding--top">
   <div class="row u-equal-height" style="padding-top: 1rem;">
     <div class="col-4 p-card">
-      <a href="/brand/ubuntu-logo" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/adac6928-ubuntu.svg" width="160" /> </a>
+      <a href="/brand/ubuntu-logo" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/adac6928-ubuntu.svg" width="160" /></a>
       <p class="p-card__content">The logo is the most recognisable feature of any brand identity. The Ubuntu logo is striking and clear, and it represents the brand’s core values.</p>
       <p class="p-card__content"><a href="/brand/ubuntu-logo" >Ubuntu logo&nbsp;&rsaquo;</a></p>
     </div>
@@ -41,8 +41,8 @@ body-class: "brand"
   </div>
   <div class="row" style="padding-top: 1rem;">
     <div class="col-4 p-card">
-      <a href="/brand/photography-products" class="u-vertically-center u-align--center" style="display: block; min-height: 175px;">
-        <img src="https://assets.ubuntu.com/v1/0882a960-product-photography-brand-page.png" />
+      <a href="/brand/photography-products" class="u-vertically-center u-align--center">
+        <img style="min-height: 138px;" src="https://assets.ubuntu.com/v1/0882a960-product-photography-brand-page.png" />
       </a>
       <p class="p-card__content">Product photography is a good way to help us visualise our products on real hardware. We have developed precise guidelines for creating new product photography.</p>
       <p class="p-card__content"><a href="/brand/photography-products" >Product photography&nbsp;&rsaquo;</a></p>

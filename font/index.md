@@ -5,15 +5,15 @@ body-id: fonts
 body-class: fonts
 ---
 
-<div class="p-strip u-no-padding--top is-bordered">
+<div class="p-strip is-shallow u-no-padding--top">
   <div class="row">
     <div class="col-9">
-      <div>
-        <p>The way typography is used says as much about our brand as the words themselves.</p>
-        <p>The Ubuntu typeface has been specially created to complement the Ubuntu tone of voice. It has a contemporary style and contains characteristics unique to the Ubuntu brand that convey a precise, reliable and free attitude.</p>
-      </div>
+      <p>The way typography is used says as much about our brand as the words themselves.</p>
+      <p>The Ubuntu typeface has been specially created to complement the Ubuntu tone of voice. It has a contemporary style and contains characteristics unique to the Ubuntu brand that convey a precise, reliable and free attitude.</p>
     </div>
   </div>
+</div>
+<div class="p-strip u-no-padding--top is-bordered">
   <div class="row u-equal-height">
     <div class="col-4 p-card">
       <h3 class="p-card__title">Ubuntu</h3>
