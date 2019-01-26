@@ -157,7 +157,7 @@ body-class: "guidelines"
   <div class="row">
     <div class="col-8">
       <p>
-        <a href="../downloads" title="Download Canonical logos">View Canonical logos available for download&nbsp;&rsaquo;</a>
+        <a href="/downloads" title="Download Canonical logos">View Canonical logos available for download&nbsp;&rsaquo;</a>
       </p>
     </div>
   </div>
