@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/canonical-websites/design.ubuntu.com#readme",
   "dependencies": {
-    "autoprefixer": "6.7.7",
+    "autoprefixer": "9.4.7",
     "cssnano": "3.10.0",
     "global-nav": "0.2.3",
     "node-sass": "4.9.0",
