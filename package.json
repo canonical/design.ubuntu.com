@@ -1,31 +1,22 @@
 {
-  "name": "design.ubuntu.com",
-  "description": "code for design.ubuntu.com",
   "scripts": {
     "lint-nginx": "gixy nginx.conf",
     "lint-scss": "sass-lint _sass/**/*.scss --verbose --no-exit",
     "test": "yarn run lint-nginx && yarn run lint-scss",
     "watch": "watch -p '_sass/**/*.scss' -c 'yarn run build'",
-    "build": "node-sass --include-path node_modules _sass --output css && postcss --use autoprefixer --replace css/**/*.css && postcss --use cssnano --dir css/minified css/**/*.css",
+    "build": "node-sass --include-path node_modules sass --source-map true --output-style compressed --output css && postcss --use autoprefixer --replace css/**/*.css",
     "serve": "bundle exec jekyll serve -P ${PORT} -H 0.0.0.0",
     "clean": "rm -rf node_modules yarn-error.log css css *.log *.sqlite _site/ build/ .jekyll-metadata .bundle"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/canonical-websites/design.ubuntu.com.git"
-  },
-  "bugs": {
-    "url": "https://github.com/canonical-websites/design.ubuntu.com/issues"
-  },
-  "homepage": "https://github.com/canonical-websites/design.ubuntu.com#readme",
-  "dependencies": {
-    "autoprefixer": "9.4.7",
-    "cssnano": "4.1.10",
-    "global-nav": "0.2.3",
+  "devDependencies": {
+    "autoprefixer": "9.4.10",
     "node-sass": "4.11.0",
-    "postcss-cli": "6.1.1",
+    "postcss-cli": "6.1.2",
     "sass-lint": "1.12.1",
-    "vanilla-framework": "1.8.1",
     "watch-cli": "0.2.3"
+  },
+  "dependencies": {
+    "global-nav": "0.2.3",
+    "vanilla-framework": "1.8.1"
   }
 }
