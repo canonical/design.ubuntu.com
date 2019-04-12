@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@canonical/global-nav@2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@canonical/global-nav/-/global-nav-2.0.6.tgz#e80abeccf26c6ca64bef2d4a5f6db8a1505870ea"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -1097,10 +1101,6 @@ glob@~3.1.21:
     graceful-fs "~1.2.0"
     inherits "1"
     minimatch "~0.2.11"
-
-global-nav@0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/global-nav/-/global-nav-0.2.3.tgz#8f61296bbf3803fdcff1540399c0fcc526f355ed"
 
 globals@^9.2.0:
   version "9.18.0"
