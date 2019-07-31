@@ -10,10 +10,10 @@
     "clean": "rm -rf node_modules yarn-error.log css css *.log *.sqlite _site/ build/ .jekyll-metadata .bundle"
   },
   "devDependencies": {
-    "autoprefixer": "9.5.1",
-    "node-sass": "4.11.0",
-    "postcss-cli": "6.1.2",
-    "sass-lint": "1.12.1",
+    "autoprefixer": "9.6.1",
+    "node-sass": "4.12.0",
+    "postcss-cli": "6.1.3",
+    "sass-lint": "1.13.1",
     "watch-cli": "0.2.3"
   },
   "dependencies": {
