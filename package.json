@@ -17,7 +17,7 @@
     "watch-cli": "0.2.3"
   },
   "dependencies": {
-    "@canonical/global-nav": "2.0.6",
-    "vanilla-framework": "1.8.1"
+    "@canonical/global-nav": "2.1.0",
+    "vanilla-framework": "2.4.0"
   }
 }
