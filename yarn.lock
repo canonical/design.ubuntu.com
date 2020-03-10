@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@canonical/global-nav@2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@canonical/global-nav/-/global-nav-2.1.0.tgz#67b6a499a39ff8135e15fcc6a275cd1e29b504fa"
+"@canonical/global-nav@2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@canonical/global-nav/-/global-nav-2.0.6.tgz#e80abeccf26c6ca64bef2d4a5f6db8a1505870ea"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -2972,9 +2972,9 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vanilla-framework@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/vanilla-framework/-/vanilla-framework-2.1.0.tgz#2c2d9810f81be4ed2bbee029424b90933df4c12b"
+vanilla-framework@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/vanilla-framework/-/vanilla-framework-1.8.1.tgz#0d7f5885cdbd1355a9f9d42d7596f9a1258b27ea"
 
 verbalize@^0.1.2:
   version "0.1.2"
