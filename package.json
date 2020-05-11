@@ -20,6 +20,6 @@
   },
   "dependencies": {
     "@canonical/global-nav": "2.0.6",
-    "vanilla-framework": "1.8.1"
+    "vanilla-framework": "2.10.1"
   }
 }

@@ -12,7 +12,7 @@ $color-navigation-background: $color-brand;
 @import "pattern_font-tester";
 @include design-p-font-tester;
 
-// Hack to get the header link color white as dark is more accessible.
+/* Hack to get the header link color white as dark is more accessible.
 .p-navigation {
   @include vf-navigation-pattern(
     $background-color: $color-navigation-background,
@@ -28,6 +28,7 @@ $color-navigation-background: $color-brand;
     border-right: 1px solid $color-light;
   }
 }
+*/
 
 // Remove the hard set image height
 .p-card .p-card__header img {
