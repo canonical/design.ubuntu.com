@@ -10,6 +10,7 @@ extraHosts:
   - domain: font.ubuntu.com
   - domain: www.font.ubuntu.com
   - domain: design.ubunut.com
+  - domain: ubuntu.ai
 
 # Overrides for production
 production:
@@ -19,6 +20,12 @@ production:
       rewrite ^ https://design.ubuntu.com/font$request_uri? permanent;
     }
     if ($host = 'www.font.ubuntu.com' ) {
+      rewrite ^ https://design.ubuntu.com/font$request_uri? permanent;
+    }
+    if ($host = 'ubuntu.ai' ) {
+      rewrite ^ https://design.ubuntu.com/font$request_uri? permanent;
+    }
+    if ($host = 'www.ubuntu.ai' ) {
       rewrite ^ https://design.ubuntu.com/font$request_uri? permanent;
     }
     if ($host != 'design.ubuntu.com' ) {
