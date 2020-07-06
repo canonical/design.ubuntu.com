@@ -7,19 +7,19 @@
     "build-css": "node-sass --include-path node_modules sass --source-map true --output-style compressed --output css && postcss --use autoprefixer --replace css/**/*.css",
     "build-jekyll": "bundle exec jekyll build",
     "build": "yarn run build-css && yarn run copy-js && yarn run build-jekyll",
-    "copy-js": "cp node_modules/@canonical/global-nav/dist/index.js assets/global-nav.js",
+    "copy-js": "cp node_modules/@canonical/global-nav/dist/global-nav.js assets/global-nav.js",
     "serve": "bundle exec jekyll serve -P ${PORT} -H 0.0.0.0",
     "clean": "rm -rf node_modules yarn-error.log css css *.log *.sqlite _site/ build/ .jekyll-metadata .bundle"
   },
   "devDependencies": {
-    "autoprefixer": "9.6.1",
-    "node-sass": "4.12.0",
-    "postcss-cli": "6.1.3",
+    "autoprefixer": "9.8.0",
+    "node-sass": "4.14.1",
+    "postcss-cli": "7.1.1",
     "sass-lint": "1.13.1",
     "watch-cli": "0.2.3"
   },
   "dependencies": {
-    "@canonical/global-nav": "2.0.6",
-    "vanilla-framework": "2.10.1"
+    "@canonical/global-nav": "2.4.1",
+    "vanilla-framework": "2.12.1"
   }
 }
