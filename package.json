@@ -12,14 +12,14 @@
     "clean": "rm -rf node_modules yarn-error.log css css *.log *.sqlite _site/ build/ .jekyll-metadata .bundle"
   },
   "devDependencies": {
-    "autoprefixer": "9.8.0",
+    "autoprefixer": "9.8.6",
     "node-sass": "4.14.1",
     "postcss-cli": "7.1.1",
     "sass-lint": "1.13.1",
     "watch-cli": "0.2.3"
   },
   "dependencies": {
-    "@canonical/global-nav": "2.4.1",
-    "vanilla-framework": "2.12.1"
+    "@canonical/global-nav": "2.4.3",
+    "vanilla-framework": "2.16.0"
   }
 }
