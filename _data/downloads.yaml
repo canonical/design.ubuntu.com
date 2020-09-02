@@ -92,7 +92,7 @@
 
 - download: https://assets.ubuntu.com/v1/a2d22e73-premier-cloud-partner-logo-set.zip
   image: https://assets.ubuntu.com/v1/059e5877-premier_cloud_partner_hex.png
-  name: Premier cloud partner logo set (555 MB)
+  name: Premier cloud partner logo set (555 KB)
 
 - download: https://assets.ubuntu.com/v1/fbd83df1-certified-cloud-partner-logo-set.zip
   image: https://assets.ubuntu.com/v1/9822313a-certified_cloud_partner_hex.png
