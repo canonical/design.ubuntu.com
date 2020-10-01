@@ -21,7 +21,7 @@ RUN --mount=type=cache,target=/usr/local/share/.cache/yarn yarn install
 # ===
 FROM yarn-dependencies AS build-js
 ADD . .
-RUN yarn run copy-js
+RUN yarn run build-js
 
 
 # Build stage: Build CSS
