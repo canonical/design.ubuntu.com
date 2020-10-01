@@ -8,6 +8,9 @@ $color-navigation-background: $color-brand;
 // Import Vanilla framework
 @import 'vanilla-framework/scss/build';
 
+// import cookie policy
+@import "@canonical/cookie-policy/build/css/cookie-policy";
+
 // Site patterns
 @import "pattern_font-tester";
 @include design-p-font-tester;
