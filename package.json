@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "autoprefixer": "10.2.1",
-    "node-sass": "4.14.1",
+    "node-sass": "5.0.0",
     "postcss-cli": "8.3.1",
     "sass-lint": "1.13.1",
     "watch-cli": "0.2.3"
