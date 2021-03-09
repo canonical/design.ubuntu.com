@@ -5,7 +5,7 @@
     "test": "yarn run lint-nginx && yarn run lint-scss",
     "watch": "watch -p '_sass/**/*.scss' -c 'yarn run build'",
     "build": "yarn run build-css && yarn run build-js && yarn run build-jekyll",
-    "build-css": "node-sass --include-path node_modules sass --source-map true --output-style compressed --output css && postcss --use autoprefixer --replace css/**/*.css",
+    "build-css": "sass sass/main.scss css/main.css --load-path=node_modules --style=compressed && postcss --use autoprefixer --replace css/**/*.css",
     "build-jekyll": "bundle exec jekyll build",
     "build-js": "yarn run build-global-nav && yarn run build-cookie-policy",
     "build-global-nav": "cp node_modules/@canonical/global-nav/dist/global-nav.js assets/js/global-nav.js",
@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "autoprefixer": "10.2.1",
-    "node-sass": "5.0.0",
+    "sass": "1.27.0",
     "postcss-cli": "8.3.1",
     "sass-lint": "1.13.1",
     "watch-cli": "0.2.3"
