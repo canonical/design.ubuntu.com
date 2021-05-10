@@ -23,7 +23,7 @@
   "dependencies": {
     "@canonical/global-nav": "2.4.5",
     "@canonical/cookie-policy": "3.2.0",
-    "postcss": "8.2.4",
+    "postcss": "8.2.10",
     "vanilla-framework": "2.27.0"
   }
 }
