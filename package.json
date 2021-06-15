@@ -21,9 +21,9 @@
     "watch-cli": "0.2.3"
   },
   "dependencies": {
-    "@canonical/global-nav": "2.4.5",
+    "@canonical/global-nav": "2.5.0",
     "@canonical/cookie-policy": "3.2.0",
     "postcss": "8.2.4",
-    "vanilla-framework": "2.27.0"
+    "vanilla-framework": "2.31.0"
   }
 }
