@@ -132,7 +132,7 @@ Greek sample:
         <li class="p-list__item is-ticked">Alternative glyphs (e.g. proportional/non-proportional/superscript/subscript numerals)</li>
         <li class="p-list__item is-ticked">Debugging glyphs (U+EFFD, U+EFFE, U+EFFF, U+F000) giving face, version, grayscale level and pixels-per-em digit display</li>
       </ul>
-      <p>The pixels-per-em 7-segment digits are driven by the hint engine (substituted from the Deja fonts), so if hinting is by default off (e.g. Firefox) then the output will show as a pair of &ldquo;88&rdquo; numerals.</p>
+      <p>The pixels-per-em 7-segment digits are driven by the hint engine (substituted from the DejaVu fonts), so if hinting is by default off (e.g. Firefox) then the output will show as a pair of &ldquo;88&rdquo; numerals.</p>
     </div>
     </div>
     <div class="col-6">
