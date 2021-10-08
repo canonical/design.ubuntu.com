@@ -27,7 +27,7 @@ body-class: "guidelines"
       <p><img src="{{ site.assets_path }}e543e871-partner-logo-elements1.gif" alt="Partner logo elements" title="Partner logo elements" width="465" height="349" class="alignnone size-full5" srcset="{{ site.assets_path }}e543e871-partner-logo-elements1.gif 465w, {{ site.assets_path }}fd9bc0e0-partner-logo-elements1-300x225.gif 300w"
           sizes="(max-width: 465px) 100vw, 465px" /></p>
       <p>Each partner logo consists of the stacked version of the Ubuntu brandmark, the &#8216;partner name&#8217; set in Ubuntu Regular in a clean white panel, placed within a holding device &#8216;badge&#8217;.</p>
-      <p>Master Ubuntu Partner logos are supplied as artworks and should never be altered, distorted or re-created in any way.</p>
+      <p>Main Ubuntu Partner logos are supplied as artworks and should never be altered, distorted or re-created in any way.</p>
     </div>
   </div>
 </div>

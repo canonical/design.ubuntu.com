@@ -11,7 +11,7 @@ body-class: "guidelines"
         sizes="(max-width: 540px) 100vw, 540px">
       <p>The Canonical logo captures the precise and focused qualities of the brand in a straight forward symbol and wordmark. It is clearly linked to Ubuntu but equally clearly differentiated.</p>
       <p>It is made up of a custom designed font (wordmark), carefully spaced with a carefully drawn ‘Canonical Circle’ replacing the ‘O’.</p>
-      <p>Consistent use of the Canonical logo is essential in creating a united brand identity. The master logo is supplied as artwork and should never be altered, distorted or re-created in any way.</p>
+      <p>Consistent use of the Canonical logo is essential in creating a united brand identity. The main logo is supplied as artwork and should never be altered, distorted or re-created in any way.</p>
       <div class="p-notification--information">
         <p class="p-notification__response"><span class="p-notification__status">Information:</span> The Canonical word and associated logos are registered trademarks. For more details please <a class="p-link--external" href="https://www.ubuntu.com/legal/terms-and-policies/terms">read our trademark policy</a>.
         </p>
@@ -72,14 +72,14 @@ body-class: "guidelines"
       <h2>Choosing the right logo version</h2>
       <img src="{{ site.assets_path }}b1530a03-canonical-white-on-aubergine.gif" alt="Canonical logo white on aubergine" title="canonical-white-on-aubergine" width="150" height="56">
       <p>
-        <strong>Master Canonical logo: white on aubergine</strong>
+        <strong>Main Canonical logo: white on aubergine</strong>
       </p>
       <p>This logo version should be used on all Canonical authored pieces. On dual branded items, this logo version should also be used.</p>
       <img src="{{ site.assets_path }}619b3400-canonical-aubergine-on-white.gif" alt="Canonical logo aubergine on white" title="canonical-aubergine-on-white" width="150" height="56">
       <p>
         <strong>Alternative Canonical logo: aubergine on white</strong>
       </p>
-      <p>This logo version should be used in support of the master version (for example, this logo could be used in the footer of a web page as opposed to repeating the master version).</p>
+      <p>This logo version should be used in support of the main version (for example, this logo could be used in the footer of a web page as opposed to repeating the main version).</p>
     </div>
   </div>
 </div>

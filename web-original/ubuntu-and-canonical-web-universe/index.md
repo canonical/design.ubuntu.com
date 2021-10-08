@@ -28,7 +28,7 @@ body-class: "guidelines"
                <p>It&#8217;s important to know where your website sits in the Ubuntu web universe when creating design work. This factor will dictate how closely you need to follow the guidelines. Remember: the Ubuntu and Canonical logos must <em>always</em> be used according to the guidelines.</p>
 <table>
 <tr>
-<th scope="col">Master sites</th>
+<th scope="col">Main sites</th>
 <th scope="col">Tier 2 sites</th>
 <th scope="col">Tier 3 sites</th>
 </tr>
@@ -63,7 +63,7 @@ These are sites that sit in the wider Ubuntu ecosystem but not within the ubuntu
 <td>Creation of Canonical branded websites outside of the canonical.com namespace is not permitted.</td>
 </tr>
 </table>
-<h2>Master sites</h2>
+<h2>Main sites</h2>
 <p><strong>www.ubuntu.com and www.canonical.com</strong><br />
 These are the main Ubuntu and Canonical websites and represent the primary home for Ubuntu and Canonical web presences. As a cornerstone of the visual identity they should represent the values and principles of the brand without compromise.</p>
 <h2>Tier 2 sites</h2>
