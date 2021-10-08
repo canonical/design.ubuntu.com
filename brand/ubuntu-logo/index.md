@@ -11,7 +11,7 @@ body-class: "guidelines"
           sizes="(max-width: 540px) 100vw, 540px" /></p>
       <p>The Ubuntu logo captures the precise and reliable qualities of the brand in a straight forward symbol and wordmark.</p>
       <p>It is made up of a custom designed font (wordmark), carefully spaced with a re-drawn &#8216;Circle of Friends&#8217; placed within a roundel.</p>
-      <p>Consistent use of the Ubuntu logo is essential in creating a united brand identity. The master logo is supplied as artwork and should never be altered, distorted or re-created in any way.</p>
+      <p>Consistent use of the Ubuntu logo is essential in creating a united brand identity. The main logo is supplied as artwork and should never be altered, distorted or re-created in any way.</p>
       <div class="box">
         <p><strong>Note:</strong> The Ubuntu word and associated logos are registered trademarks. For more details please <a href="http://www.ubuntu.com/aboutus/trademarkpolicy">read our trademark policy</a>.</p>
       </div>
@@ -168,7 +168,7 @@ body-class: "guidelines"
       <h2>The Ubuntu stacked logo</h2>
       <p><img title="The stacked Ubuntu logo" src="{{ site.assets_path }}57a889f6-ubuntu-logo112.png" alt="The stacked Ubuntu logo" width="300" height="239" /></p>
       <p>For exceptional circumstances, e.g. hardware stickers, a stacked version of the logo has been created.</p>
-      <p>Consistent use of the Ubuntu logo is essential in creating a united brand identity. The master logo is supplied as artwork and should never be altered, distorted or re-created in any way.</p>
+      <p>Consistent use of the Ubuntu logo is essential in creating a united brand identity. The main logo is supplied as artwork and should never be altered, distorted or re-created in any way.</p>
       <p><img title="Defining the exclusion zone for the stacked Ubuntu logo" src="{{ site.assets_path }}3892a25a-ubuntu-logo121.png" alt="Defining the exclusion zone for the stacked Ubuntu logo" width="540" height="249" srcset="{{ site.assets_path }}3892a25a-ubuntu-logo121.png 540w, {{ site.assets_path }}595b5c0d-ubuntu-logo121-300x138.png 300w"
           sizes="(max-width: 540px) 100vw, 540px" /></p>
       <h3>Defining the exclusion zone</h3>
