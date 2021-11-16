@@ -29,17 +29,10 @@ body-class: "brand"
       <p class="p-card__content"><a href="/brand/colour-palette" >Colour palette&nbsp;&rsaquo;</a></p>
     </div>
     <div class="col-4 p-card">
-      <a href="/brand/pictograms" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/c719d565-pictograms-brand-page.svg" /></a>
-      <p class="p-card__content">Our pictograms mirror the circular aspect of both the Ubuntu Circle of Friends and the Canonical logo. They are used to represent a word or an idea.</p>
-      <p class="p-card__content"><a href="/brand/pictograms" >Pictograms&nbsp;&rsaquo;</a></p>
-    </div>
-    <div class="col-4 p-card">
       <a href="/brand/screenshots" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/98c99d7b-screenshots-brand-page.svg"/></a>
       <p class="p-card__content">Screenshots are a quick way of showing users and visitors what our products look like. As such, it’s important to follow guidelines that create consistent screenshots to use on Ubuntu sites.</p>
       <p class="p-card__content"><a href="/brand/screenshots" >Screenshots&nbsp;&rsaquo;</a></p>
     </div>
-  </div>
-  <div class="row" style="padding-top: 1rem;">
     <div class="col-4 p-card">
       <a href="/brand/photography-products" class="u-vertically-center u-align--center">
         <img style="min-height: 138px;" src="https://assets.ubuntu.com/v1/0882a960-product-photography-brand-page.png" />
@@ -53,7 +46,7 @@ body-class: "brand"
   <div class="row">
     <div class="col-8">
       <h2>We&rsquo;ve come full circle</h2>
-      <p>Both of the Ubuntu and Canonical logos feature a roundel element as an integral part of their design. This circular idea has been extended into our pictograms and now into our photography too. This adds an &lsquo;ownable&rsquo; feature to our communications and provides a subtle link back to the logo.</p>
+      <p>Both of the Ubuntu and Canonical logos feature a roundel element as an integral part of their design. This circular idea has been extended into our photography. This adds an &lsquo;ownable&rsquo; feature to our communications and provides a subtle link back to the logo.</p>
       <h3>Circular inspiration</h3>
       <p>We feel that there are other ways to introduce circular elements into our communications and we encourage you to expand this idea. This could be type in a circle, dots in a circle, a circle punched out of dots or a circular element within a photograph.</p>
     </div>

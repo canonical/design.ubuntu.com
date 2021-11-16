@@ -63,7 +63,7 @@ body-class: "home"
   <div class="row">
     <div class="col-3">
       <h3 class="p-heading--four"><a href="brand">Brand&nbsp;&rsaquo;</a></h3>
-      <p>Learn about the elements that constitute the Ubuntu brand and how to use them, such as the Ubuntu and Canonical logos, pictograms and product photography.</p>
+      <p>Learn about the elements that constitute the Ubuntu brand and how to use them, such as the Ubuntu and Canonical logos and product photography.</p>
     </div>
     <div class="col-3">
       <h3 class="p-heading--four"><a href="web">Web&nbsp;&rsaquo;</a></h3>
