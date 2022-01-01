@@ -11,7 +11,7 @@ RUN bundle exec jekyll build
 
 # Build stage: Install yarn dependencies
 # ===
-FROM node:12 AS yarn-dependencies
+FROM node:17 AS yarn-dependencies
 WORKDIR /srv
 ADD package.json .
 RUN --mount=type=cache,target=/usr/local/share/.cache/yarn yarn install
