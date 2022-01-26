@@ -2,7 +2,7 @@
 
 # Build stage: Install ruby dependencies
 # ===
-FROM ruby:2.7 AS build-site
+FROM ruby:3.1.0 AS build-site
 WORKDIR /srv
 ADD . .
 RUN bundle install
@@ -11,7 +11,7 @@ RUN bundle exec jekyll build
 
 # Build stage: Install yarn dependencies
 # ===
-FROM node:12 AS yarn-dependencies
+FROM node:16 AS yarn-dependencies
 WORKDIR /srv
 ADD package.json .
 RUN --mount=type=cache,target=/usr/local/share/.cache/yarn yarn install
