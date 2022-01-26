@@ -662,15 +662,9 @@ fast-glob@^3.1.1:
     picomatch "^2.2.1"
 
 fast-glob@^3.2.7:
-<<<<<<< HEAD
-  version "3.2.10"
-  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.10.tgz#2734f83baa7f43b7fd41e13bc34438f4ffe284ee"
-  integrity sha512-s9nFhFnvR63wls6/kM88kQqDhMu0AfdjqouE2l5GVQPbqLgyFjjU5ry/r2yKsJxpb9Py1EYNqieFrmMaX4v++A==
-=======
   version "3.2.11"
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.11.tgz#a1172ad95ceb8a16e20caa5c5e56480e5129c1d9"
   integrity sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==
->>>>>>> b47f7dfd09b82cebebd992ab5bc17926d28c7cee
   dependencies:
     "@nodelib/fs.stat" "^2.0.2"
     "@nodelib/fs.walk" "^1.2.3"
@@ -852,24 +846,14 @@ globby@^11.0.0:
     slash "^3.0.0"
 
 globby@^12.0.0:
-<<<<<<< HEAD
-  version "12.0.2"
-  resolved "https://registry.yarnpkg.com/globby/-/globby-12.0.2.tgz#53788b2adf235602ed4cabfea5c70a1139e1ab11"
-  integrity sha512-lAsmb/5Lww4r7MM9nCCliDZVIKbZTavrsunAsHLr9oHthrZP1qi7/gAnHOsUs9bLvEt2vKVJhHmxuL7QbDuPdQ==
-=======
   version "12.2.0"
   resolved "https://registry.yarnpkg.com/globby/-/globby-12.2.0.tgz#2ab8046b4fba4ff6eede835b29f678f90e3d3c22"
   integrity sha512-wiSuFQLZ+urS9x2gGPl1H5drc5twabmm4m2gTR27XDFyjUHJUNsS8o/2aKyIF6IoBaR630atdher0XJ5g6OMmA==
->>>>>>> b47f7dfd09b82cebebd992ab5bc17926d28c7cee
   dependencies:
     array-union "^3.0.1"
     dir-glob "^3.0.1"
     fast-glob "^3.2.7"
-<<<<<<< HEAD
-    ignore "^5.1.8"
-=======
     ignore "^5.1.9"
->>>>>>> b47f7dfd09b82cebebd992ab5bc17926d28c7cee
     merge2 "^1.4.1"
     slash "^4.0.0"
 
@@ -952,11 +936,7 @@ ignore@^5.1.4:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.1.8.tgz#f150a8b50a34289b33e22f5889abd4d8016f0e57"
   integrity sha512-BMpfD7PpiETpBl/A6S498BaIJ6Y/ABT93ETbby2fP00v4EbvPBXWEoaR1UBPKs3iR53pJY7EtZk5KACI57i1Uw==
 
-<<<<<<< HEAD
-ignore@^5.1.8:
-=======
 ignore@^5.1.9:
->>>>>>> b47f7dfd09b82cebebd992ab5bc17926d28c7cee
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
   integrity sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==
