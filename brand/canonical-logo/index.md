@@ -13,8 +13,9 @@ body-class: "guidelines"
       <p>It is made up of a custom designed font (wordmark), carefully spaced with a carefully drawn ‘Canonical Circle’ replacing the ‘O’.</p>
       <p>Consistent use of the Canonical logo is essential in creating a united brand identity. The main logo is supplied as artwork and should never be altered, distorted or re-created in any way.</p>
       <div class="p-notification--information">
-        <p class="p-notification__response"><span class="p-notification__status">Information:</span> The Canonical word and associated logos are registered trademarks. For more details please <a class="p-link--external" href="https://www.ubuntu.com/legal/terms-and-policies/terms">read our trademark policy</a>.
-        </p>
+        <div class="p-notification__content">
+          <p class="p-notification__message">The Canonical word and associated logos are registered trademarks. For more details please <a href="https://www.ubuntu.com/legal/terms-and-policies/terms">read our trademark policy</a>.</p>
+        </div>
       </div>
     </div>
   </div>

@@ -1,9 +1,12 @@
 {% include google-tag-manager.html %}
-<header id="navigation" class="p-navigation">
+
+<a href="#main-content" class="p-link--skip">Jump to main content</a>
+
+<header id="navigation" class="p-navigation is-dark">
   <div class="p-navigation__row">
     <div class="p-navigation__banner">
       <div class="p-navigation__logo u-vertically-center">
-        <a class="p-navigation__link" href="/">
+        <a class="p-navigation__item" href="/">
           <svg class="p-navigation__image" xmlns="http://www.w3.org/2000/svg" height="27px" width="172px" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 172 27">
            <g id="Page-1" fill-rule="evenodd" fill="none">
             <g id="Artboard">
@@ -27,20 +30,18 @@
             </g>
            </g>
           </svg>
-          </a>
+        </a>
       </div>
       <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
-      <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Menu</a>
+      <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
     </div>
+    {% assign current = page.url | split: '/'  %}
     <nav class="p-navigation__nav">
-      <span class="u-off-screen">
-        <a href="#main-content">Jump to main content</a>
-      </span>
-      <ul class="p-navigation__links">
-        <li class="p-navigation__link"><a href="/brand/">Brand</a></li>
-        <li class="p-navigation__link"><a href="/font/">Font</a></li>
-        <li class="p-navigation__link"><a href="/web/">Web</a></li>
-        <li class="p-navigation__link"><a href="/downloads/">Downloads</a></li>
+      <ul class="p-navigation__items">
+        <li class="p-navigation__item {% if current[1] == 'brand' %}is-selected{% endif %}"><a class="p-navigation__link " href="/brand/">Brand</a></li>
+        <li class="p-navigation__item {% if current[1] == 'font' %}is-selected{% endif %}"><a class="p-navigation__link" href="/font/">Font</a></li>
+        <li class="p-navigation__item {% if current[1] == 'web' %}is-selected{% endif %}"><a class="p-navigation__link" href="/web/">Web</a></li>
+        <li class="p-navigation__item {% if current[1] == 'downloads' %}is-selected{% endif %}"><a class="p-navigation__link" href="/downloads/">Downloads</a></li>
       </ul>
     </nav>
   </div>
