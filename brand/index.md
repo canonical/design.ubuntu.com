@@ -9,34 +9,34 @@ body-class: "brand"
   <div class="row u-equal-height" style="padding-top: 1rem;">
     <div class="col-4 p-card">
       <div class="u-vertically-center u-align--center">
-        <img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/ff6a9a38-ubuntu-logo-2022.svg" width="160" /></div>
+        <img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/ff6a9a38-ubuntu-logo-2022.svg" alt="Ubuntu logo" width="160" /></div>
          <p class="p-card__content">The logo is the most recognisable feature of any brand identity. The Ubuntu logo is striking and clear, and it represents the brand’s core values.</p>
       </div>
     <div class="col-4 p-card">
-      <a href="/brand/canonical-logo" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/5d6da5c4-logo-canonical-aubergine.svg" width="200"/></a>
+      <a href="/brand/canonical-logo" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/5d6da5c4-logo-canonical-aubergine.svg" alt="Canonical logo" width="200"/></a>
       <p class="p-card__content">The Canonical logo is designed to echo the values of the brand, and work in harmony with the Ubuntu logo.</p>
       <p class="p-card__content"><a href="/brand/canonical-logo" >Canonical logo&nbsp;&rsaquo;</a></p>
     </div>
     <div class="col-4 p-card">
-      <a href="/brand/ubuntu-partner-logos" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/ca9768eb-ubuntu_partner_logo.svg"></a>
+      <a href="/brand/ubuntu-partner-logos" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/ca9768eb-ubuntu_partner_logo.svg" alt="partner logo"></a>
       <p class="p-card__content">The Ubuntu partner logos were created to communicate the link between the partner brand and Ubuntu in a clear and unobtrusive manner.</p>
       <p class="p-card__content"><a href="/brand/ubuntu-partner-logos" >Ubuntu partner logos&nbsp;&rsaquo;</a></p>
     </div>
   </div>
   <div class="row u-equal-height" style="padding-top: 1rem;">
     <div class="col-4 p-card">
-      <a href="/brand/colour-palette" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/ebb3f015-colour-palette.svg" /></a>
+      <a href="/brand/colour-palette" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/ebb3f015-colour-palette.svg" alt="colour palette" /></a>
       <p class="p-card__content">The vibrant Ubuntu colour palette was created and evolved to ensure that designs convey the correct meaning, while aligning to the brand colours.</p>
       <p class="p-card__content"><a href="/brand/colour-palette" >Colour palette&nbsp;&rsaquo;</a></p>
     </div>
     <div class="col-4 p-card">
-      <a href="/brand/screenshots" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/98c99d7b-screenshots-brand-page.svg"/></a>
+      <a href="/brand/screenshots" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/98c99d7b-screenshots-brand-page.svg" alt="screenshots"/></a>
       <p class="p-card__content">Screenshots are a quick way of showing users and visitors what our products look like. As such, it’s important to follow guidelines that create consistent screenshots to use on Ubuntu sites.</p>
       <p class="p-card__content"><a href="/brand/screenshots" >Screenshots&nbsp;&rsaquo;</a></p>
     </div>
     <div class="col-4 p-card">
       <a href="/brand/photography-products" class="u-vertically-center u-align--center">
-        <img style="min-height: 138px;" src="https://assets.ubuntu.com/v1/0882a960-product-photography-brand-page.png" />
+        <img style="min-height: 138px;" src="https://assets.ubuntu.com/v1/0882a960-product-photography-brand-page.png" alt="product photography" />
       </a>
       <p class="p-card__content">Product photography is a good way to help us visualise our products on real hardware. We have developed precise guidelines for creating new product photography.</p>
       <p class="p-card__content"><a href="/brand/photography-products" >Product photography&nbsp;&rsaquo;</a></p>
