@@ -8,10 +8,10 @@ body-class: "brand"
 <div class="p-strip u-no-padding--top">
   <div class="row u-equal-height" style="padding-top: 1rem;">
     <div class="col-4 p-card">
-      <a href="#" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/5924f0b8-CoF-2022.svg" width="160" /></a>
-      <p class="p-card__content">The logo is the most recognisable feature of any brand identity. The Ubuntu logo is striking and clear, and it represents the brand’s core values.</p>
-      <!--p class="p-card__content"><a href="/brand/ubuntu-logo" >Ubuntu logo&nbsp;&rsaquo;</a></p-->
-    </div>
+      <div class="u-vertically-center u-align--center">
+        <img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/ff6a9a38-ubuntu-logo-2022.svg" width="160" /></div>
+         <p class="p-card__content">The logo is the most recognisable feature of any brand identity. The Ubuntu logo is striking and clear, and it represents the brand’s core values.</p>
+      </div>
     <div class="col-4 p-card">
       <a href="/brand/canonical-logo" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/5d6da5c4-logo-canonical-aubergine.svg" width="200"/></a>
       <p class="p-card__content">The Canonical logo is designed to echo the values of the brand, and work in harmony with the Ubuntu logo.</p>

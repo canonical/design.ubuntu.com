@@ -10,18 +10,6 @@
   image: https://assets.ubuntu.com/v1/ff6a9a38-ubuntu-logo-2022.svg
   name: Ubuntu logo (svg)
 
-- download: https://assets.ubuntu.com/v1/35deac55-Canonical-Ubuntu+Server-logo-2022_.svg
-  image: https://assets.ubuntu.com/v1/35deac55-Canonical-Ubuntu+Server-logo-2022_.svg
-  name: Canonical Ubuntu Server logo (svg)
-
-- download: https://assets.ubuntu.com/v1/aa9699ee-Canonical-LXD_Stacked_2022_.svg
-  image: https://assets.ubuntu.com/v1/aa9699ee-Canonical-LXD_Stacked_2022_.svg
-  name: Canonical LXD logo (svg)
-
-- download: https://assets.ubuntu.com/v1/193a9af8-Canonical-Charmed+Ceph-logo-2022.svg
-  image: https://assets.ubuntu.com/v1/193a9af8-Canonical-Charmed+Ceph-logo-2022.svg
-  name: Canonical Charmed Ceph logo (SVG)
-
 - download: https://assets.ubuntu.com/v1/d8a99c78-canonical-symbol-set-web.zip
   image: https://assets.ubuntu.com/v1/40b8122a-logo-canonical_symbol-aubergine-hex-140x140.png
   name: Canonical symbol set for web (367 KB)
@@ -53,22 +41,6 @@
 - download: https://assets.ubuntu.com/v1/f446c9fa-public-cloud-partner-logo-set.zip
   image: https://assets.ubuntu.com/v1/4a3d54c7-public_cloud_partner_hex.gif
   name: Public cloud partner logo set (805 KB)
-
-- download: https://assets.ubuntu.com/v1/c733970a-by-canonical-and-friends-print.zip
-  image: https://assets.ubuntu.com/v1/36911e04-canonical-friends_orange_hex-140x140.jpg
-  name: By Canonical and friends for print (6.6 MB)
-
-- download: https://assets.ubuntu.com/v1/fcdd80b9-by-canonical-and-friends-web.zip
-  image: https://assets.ubuntu.com/v1/36911e04-canonical-friends_orange_hex-140x140.jpg
-  name: By Canonical and friends for web (2 MB)
-
-- download: https://assets.ubuntu.com/v1/02296630-delivered-by-canonical-for-web.zip
-  image: https://assets.ubuntu.com/v1/c7e94712-delivered-by_orange_hex1-140x140.png
-  name: Delivered by Canonical for web (1.9 MB)
-
-- download: https://assets.ubuntu.com/v1/af00a2a0-delivered-by-canonical-for-print.zip
-  image: https://assets.ubuntu.com/v1/c7e94712-delivered-by_orange_hex1-140x140.png
-  name: Delivered by Canonical for print (6.5 MB)
 
 - download: https://assets.ubuntu.com/v1/487d400d-cloud-init-logo-set.zip
   image: https://assets.ubuntu.com/v1/16175fab-cloud-init-logo-140x140.gif
