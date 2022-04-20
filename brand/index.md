@@ -4,12 +4,13 @@ title: "Brand assets"
 body-id: "brand-assets"
 body-class: "brand"
 ---
+
 <div class="p-strip u-no-padding--top">
   <div class="row u-equal-height" style="padding-top: 1rem;">
     <div class="col-4 p-card">
-      <a href="/brand/ubuntu-logo" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/adac6928-ubuntu.svg" width="160" /></a>
+      <a href="#" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/5924f0b8-CoF-2022.svg" width="160" /></a>
       <p class="p-card__content">The logo is the most recognisable feature of any brand identity. The Ubuntu logo is striking and clear, and it represents the brand’s core values.</p>
-      <p class="p-card__content"><a href="/brand/ubuntu-logo" >Ubuntu logo&nbsp;&rsaquo;</a></p>
+      <!--p class="p-card__content"><a href="/brand/ubuntu-logo" >Ubuntu logo&nbsp;&rsaquo;</a></p-->
     </div>
     <div class="col-4 p-card">
       <a href="/brand/canonical-logo" class="u-vertically-center u-align--center"><img style="min-height: 175px;" src="https://assets.ubuntu.com/v1/5d6da5c4-logo-canonical-aubergine.svg" width="200"/></a>

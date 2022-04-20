@@ -14,11 +14,6 @@ $color-accent-background: $color-aubergine;
 @import "pattern_font-tester";
 @include design-p-font-tester;
 
-.p-navigation__banner {
-  background-color: $color-accent;
-}
-
-
 // Remove the hard set image height
 .p-card .p-card__header img {
   max-height: none;
