@@ -24,6 +24,6 @@
     "@canonical/global-nav": "2.7.0",
     "@canonical/cookie-policy": "3.4.0",
     "postcss": "8.2.13",
-    "vanilla-framework": "3.3.0"
+    "vanilla-framework": "3.4.0"
   }
 }
