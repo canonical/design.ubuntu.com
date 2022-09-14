@@ -21,7 +21,7 @@ core.fontSelecter = function() {
     });
 
     // Disable light and medium font weight for condensed and monospace font faces
-    if (value === 'condensed' || value === 'monospace') {
+    if (demo.dataset.family === 'condensed' || demo.dataset.family === 'monospace') {
       options.forEach(function(option) {
         if (option.value === 'light' || option.value === 'medium') {
           option.disabled = true;
