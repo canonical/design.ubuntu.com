@@ -83,7 +83,7 @@ body-class: fonts
           <option value="orange">Orange</option>
         </select>
       </div>
-      <textarea style="background-color: #ffffff;" class="font-tester__demo js-font-demo" data-size="16" data-family="ubuntu" data-weight="light" data-style="normal" data-color="black">
+      <textarea class="font-tester__demo js-font-demo" data-size="16" data-family="ubuntu" data-weight="light" data-style="normal" data-color="black">
 Type your text here
 
 Latin sample:
