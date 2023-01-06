@@ -2,7 +2,7 @@
 
 # Build stage: Install ruby dependencies
 # ===
-FROM ruby:3.1.0 AS build-site
+FROM ruby:3.2.0 AS build-site
 WORKDIR /srv
 ADD . .
 RUN bundle install
