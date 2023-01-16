@@ -6,11 +6,14 @@
 <body>
 
   {% include "_includes/header.html" %}
+
   <div class="p-strip is-shallow ">
     <div class="row">
       <h1 class="u-no-margin--bottom">{{ title }}</h1>
     </div>
   </div>
+
+  {{ content|safe }}
 
 
   {% include "_includes/footer.html" %}

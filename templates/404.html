@@ -1,10 +1,6 @@
----
-layout: home
-title: "404: Page not found"
-body-id: "404"
-body-class: "404"
----
+{% extends "_layouts/home.html" %}
 
+{% block content %}
 <section class="p-strip is-deep is-bordered">
   <div class="row">
     <div class="col-6">
@@ -16,3 +12,4 @@ body-class: "404"
     </div>
   </div>
 </section>
+{% endblock %}

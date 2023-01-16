@@ -1,5 +1,5 @@
 ---
-wrapper_template: '_layouts/post.html'_no-sidebar
+wrapper_template: '_layouts/post_no-sidebar.html'
 context:
   title: Ubuntu font
 ---

@@ -1,4 +1,5 @@
 import flask
+import yaml
 
 from canonicalwebteam.flask_base.app import FlaskBase
 from canonicalwebteam.templatefinder import TemplateFinder
@@ -10,13 +11,16 @@ app = FlaskBase(
     template_folder="../templates",
     static_folder="../assets",
     template_404="404.html",
-    template_500="500.html",
 )
 
 
 @app.context_processor
 def global_template_context():
+    with open("_data/downloads.yaml", "r") as stream:
+        downloads = yaml.safe_load(stream)
+
     return {
+        "downloads": downloads,
         "path": flask.request.path,
     }
 
