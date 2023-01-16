@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="en">
 
 {% include "_includes/head.html" %}
 
-<body id="home" class="home">
+<body>
 
   {% include "_includes/header.html" %}
 
   <div class="wrapper">
     <div id="main-content" class="inner-wrapper">
 
-      {{ content }}
+    {% block content %}{{ content | safe }}{% endblock content %}
 
-    </div><!-- /.inner-wrapper -->
-  </div><!-- /.wrapper -->
+    </div>
+  </div>
 
 
   {% include "_includes/footer.html" %}

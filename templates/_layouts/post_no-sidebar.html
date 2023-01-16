@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="en">
 
 {% include "_includes/head.html" %}
 
-<body id="{{ page.body-id }}" class="{{ page.body-class }}">
+<body>
 
   {% include "_includes/header.html" %}
 
   <div class="p-strip is-shallow">
     <div class="row">
       <div class="col-12">
-        <h1 class="u-no-margin--bottom">{{ page.title }}</h1>
+        <h1 class="u-no-margin--bottom">{{ title }}</h1>
       </div>
     </div>
   </div>
 
-  {{ content }}
+  {{ content|safe }}
 
 
   {% include "_includes/footer.html" %}
