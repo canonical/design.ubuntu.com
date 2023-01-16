@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <link rel="icon" type="image/png" href="https://assets.ubuntu.com/v1/cb22ba5d-favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png" sizes="32x32" />
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/main.css" />
+
+  <title>{% block title %}{{ title }}{% endblock title %}</title>
+  <meta name="description" content="Ubuntu brand, app and web guidelines that help you create professional materials, software, sites, apps that build the Ubuntu brand.">
+  <meta name="keywords" content="Ubuntu, Design, Brand guidelines, web guidelines, apps guidelines, colors, buttons, layout, styleguide" />
+  <meta name="author" content="Canonical" />
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NV2KV6F');</script>
+  <!-- End Google Tag Manager -->
+</head>
+
+
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NV2KV6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<a href="#main-content" class="p-link--skip">Jump to main content</a>
+
+<header id="navigation" class="p-navigation is-dark">
+  <div class="p-navigation__row">
+    <div class="p-navigation__banner">
+      <div class="p-navigation__tagged-logo">
+        <a class="p-navigation__link" href="/">
+          <div class="p-navigation__logo-tag">
+            <img class="p-navigation__logo-icon" src="https://assets.ubuntu.com/v1/82818827-CoF_white.svg" alt="">
+          </div>
+          <span class="p-navigation__logo-title">Design</span>
+        </a>
+      </div>
+      <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
+      <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
+    </div>
+    <nav class="p-navigation__nav">
+      <ul class="p-navigation__items">
+        <li class="p-navigation__item {% if path.startswith('/brand') %}is-selected{% endif %}"><a class="p-navigation__link " href="/brand/">Brand</a></li>
+        <li class="p-navigation__item {% if path.startswith('/font') %}is-selected{% endif %}"><a class="p-navigation__link" href="/font/">Font</a></li>
+        <li class="p-navigation__item {% if path.startswith('/web') %}is-selected{% endif %}"><a class="p-navigation__link" href="/web/">Web</a></li>
+        <li class="p-navigation__item {% if path.startswith('/downloads') %}is-selected{% endif %}"><a class="p-navigation__link" href="/downloads/">Downloads</a></li>
+      </ul>
+      <ul class="p-navigation__items global-nav"></ul>
+    </nav>
+  </div>
+</header>
+
+
+{% block body %}{% endblock %}
+
+
+<footer class="p-strip" style="border-top: 1px solid #cdcdcd;">
+  <div class="row">
+    <div class="col-8">
+      <p class="u-no-max-width">&copy; 2019 Canonical Ltd. Ubuntu and Canonical are registered trademarks of Canonical&nbsp;Ltd.</p>
+      <nav>
+        <ul class="p-inline-list--middot">
+          <li class="p-inline-list__item">
+            <a class="p-footer__link" href="https://www.ubuntu.com/legal">Legal information</a>
+          </li>
+          <li class="p-inline-list__item">
+            <a class="p-footer__link" href="https://www.ubuntu.com/legal/data-privacy">Data privacy</a>
+          </li>
+          <li class="p-inline-list__item">
+            <a class="p-footer__link" href="https://github.com/canonical-web-and-design/design.ubuntu.com/issues/new">Report a bug on this site</a>
+          </li>
+          <li class="p-inline-list__item">
+            <a href="" class="p-footer__link js-revoke-cookie-manager">Manage your tracker settings</a>
+          </li>
+        </ul>
+        <span class="u-off-screen">
+          <a href="#">Go to the top of the page</a>
+        </span>
+      </nav>
+    </div>
+    <div class="col-3">
+      <h5 class="p-muted-heading">Follow us</h5>
+      <ul class="p-inline-list">
+        <li class="p-inline-list__item">
+          <a href="https://twitter.com/ubuntudesigners" class="p-icon--twitter">@ubuntudesigners on twitter</a>
+        </li>
+        <li class="p-inline-list__item">
+          <a href="https://www.instagram.com/ubuntudesigners/"  class="p-icon--instagram">@ubuntudesigners on instagram</a>
+        </li>
+        <li class="p-inline-list__item">
+          <a href="https://ubuntu.com/blog/topics/design" class="p-icon--canonical">Web &amp; design blog</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+<!-- cookie policy and gloabl navigation component -->
+<script src="/assets/js/cookie-policy.js"></script>
+<script src="/assets/js/global-nav.js"></script>
+<script>
+  canonicalGlobalNav.createNav();
+  cpNs.cookiePolicy();
+</script>
+
+{% if path.startswith('/font') %}
+<script src="https://assets.ubuntu.com/v1/49d19be0-polyfills.js"></script>
+<script type="text/javascript" src="/assets/js/font.js"></script>
+<script>
+  core.fontSelecter();
+</script>
+{% endif %}
+
+
+</body>
+</html>
