@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <link rel="icon" type="image/png" href="https://assets.ubuntu.com/v1/cb22ba5d-favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png" sizes="32x32" />
+
+  <!-- fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" type="text/css" media="screen" href="https://assets.ubuntu.com/v1/988cd866-ubuntu-styles.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="https://assets.ubuntu.com/v1/126653c9-global-responsive.css">
+  <link rel="stylesheet" type="text/css" media="print" href="https://assets.ubuntu.com/v1/0df231d4-core-print.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/scratch.css" />
+
+  <title>Web style guide</title>
+
+  <link rel="canonical" href="/web-style-guide/">
+</head>
+<body id="web-style-guide" class="web-style-guide">
+
+  <header class="banner global" role="banner">
+    <nav role="navigation" class="nav-primary nav-right">
+      <div class="logo">
+        <a class="logo-ubuntu" href="/">
+          <img width="118" height="27" src="https://assets.ubuntu.com/v1/bcc17b1c-logo-ubuntu-orange.png" alt="Ubuntu logo for print" />
+          <span>Design</span>
+        </a>
+      </div>
+      <ul>
+        <li><a href="/brand/">Brand</a></li>
+        <li><a href="/web/">Web</a></li>
+        <li><a href="/apps/">Apps</a></li>
+        <li><a href="/scopes/">Scopes</a></li>
+        <li><a href="/downloads/">Downloads</a></li>
+      </ul>
+      <form id="form-search" class="header-search" action="https://design.ubuntu.com/search" method="get">
+        <label class="accessibility-aid" for="search">Search:</label>
+        <input type="search" maxlength="255" name="search" id="search" class="form-text" placeholder="Search" value="" />
+        <button type="submit" name="submit"><img src="https://assets.ubuntu.com/v1/2196e362-search-white.svg" alt="Search" height="28" /></button>
+      </form>
+    </nav>
+  </header><!-- /# end header -->
+
+  <div class="wrapper">
+    <div id="main-content" class="inner-wrapper">
+
+      <nav role="navigation" class="nav-secondary clearfix">
+        <ul class="breadcrumb">
+          <li><a href="/web-style-guide/">Web Style Guide</a> &rsaquo;</li>
+        </ul>
+        <ul class="second-level-nav">
+          <li class="first {% if page.url == "/web-style-guide/" %}active{% endif %}"><a href="/web-style-guide/">Overview</a></li>
+          <li {% if page.title == "Scaffolding" %}class="active"{% endif %}><a href="/web-style-guide/scaffolding">Scaffolding</a></li>
+          <li {% if page.title == "Typography" %}class="active"{% endif %}><a href="/web-style-guide/typography">Typography</a></li>
+          <li {% if page.title == "Forms" %}class="active"{% endif %}><a href="/web-style-guide/forms">Forms</a></li>
+          <li {% if page.title == "Tables" %}class="active"{% endif %}><a href="/web-style-guide/tables">Tables</a></li>
+          <li {% if page.title == "Media" %}class="active"{% endif %}><a href="/web-style-guide/media">Media</a></li>
+          <li {% if page.title == "Components" %}class="active"{% endif %}><a href="/web-style-guide/components">Components</a></li>
+          <li {% if page.title == "JavaScript" %}class="active"{% endif %}><a href="/web-style-guide/javascript">JavaScript</a></li>
+        </ul>
+      </nav>
+
+      {{ content }}
+
+    </div><!-- /.inner-wrapper -->
+  </div><!-- /.wrapper -->
+
+  <footer class="global clearfix" role="contentinfo">
+    <div class="legal clearfix">
+      <p>
+        &copy; 2017 Canonical Ltd. Ubuntu and Canonical are registered trademarks of Canonical Ltd.
+        <a href="https://github.com/canonical-websites/design.ubuntu.com/issues/new" class="link-bug">Report a bug on this site</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://assets.ubuntu.com/v1/40d25181-yui-combined.min.js"></script>
+
+  <script>
+  if(!core){ var core = {}; }
+  core.globalPrepend = 'body';
+  </script>
+
+  <script src="/assets/js/core.js"></script>
+  <script src="https://assets.ubuntu.com/v1/94052790-global.js"></script>
+  <script src="https://assets.ubuntu.com/v1/ea5f3f25-scratch.js"></script>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.scratch.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.prettyPhoto.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.slider.js"></script>
+
+
+</body>
+
+</html>

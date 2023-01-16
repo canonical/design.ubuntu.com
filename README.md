@@ -4,13 +4,11 @@ The codebase for <http://design.ubuntu.com>.
 
 ## Local development
 
-The simplest way to run the site locally is to first [install Docker](https://docs.docker.com/engine/installation/) (on Linux you may need to [add your user to the `docker` group](https://docs.docker.com/engine/installation/linux/linux-postinstall/)), and then use the `./run` script:
+Install dotrun as described in https://github.com/canonical/dotrun#installation Launch it from the head of this repo
 
-``` bash
-./run
-```
+    dotrun
 
-Once the containers are setup, you can visit <http://127.0.0.1:8011> in your browser.
+Once the containers are started, you can visit <http://127.0.0.1:8011> in your browser.
 
 ### Building CSS
 

@@ -1,14 +1,5 @@
 # syntax=docker/dockerfile:experimental
 
-# Build stage: Install ruby dependencies
-# ===
-FROM ruby:3.1.0 AS build-site
-WORKDIR /srv
-ADD . .
-RUN bundle install
-RUN bundle exec jekyll build
-
-
 # Build stage: Install yarn dependencies
 # ===
 FROM node:16 AS yarn-dependencies
@@ -39,20 +30,19 @@ FROM ubuntu:focal
 ENV LANG C.UTF-8
 WORKDIR /srv
 
-# Install nginx
-RUN apt-get update && apt-get install --no-install-recommends --yes nginx
-
 # Import code, build assets and mirror list
-RUN rm -rf package.json yarn.lock .babelrc webpack.config.js Gemfile.lock nginx.conf
-COPY --from=build-site srv/_site .
+RUN rm -rf package.json yarn.lock .babelrc webpack.config.js
 COPY --from=build-css srv/css css
 COPY --from=build-js srv/assets assets
 
 ARG BUILD_ID
-ADD nginx.conf /etc/nginx/sites-enabled/default
-RUN sed -i "s/~BUILD_ID~/${BUILD_ID}/" /etc/nginx/sites-enabled/default
 
 STOPSIGNAL SIGTERM
 
+# Set revision ID
+ARG BUILD_ID
+ENV TALISKER_REVISION_ID "${BUILD_ID}"
+
 # Setup commands to run server
-CMD ["nginx", "-g", "daemon off;"]
+ENTRYPOINT ["./entrypoint"]
+CMD ["0.0.0.0:80"]
