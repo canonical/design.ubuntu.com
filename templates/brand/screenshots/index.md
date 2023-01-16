@@ -1,5 +1,5 @@
 ---
-wrapper_template: '_layouts/post.html'
+wrapper_template: '_layouts/page.html'
 context:
   title: "Screenshots"
 ---

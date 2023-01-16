@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "_layouts/_root.html" %}
 
-{% include "_includes/head.html" %}
-
-<body>
-
-  {% include "_includes/header.html" %}
-
+{% block body %}
   <div class="wrapper">
     <div id="main-content" class="inner-wrapper">
 
@@ -14,10 +8,4 @@
 
     </div>
   </div>
-
-
-  {% include "_includes/footer.html" %}
-
-</body>
-
-</html>
+{% endblock %}

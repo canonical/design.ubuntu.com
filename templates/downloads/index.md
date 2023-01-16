@@ -1,5 +1,5 @@
 ---
-wrapper_template: '_layouts/post_no-sidebar.html'
+wrapper_template: '_layouts/page.html'
 context:
   title: "Downloads"
 ---
