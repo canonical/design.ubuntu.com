@@ -1,17 +1,16 @@
 {
   "scripts": {
-    "lint-nginx": "gixy nginx.conf",
+    "start": "yarn build && yarn serve",
     "lint-scss": "sass-lint _sass/**/*.scss --verbose --no-exit",
-    "test": "yarn run lint-nginx && yarn run lint-scss",
+    "test": "yarn run lint-scss",
     "watch": "watch -p '_sass/**/*.scss' -c 'yarn run build'",
-    "build": "yarn run build-css && yarn run build-js && yarn run build-jekyll",
-    "build-css": "sass sass/main.scss css/main.css --load-path=node_modules --style=compressed && postcss --use autoprefixer --replace css/**/*.css",
-    "build-jekyll": "bundle exec jekyll build",
+    "build": "yarn run build-css && yarn run build-js",
+    "build-css": "sass sass/main.scss assets/css/main.css --load-path=node_modules --style=compressed && postcss --use autoprefixer --replace assets/css/**/*.css",
     "build-js": "yarn run build-global-nav && yarn run build-cookie-policy",
     "build-global-nav": "cp node_modules/@canonical/global-nav/dist/global-nav.js assets/js/global-nav.js",
     "build-cookie-policy": "cp node_modules/@canonical/cookie-policy/build/js/cookie-policy.js assets/js/cookie-policy.js",
-    "serve": "bundle exec jekyll serve -P ${PORT} -H 0.0.0.0",
-    "clean": "rm -rf node_modules yarn-error.log css css *.log *.sqlite _site/ build/ .jekyll-metadata .bundle"
+    "serve": "./entrypoint 0.0.0.0:${PORT}",
+    "clean": "rm -rf node_modules yarn-error.log assets/css *.log *.sqlite _site/ build/ .bundle"
   },
   "devDependencies": {
     "autoprefixer": "10.4.1",

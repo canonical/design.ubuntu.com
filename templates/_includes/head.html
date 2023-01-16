@@ -1,0 +1,20 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <link rel="icon" type="image/png" href="https://assets.ubuntu.com/v1/cb22ba5d-favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png" sizes="32x32" />
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+
+  <title>{% block title %}{{ title }}{% endblock %}{% if self.title() %} | {% endif %}</title>
+{% if self.description() %}
+  <meta name="description" content="{% block description %}{% endblock %}">
+{% endif %}
+  <meta name="keywords" content="Ubuntu, Design, Brand guidelines, web guidelines, apps guidelines, colors, buttons, layout, styleguide" />
+  <meta name="author" content="Canonical" />
+
+  {% include "_includes/google-analytics.html" %}
+</head>
