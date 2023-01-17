@@ -13,16 +13,16 @@
     "clean": "rm -rf node_modules yarn-error.log static/css *.log *.sqlite _site/ build/ .bundle static/js/cookie-policy.js static/js/global-nav.js"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.1",
-    "sass": "1.46.0",
-    "postcss-cli": "8.3.1",
+    "autoprefixer": "10.4.13",
+    "sass": "1.57.1",
+    "postcss-cli": "10.1.0",
     "sass-lint": "1.13.1",
     "watch-cli": "0.2.3"
   },
   "dependencies": {
-    "@canonical/global-nav": "3.2.1",
+    "@canonical/global-nav": "3.2.3",
     "@canonical/cookie-policy": "3.4.0",
-    "postcss": "8.2.13",
-    "vanilla-framework": "3.9.0"
+    "postcss": "8.4.21",
+    "vanilla-framework": "3.10.0"
   }
 }
