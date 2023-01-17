@@ -1,9 +1,8 @@
----
-wrapper_template: '_layouts/page.html'
-context:
-  title: "Ubuntu partner logos"
----
+{% extends "_layouts/page.html" %}
 
+{% block title %}Ubuntu partner logos{% endblock %}
+
+{% block content %}
 <div class="p-strip is-bordered">
   <div class="row">
     <div class="col-8">
@@ -98,3 +97,4 @@ context:
     </div>
   </div>
 </div>
+{% endblock %}
