@@ -57,7 +57,6 @@ COPY --from=build-js srv/assets/* assets/
 # Set build ID
 ARG BUILD_ID
 ENV TALISKER_REVISION_ID "${BUILD_ID}"
-ENV SECRET_KEY "foo_bar"
 
 # Setup commands to run server
 ENTRYPOINT ["./entrypoint"]
