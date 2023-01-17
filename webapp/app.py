@@ -9,7 +9,7 @@ app = FlaskBase(
     __name__,
     "design.ubuntu.com",
     template_folder="../templates",
-    static_folder="../assets",
+    static_folder="../static",
     template_404="404.html",
 )
 

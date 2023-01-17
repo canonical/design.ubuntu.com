@@ -48,11 +48,11 @@ ENV PATH="/root/.local/bin:${PATH}"
 COPY --from=python-dependencies /root/.local/lib/python3.8/site-packages /root/.local/lib/python3.8/site-packages
 COPY --from=python-dependencies /root/.local/bin /root/.local/bin
 
-# Import code, build assets
+# Import code, build static
 COPY . .
 RUN rm -rf package.json yarn.lock .babelrc webpack.config.js
-COPY --from=build-css srv/assets/css assets/css
-COPY --from=build-js srv/assets/* assets/
+COPY --from=build-css srv/static/css static/css
+COPY --from=build-js srv/static/* static/
 
 # Set build ID
 ARG BUILD_ID
