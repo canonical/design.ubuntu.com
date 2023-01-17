@@ -1,9 +1,8 @@
----
-wrapper_template: '_layouts/page.html'
-context:
-  title: "Illustration"
----
+{% extends "_layouts/page.html" %}
 
+{% block title %}Illustration{% endblock %}
+
+{% block content %}
 <div class="row">
   <div class="col-12">
     <h2>Charts and diagrams</h2>
@@ -50,3 +49,4 @@ context:
     </div>
   </div>
 </div>
+{% endblock %}

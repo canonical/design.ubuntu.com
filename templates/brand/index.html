@@ -1,9 +1,8 @@
----
-wrapper_template: '_layouts/page.html'
-context:
-  title: "Brand assets"
----
+{% extends "_layouts/page.html" %}
 
+{% block title %}Brand assets{% endblock %}
+
+{% block content %}
 <div class="p-strip u-no-padding--top">
   <div class="row u-equal-height" style="padding-top: 1rem;">
     <div class="col-4 p-card">
@@ -52,3 +51,4 @@ context:
     </div>
   </div>
 </div>
+{% endblock %}

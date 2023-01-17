@@ -1,9 +1,8 @@
----
-wrapper_template: '_layouts/page.html'
-context:
-  title: "Downloads"
----
+{% extends "_layouts/page.html" %}
 
+{% block title %}Downloads{% endblock %}
+
+{% block content %}
 <div class="p-strip is-shallow u-no-padding--top">
   <div class="row u-equal-height">
   {% for item in downloads %}<div class="col-3 col-medium-3 p-card u-align--center">
@@ -16,3 +15,4 @@ context:
   <div class="row u-equal-height" style="padding-top: 1rem;">{% endif %}{% endfor %}
   </div>
 </div>
+{% endblock %}

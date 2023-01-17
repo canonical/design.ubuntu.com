@@ -1,8 +1,8 @@
----
-wrapper_template: '_layouts/page.html'
-context:
-  title: "Screenshots"
----
+{% extends "_layouts/page.html" %}
+
+{% block title %}Screenshots{% endblock %}
+
+{% block content %}
 <div class="p-strip">
   <div class="row">
     <div class="col-8">
@@ -19,3 +19,4 @@ context:
     </div>
   </div>
 </div>
+{% endblock %}

@@ -1,9 +1,8 @@
----
-wrapper_template: '_layouts/page.html'
-context:
-  title: Ubuntu font
----
+{% extends "_layouts/page.html" %}
 
+{% block title %}Ubuntu font{% endblock %}
+
+{% block content %}
 <div class="p-strip is-shallow u-no-padding--top">
   <div class="row">
     <div class="col-9">
@@ -162,3 +161,4 @@ Greek sample:
     </div>
   </div>
 </div>
+{% endblock %}

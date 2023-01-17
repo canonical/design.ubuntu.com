@@ -1,9 +1,8 @@
----
-wrapper_template: '_layouts/page.html'
-context:
-  title: Web
----
+{% extends "_layouts/page.html" %}
 
+{% block title %}Web{% endblock %}
+
+{% block content %}
 <div class="row">
   <div class="col-8">
     <p>Find out about the tools and practices followed by the Ubuntu Web Team.</p>
@@ -28,3 +27,4 @@ context:
     </div>
   </div>
 </div>
+{% endblock %}
