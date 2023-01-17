@@ -13,14 +13,14 @@ app = FlaskBase(
     template_404="404.html",
 )
 
-with open("_data/downloads.yaml", "r") as stream:
-    downloads = yaml.safe_load(stream)
+with open("_data/logos.yaml", "r") as stream:
+    logos = yaml.safe_load(stream)
 
 
 @app.context_processor
 def global_template_context():
     return {
-        "downloads": downloads,
+        "logos": logos,
         "path": flask.request.path,
     }
 
