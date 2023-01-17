@@ -5,12 +5,12 @@
     "test": "yarn run lint-scss",
     "watch": "watch -p '_sass/**/*.scss' -c 'yarn run build'",
     "build": "yarn run build-css && yarn run build-js",
-    "build-css": "sass sass/main.scss assets/css/main.css --load-path=node_modules --style=compressed && postcss --use autoprefixer --replace assets/css/**/*.css",
+    "build-css": "sass sass/main.scss static/css/main.css --load-path=node_modules --style=compressed && postcss --use autoprefixer --replace static/css/**/*.css",
     "build-js": "yarn run build-global-nav && yarn run build-cookie-policy",
-    "build-global-nav": "cp node_modules/@canonical/global-nav/dist/global-nav.js assets/js/global-nav.js",
-    "build-cookie-policy": "cp node_modules/@canonical/cookie-policy/build/js/cookie-policy.js assets/js/cookie-policy.js",
+    "build-global-nav": "cp node_modules/@canonical/global-nav/dist/global-nav.js static/js/global-nav.js",
+    "build-cookie-policy": "cp node_modules/@canonical/cookie-policy/build/js/cookie-policy.js static/js/cookie-policy.js",
     "serve": "./entrypoint 0.0.0.0:${PORT}",
-    "clean": "rm -rf node_modules yarn-error.log assets/css *.log *.sqlite _site/ build/ .bundle"
+    "clean": "rm -rf node_modules yarn-error.log static/css *.log *.sqlite _site/ build/ .bundle"
   },
   "devDependencies": {
     "autoprefixer": "10.4.1",

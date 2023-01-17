@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" href="https://assets.ubuntu.com/v1/cb22ba5d-favicon-16x16.png" sizes="16x16" />
   <link rel="icon" type="image/png" href="https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png" sizes="32x32" />
 
-  <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/static/css/main.css" />
 
   <title>{% block title %}{{ title }}{% endblock title %}</title>
   <meta name="description" content="Ubuntu brand, app and web guidelines that help you create professional materials, software, sites, apps that build the Ubuntu brand.">
@@ -109,8 +109,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!-- cookie policy and gloabl navigation component -->
-<script src="/assets/js/cookie-policy.js"></script>
-<script src="/assets/js/global-nav.js"></script>
+<script src="/static/js/cookie-policy.js"></script>
+<script src="/static/js/global-nav.js"></script>
 <script>
   canonicalGlobalNav.createNav();
   cpNs.cookiePolicy();
@@ -118,7 +118,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 {% if path.startswith('/font') %}
 <script src="https://assets.ubuntu.com/v1/49d19be0-polyfills.js"></script>
-<script type="text/javascript" src="/assets/js/font.js"></script>
+<script type="text/javascript" src="/static/js/font.js"></script>
 <script>
   core.fontSelecter();
 </script>
