@@ -78,7 +78,7 @@
       </div>
       <div class="col-8 col-medium-4" style="padding: 8px;">
         {% for item in logos %}
-            <li class="col-8 col-medium-4">
+            <div class="col-8 col-medium-4">
               <div class="row">
                 <div class="col-4 col-medium-2">
                   <img src="{{ item.svg_link }}" style="height: 2rem;" />
@@ -103,7 +103,7 @@
                   </ul>
                 </div>
               </div>
-            </li>
+            </div>
             {% if loop.index < logos|length %}
               <hr style="margin: 0 0 0.5rem 0;">
             {% endif %}
