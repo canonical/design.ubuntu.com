@@ -13,12 +13,12 @@ app = FlaskBase(
     template_404="404.html",
 )
 
+with open("_data/downloads.yaml", "r") as stream:
+    downloads = yaml.safe_load(stream)
+
 
 @app.context_processor
 def global_template_context():
-    with open("_data/downloads.yaml", "r") as stream:
-        downloads = yaml.safe_load(stream)
-
     return {
         "downloads": downloads,
         "path": flask.request.path,
@@ -26,7 +26,6 @@ def global_template_context():
 
 
 template_finder_view = TemplateFinder.as_view("template_finder")
-
 
 app.add_url_rule("/", view_func=template_finder_view)
 app.add_url_rule("/<path:subpath>", view_func=template_finder_view)
