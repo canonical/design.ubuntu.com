@@ -1,5 +1,12 @@
 {
   "extends": [
     "github>canonical-web-and-design/renovate-websites"
+  ],
+  "packageRules": [
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["node"],
+      "allowedVersions": "^16 || ^18 || ^20"
+    }
   ]
 }
