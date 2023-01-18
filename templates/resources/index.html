@@ -40,14 +40,14 @@ block content %}
 <div class="p-strip is-deep">
   <div class="row">
     <h2>Brand resources</h2>
-    <hr style="margin-bottom: 1rem" />
-    <div class="row" style="padding-bottom: 2rem">
+    <hr />
+    <div class="row u-sv3" style="padding-top: 0.5rem;">
       <div class="col-4 col-medium-2">
         <h3 class="p-heading--5">Ubuntu typefaces</h3>
       </div>
-      <div class="col-4 col-medium-2 u-hide--medium u-hide--small">
+      <div class="col-4 u-hide--medium u-hide--small">
         <div
-          style="background-color: #f7f7f7; height: min-content; padding: 10px"
+          class="resources__content-thumb typeface"
         >
           {{ image (
             url="https://assets.ubuntu.com/v1/bfe86ea2-ssh_.png",
@@ -68,14 +68,13 @@ block content %}
         <a>Download the Ubuntu typefaces</a>
       </div>
     </div>
-    <hr style="margin: 1rem 0" />
-    <div class="row" style="padding-bottom: 2rem">
+    <hr class="u-no-margin--top" />
+    <div class="row u-sv3">
       <div class="col-4 col-medium-2">
         <h3 class="p-heading--5">Icon set</h3>
       </div>
       <div
-        class="col-4 col-medium-2 u-hide--medium u-hide--small"
-        style="padding: 8px"
+        class="col-4 u-hide--medium u-hide--small resources__content-thumb"
       >
         {{ image (
           url="https://assets.ubuntu.com/v1/a78b82a9-ubuntu-icon-set.png",
@@ -97,14 +96,13 @@ block content %}
         <a>Download the icon set</a>
       </div>
     </div>
-    <hr style="margin: 1rem 0" />
-    <div class="row">
+    <hr class="u-no-margin--top" />
+    <div class="row u-sv3">
       <div class="col-4 col-medium-2">
         <h3 class="p-heading--5">Slide template</h3>
       </div>
       <div
-        class="col-4 col-medium-2 u-hide--medium u-hide--small"
-        style="padding: 8px"
+        class="col-4 u-hide--medium u-hide--small resources__content-thumb"
       >
         {{ image (
           url="https://assets.ubuntu.com/v1/47afbf87-black.png",
@@ -124,12 +122,12 @@ block content %}
         <a>Download the slide template</a>
       </div>
     </div>
-    <hr style="margin: 1rem 0" />
-    <div class="row" style="padding-bottom: 2rem">
+    <hr class="u-no-margin--top" />
+    <div class="row">
       <div class="col-4 col-medium-2">
         <h3 class="p-heading--5">Logos</h3>
       </div>
-      <div class="col-8 col-medium-4" style="padding: 8px">
+      <div class="col-8 col-medium-4 resources__content-thumb">
         {% for item in logos %}
         <div class="col-8 col-medium-4">
           <div class="row">
@@ -159,18 +157,17 @@ block content %}
           </div>
         </div>
         {% if loop.index < logos|length %}
-        <hr style="margin: 0 0 0.5rem 0" />
+        <hr class="u-no-margin--top" />
         {% endif %} {% endfor %}
       </div>
     </div>
-    <hr style="margin: 1rem 0" />
-    <div class="row" style="padding-bottom: 2rem">
+    <hr class="u-no-margin--top" />
+    <div class="row">
       <div class="col-4 col-medium-2">
         <h3 class="p-heading--5">Illustrations</h3>
       </div>
       <div
-        class="col-4 col-medium-2 u-hide--medium u-hide--small"
-        style="padding: 8px"
+        class="col-4 u-hide--medium u-hide--small resources__content-thumb"
       >
         {{ image (
           url="https://assets.ubuntu.com/v1/47afbf87-black.png",
