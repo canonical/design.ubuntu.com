@@ -1,8 +1,9 @@
 {
   "scripts": {
     "start": "yarn build && yarn serve",
+    "lint-python": "flake8 webapp && black --check --line-length 79 webapp",
     "lint-scss": "sass-lint _sass/**/*.scss --verbose --no-exit",
-    "test": "yarn run lint-scss",
+    "test": "yarn run lint-scss && yarn run lint-python",
     "watch": "watch -p '_sass/**/*.scss' -c 'yarn run build'",
     "build": "yarn run build-css && yarn run build-js",
     "build-css": "sass sass/main.scss static/css/main.css --load-path=node_modules --style=compressed && postcss --use autoprefixer --replace static/css/**/*.css",
