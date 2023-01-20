@@ -1,0 +1,104 @@
+{% extends "_layouts/page-bare.html" %}
+
+{% block title %}Contribute{% endblock %}
+
+{% block content %}
+<section class="p-strip--accent is-deep">
+  <div class="row">
+    <div class="col-4 col-medium-2">
+      <h1 class="p-heading--2">Contribute</h1>
+    </div>
+    <div class="col-6 col-medium-4">
+      <p>
+        Vanilla is an open-source design system that you can use to build any website or product. At Canonical we are
+        always working to improve and update Vanilla. Here are some ways in which you can contribute:
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip--light">
+  <div class="row">
+    <div class="col-4 col-medium-2">
+      <h2>File a bug</h2>
+    </div>
+    <div class="col-6 col-medium-4">
+      <p>
+        When filing a bug, please check that it hasn't already been raised by someone else. We've provided a template
+        for new issues which will help you structure your issue to ensure it can be picked up and actioned easily.
+      </p>
+      <p>
+        Please provide as much information possible detailing what you're currently experiencing and what you'd expect
+        to experience.
+      </p>
+      <a href="https://github.com/canonical/vanilla-framework/issues">Submit a new issue</a>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip">
+  <div class="row">
+    <div class="col-4 col-medium-2">
+      <h2>Propose a new component or pattern</h2>
+    </div>
+    <div class="col-6 col-medium-4">
+      <p>
+        If you find that you can't design a particular functionality by using our existing components or patterns, we
+        encourage you to file an issue in our Github repo. You can either propose a new component or pattern, or suggest
+        amends to existing ones.
+      </p>
+      <p>
+        Internally, we have a working group which will look at your proposal and discuss whether there are alternative
+        ways of accomplishing your goals with existing components, or validate your request. Once your request has been
+        validated one of our designers will take ownership of this issue and work on providing a solution.
+      </p>
+      <a href="https://github.com/canonical/vanilla-framework/issues">Submit a new issue</a>
+    </div>
+  </div>
+</section>
+
+<hr />
+
+<section class="p-strip">
+  <div class="row">
+    <div class="col-4 col-medium-2">
+      <h2>Work on an issue</h2>
+    </div>
+    <div class="col-6 col-medium-4">
+      <p>
+        To work on an issue, please fork this repo and create a new branch on your local fork. When you're happy and
+        would like to propose that changeset to be merged back upstream, open a pull request to merge from your local
+        origin/main to upstream/main.
+      </p>
+      <p>
+        When committing changes, make sure to group related changes so that the project is always in a working state.
+        Use succinct yet descriptive commit messages to allow for easy reading of the commit log.
+      </p>
+
+      <h3>Guidelines</h3>
+      <p>
+        We follow two guideline documents that align with the practices that the Canonical Web Team follows across all
+        projects.
+      </p>
+
+      <ul class="p-inline-list--middot">
+        <li class="p-inline-list__item">
+          <a href="">HTML code standards</a>
+        </li>
+        <li class="p-inline-list__item">
+          <a href="">Stylesheets code standards</a>
+        </li>
+      </ul>
+
+      <h3>Running tests locally</h3>
+      <p>
+        The simplest way to run Vanilla framework is to first install Docker, and then use the <code>dotrun</code>
+        script to build the
+        site. Before proposing a pull request, ensure that the tests pass on your local fork. To kick off the tests for
+        your project, in the terminal <code>dotrun test</code>.
+      </p>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
