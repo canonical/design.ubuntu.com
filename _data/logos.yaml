@@ -1,0 +1,27 @@
+- svg_link: https://assets.ubuntu.com/v1/493731ff-Canonical+Anbox.svg
+  png_link: https://assets.ubuntu.com/v1/493731ff-Canonical+Anbox.svg
+  jpeg_link: https://assets.ubuntu.com/v1/493731ff-Canonical+Anbox.svg
+  image_width: 200
+  image_height: 38
+  name: Canonical Anbox Logo
+
+- svg_link: https://assets.ubuntu.com/v1/493731ff-Canonical+Anbox.svg
+  png_link: https://assets.ubuntu.com/v1/493731ff-Canonical+Anbox.svg
+  jpeg_link: https://assets.ubuntu.com/v1/493731ff-Canonical+Anbox.svg
+  image_width: 200
+  image_height: 38
+  name: Canonical Juju Logo
+
+- svg_link: https://assets.ubuntu.com/v1/493731ff-Canonical+Anbox.svg
+  png_link: https://assets.ubuntu.com/v1/493731ff-Canonical+Anbox.svg
+  jpeg_link: https://assets.ubuntu.com/v1/493731ff-Canonical+Anbox.svg
+  image_width: 200
+  image_height: 38
+  name: Canonical Kubernetes Logo
+
+- svg_link: https://assets.ubuntu.com/v1/493731ff-Canonical+Anbox.svg
+  png_link: https://assets.ubuntu.com/v1/493731ff-Canonical+Anbox.svg
+  jpeg_link: https://assets.ubuntu.com/v1/493731ff-Canonical+Anbox.svg
+  image_width: 200
+  image_height: 38
+  name: Canonical Ubuntu Logo

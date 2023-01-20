@@ -6,11 +6,13 @@
       {% include "_includes/nav-brand.html" %}
   {% endif %}
 
-  <div class="p-strip is-shallow ">
-    <div class="row">
-      <h1 class="u-no-margin--bottom">{% block title %}{% endblock %}</h1>
-    </div>
-  </div>
+  {% if not path.startswith('/resources') %}
+      <div class="p-strip is-shallow ">
+        <div class="row">
+          <h1 class="u-no-margin--bottom">{% block title %}{% endblock %}</h1>
+        </div>
+      </div>
+  {% endif %}
 
   {% block content %}{% endblock %}
 

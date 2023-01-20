@@ -1,0 +1,208 @@
+{% extends "_layouts/page.html" %} {% block title %}Resources{% endblock %} {%
+block content %}
+<section class="p-strip--accent is-deep">
+  <div class="row">
+    <div class="col-4 col-medium-2">
+      <h1 class="p-heading--2">Design resources</h1>
+    </div>
+    <div class="col-6 col-medium-4">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi
+        sed nibh ullamcorper maximus dictum varius ligula. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit. Maecenas vel mi sed nibh ullamcorper
+        maximus dictum varius ligula.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="p-strip--light is-deep">
+  <div class="row">
+    <div class="col-4 col-medium-2">
+      <div class="col-3 col-medium-2">
+        <h2>Design system library</h2>
+      </div>
+      <div class="col-1 u-hide--medium u-hide--small"></div>
+    </div>
+    <div class="col-6 col-medium-4">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi
+        sed nibh ullamcorper maximus dictum varius ligula. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit. Maecenas vel mi sed nibh ullamcorper
+        maximus dictum varius ligula.
+      </p>
+      <p>
+        <a
+          href="https://www.figma.com/file/H6MSsN3taoXXOJCPUbIImQ/Design-System-Library?node-id=803%3A9310&t=W0OglotYBvqZyM1e-1"
+        >
+          View our Figma library
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+<div class="p-strip is-deep">
+  <div class="row">
+    <h2>Brand resources</h2>
+    <hr />
+    <div class="row u-sv3" style="padding-top: 0.5rem;">
+      <div class="col-4 col-medium-2">
+        <h3 class="p-heading--5">Ubuntu typefaces</h3>
+      </div>
+      <div class="col-4 u-hide--medium u-hide--small">
+        <div
+          class="resources__content-thumb typeface"
+        >
+          {{ image (
+            url="https://assets.ubuntu.com/v1/bfe86ea2-ssh_.png",
+            alt="ssh_ written with Ubuntu typeface",
+            width="290",
+            height="129",
+            hi_def=True,
+            loading="auto|lazy"
+            ) | safe
+          }}
+        </div>
+      </div>
+      <div class="col-4 col-medium-4">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel
+          mi sed nibh ullamcorper maximus dictum varius ligula.
+        </p>
+        <p>
+          <a>Download the Ubuntu typefaces</a>
+        </p>
+      </div>
+    </div>
+    <hr class="u-no-margin--top" />
+    <div class="row u-sv3">
+      <div class="col-4 col-medium-2">
+        <h3 class="p-heading--5">Icon set</h3>
+      </div>
+      <div
+        class="col-4 u-hide--medium u-hide--small resources__content-thumb"
+      >
+        {{ image (
+          url="https://assets.ubuntu.com/v1/a78b82a9-ubuntu-icon-set.png",
+          alt="multiple icons from the Ubuntu icon set",
+          width="400",
+          height="200",
+          hi_def=True,
+          loading="auto|lazy"
+          ) | safe
+        }}
+      </div>
+      <div class="col-4 col-medium-4">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel
+          mi sed nibh ullamcorper maximus dictum varius ligula. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Maecenas vel mi sed nibh
+          ullamcorper maximus dictum varius ligula.
+        </p>
+        <p>
+          <a>Download the icon set</a>
+        </p>
+      </div>
+    </div>
+    <hr class="u-no-margin--top" />
+    <div class="row u-sv3">
+      <div class="col-4 col-medium-2">
+        <h3 class="p-heading--5">Slide template</h3>
+      </div>
+      <div
+        class="col-4 u-hide--medium u-hide--small resources__content-thumb"
+      >
+        {{ image (
+          url="https://assets.ubuntu.com/v1/47afbf87-black.png",
+          alt="black placeholder image",
+          width="400",
+          height="183",
+          hi_def=True,
+          loading="auto|lazy"
+          ) | safe
+        }}
+      </div>
+      <div class="col-4 col-medium-4">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel
+          mi sed nibh ullamcorper maximus dictum varius ligula.
+        </p>
+        <p>
+          <a>Download the slide template</a>
+        </p>
+      </div>
+    </div>
+    <hr class="u-no-margin--top" />
+    <div class="row">
+      <div class="col-4 col-medium-2">
+        <h3 class="p-heading--5">Logos</h3>
+      </div>
+      <div class="col-8 col-medium-4 resources__content-thumb">
+        {% for item in logos %}
+        <div class="col-8 col-medium-4">
+          <div class="row">
+            <div class="col-4 col-medium-2">
+              {{ image (
+                url=item.svg_link,
+                alt=item.name,
+                width=item.image_width,
+                hi_def=True,
+                loading="auto|lazy"
+                ) | safe
+              }}
+            </div>
+            <div class="col-4 col-medium-2">
+              <ul class="p-inline-list">
+                <li class="p-inline-list__item">
+                  <a href="{{ item.svg_link }}"> svg </a>
+                </li>
+                <li class="p-inline-list__item">
+                  <a href="{{ item.png_link }}"> png </a>
+                </li>
+                <li class="p-inline-list__item">
+                  <a href="{{ item.jpeg_link }}"> jpeg </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        {% if loop.index < logos|length %}
+        <hr class="u-no-margin--top" />
+        {% endif %} {% endfor %}
+        <div class="row">
+          <p class="col-4 col-medium-2 col-start-large-5 col-start-medium-3 u-sv3">
+            <a>See all logos</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr class="u-no-margin--top" />
+    <div class="row">
+      <div class="col-4 col-medium-2">
+        <h3 class="p-heading--5">Illustrations</h3>
+      </div>
+      <div
+        class="col-4 u-hide--medium u-hide--small resources__content-thumb"
+      >
+        {{ image (
+          url="https://assets.ubuntu.com/v1/47afbf87-black.png",
+          alt="black placeholder image",
+          width="400",
+          height="183",
+          hi_def=True,
+          loading="auto|lazy"
+          ) | safe
+        }}
+      </div>
+      <div class="col-4 col-medium-4">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel
+          mi sed nibh ullamcorper maximus dictum varius ligula.
+        </p>
+        <p>
+          <a>Download the slide template</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,7 +1,5 @@
 // settings
 $font-allow-cyrillic-greek-latin: true;
-$color-aubergine:     #5e2750;
-$color-accent-background: $color-aubergine;
 
 // Import Vanilla framework
 @import 'vanilla-framework';
@@ -35,4 +33,20 @@ $color-accent-background: $color-aubergine;
 // https://github.com/vanilla-framework/vanilla-framework/issues/2080
 .p-card__content {
   margin-top: 1rem;
+}
+
+// RESOURCES PAGE
+// These are the styles for the resources page
+.resources__content-thumb {
+  padding: 0.5rem;
+
+  &.typeface {
+    background-color: #f7f7f7;
+    height: min-content;
+    padding: 1.5rem 0.625rem 0.625rem 0.625rem;
+  }
+
+  .p-inline-list__item {
+    display: inline-block;
+  }
 }

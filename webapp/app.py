@@ -1,6 +1,7 @@
 import flask
 import yaml
 
+from canonicalwebteam import image_template
 from canonicalwebteam.flask_base.app import FlaskBase
 from canonicalwebteam.templatefinder import TemplateFinder
 
@@ -13,16 +14,21 @@ app = FlaskBase(
     template_404="404.html",
 )
 
-with open("_data/downloads.yaml", "r") as stream:
-    downloads = yaml.safe_load(stream)
+with open("_data/logos.yaml", "r") as stream:
+    logos = yaml.safe_load(stream)
 
 
 @app.context_processor
 def global_template_context():
     return {
-        "downloads": downloads,
+        "logos": logos,
         "path": flask.request.path,
     }
+
+
+@app.context_processor
+def utility_processor():
+    return {"image": image_template}
 
 
 template_finder_view = TemplateFinder.as_view("template_finder")
