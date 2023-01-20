@@ -6,7 +6,7 @@
       {% include "_includes/nav-brand.html" %}
   {% endif %}
 
-  {% if not path.startswith('/resources') %}
+  {% if not path.startswith('/resources') and not path.startswith('/accessibility') %}
       <div class="p-strip is-shallow ">
         <div class="row">
           <h1 class="u-no-margin--bottom">{% block title %}{% endblock %}</h1>
