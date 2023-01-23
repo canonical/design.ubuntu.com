@@ -15,11 +15,15 @@ app = FlaskBase(
 )
 
 with open("_data/resources.yaml", "r") as stream:
-    parsed_data = yaml.safe_load(stream)
-    resources_data = {
-        'logos': parsed_data[0]['logos'],
-        'icons': parsed_data[1]['icons'],
-    }
+    parsed_resources = yaml.safe_load(stream)
+
+with open("_data/icons.yaml", "r") as stream:
+    parsed_icons = yaml.safe_load(stream)
+
+resources_data = {
+    "logos": parsed_resources,
+    "icons": parsed_icons,
+}
 
 
 @app.context_processor
