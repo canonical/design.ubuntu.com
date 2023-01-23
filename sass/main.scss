@@ -65,27 +65,9 @@ $font-allow-cyrillic-greek-latin: true;
 @import "pattern_font-tester";
 @include design-p-font-tester;
 
-// Remove the hard set image height
-.p-card .p-card__header img {
-  max-height: none;
-}
-
 .p-icon--canonical {
   @extend %social-icon;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Cpath fill='%23772953' d='M20 32.735c-7.033 0-12.735-5.7-12.735-12.735 0-7.034 5.702-12.735 12.735-12.735 7.034 0 12.736 5.701 12.736 12.735 0 7.035-5.701 12.735-12.735 12.735zM40 20c0 11.046-8.954 20-20 20S0 31.045 0 20C0 8.954 8.954 0 20 0s20 8.954 20 20zM20 4.865C11.64 4.865 4.865 11.641 4.865 20c0 8.36 6.776 15.135 15.135 15.135 8.36 0 15.135-6.775 15.135-15.135 0-8.358-6.775-15.135-15.135-15.135z'/%3E%3C/svg%3E");
-}
-
-// Hide the text in the social icon
-.p-icon--twitter,
-.p-icon--instagram,
-.p-icon--canonical {
-  text-indent: -10000px !important;
-}
-
-//XXX KW 2018-12-12 - temp fix for:
-// https://github.com/vanilla-framework/vanilla-framework/issues/2080
-.p-card__content {
-  margin-top: 1rem;
 }
 
 // RESOURCES PAGE

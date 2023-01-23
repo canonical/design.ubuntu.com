@@ -6,15 +6,7 @@
       margin: $sp-xx-large 0;
       overflow: hidden;
       width: 100%;
-    }
 
-    &__title {
-      display: inline-block;
-      margin: 0 1rem 1rem 0;
-      width: 5rem;
-    }
-
-    &__demo {
       &[data-size="16"] { font-size: 16px;}
       &[data-size="21"] { font-size: 21px;}
       &[data-size="24"] { font-size: 24px;}
