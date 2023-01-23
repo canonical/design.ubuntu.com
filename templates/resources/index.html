@@ -101,7 +101,7 @@ block content %}
             onchange="switchIconThumbTheme()"
           >
           <span class="p-switch__slider"></span>
-          <span class="p-switch__label">dark mode</span>
+          <span class="p-switch__label">Dark mode</span>
         </label>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel
@@ -147,9 +147,9 @@ block content %}
       <div class="col-4 col-medium-2">
         <h3 class="p-heading--5">Logos</h3>
       </div>
-      <div class="col-8 col-medium-4 u-sv3 resources__content-thumb logo_thumb" id="logo_content_thumb">
+      <div class="col-8 col-medium-4 u-sv3 resources__content-thumb logo_thumb">
         <div class="row">
-          <div class="col-4 col-medium-2 col-start-large-5 col-start-medium-3">
+          <div class="col-2 col-medium-2 col-start-large-7">
             <label class="p-switch">
               <input 
                 type="checkbox" 
@@ -158,64 +158,50 @@ block content %}
                 onchange="switchLogoThumbTheme()"
               >
               <span class="p-switch__slider"></span>
-              <span class="p-switch__label">dark mode</span>
+              <span class="p-switch__label">Dark mode</span>
             </label>
           </div>
         </div>
-        {% for item in resources_data.logos %}
-            <div class="col-8 col-medium-4 light_strip">
-              <div class="row">
-                <div class="col-4 col-medium-2">
-                  <a href="{{ item.svg_link_light }}" target="_blank">
-                    {{ image (
-                      url=item.svg_link_light,
-                      alt=item.name,
-                      width=item.image_width,
-                      hi_def=True,
-                      loading="auto|lazy"
-                      ) | safe
-                    }}
-                  </a>
-                </div>
-                <div class="col-4 col-medium-2 u-vertically-center">
-                  <p class="u-no-margin--bottom">
-                    <a href="{{ item.svg_link_light }}" target="_blank"> Download logo </a>
-                  </p>
-                </div>
+        <div class="col-8 u-no-margin--bottom resources__content-thumb" id="logo_content_thumb">
+          {% for item in resources_data.logos %}
+              <div class="col-8 col-medium-4 p-list__item light_strip">
+                <a href="{{ item.svg_link_light }}" target="_blank">
+                  {{ image (
+                    url=item.svg_link_light,
+                    alt=item.name,
+                    width=item.image_width,
+                    hi_def=True,
+                    loading="auto|lazy"
+                    ) | safe
+                  }}
+                </a>
               </div>
-            </div>
-            <div class="col-8 col-medium-4 dark_thumb dark_strip u-hide">
-              <div class="row">
-                <div class="col-4 col-medium-2">
-                  <a href="{{ item.svg_link_dark }}" target="_blank">
-                    {{ image (
-                      url=item.svg_link_dark,
-                      alt=item.name,
-                      width=item.image_width,
-                      hi_def=True,
-                      loading="auto|lazy"
-                      ) | safe
-                    }}
-                  </a>
-                </div>
-                <div class="col-4 col-medium-2 u-vertically-center">
-                  <p class="u-no-margin--bottom">
-                    <a href="{{ item.svg_link_dark }}" target="_blank"> Download logo </a>
-                  </p>
-                </div>
+              <div class="col-8 col-medium-4 p-list__item resources__dark_mode dark_strip u-hide">
+                <a href="{{ item.svg_link_dark }}" target="_blank">
+                  {{ image (
+                    url=item.svg_link_dark,
+                    alt=item.name,
+                    width=item.image_width,
+                    hi_def=True,
+                    loading="auto|lazy"
+                    ) | safe
+                  }}
+                </a>
               </div>
-            </div>
-            {% if loop.index < resources_data.logos|length %}
-                <hr class="u-no-margin--top" />
-            {% endif %} 
-        {% endfor %}
-        <div class="row">
-          <p class="col-4 col-medium-2 col-start-large-5 col-start-medium-3">
-            <a href="https://drive.google.com/drive/u/2/folders/10CISCFXzMjn5e8hDBwH7xdPceIzIEAhS" target="_blank" rel="noopener noreferrer" >
-              See all logos
-            </a>
-          </p>
+              {% if loop.index < resources_data.logos|length %}
+                  <hr class="u-no-margin--top logo_separator" />
+              {% endif %} 
+          {% endfor %}
         </div>
+        <p>
+          <a 
+            href="https://drive.google.com/drive/u/2/folders/10CISCFXzMjn5e8hDBwH7xdPceIzIEAhS" 
+            target="_blank"
+            rel="noopener noreferrer" 
+          >
+            See all logos
+          </a>
+        </p>
       </div>
     </div>
     <hr class="u-no-margin--top" />
@@ -255,6 +241,7 @@ block content %}
     const logoContentThumb = document.querySelector("#logo_content_thumb");
     const darkStrip = document.querySelectorAll(".dark_strip");
     const lightStrip = document.querySelectorAll(".light_strip");
+    const separators = document.querySelectorAll(".logo_separator");
     
     if(switchLogo.checked){
       darkStrip.forEach((item) => {
@@ -263,7 +250,11 @@ block content %}
       lightStrip.forEach((item) => {
         item.classList.add("u-hide");
       });
-      logoContentThumb.classList.add("dark_thumb");
+      separators.forEach((item) => {
+        item.classList.add("is-dark");
+      });
+      logoContentThumb.classList.add("resources__dark_mode");
+
     } else {
       darkStrip.forEach((item) => {
         item.classList.add("u-hide");
@@ -271,7 +262,10 @@ block content %}
       lightStrip.forEach((item) => {
         item.classList.remove("u-hide");
       });
-      logoContentThumb.classList.remove("dark_thumb");
+      separators.forEach((item) => {
+        item.classList.remove("is-dark");
+      }); 
+      logoContentThumb.classList.remove("resources__dark_mode");
     }
   };
 
@@ -281,12 +275,12 @@ block content %}
     
     if(switchIcon.checked){
       iconContentThumb.classList.add(
-        "dark_thumb",
+        "resources__dark_mode",
         "icons--dark" // the class "icons--dark" is used to invert the color of the icons, there's no actual CSS style involved. Same thing applies in the else statement.
        ); 
     } else {
       iconContentThumb.classList.remove(
-          "dark_thumb", 
+          "resources__dark_mode", 
           "icons--dark"
         );
     }
