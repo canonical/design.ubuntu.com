@@ -99,7 +99,7 @@ block content %}
           ullamcorper maximus dictum varius ligula.
         </p>
         <p>
-          <a>Download the icon set</a>
+          <a href="https://vanillaframework.io/docs/patterns/icons">Download the icon set</a>
         </p>
       </div>
     </div>
@@ -136,41 +136,66 @@ block content %}
       <div class="col-4 col-medium-2">
         <h3 class="p-heading--5">Logos</h3>
       </div>
-      <div class="col-8 col-medium-4 resources__content-thumb">
-        {% for item in logos %}
-        <div class="col-8 col-medium-4">
-          <div class="row">
-            <div class="col-4 col-medium-2">
-              {{ image (
-                url=item.svg_link,
-                alt=item.name,
-                width=item.image_width,
-                hi_def=True,
-                loading="auto|lazy"
-                ) | safe
-              }}
-            </div>
-            <div class="col-4 col-medium-2">
-              <ul class="p-inline-list">
-                <li class="p-inline-list__item">
-                  <a href="{{ item.svg_link }}"> svg </a>
-                </li>
-                <li class="p-inline-list__item">
-                  <a href="{{ item.png_link }}"> png </a>
-                </li>
-                <li class="p-inline-list__item">
-                  <a href="{{ item.jpeg_link }}"> jpeg </a>
-                </li>
-              </ul>
-            </div>
+      <div class="col-8 col-medium-4 u-sv3 resources__content-thumb icons_thumb" id="logo_content_thumb">
+        <div class="row">
+          <div class="col-4 col-medium-2 col-start-large-5 col-start-medium-3">
+            <label class="p-switch">
+              <input type="checkbox" class="p-switch__input" role="switch" id="logo_switch" onchange="switchLogoTheme()">
+              <span class="p-switch__slider"></span>
+              <span class="p-switch__label">dark mode</span>
+            </label>
           </div>
         </div>
-        {% if loop.index < logos|length %}
-        <hr class="u-no-margin--top" />
-        {% endif %} {% endfor %}
+        {% for item in logos %}
+            <div class="col-8 col-medium-4 light_strip">
+              <div class="row">
+                <div class="col-4 col-medium-2">
+                  <a href="{{ item.svg_link_light }}" target="_blank">
+                    {{ image (
+                      url=item.svg_link_light,
+                      alt=item.name,
+                      width=item.image_width,
+                      hi_def=True,
+                      loading="auto|lazy"
+                      ) | safe
+                    }}
+                  </a>
+                </div>
+                <div class="col-4 col-medium-2">
+                  <a href="{{ item.svg_link_light }}" target="_blank"> Download logo </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-8 col-medium-4 dark_strip u-hide">
+              <div class="row">
+                <div class="col-4 col-medium-2">
+                  <a href="{{ item.svg_link_dark }}" target="_blank">
+                    {{ image (
+                      url=item.svg_link_dark,
+                      alt=item.name,
+                      width=item.image_width,
+                      hi_def=True,
+                      loading="auto|lazy"
+                      ) | safe
+                    }}
+                  </a>
+                </div>
+                <div class="col-4 col-medium-2 u-vertically-center">
+                  <p class="u-no-margin--bottom">
+                    <a href="{{ item.svg_link_dark }}" target="_blank"> Download logo </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            {% if loop.index < logos|length %}
+                <hr class="u-no-margin--top" />
+            {% endif %} 
+        {% endfor %}
         <div class="row">
-          <p class="col-4 col-medium-2 col-start-large-5 col-start-medium-3 u-sv3">
-            <a>See all logos</a>
+          <p class="col-4 col-medium-2 col-start-large-5 col-start-medium-3">
+            <a href="https://drive.google.com/drive/u/2/folders/10CISCFXzMjn5e8hDBwH7xdPceIzIEAhS" target="_blank" rel="noopener noreferrer" >
+              See all logos
+            </a>
           </p>
         </div>
       </div>
@@ -205,4 +230,31 @@ block content %}
     </div>
   </div>
 </div>
+
+<script>
+  const switchLogoTheme = () => {
+    const switchLogo = document.querySelector("#logo_switch");
+    const logoContentThumb = document.querySelector("#logo_content_thumb");
+    const darkStrip = document.querySelectorAll(".dark_strip");
+    const lightStrip = document.querySelectorAll(".light_strip");
+    
+    if(switchLogo.checked){
+      darkStrip.forEach((item) => {
+        item.classList.remove("u-hide");
+      });
+      lightStrip.forEach((item) => {
+        item.classList.add("u-hide");
+      });
+      logoContentThumb.classList.add("dark_thumb");
+    } else {
+      darkStrip.forEach((item) => {
+        item.classList.add("u-hide");
+      });
+      lightStrip.forEach((item) => {
+        item.classList.remove("u-hide");
+      });
+      logoContentThumb.classList.remove("dark_thumb");
+    }
+  };
+</script>
 {% endblock %}

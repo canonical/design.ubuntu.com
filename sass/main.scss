@@ -41,12 +41,17 @@ $font-allow-cyrillic-greek-latin: true;
   padding: 0.5rem;
 
   &.typeface {
-    background-color: #f7f7f7;
+    background-color: $color-light;
     height: min-content;
     padding: 1.5rem 0.625rem 0.625rem 0.625rem;
   }
 
-  .p-inline-list__item {
-    display: inline-block;
+  &.dark_thumb {
+    background-color: $color-brand !important;
+    color: $color-x-light;
+  }
+
+  &.icons_thumb{
+    margin-bottom: 0.5rem;
   }
 }
