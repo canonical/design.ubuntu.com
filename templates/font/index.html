@@ -1,87 +1,104 @@
-{% extends "_layouts/page.html" %}
+{% extends "_layouts/page-bare.html" %}
 
 {% block title %}Ubuntu font{% endblock %}
 
 {% block content %}
-<div class="p-strip is-shallow u-no-padding--top">
+<section class="p-strip--accent is-deep">
   <div class="row">
-    <div class="col-9">
+    <div class="col-4 col-medium-2">
+      <h1 class="p-heading--2">Ubuntu font</h1>
+    </div>
+    <div class="col-6 col-medium-4">
       <p>The way typography is used says as much about our brand as the words themselves.</p>
       <p>The Ubuntu typeface has been specially created to complement the Ubuntu tone of voice. It has a contemporary style and contains characteristics unique to the Ubuntu brand that convey a precise, reliable and free attitude.</p>
     </div>
   </div>
-</div>
-<div class="p-strip u-no-padding--top is-bordered">
-  <div class="row u-equal-height">
-    <div class="col-4 p-card">
-      <h3 class="p-card__title">Ubuntu</h3>
-      <p style="font-size: 24px;">It’s no use going back to yesterday, because I was a different person then.</p>
+</section>
+<section class="p-strip--light is-deep">
+  <div class="row">
+    <div class="col-4 col-medium-2">
+      <h2>Font Variants</h2>
+      <p>We use the Ubuntu font family by default, but you can specify any other font family to better suit your project.</p>
     </div>
-    <div class="col-4 p-card">
-      <h3 class="p-card__title" style="font-family: 'Ubuntu Condensed';">Ubuntu Condensed</h3>
-      <p style="font-family: 'Ubuntu Condensed'; font-size: 24px;">Why, sometimes I've believed as many as six impossible things before breakfast.</p>
-    </div>
-    <div class="col-4 p-card">
-      <h3 class="p-card__title" style="font-family: 'Ubuntu Mono';">Ubuntu Monospace</h3>
-      <p style="font-family: 'Ubuntu Mono'; font-size: 16px;">
-        A: Would you tell me, please, which way I ought to go from here?<br /> C: That depends a good deal on where you want to get to.
-      </p>
+    <div class="col-8 col-medium-4">
+      <div class="row u-equal-height">
+        <div class="col-4 p-card is-light">
+          <h3 class="p-card__title">Ubuntu</h3>
+          <p style="font-size: 24px;">It’s no use going back to yesterday, because I was a different person then.</p>
+        </div>
+        <div class="col-4 p-card">
+          <h3 class="p-card__title" style="font-family: 'Ubuntu Mono';">Ubuntu Monospace</h3>
+          <p style="font-family: 'Ubuntu Mono'; font-size: 16px;">
+            A: Would you tell me, please, which way I ought to go from here?<br /> C: That depends a good deal on where you want to get to.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-
-<div class="p-strip--light is-deep ">
+</section>
+<section class="p-strip is-deep ">
   <div class="row">
     <div class="col-8">
       <h2>Ubuntu font tester</h2>
+      <p>
+        The family supports the full Latin, Cyrillic and Greek alphabets, as well as Esperanto, with combining diacritical marks and a wide range of punctuation.
+      </p>
     </div>
-  </div>
-  <div class="row">
-    <form class="font-tester">
-      <div class="col-3">
-        <label for="size">Size</label>
-        <select class="js-font-select" name="size">
-          <option value="16" selected>16px</option>
-          <option value="21">21px</option>
-          <option value="24">24px</option>
-          <option value="36">36px</option>
-          <option value="48">48px</option>
-        </select>
-      </div>
-      <div class="col-3">
-        <label for="family">Family</label>
-        <select class="js-font-select" name="family">
-          <option value="ubuntu" selected>Ubuntu</option>
-          <option value="condensed">Ubuntu Condensed</option>
-          <option value="monospace">Ubuntu Monospace</option>
-        </select>
-      </div>
-      <div class="col-2">
-        <label for="weight">Weight</label>
-        <select class="js-font-select" name="weight">
-          <option value="thin">Thin</option>
-          <option value="light">Light</option>
-          <option value="regular" selected>Regular</option>
-          <option value="medium">Medium</option>
-          <option value="bold">Bold</option>
-        </select>
-      </div>
-      <div class="col-2">
-        <label for="style">Style</label>
-        <select class="js-font-select" name="style">
-          <option value="normal" selected>Normal</option>
-          <option value="italic">Italic</option>
-        </select>
-      </div>
-      <div class="col-2">
-        <label for="color">Color</label>
-        <select class="js-font-select" name="color">
-          <option value="black" selected>Black</option>
-          <option value="aubergine">Aubergine</option>
-          <option value="orange">Orange</option>
-        </select>
-      </div>
-      <textarea class="font-tester__demo js-font-demo" data-size="16" data-family="ubuntu" data-weight="light" data-style="normal" data-color="black">
+    <div>
+      <label for="family">Family</label>
+      <select class="js-font-select" name="family" onchange="updateFontVariations()">
+        <option value="ubuntu" selected>Ubuntu</option>
+        <option value="monospace">Ubuntu Monospace</option>
+      </select>
+    </div>
+    <div>
+      <label for="style">Style</label>
+      <select class="js-font-select" name="style" onchange="updateFontVariations()">
+        <option value="normal" selected>Normal</option>
+        <option value="italic">Italic</option>
+      </select>
+    </div>
+    <div>
+      <label for="color">Color</label>
+      <select class="js-font-select" name="color" onchange="updateFontVariations()">
+        <option value="black" selected>Black</option>
+        <option value="red">Red</option>
+        <option value="orange">Orange</option>
+      </select>
+    </div>
+    <div>
+      <label for="size">Size (<span id="size_tag">16px</span>)</label>
+      <input 
+        id="size" 
+        type="range" 
+        min="8" 
+        max="48" 
+        value="16" 
+        step="1" 
+        style="appearance: auto" 
+        onchange="updateFontVariations()"
+      >
+    </div>
+    <div>
+      <label for="weight">Weight (<span id="weight_tag">400</span>)</label>
+      <input 
+        id="weight" 
+        type="range" 
+        min="100" 
+        max="800" 
+        value="400" 
+        step="100" 
+        style="appearance: auto" 
+        onchange="updateFontVariations()"
+      >
+    </div>
+    <textarea 
+      id="font-tester"
+      class="font-tester__demo js-font-demo"
+      data-family="ubuntu" 
+      data-style="normal" 
+      data-color="black"
+    >
 Type your text here
 
 Latin sample:
@@ -92,16 +109,16 @@ Cyrillic sample:
 
 Greek sample:
 Λορεμ ιπσθμ δολορ σιτ αμετ, μεα νατθμ ηαβεμθσ νο σιτ.
-
-</textarea>
-    </form>
+    </textarea>
   </div>
-</div>
+</section>
 
 <div class="p-strip--accent is-dark is-deep">
   <div class="row">
-    <div class="col-8">
+    <div class="col-4 col-medium-2">
       <h2>About the Ubuntu font family</h2>
+    </div>
+    <div class="col-8 col-medium-4">
       <p>The Ubuntu font family are a set of matching new libre/open fonts. The development is being funded by <a href="http://www.canonical.com/" class="p-link--inverted">Canonical</a> on behalf the wider Free Software community and the Ubuntu project.
         The technical font design work and implementation is being undertaken by <a href="http://www.daltonmaag.com/" class="p-link--inverted">Dalton&nbsp;Maag</a>.</p>
       <p>Both the final font Truetype/OpenType files and the design files used to produce the font family are distributed under an <a href="http://www.ubuntu.com/legal/terms-and-policies/font-licence" class="p-link--inverted">open licence</a> and you are
@@ -114,28 +131,40 @@ Greek sample:
 
 <div class="p-strip--light is-deep is-bordered">
   <div class="row">
-    <div class="col-7">
+    <div class="col-8">
       <h2>Facts and figures</h2>
-      <p>The Ubuntu font family is a sans-serif typeface family with an intended coverage of thirteen fonts.</p>
+      <p>1,200 glyphs, 200-250 languages (native languages of 3 billion people!).</p>
+      <p>
+        The Ubuntu font family is a sans-serif typeface family with an intended coverage of thirteen fonts.
+      </p>
     </div>
   </div>
   <div class="row">
-    <div class="col-6">
-      <div>
-      <h3>Coverage</h3>
-      <p>1,200 glyphs, 200-250 languages (native languages of 3 billion people!).</p>
+    <div class="col-4 col-medium-2">
       <h3>Technology</h3>
+    </div>
+    <div class="col-8 col-medium-4">
+      <p>
+        The pixels-per-em 7-segment digits are driven by the hint engine (substituted from the DejaVu fonts), so if hinting is by default off (e.g. Firefox) then the output will show as a pair of &ldquo;88&rdquo; numerals.
+      </p>
       <ul class="p-list">
         <li class="p-list__item is-ticked">OpenType-based TTF (TrueType)</li>
         <li class="p-list__item is-ticked">Alternative glyphs (e.g. proportional/non-proportional/superscript/subscript numerals)</li>
         <li class="p-list__item is-ticked">Debugging glyphs (U+EFFD, U+EFFE, U+EFFF, U+F000) giving face, version, grayscale level and pixels-per-em digit display</li>
       </ul>
-      <p>The pixels-per-em 7-segment digits are driven by the hint engine (substituted from the DejaVu fonts), so if hinting is by default off (e.g. Firefox) then the output will show as a pair of &ldquo;88&rdquo; numerals.</p>
     </div>
-    </div>
-    <div class="col-6">
+  </div>
+  <div class="row u-sv3">
+    <hr />
+  </div>
+  <div class="row">
+    <div class="col-4 col-medium-2">
       <h3>Design</h3>
-      <p>The four Latin characters, &apos;n o H O&apos; helped to define a guide for around 80-percent of the remaining characters. Extensive manual hinting has been performed for rendered sizes below 60 pixels-per-em.</p>
+    </div>
+    <div class="col-8 col-medium-4">
+      <p>
+        The four Latin characters, &apos;n o H O&apos; helped to define a guide for around 80-percent of the remaining characters. Extensive manual hinting has been performed for rendered sizes below 60 pixels-per-em.
+      </p>
       <p>Software used:</p>
       <ul class="p-list">
         <li class="p-list__item is-ticked">Fontlab Studio</li>
@@ -146,10 +175,12 @@ Greek sample:
   </div>
 </div>
 
-<div class="p-strip is-deep">
+<section class="p-strip is-deep">
   <div class="row">
-    <div class="col-8">
+    <div class="col-4 col-medium-2">
       <h2>Resources</h2>
+    </div>
+    <div class="col-8 col-medium-4">
       <ul class="p-list--divided">
         <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip">Download the Ubuntu Font Family</a> (2.2MB)</li>
         <li class="p-list__item"><p><a href="https://assets.ubuntu.com/v1/0f5898c1-ubuntu-font-family-sources_0.83.orig.tar.gz">Download the Ubuntu Font Family source code</a></p> (For font designers with a copy of Font Lab Studio, 8.4MB)</li>
@@ -160,5 +191,26 @@ Greek sample:
       <p><a href="https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip" class="p-button--positive">Download for free</a></p>
     </div>
   </div>
-</div>
+</section>
+<script>
+  const updateFontVariations = () => {
+    const weight = document.querySelector('#weight').value;
+    const size = document.querySelector('#size').value;
+    const font = document.querySelector('#font-tester');
+    const selects = document.getElementsByClassName('js-font-select');
+    const size_tag = document.querySelector('#size_tag');
+    const weight_tag = document.querySelector('#weight_tag');
+
+    font.style.fontWeight = weight;
+    font.style.fontSize = `${size}px`;
+    font.style.lineHeight = `${size * 1.5}px`;
+
+    size_tag.innerHTML = `${size}px`;
+    weight_tag.innerHTML = weight;
+
+    for (let i = 0; i < selects.length; i++) {
+      font.setAttribute('data-' + selects[i].name, selects[i].value);
+    }
+  }
+</script>
 {% endblock %}
