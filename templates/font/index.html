@@ -123,13 +123,23 @@ Greek sample:
 
 <div class="p-strip--light is-deep is-bordered">
   <div class="row">
-    <div class="col-8">
+    <div class="col-8 u-sv3">
       <h2>Facts and figures</h2>
-      <p>1,200 glyphs, 200-250 languages (native languages of 3 billion people!).</p>
       <p>
-        The Ubuntu font family is a sans-serif typeface family with an intended coverage of thirteen fonts.
+        The Ubuntu font family is a sans-serif typeface family available in 22 styles plus a variable font with adjustable weight and width axes. . Its fixed-width companion, Ubuntu Mono, comes in 8 styles and a variable font with an adjustable weight axis.
       </p>
     </div>
+  </div>
+  <div class="row">
+    <div class="col-4 col-medium-2">
+      <h3>Coverage</h3>
+    </div>
+    <div class="col-8 col-medium-4">
+      <p>1,200 glyphs, 200-250 languages (native languages of 3 billion people!).</p>
+    </div>
+  </div>
+  <div class="row u-sv3">
+    <hr />
   </div>
   <div class="row">
     <div class="col-4 col-medium-2">
@@ -141,8 +151,10 @@ Greek sample:
       </p>
       <ul class="p-list">
         <li class="p-list__item is-ticked">OpenType-based TTF (TrueType)</li>
-        <li class="p-list__item is-ticked">Alternative glyphs (e.g. proportional/non-proportional/superscript/subscript numerals)</li>
-        <li class="p-list__item is-ticked">Debugging glyphs (U+EFFD, U+EFFE, U+EFFF, U+F000) giving face, version, grayscale level and pixels-per-em digit display</li>
+        <li class="p-list__item is-ticked">Variable fonts</li>
+        <li class="p-list__item is-ticked">
+          Alternative glyphs (e.g. proportional/non-proportional/superscript/subscript numerals)
+        </li>
       </ul>
     </div>
   </div>
@@ -155,13 +167,22 @@ Greek sample:
     </div>
     <div class="col-8 col-medium-4">
       <p>
-        The four Latin characters, &apos;n o H O&apos; helped to define a guide for around 80-percent of the remaining characters. Extensive manual hinting has been performed for rendered sizes below 60 pixels-per-em.
+        The four Latin characters, &apos;n o H O&apos; helped to define a guide for around 80-percent of the remaining characters.
       </p>
       <p>Software used:</p>
       <ul class="p-list">
-        <li class="p-list__item is-ticked">Fontlab Studio</li>
-        <li class="p-list__item is-ticked">Microsoft Visual Truetype (VTT)</li>
-        <li class="p-list__item is-ticked">In-house Python-based accent placement scripts</li>
+        <li class="p-list__item is-ticked">
+          Fontlab Studio, 
+          <a href="http://robofont.com" rel="noopener noreferrer">RoboFonts</a>, 
+          <a href="https://glyphsapp.com" rel="noopener noreferrer">Glyphs</a>
+        </li>
+        <li class="p-list__item is-ticked">
+          Automated build process based on 
+          <a href="https://github.com/googlefonts/gftools" rel="noopener noreferrer">gftools</a>, 
+          <a href="https://github.com/googlefonts/fontmake" rel="noopener noreferrer">fontmake</a>, 
+          <a href="https://github.com/fonttools/fonttools" rel="noopener noreferrer">fontTools</a>
+        </li>
+        <li class="p-list__item is-ticked">In-house Python-based scripts</li>
       </ul>
     </div>
   </div>
