@@ -1,0 +1,59 @@
+- svg_link_light: https://assets.ubuntu.com/v1/2af4a08e-Canonical+dark+text.svg
+  svg_link_dark: https://assets.ubuntu.com/v1/d76935e9-Canonical+white+text.svg
+  image_width: 102
+  image_height: 30
+  name: Canonical Logo
+
+- svg_link_light: https://assets.ubuntu.com/v1/43ef5c89-Canonical+Ubuntu+dark+text.svg
+  svg_link_dark: https://assets.ubuntu.com/v1/b4f695ea-Canonical+Ubuntu+white+text.svg
+  image_width: 165
+  image_height: 30
+  name: Canonical Ubuntu Logo
+
+- svg_link_light: https://assets.ubuntu.com/v1/97d996a2-Canonical+Snapcraft+dark+text.svg
+  svg_link_dark: https://assets.ubuntu.com/v1/6f9b37e9-Canonical+Snapcraft+white+text.svg
+  image_width: 184
+  image_height: 30
+  name: Canonical Snapcraft Logo
+
+- svg_link_light: https://assets.ubuntu.com/v1/bfd2d859-Canonical+Anbox+dark+text.svg
+  svg_link_dark: https://assets.ubuntu.com/v1/423606cc-Canonical+Anbox+white+text.svg
+  image_width: 158
+  image_height: 30
+  name: Canonical Anbox Logo
+
+- svg_link_light: https://assets.ubuntu.com/v1/7964e36d-Canonical+MAAS+dark+text.svg
+  svg_link_dark: https://assets.ubuntu.com/v1/35df1d67-Canonical+MAAS+white+text.svg
+  image_width: 154
+  image_height: 30
+  name: Canonical MAAS Logo
+
+- svg_link_light: https://assets.ubuntu.com/v1/ea7adcf4-Canonical+Landscape+dark+text.svg
+  svg_link_dark: https://assets.ubuntu.com/v1/71b9a7d2-Canonical+Landscape+white+text.svg
+  image_width: 192
+  image_height: 30
+  name: Canonical Landscape Logo
+
+- svg_link_light: https://assets.ubuntu.com/v1/6405175c-Canonical+Juju+dark+text.svg
+  svg_link_dark: https://assets.ubuntu.com/v1/7a094830-Canonical+Juju+white+text.svg
+  image_width: 139
+  image_height: 30
+  name: Canonical Juju Logo
+
+- svg_link_light: https://assets.ubuntu.com/v1/81527e42-Canonical+LXD+dark+text.svg
+  svg_link_dark: https://assets.ubuntu.com/v1/681f985e-Canonical+LXD+white+text.svg
+  image_width: 139
+  image_height: 30
+  name: Canonical LXD Logo
+
+- svg_link_light: https://assets.ubuntu.com/v1/2cdf1c98-Canonical+OpenStack+dark+text.svg
+  svg_link_dark: https://assets.ubuntu.com/v1/1a3e220b-Canonical+OpenStack+white+text.svg
+  image_width: 192
+  image_height: 30
+  name: Canonical Openstack Logo
+
+- svg_link_light: https://assets.ubuntu.com/v1/805a3cab-Canonical+Kubernetes+dark+text.svg
+  svg_link_dark: https://assets.ubuntu.com/v1/b4b28be3-Canonical+Kubernetes+white+text.svg
+  image_width: 200
+  image_height: 30
+  name: Canonical Kubernetes Logo

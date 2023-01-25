@@ -7,10 +7,7 @@ block content %}
     </div>
     <div class="col-6 col-medium-4">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi
-        sed nibh ullamcorper maximus dictum varius ligula. Lorem ipsum dolor sit
-        amet, consectetur adipiscing elit. Maecenas vel mi sed nibh ullamcorper
-        maximus dictum varius ligula.
+        On this page you will find everything you need to design and build with our design system, including our Figma component library, our icon library and the Ubuntu font.
       </p>
     </div>
   </div>
@@ -25,10 +22,7 @@ block content %}
     </div>
     <div class="col-6 col-medium-4">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi
-        sed nibh ullamcorper maximus dictum varius ligula. Lorem ipsum dolor sit
-        amet, consectetur adipiscing elit. Maecenas vel mi sed nibh ullamcorper
-        maximus dictum varius ligula.
+        In this Figma library you will find our most up-to-date responsive components to build your designs.
       </p>
       <p>
         <a
@@ -65,8 +59,7 @@ block content %}
       </div>
       <div class="col-4 col-medium-4">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel
-          mi sed nibh ullamcorper maximus dictum varius ligula.
+          The Ubuntu font has contemporary style that conveys a precise, reliable and free attitude.
         </p>
         <p>
           <a>Download the Ubuntu typefaces</a>
@@ -79,27 +72,35 @@ block content %}
         <h3 class="p-heading--5">Icon set</h3>
       </div>
       <div
-        class="col-4 u-hide--medium u-hide--small resources__content-thumb"
+        class="col-4 u-hide--medium u-hide--small resources__content-thumb icons_thumb"
+        id="icon_content_thumb"
       >
-        {{ image (
-          url="https://assets.ubuntu.com/v1/a78b82a9-ubuntu-icon-set.png",
-          alt="multiple icons from the Ubuntu icon set",
-          width="400",
-          height="200",
-          hi_def=True,
-          loading="auto|lazy"
-          ) | safe
-        }}
+        {% for item in resources_data.icons %}
+          <div  class="icon__item">
+            <i 
+              class="p-icon--{{ item.name }}" 
+              style="width: 18px; height: 18px;"
+            ></i>
+          </div>
+        {% endfor %}
       </div>
       <div class="col-4 col-medium-4">
+        <label class="p-switch">
+          <input 
+            type="checkbox" 
+            class="p-switch__input" 
+            role="switch" 
+            id="icon_switch" 
+            onchange="switchIconThumbTheme()"
+          >
+          <span class="p-switch__slider"></span>
+          <span class="p-switch__label">Dark mode</span>
+        </label>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel
-          mi sed nibh ullamcorper maximus dictum varius ligula. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Maecenas vel mi sed nibh
-          ullamcorper maximus dictum varius ligula.
+          Our icon library includes our generic UI iconography as well as some bespoke concepts.
         </p>
         <p>
-          <a>Download the icon set</a>
+          <a href="https://vanillaframework.io/docs/patterns/icons">Download the icon set</a>
         </p>
       </div>
     </div>
@@ -123,8 +124,7 @@ block content %}
       </div>
       <div class="col-4 col-medium-4">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel
-          mi sed nibh ullamcorper maximus dictum varius ligula.
+          Use this template to create presentations with the Canonical branding style.
         </p>
         <p>
           <a>Download the slide template</a>
@@ -136,43 +136,61 @@ block content %}
       <div class="col-4 col-medium-2">
         <h3 class="p-heading--5">Logos</h3>
       </div>
-      <div class="col-8 col-medium-4 resources__content-thumb">
-        {% for item in logos %}
-        <div class="col-8 col-medium-4">
-          <div class="row">
-            <div class="col-4 col-medium-2">
-              {{ image (
-                url=item.svg_link,
-                alt=item.name,
-                width=item.image_width,
-                hi_def=True,
-                loading="auto|lazy"
-                ) | safe
-              }}
-            </div>
-            <div class="col-4 col-medium-2">
-              <ul class="p-inline-list">
-                <li class="p-inline-list__item">
-                  <a href="{{ item.svg_link }}"> svg </a>
-                </li>
-                <li class="p-inline-list__item">
-                  <a href="{{ item.png_link }}"> png </a>
-                </li>
-                <li class="p-inline-list__item">
-                  <a href="{{ item.jpeg_link }}"> jpeg </a>
-                </li>
-              </ul>
-            </div>
+      <div class="col-8 col-medium-4 u-sv3 resources__content-thumb logo_thumb">
+        <div class="row">
+          <div class="col-2 col-medium-2">
+            <label class="p-switch">
+              <input 
+                type="checkbox" 
+                class="p-switch__input" 
+                role="switch" id="logo_switch" 
+                onchange="switchLogoThumbTheme()"
+              >
+              <span class="p-switch__slider"></span>
+              <span class="p-switch__label">Dark mode</span>
+            </label>
           </div>
         </div>
-        {% if loop.index < logos|length %}
-        <hr class="u-no-margin--top" />
-        {% endif %} {% endfor %}
-        <div class="row">
-          <p class="col-4 col-medium-2 col-start-large-5 col-start-medium-3 u-sv3">
-            <a>See all logos</a>
-          </p>
+        <div class="col-8 u-no-margin--bottom resources__content-thumb" id="logo_content_thumb">
+          {% for item in resources_data.logos %}
+              <div class="col-8 col-medium-4 p-list__item light_strip">
+                <a href="{{ item.svg_link_light }}" target="_blank">
+                  {{ image (
+                    url=item.svg_link_light,
+                    alt=item.name,
+                    width=item.image_width,
+                    hi_def=True,
+                    loading="auto|lazy"
+                    ) | safe
+                  }}
+                </a>
+              </div>
+              <div class="col-8 col-medium-4 p-list__item resources__dark_mode dark_strip u-hide">
+                <a href="{{ item.svg_link_dark }}" target="_blank">
+                  {{ image (
+                    url=item.svg_link_dark,
+                    alt=item.name,
+                    width=item.image_width,
+                    hi_def=True,
+                    loading="auto|lazy"
+                    ) | safe
+                  }}
+                </a>
+              </div>
+              {% if loop.index < resources_data.logos|length %}
+                  <hr class="u-no-margin--top logo_separator" />
+              {% endif %} 
+          {% endfor %}
         </div>
+        <p>
+          <a 
+            href="https://drive.google.com/drive/u/2/folders/10CISCFXzMjn5e8hDBwH7xdPceIzIEAhS" 
+            target="_blank"
+            rel="noopener noreferrer" 
+          >
+            See all logos
+          </a>
+        </p>
       </div>
     </div>
     <hr class="u-no-margin--top" />
@@ -205,4 +223,56 @@ block content %}
     </div>
   </div>
 </div>
+
+<script>
+  const switchLogoThumbTheme = () => {
+    const switchLogo = document.querySelector("#logo_switch");
+    const logoContentThumb = document.querySelector("#logo_content_thumb");
+    const darkStrip = document.querySelectorAll(".dark_strip");
+    const lightStrip = document.querySelectorAll(".light_strip");
+    const separators = document.querySelectorAll(".logo_separator");
+    
+    if(switchLogo.checked){
+      darkStrip.forEach((item) => {
+        item.classList.remove("u-hide");
+      });
+      lightStrip.forEach((item) => {
+        item.classList.add("u-hide");
+      });
+      separators.forEach((item) => {
+        item.classList.add("is-dark");
+      });
+      logoContentThumb.classList.add("resources__dark_mode");
+
+    } else {
+      darkStrip.forEach((item) => {
+        item.classList.add("u-hide");
+      });
+      lightStrip.forEach((item) => {
+        item.classList.remove("u-hide");
+      });
+      separators.forEach((item) => {
+        item.classList.remove("is-dark");
+      }); 
+      logoContentThumb.classList.remove("resources__dark_mode");
+    }
+  };
+
+  const switchIconThumbTheme = () => {
+    const switchIcon = document.querySelector("#icon_switch");
+    const iconContentThumb = document.querySelector("#icon_content_thumb");
+    
+    if(switchIcon.checked){
+      iconContentThumb.classList.add(
+        "resources__dark_mode",
+        "icons--dark" // the class "icons--dark" is used to invert the color of the icons, there's no actual CSS style involved. Same thing applies in the else statement.
+       ); 
+    } else {
+      iconContentThumb.classList.remove(
+          "resources__dark_mode", 
+          "icons--dark"
+        );
+    }
+  };
+</script>
 {% endblock %}

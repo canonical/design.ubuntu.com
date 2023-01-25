@@ -5,6 +5,59 @@ $font-allow-cyrillic-greek-latin: true;
 @import 'vanilla-framework';
 @include vanilla;
 
+@include vf-p-icons;
+
+@include vf-p-icon-highlight-off;
+@include vf-p-icon-highlight-on;
+@include vf-p-icon-home;
+@include vf-p-icon-import;
+@include vf-p-icon-in-progress;
+@include vf-p-icon-info;
+@include vf-p-icon-inspector-debug;
+@include vf-p-icon-warning-grey;
+@include vf-p-icon-spinner;
+@include vf-p-icon-controllers;
+@include vf-p-icon-change-version;
+@include vf-p-icon-loading-steps;
+@include vf-p-icon-lock-locked-active;
+@include vf-p-icon-lock-locked;
+@include vf-p-icon-lock-unlock;
+@include vf-p-icon-machines;
+@include vf-p-icon-maximise-bar;
+@include vf-p-icon-menu;
+@include vf-p-icon-minimise-bar;
+@include vf-p-icon-minus;
+@include vf-p-icon-models;
+@include vf-p-icon-mount-2;
+@include vf-p-icon-mount;
+@include vf-p-icon-open-terminal;
+@include vf-p-icon-pin;
+@include vf-p-icon-plans;
+@include vf-p-icon-plus;
+@include vf-p-icon-pods;
+@include vf-p-icon-power-error;
+@include vf-p-icon-power-off;
+@include vf-p-icon-power-on;
+@include vf-p-icon-profile;
+@include vf-p-icon-help;
+@include vf-p-icon-restart;
+@include vf-p-icon-revisions;
+@include vf-p-icon-search;
+@include vf-p-icon-security;
+@include vf-p-icon-settings;
+@include vf-p-icon-share;
+@include vf-p-icon-show;
+@include vf-p-icon-sort-both;
+@include vf-p-icon-sort-down;
+@include vf-p-icon-sort-up;
+@include vf-p-icon-starred;
+@include vf-p-icon-status-failed-small;
+@include vf-p-icon-error;
+@include vf-p-icon-status-in-progress-small;
+@include vf-p-icon-status-in-progress;
+@include vf-p-icon-status-queued-small;
+@include vf-p-icon-status-queued;
+
 // import cookie policy
 @import "@canonical/cookie-policy/build/css/cookie-policy";
 
@@ -23,12 +76,29 @@ $font-allow-cyrillic-greek-latin: true;
   padding: 0.5rem;
 
   &.typeface {
-    background-color: #f7f7f7;
+    background-color: $color-light;
     height: min-content;
     padding: 1.5rem 0.625rem 0.625rem 0.625rem;
   }
 
-  .p-inline-list__item {
-    display: inline-block;
+  &.logo_thumb {
+    margin-bottom: 0.5rem;
   }
+
+  &.icons_thumb {
+    display: grid;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+    background-color: $color-light;
+
+    .icon__item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.resources__dark_mode {
+  background-color: $color-brand !important;
+  color: $color-x-light;
 }
