@@ -1,7 +1,5 @@
 // settings
 $font-allow-cyrillic-greek-latin: true;
-$color-aubergine: #5e2750;
-$color-accent-background: $color-aubergine;
 
 // Import Vanilla framework
 @import "vanilla-framework";
@@ -88,14 +86,14 @@ $color-accent-background: $color-aubergine;
   }
 
   &.icons_thumb {
+    background-color: $color-light;
     display: grid;
     grid-template-columns: repeat(10, minmax(0, 1fr));
-    background-color: $color-light;
 
     .icon__item {
+      align-items: center;
       display: flex;
       justify-content: center;
-      align-items: center;
     }
   }
 }
