@@ -2,7 +2,7 @@
 $font-allow-cyrillic-greek-latin: true;
 
 // Import Vanilla framework
-@import 'vanilla-framework';
+@import "vanilla-framework";
 @include vanilla;
 
 @include vf-p-icons;
@@ -86,14 +86,14 @@ $font-allow-cyrillic-greek-latin: true;
   }
 
   &.icons_thumb {
+    background-color: $color-light;
     display: grid;
     grid-template-columns: repeat(10, minmax(0, 1fr));
-    background-color: $color-light;
 
     .icon__item {
+      align-items: center;
       display: flex;
       justify-content: center;
-      align-items: center;
     }
   }
 }

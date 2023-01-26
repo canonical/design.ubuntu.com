@@ -2,16 +2,6 @@
 
 {% block body %}
 
-  {% if path.startswith('/brand') %}
-      {% include "_includes/nav-brand.html" %}
-  {% endif %}
-
-  <div class="p-strip is-shallow ">
-    <div class="row">
-      <h1 class="u-no-margin--bottom">{% block title %}{% endblock %}</h1>
-    </div>
-  </div>
-
   {% block content %}{% endblock %}
 
 {% endblock %}
