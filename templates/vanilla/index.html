@@ -84,84 +84,71 @@
   </div>
 </div>
 
-<div class="p-strip is-deep l-full-width" id="guidelines">
+<section class="p-strip l-full-width">
   <div class="l-main">
-    <div class="row u-equal-height">
-      <div class="col-4">
-        <h2>Guidelines</h2>
-        <p>If you are <a href="https://vanillaframework.io/contribute">contributing to Vanilla</a>, make sure to read and
-          follow these guidelines.</p>
-        <ul class="p-list--divided">
-          <li class="p-list__item">
-            <a href="/accessibility" class="p-link">Accessibility</a>
-          </li>
-          <li class="p-list__item">
-            <a href="https://vanillaframework.io/browser-support" class="p-link">Browser support</a>
-          </li>
-        </ul>
+    <div class="row">
+      <div class="col-6 col-medium-2">
+        <h2>Documentation</h2>
       </div>
-      <div class="col-8 u-vertically-center u-align--center">
-        {{ image (
-        url="https://assets.ubuntu.com/v1/af1e0f04-guidelines-illustration.svg",
-        alt="",
-        width="378",
-        height="200",
-        hi_def=True,
-        loading="auto|lazy"
-        ) | safe
-        }}
+      <div class="col-6 col-medium-4">
+        <p>Vanilla framework documentation contains everything you need to know to download, install and use it in your projects.</p>
+        <p>Learn about the settings, base styles, components, utilities, layouts to build the sites or apps.</p>
+        <a href="https://vanillaframework.io/docs">Read Vanilla framework documentation</a>
       </div>
     </div>
   </div>
-</div>
+</section>
 
 <div class="l-full-width">
   <div class="l-main">
-    <div class="row">
+    <div class="u-fixed-width">
       <hr />
     </div>
   </div>
 </div>
 
-<div class="p-strip is-deep l-full-width" id="building-with-vanilla">
+<section class="p-strip l-full-width">
   <div class="l-main">
     <div class="row">
-      <div class="col-4">
-        <h2>Building with Vanilla</h2>
+      <div class="col-6 col-medium-2">
+        <h2>Source code</h2>
       </div>
-    </div>
-    <div class="row">
-      <div class="p-card--highlighted col-4">
-        <div class="p-heading-icon--small">
-          <div class="p-heading-icon__header">
-            <img class="p-heading-icon__img" src="https://assets.ubuntu.com/v1/0276b842-github-icon.svg"
-                alt="GitHub repo:" />
-            <h3 class="p-heading-icon__title">Vanilla Framework</h3>
-          </div>
-          <p>Use our CSS framework to start building&nbsp;your project.</p>
-          <p style="margin-bottom: 0px;"><a class="p-button"
-                                            href="https://github.com/canonical/vanilla-framework/releases/latest">Download
-            latest Vanilla</a></p>
-          <small>See the <a href="https://github.com/canonical/vanilla-framework/releases">release notes</a> for details
-            on the latest&nbsp;updates.</small>
-        </div>
-      </div>
-      <div class="p-card--highlighted col-4">
-        <div class="p-heading-icon--small">
-          <div class="p-heading-icon__header">
-            <img class="p-heading-icon__img" src="https://assets.ubuntu.com/v1/9a5b9c51-sketch-icon.svg"
-                alt="Sketch library:" />
-            <h3 class="p-heading-icon__title">Vanilla Design</h3>
-          </div>
-          <p>Get our Sketch library of common design components.</p>
-          <p style="margin-bottom: 0px;"><a class="p-button"
-                                            href="https://assets.ubuntu.com/latest-redirects/vanilla-framework.sketch">Download
-            the Sketch UI Kit</a></p>
-          <small><i class="p-icon--warning"></i> The Sketch UI Kit is no longer maintained. Current version is compatible
-            with Vanilla v2.25.</small>
-        </div>
+      <div class="col-6 col-medium-4">
+        <p>Anyone can contribute to Vanilla, improve it and extend it. All the code is available on GitHub and is licensed under LGPLv3 by Canonical.</p>
+        <ul class="p-list--divided">
+          <li class="p-list__item"><a href="https://github.com/canonical/vanilla-framework/">Browse the source code on GitHub</a></li>
+          <li class="p-list__item"><a href="https://github.com/canonical/vanilla-framework/releases/latest">Download latest release</a></li>
+          <li class="p-list__item"><a href="https://github.com/canonical/vanilla-framework/issues/new/choose">Report a bug or propose a new feature</a></li>
+        </ul>
       </div>
     </div>
   </div>
+</section>
+
+<div class="l-full-width">
+  <div class="l-main">
+    <div class="u-fixed-width">
+      <hr />
+    </div>
+  </div>
 </div>
+
+<section class="p-strip l-full-width">
+  <div class="l-main">
+    <div class="row">
+      <div class="col-6 col-medium-2">
+        <h2>Design</h2>
+      </div>
+      <div class="col-6 col-medium-4">
+        <p>Alongside the Vanilla CSS framework we also provide tools to help you build your designs using our most up-to-date responsive components.</p>
+        <ul class="p-list--divided">
+          <li class="p-list__item"><a href="https://www.figma.com/file/H6MSsN3taoXXOJCPUbIImQ/Design-System-Library?node-id=803%3A9310&t=W0OglotYBvqZyM1e-1">Figma library</a></li>
+          <li class="p-list__item"><a href="https://assets.ubuntu.com/latest-redirects/vanilla-framework.sketch">Sketch UI kit</a> <small>(no longer maintained, compatible with Vanilla v2.25).</small></li>
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+</section>
 {% endblock %}
