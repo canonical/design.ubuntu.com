@@ -3,94 +3,99 @@
 {% block title %}Ubuntu font{% endblock %}
 
 {% block content %}
-<section class="p-strip--accent is-deep">
-  <div class="row">
-    <div class="col-4 col-medium-2">
-      <h1 class="p-heading--2">Ubuntu font</h1>
-    </div>
-    <div class="col-6 col-medium-4">
-      <p>The way typography is used says as much about our brand as the words themselves.</p>
-      <p>The Ubuntu typeface has been specially created to complement the Ubuntu tone of voice. It has a contemporary style and contains characteristics unique to the Ubuntu brand that convey a precise, reliable and free attitude.</p>
+<section class="p-strip--accent is-deep l-full-width">
+  <div class="l-main">
+    <div class="row">
+      <div class="col-4 col-medium-2">
+        <h1 class="p-heading--2">Ubuntu font</h1>
+      </div>
+      <div class="col-6 col-medium-4">
+        <p>The way typography is used says as much about our brand as the words themselves.</p>
+        <p>The Ubuntu typeface has been specially created to complement the Ubuntu tone of voice. It has a contemporary style and contains characteristics unique to the Ubuntu brand that convey a precise, reliable and free attitude.</p>
+      </div>
     </div>
   </div>
 </section>
-<section class="p-strip--light is-deep">
-  <div class="row">
-    <div class="col-4 col-medium-2">
-      <h2>Font Variants</h2>
-      <p>We use the Ubuntu font family by default, but you can specify any other font family to better suit your project.</p>
-    </div>
-    <div class="col-8 col-medium-4">
-      <div class="row u-equal-height">
-        <div class="col-4 p-card is-light">
-          <h3 class="p-card__title">Ubuntu</h3>
-          <p style="font-size: 24px;">It’s no use going back to yesterday, because I was a different person then.</p>
-        </div>
-        <div class="col-4 p-card">
-          <h3 class="p-card__title" style="font-family: 'Ubuntu Mono';">Ubuntu Monospace</h3>
-          <p style="font-family: 'Ubuntu Mono'; font-size: 16px;">
-            A: Would you tell me, please, which way I ought to go from here?<br /> C: That depends a good deal on where you want to get to.
-          </p>
+<section class="p-strip--light is-deep l-full-width">
+  <div class="l-main">
+    <div class="row">
+      <div class="col-4 col-medium-2">
+        <h2>Font Variants</h2>
+        <p>We use the Ubuntu font family by default, but you can specify any other font family to better suit your project.</p>
+      </div>
+      <div class="col-8 col-medium-4">
+        <div class="row u-equal-height">
+          <div class="col-4 p-card is-light">
+            <h3 class="p-card__title">Ubuntu</h3>
+            <p style="font-size: 24px;">It’s no use going back to yesterday, because I was a different person then.</p>
+          </div>
+          <div class="col-4 p-card">
+            <h3 class="p-card__title" style="font-family: 'Ubuntu Mono';">Ubuntu Monospace</h3>
+            <p style="font-family: 'Ubuntu Mono'; font-size: 16px;">
+              A: Would you tell me, please, which way I ought to go from here?<br /> C: That depends a good deal on where you want to get to.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="p-strip is-deep ">
-  <div class="row">
-    <div class="col-8">
-      <h2>Ubuntu font tester</h2>
-      <p>
-        The family supports the full Latin, Cyrillic and Greek alphabets, as well as Esperanto, with combining diacritical marks and a wide range of punctuation.
-      </p>
-    </div>
-    <div>
-      <label for="family">Family</label>
-      <select class="js-font-select" name="family" onchange="updateFontVariations()">
-        <option value="ubuntu" selected>Ubuntu</option>
-        <option value="monospace">Ubuntu Monospace</option>
-      </select>
-    </div>
-    <div>
-      <label for="style">Style</label>
-      <select class="js-font-select" name="style" onchange="updateFontVariations()">
-        <option value="normal" selected>Normal</option>
-        <option value="italic">Italic</option>
-      </select>
-    </div>
-    <div>
-      <label for="size">Size (<span id="size_tag">16px</span>)</label>
-      <input 
-        id="size" 
-        type="range" 
-        min="8" 
-        max="48" 
-        value="16" 
-        step="1" 
-        style="appearance: auto" 
-        oninput="updateFontVariations()"
+<section class="p-strip is-deep l-full-width">
+  <div class="l-main">
+    <div class="row">
+      <div class="col-8">
+        <h2>Ubuntu font tester</h2>
+        <p>
+          The family supports the full Latin, Cyrillic and Greek alphabets, as well as Esperanto, with combining diacritical marks and a wide range of punctuation.
+        </p>
+      </div>
+      <div>
+        <label for="family">Family</label>
+        <select class="js-font-select" name="family" onchange="updateFontVariations()">
+          <option value="ubuntu" selected>Ubuntu</option>
+          <option value="monospace">Ubuntu Monospace</option>
+        </select>
+      </div>
+      <div>
+        <label for="style">Style</label>
+        <select class="js-font-select" name="style" onchange="updateFontVariations()">
+          <option value="normal" selected>Normal</option>
+          <option value="italic">Italic</option>
+        </select>
+      </div>
+      <div>
+        <label for="size">Size (<span id="size_tag">16px</span>)</label>
+        <input 
+          id="size" 
+          type="range" 
+          min="8" 
+          max="48" 
+          value="16" 
+          step="1" 
+          style="appearance: auto" 
+          oninput="updateFontVariations()"
+        >
+      </div>
+      <div>
+        <label for="weight">Weight (<span id="weight_tag">400</span>)</label>
+        <input 
+          id="weight" 
+          type="range" 
+          min="100" 
+          max="800" 
+          value="400" 
+          step="1" 
+          style="appearance: auto" 
+          oninput="updateFontVariations()"
+        >
+      </div>
+      <textarea 
+        id="font-tester"
+        class="font-tester__demo js-font-demo"
+        data-family="ubuntu" 
+        data-style="normal" 
+        data-color="black"
       >
-    </div>
-    <div>
-      <label for="weight">Weight (<span id="weight_tag">400</span>)</label>
-      <input 
-        id="weight" 
-        type="range" 
-        min="100" 
-        max="800" 
-        value="400" 
-        step="1" 
-        style="appearance: auto" 
-        oninput="updateFontVariations()"
-      >
-    </div>
-    <textarea 
-      id="font-tester"
-      class="font-tester__demo js-font-demo"
-      data-family="ubuntu" 
-      data-style="normal" 
-      data-color="black"
-    >
 Type your text here
 
 Latin sample:
@@ -101,107 +106,114 @@ Cyrillic sample:
 
 Greek sample:
 Λορεμ ιπσθμ δολορ σιτ αμετ, μεα νατθμ ηαβεμθσ νο σιτ.
-    </textarea>
+      </textarea>
+    </div>
   </div>
 </section>
 
-<div class="p-strip--accent is-dark is-deep">
-  <div class="row">
-    <div class="col-4 col-medium-2">
-      <h2>About the Ubuntu font family</h2>
-    </div>
-    <div class="col-8 col-medium-4">
-      <p>The Ubuntu font family are a set of matching new libre/open fonts. The development is being funded by <a href="http://www.canonical.com/" class="p-link--inverted">Canonical</a> on behalf the wider Free Software community and the Ubuntu project.
-        The technical font design work and implementation is being undertaken by <a href="http://www.daltonmaag.com/" class="p-link--inverted">Dalton&nbsp;Maag</a>.</p>
-      <p>Both the final font Truetype/OpenType files and the design files used to produce the font family are distributed under an <a href="http://www.ubuntu.com/legal/terms-and-policies/font-licence" class="p-link--inverted">open licence</a> and you are
-        expressly encouraged to experiment, modify, share and improve. The typeface is sans-serif, uses OpenType features and is manually hinted for clarity on desktop and mobile computing screens.</p>
-      <p>The scope of the Ubuntu Font Family includes all the languages used by the various Ubuntu users around the world in tune with Ubuntu&apos;s philosophy which states that every user should be able to use their software in the language of their choice.
-        So the Ubuntu Font Family project will be extended to cover many more written languages.</p>
-    </div>
-  </div>
-</div>
-
-<div class="p-strip--light is-deep is-bordered">
-  <div class="row">
-    <div class="col-8 u-sv3">
-      <h2>Facts and figures</h2>
-      <p>
-        The Ubuntu font family is a sans-serif typeface family available in 22 styles plus a variable font with adjustable weight and width axes. . Its fixed-width companion, Ubuntu Mono, comes in 8 styles and a variable font with an adjustable weight axis.
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-4 col-medium-2">
-      <h3>Coverage</h3>
-    </div>
-    <div class="col-8 col-medium-4">
-      <p>1,200 glyphs, 200-250 languages (native languages of 3 billion people!).</p>
-    </div>
-  </div>
-  <div class="row u-sv3">
-    <hr />
-  </div>
-  <div class="row">
-    <div class="col-4 col-medium-2">
-      <h3>Technology</h3>
-    </div>
-    <div class="col-8 col-medium-4">
-      <p>
-        The pixels-per-em 7-segment digits are driven by the hint engine (substituted from the DejaVu fonts), so if hinting is by default off (e.g. Firefox) then the output will show as a pair of &ldquo;88&rdquo; numerals.
-      </p>
-      <ul class="p-list">
-        <li class="p-list__item is-ticked">OpenType-based TTF (TrueType)</li>
-        <li class="p-list__item is-ticked">Variable fonts</li>
-        <li class="p-list__item is-ticked">
-          Alternative glyphs (e.g. proportional/non-proportional/superscript/subscript numerals)
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="row u-sv3">
-    <hr />
-  </div>
-  <div class="row">
-    <div class="col-4 col-medium-2">
-      <h3>Design</h3>
-    </div>
-    <div class="col-8 col-medium-4">
-      <p>
-        The four Latin characters, &apos;n o H O&apos; helped to define a guide for around 80-percent of the remaining characters.
-      </p>
-      <p>Software used:</p>
-      <ul class="p-list">
-        <li class="p-list__item is-ticked">
-          Fontlab Studio, 
-          <a href="http://robofont.com" rel="noopener noreferrer">RoboFonts</a>, 
-          <a href="https://glyphsapp.com" rel="noopener noreferrer">Glyphs</a>
-        </li>
-        <li class="p-list__item is-ticked">
-          Automated build process based on 
-          <a href="https://github.com/googlefonts/gftools" rel="noopener noreferrer">gftools</a>, 
-          <a href="https://github.com/googlefonts/fontmake" rel="noopener noreferrer">fontmake</a>, 
-          <a href="https://github.com/fonttools/fonttools" rel="noopener noreferrer">fontTools</a>
-        </li>
-        <li class="p-list__item is-ticked">In-house Python-based scripts</li>
-      </ul>
+<div class="p-strip--accent is-dark is-deep l-full-width">
+  <div class="l-main">
+    <div class="row">
+      <div class="col-4 col-medium-2">
+        <h2>About the Ubuntu font family</h2>
+      </div>
+      <div class="col-8 col-medium-4">
+        <p>The Ubuntu font family are a set of matching new libre/open fonts. The development is being funded by <a href="http://www.canonical.com/" class="p-link--inverted">Canonical</a> on behalf the wider Free Software community and the Ubuntu project.
+          The technical font design work and implementation is being undertaken by <a href="http://www.daltonmaag.com/" class="p-link--inverted">Dalton&nbsp;Maag</a>.</p>
+        <p>Both the final font Truetype/OpenType files and the design files used to produce the font family are distributed under an <a href="http://www.ubuntu.com/legal/terms-and-policies/font-licence" class="p-link--inverted">open licence</a> and you are
+          expressly encouraged to experiment, modify, share and improve. The typeface is sans-serif, uses OpenType features and is manually hinted for clarity on desktop and mobile computing screens.</p>
+        <p>The scope of the Ubuntu Font Family includes all the languages used by the various Ubuntu users around the world in tune with Ubuntu&apos;s philosophy which states that every user should be able to use their software in the language of their choice.
+          So the Ubuntu Font Family project will be extended to cover many more written languages.</p>
+      </div>
     </div>
   </div>
 </div>
 
-<section class="p-strip is-deep">
-  <div class="row">
-    <div class="col-4 col-medium-2">
-      <h2>Resources</h2>
+<div class="p-strip--light is-deep is-bordered l-full-width">
+  <div class="l-main">
+    <div class="row">
+      <div class="col-8 u-sv3">
+        <h2>Facts and figures</h2>
+        <p>
+          The Ubuntu font family is a sans-serif typeface family available in 22 styles plus a variable font with adjustable weight and width axes. . Its fixed-width companion, Ubuntu Mono, comes in 8 styles and a variable font with an adjustable weight axis.
+        </p>
+      </div>
     </div>
-    <div class="col-8 col-medium-4">
-      <ul class="p-list--divided">
-        <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip">Download the Ubuntu Font Family</a> (2.2MB)</li>
-        <li class="p-list__item"><p><a href="https://assets.ubuntu.com/v1/0f5898c1-ubuntu-font-family-sources_0.83.orig.tar.gz">Download the Ubuntu Font Family source code</a></p> (For font designers with a copy of Font Lab Studio, 8.4MB)</li>
-        <li class="p-list__item"><a href="https://fonts.google.com/?query=Ubuntu">Google Fonts</a></li>
-        <li class="p-list__item"><a href="http://launchpad.net/ubuntu-font-family">Launchpad</a></li>
-        <li class="p-list__item"><a href="http://wiki.ubuntu.com/Ubuntu_Font_Family">Wiki documentation</a></li>
-      </ul>
-      <p><a href="https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip" class="p-button--positive">Download for free</a></p>
+    <div class="row">
+      <div class="col-4 col-medium-2">
+        <h3>Coverage</h3>
+      </div>
+      <div class="col-8 col-medium-4">
+        <p>1,200 glyphs, 200-250 languages (native languages of 3 billion people!).</p>
+      </div>
+    </div>
+    <div class="row u-sv3">
+      <hr />
+    </div>
+    <div class="row">
+      <div class="col-4 col-medium-2">
+        <h3>Technology</h3>
+      </div>
+      <div class="col-8 col-medium-4">
+        <p>
+          The pixels-per-em 7-segment digits are driven by the hint engine (substituted from the DejaVu fonts), so if hinting is by default off (e.g. Firefox) then the output will show as a pair of &ldquo;88&rdquo; numerals.
+        </p>
+        <ul class="p-list">
+          <li class="p-list__item is-ticked">OpenType-based TTF (TrueType)</li>
+          <li class="p-list__item is-ticked">Variable fonts</li>
+          <li class="p-list__item is-ticked">
+            Alternative glyphs (e.g. proportional/non-proportional/superscript/subscript numerals)
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row u-sv3">
+      <hr />
+    </div>
+    <div class="row">
+      <div class="col-4 col-medium-2">
+        <h3>Design</h3>
+      </div>
+      <div class="col-8 col-medium-4">
+        <p>
+          The four Latin characters, &apos;n o H O&apos; helped to define a guide for around 80-percent of the remaining characters.
+        </p>
+        <p>Software used:</p>
+        <ul class="p-list">
+          <li class="p-list__item is-ticked">
+            Fontlab Studio, 
+            <a href="http://robofont.com" rel="noopener noreferrer">RoboFonts</a>, 
+            <a href="https://glyphsapp.com" rel="noopener noreferrer">Glyphs</a>
+          </li>
+          <li class="p-list__item is-ticked">
+            Automated build process based on 
+            <a href="https://github.com/googlefonts/gftools" rel="noopener noreferrer">gftools</a>, 
+            <a href="https://github.com/googlefonts/fontmake" rel="noopener noreferrer">fontmake</a>, 
+            <a href="https://github.com/fonttools/fonttools" rel="noopener noreferrer">fontTools</a>
+          </li>
+          <li class="p-list__item is-ticked">In-house Python-based scripts</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="p-strip is-deep l-full-width">
+  <div class="l-main">
+    <div class="row">
+      <div class="col-4 col-medium-2">
+        <h2>Resources</h2>
+      </div>
+      <div class="col-8 col-medium-4">
+        <ul class="p-list--divided">
+          <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip">Download the Ubuntu Font Family</a> (2.2MB)</li>
+          <li class="p-list__item"><p><a href="https://assets.ubuntu.com/v1/0f5898c1-ubuntu-font-family-sources_0.83.orig.tar.gz">Download the Ubuntu Font Family source code</a></p> (For font designers with a copy of Font Lab Studio, 8.4MB)</li>
+          <li class="p-list__item"><a href="https://fonts.google.com/?query=Ubuntu">Google Fonts</a></li>
+          <li class="p-list__item"><a href="http://launchpad.net/ubuntu-font-family">Launchpad</a></li>
+          <li class="p-list__item"><a href="http://wiki.ubuntu.com/Ubuntu_Font_Family">Wiki documentation</a></li>
+        </ul>
+        <p><a href="https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip" class="p-button--positive">Download for free</a></p>
+      </div>
     </div>
   </div>
 </section>
