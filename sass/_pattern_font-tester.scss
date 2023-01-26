@@ -1,32 +1,19 @@
 @mixin design-p-font-tester {
   .font-tester {
     &__demo {
-      background-color: transparent;
       height: 300px;
       margin: $sp-xx-large 0;
-      overflow: hidden;
+      overflow-y: auto;
       width: 100%;
-
-      &[data-size="16"] { font-size: 16px;}
-      &[data-size="21"] { font-size: 21px;}
-      &[data-size="24"] { font-size: 24px;}
-      &[data-size="36"] { font-size: 36px;}
-      &[data-size="48"] { font-size: 48px;}
-
-      &[data-weight="thin"] { font-weight: 100;}
-      &[data-weight="light"] { font-weight: 300;}
-      &[data-weight="regular"] { font-weight: 400; }
-      &[data-weight="medium"] { font-weight: 500; }
-      &[data-weight="bold"] { font-weight: 700; }
 
       &[data-style="normal"] { font-style: normal; }
       &[data-style="italic"] { font-style: italic; }
 
-      &[data-family="ubuntu"] { font-family: 'Ubuntu'; }
-      &[data-family="condensed"] { font-family: 'Ubuntu Condensed'; }
-      &[data-family="monospace"] { font-family: 'Ubuntu Mono'; }
+      &[data-family="ubuntu"] { font-family: 'Ubuntu variable'; }
+      &[data-family="monospace"] { font-family: 'Ubuntu Mono variable'; }
 
       &[data-color="black"] { color: $color-dark; }
+      &[data-color="red"] { color: $color-negative; }
       &[data-color="orange"] { color: $color-accent; }
     }
   }
