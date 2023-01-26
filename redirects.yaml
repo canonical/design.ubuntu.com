@@ -2,3 +2,4 @@
 /scopes(.*): https://docs.ubuntu.com/phone/en/scopes/index
 /font/ufl(.*): https://ubuntu.com/legal/font-licence
 /downloads(.*): /resources
+/web(.*): /vanilla
