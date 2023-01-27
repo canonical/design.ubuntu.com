@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-**What kind of resource/asset you are looking for? (logo, image, icon, banner, etc)**
+**What kind of resource or asset are you looking for?**
 
-Tell us what kind of resource you are looking for …
+Tell us what kind of resource you are looking for (logo, image, icon, banner, etc) …
 
 **Is it related to any specific product? Where is it going to be used?**
 
