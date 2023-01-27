@@ -3,3 +3,9 @@
 /font/ufl(.*): https://ubuntu.com/legal/font-licence
 /downloads(.*): /resources
 /web(.*): /vanilla
+/brand/canonical-logo(.*): /brand
+/brand/illustration(.*): /brand
+/brand/photography-products(.*): /brand
+/brand/screenshots(.*): /brand
+/brand/ubuntu-logo(.*): /brand
+/brand/ubuntu-partner-logos(.*): /brand
