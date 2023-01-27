@@ -1,10 +1,62 @@
 // settings
 $font-allow-cyrillic-greek-latin: true;
-$color-aubergine:     #5e2750;
 
 // Import Vanilla framework
-@import 'vanilla-framework';
+@import "vanilla-framework";
 @include vanilla;
+
+@include vf-p-icons;
+
+@include vf-p-icon-highlight-off;
+@include vf-p-icon-highlight-on;
+@include vf-p-icon-home;
+@include vf-p-icon-import;
+@include vf-p-icon-in-progress;
+@include vf-p-icon-info;
+@include vf-p-icon-inspector-debug;
+@include vf-p-icon-warning-grey;
+@include vf-p-icon-spinner;
+@include vf-p-icon-controllers;
+@include vf-p-icon-change-version;
+@include vf-p-icon-loading-steps;
+@include vf-p-icon-lock-locked-active;
+@include vf-p-icon-lock-locked;
+@include vf-p-icon-lock-unlock;
+@include vf-p-icon-machines;
+@include vf-p-icon-maximise-bar;
+@include vf-p-icon-menu;
+@include vf-p-icon-minimise-bar;
+@include vf-p-icon-minus;
+@include vf-p-icon-models;
+@include vf-p-icon-mount-2;
+@include vf-p-icon-mount;
+@include vf-p-icon-open-terminal;
+@include vf-p-icon-pin;
+@include vf-p-icon-plans;
+@include vf-p-icon-plus;
+@include vf-p-icon-pods;
+@include vf-p-icon-power-error;
+@include vf-p-icon-power-off;
+@include vf-p-icon-power-on;
+@include vf-p-icon-profile;
+@include vf-p-icon-help;
+@include vf-p-icon-restart;
+@include vf-p-icon-revisions;
+@include vf-p-icon-search;
+@include vf-p-icon-security;
+@include vf-p-icon-settings;
+@include vf-p-icon-share;
+@include vf-p-icon-show;
+@include vf-p-icon-sort-both;
+@include vf-p-icon-sort-down;
+@include vf-p-icon-sort-up;
+@include vf-p-icon-starred;
+@include vf-p-icon-status-failed-small;
+@include vf-p-icon-error;
+@include vf-p-icon-status-in-progress-small;
+@include vf-p-icon-status-in-progress;
+@include vf-p-icon-status-queued-small;
+@include vf-p-icon-status-queued;
 
 // import cookie policy
 @import "@canonical/cookie-policy/build/css/cookie-policy";
@@ -16,4 +68,37 @@ $color-aubergine:     #5e2750;
 .p-icon--canonical {
   @extend %social-icon;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Cpath fill='%23772953' d='M20 32.735c-7.033 0-12.735-5.7-12.735-12.735 0-7.034 5.702-12.735 12.735-12.735 7.034 0 12.736 5.701 12.736 12.735 0 7.035-5.701 12.735-12.735 12.735zM40 20c0 11.046-8.954 20-20 20S0 31.045 0 20C0 8.954 8.954 0 20 0s20 8.954 20 20zM20 4.865C11.64 4.865 4.865 11.641 4.865 20c0 8.36 6.776 15.135 15.135 15.135 8.36 0 15.135-6.775 15.135-15.135 0-8.358-6.775-15.135-15.135-15.135z'/%3E%3C/svg%3E");
+}
+
+// RESOURCES PAGE
+// These are the styles for the resources page
+.resources__content-thumb {
+  padding: 0.5rem;
+
+  &.typeface {
+    background-color: $color-light;
+    height: min-content;
+    padding: 1.5rem 0.625rem 0.625rem 0.625rem;
+  }
+
+  &.logo_thumb {
+    margin-bottom: 0.5rem;
+  }
+
+  &.icons_thumb {
+    background-color: $color-light;
+    display: grid;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+
+    .icon__item {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+.resources__dark_mode {
+  background-color: $color-brand !important;
+  color: $color-x-light;
 }

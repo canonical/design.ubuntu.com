@@ -1,32 +1,19 @@
-if (typeof(core) == "undefined") {
-  var core = {};
-}
+function updateFontVariations() {
+  const weight = document.querySelector("#weight").value;
+  const size = document.querySelector("#size").value;
+  const font = document.querySelector("#font-tester");
+  const selects = document.getElementsByClassName("js-font-select");
+  const size_tag = document.querySelector("#size_tag");
+  const weight_tag = document.querySelector("#weight_tag");
 
-core.fontSelecter = function() {
-  var options = document.querySelectorAll('.js-font-select option');
-  var selects = document.getElementsByClassName('js-font-select');
-  var demo = document.querySelector('.js-font-demo');
+  font.style.fontWeight = weight;
+  font.style.fontSize = `${size}px`;
+  font.style.lineHeight = `${size * 1.5}px`;
 
-  for (var i = 0; i < selects.length; i++) {
-    selects[i].onchange = function() {
-      demo.setAttribute('data-' + this.name, this.value);
-      filterOptions(this.value);
-    }
-  }
+  size_tag.innerHTML = `${size}px`;
+  weight_tag.innerHTML = weight;
 
-  // Disable the options that are not available with current selected options.
-  function filterOptions(value) {
-    options.forEach(function(option) {
-      option.disabled = false;
-    });
-
-    // Disable light and medium font weight for condensed and monospace font faces
-    if (demo.dataset.family === 'condensed' || demo.dataset.family === 'monospace') {
-      options.forEach(function(option) {
-        if (option.value === 'light' || option.value === 'medium') {
-          option.disabled = true;
-        }
-      });
-    }
+  for (let i = 0; i < selects.length; i++) {
+    font.setAttribute("data-" + selects[i].name, selects[i].value);
   }
 }
