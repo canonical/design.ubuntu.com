@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**What kind of resource/asset you are looking for? (logo, image, icon, banner, etc)**
+**What kind of resource/asset are you looking for? (logo, image, icon, banner, etc)**
 
 Tell us what kind of resource you are looking for …
 
