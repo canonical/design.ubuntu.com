@@ -40,12 +40,6 @@
   image_height: 30
   name: Canonical Juju Logo
 
-- svg_link_light: https://assets.ubuntu.com/v1/81527e42-Canonical+LXD+dark+text.svg
-  svg_link_dark: https://assets.ubuntu.com/v1/681f985e-Canonical+LXD+white+text.svg
-  image_width: 139
-  image_height: 30
-  name: Canonical LXD Logo
-
 - svg_link_light: https://assets.ubuntu.com/v1/2cdf1c98-Canonical+OpenStack+dark+text.svg
   svg_link_dark: https://assets.ubuntu.com/v1/1a3e220b-Canonical+OpenStack+white+text.svg
   image_width: 192
