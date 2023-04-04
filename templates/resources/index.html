@@ -1,5 +1,7 @@
-{% extends "_layouts/page-bare.html" %} {% block title %}Resources{% endblock %} {%
-block content %}
+{% extends "_layouts/page-bare.html" %}
+{% block title %}Resources{% endblock %}
+
+{% block content %}
 <section class="p-strip--accent is-deep l-full-width">
   <div class="l-main">
     <div class="row">
@@ -164,6 +166,7 @@ block content %}
                     {{ image (
                       url=item.svg_link_light,
                       alt=item.name,
+                      height=item.image_height,
                       width=item.image_width,
                       hi_def=True,
                       loading="auto|lazy"
@@ -176,6 +179,7 @@ block content %}
                     {{ image (
                       url=item.svg_link_dark,
                       alt=item.name,
+                      height=item.image_height,
                       width=item.image_width,
                       hi_def=True,
                       loading="auto|lazy"
