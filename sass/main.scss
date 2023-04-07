@@ -102,3 +102,9 @@ $font-allow-cyrillic-greek-latin: true;
   background-color: $color-brand !important;
   color: $color-x-light;
 }
+
+.resources_logo {
+  /* remove rounded corners from images to avoid distorting logos */
+  border-radius: 0;
+  height: 3rem;
+}

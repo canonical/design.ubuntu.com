@@ -1,53 +1,35 @@
 - svg_link_light: https://assets.ubuntu.com/v1/563c0d9b-Canonical.svg
   svg_link_dark: https://assets.ubuntu.com/v1/3cf74f71-Canonical%20Dark.svg
-  image_width: 105
-  image_height: 30
   name: Canonical Logo
 
 - svg_link_light: https://assets.ubuntu.com/v1/a7e3c509-Canonical%20Ubuntu.svg
   svg_link_dark: https://assets.ubuntu.com/v1/594d0a0c-Canonical%20Ubuntu%20Dark.svg
-  image_width: 84
-  image_height: 30
   name: Canonical Ubuntu Logo
 
 - svg_link_light: https://assets.ubuntu.com/v1/10140ab8-Canonical%20Snapcraft.svg
   svg_link_dark: https://assets.ubuntu.com/v1/6b7b9995-Canonical%20Snapcraft%20Dark.svg
-  image_width: 109
-  image_height: 30
   name: Canonical Snapcraft Logo
 
 - svg_link_light: https://assets.ubuntu.com/v1/50cd3f20-Canonical%20Anbox.svg
   svg_link_dark: https://assets.ubuntu.com/v1/c65cea90-Canonical%20Anbox%20Dark.svg
-  image_width: 79
-  image_height: 30
   name: Canonical Anbox Logo
 
 - svg_link_light: https://assets.ubuntu.com/v1/e45b7f3f-Canonical%20MAAS.svg
   svg_link_dark: https://assets.ubuntu.com/v1/2eee4c1c-Canonical%20MAAS%20Dark.svg
-  image_width: 75
-  image_height: 30
   name: Canonical MAAS Logo
 
 - svg_link_light: https://assets.ubuntu.com/v1/7a3e288d-Canonical%20Landscape.svg
   svg_link_dark: https://assets.ubuntu.com/v1/1f81cf02-Canonical%20Landscape%20Dark.svg
-  image_width: 115
-  image_height: 30
   name: Canonical Landscape Logo
 
 - svg_link_light: https://assets.ubuntu.com/v1/16a67f91-Canonical%20Juju.svg
   svg_link_dark: https://assets.ubuntu.com/v1/3998e1b9-Canonical%20Juju%20Dark.svg
-  image_width: 57
-  image_height: 30
   name: Canonical Juju Logo
 
 - svg_link_light: https://assets.ubuntu.com/v1/f07eaf0c-Canonical%20OpenStack.svg
   svg_link_dark: https://assets.ubuntu.com/v1/8232828d-Canonical%20OpenStack%20Dark.svg
-  image_width: 118
-  image_height: 30
   name: Canonical Openstack Logo
 
 - svg_link_light: https://assets.ubuntu.com/v1/e5279b88-Canonical%20Kubernetes.svg
   svg_link_dark: https://assets.ubuntu.com/v1/4bbaebaa-Canonical%20Kubernetes%20Dark.svg
-  image_width: 119
-  image_height: 30
   name: Canonical Kubernetes Logo
