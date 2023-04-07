@@ -34,9 +34,9 @@
   image_height: 30
   name: Canonical Landscape Logo
 
-- svg_link_light: https://assets.ubuntu.com/v1/e3a315b9-Canonical%20Juju.svg
-  svg_link_dark: https://assets.ubuntu.com/v1/8c0eb2cb-Canonical%20Juju%20Dark.svg
-  image_width: 138
+- svg_link_light: https://assets.ubuntu.com/v1/16a67f91-Canonical%20Juju.svg
+  svg_link_dark: https://assets.ubuntu.com/v1/3998e1b9-Canonical%20Juju%20Dark.svg
+  image_width: 57
   image_height: 30
   name: Canonical Juju Logo
 
