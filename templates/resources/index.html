@@ -1,5 +1,7 @@
-{% extends "_layouts/page-bare.html" %} {% block title %}Resources{% endblock %} {%
-block content %}
+{% extends "_layouts/page-bare.html" %}
+{% block title %}Resources{% endblock %}
+
+{% block content %}
 <section class="p-strip--accent is-deep l-full-width">
   <div class="l-main">
     <div class="row">
@@ -161,26 +163,12 @@ block content %}
             {% for item in resources_data.logos %}
                 <div class="col-8 col-medium-4 p-list__item light_strip">
                   <a href="{{ item.svg_link_light }}" target="_blank">
-                    {{ image (
-                      url=item.svg_link_light,
-                      alt=item.name,
-                      width=item.image_width,
-                      hi_def=True,
-                      loading="auto|lazy"
-                      ) | safe
-                    }}
+                    <img class="resources_logo" src="{{ item.svg_link_light }}" alt="{{ item.name }}" />
                   </a>
                 </div>
                 <div class="col-8 col-medium-4 p-list__item resources__dark_mode dark_strip u-hide">
                   <a href="{{ item.svg_link_dark }}" target="_blank">
-                    {{ image (
-                      url=item.svg_link_dark,
-                      alt=item.name,
-                      width=item.image_width,
-                      hi_def=True,
-                      loading="auto|lazy"
-                      ) | safe
-                    }}
+                    <img class="resources_logo" src="{{ item.svg_link_dark }}" alt="{{ item.name }}" />
                   </a>
                 </div>
                 {% if loop.index < resources_data.logos|length %}
