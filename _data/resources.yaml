@@ -33,3 +33,11 @@
 - svg_link_light: https://assets.ubuntu.com/v1/e5279b88-Canonical%20Kubernetes.svg
   svg_link_dark: https://assets.ubuntu.com/v1/4bbaebaa-Canonical%20Kubernetes%20Dark.svg
   name: Canonical Kubernetes Logo
+
+- svg_link_light: https://assets.ubuntu.com/v1/f53d0b97-Canonical%20Multipass.svg
+  svg_link_dark: https://assets.ubuntu.com/v1/718b440a-Canonical%20Multipass%20Dark.svg
+  name: Canonical Multipass Logo
+
+- svg_link_light: https://assets.ubuntu.com/v1/096ad2c0-Canonical%20LXD.svg
+  svg_link_dark: https://assets.ubuntu.com/v1/d124abfa-Canonical%20LXD%20Dark.svg
+  name: Canonical LXD Logo
