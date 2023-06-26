@@ -1,6 +1,6 @@
 domain: design.ubuntu.com
 
-image: prod-comms.docker-registry.canonical.com/design.ubuntu.com
+image: prod-comms.ps5.docker-registry.canonical.com/design.ubuntu.com
 
 useProxy: false
 
