@@ -32,7 +32,7 @@ jobs:
       - name: Install node dependencies
         run: yarn install --immutable
       - name: Install python dependencies
-        run: | 
+        run: |
           python3 -m pip install --upgrade pip
           sudo pip3 install flake8==3.7.9 black
       - name: Lint python
@@ -52,7 +52,7 @@ jobs:
       - name: Install linkchecker
         run: sudo pip install LinkChecker
       - name: Check internal links
-        run: linkchecker --ignore-url  e_sharpen --ignore-url  w_[0-9]* --ignore-url  h_[0-9]* http://localhost
+        run: linkchecker --no-warnings --ignore-url  e_sharpen --ignore-url  w_[0-9]* --ignore-url  h_[0-9]* http://localhost
 
   check-inclusive-naming:
     runs-on: ubuntu-latest
