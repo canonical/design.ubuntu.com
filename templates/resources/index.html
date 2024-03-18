@@ -2,30 +2,27 @@
 {% block title %}Resources{% endblock %}
 
 {% block content %}
-<section class="p-strip--accent is-deep l-full-width">
-  <div class="l-main">
-    <div class="row">
-      <div class="col-4 col-medium-2">
-        <h1 class="p-heading--2">Design resources</h1>
-      </div>
-      <div class="col-6 col-medium-4">
-        <p>
-          On this page you will find everything you need to design and build with our design system, including our Figma component library, our icon library and the Ubuntu font.
-        </p>
-      </div>
+<div class="p-suru--50-50">
+  <div class="row--50-50">
+    <div class="col">
+      <h1>Design resources</h1>
+    </div>
+    <div class="col">
+      <p>
+        On this page you will find everything you need to design and build with our design system, including our Figma
+        component library, our icon library and the Ubuntu font.
+      </p>
     </div>
   </div>
-</section>
-<section class="p-strip--light is-deep l-full-width">
+</div>
+<section class="p-section is-deep">
   <div class="l-main">
-    <div class="row">
-      <div class="col-4 col-medium-2">
-        <div class="col-3 col-medium-2">
+    <hr class="p-rule is-fixed-width">
+    <div class="row--50-50">
+      <div class="col">
           <h2>Design system library</h2>
-        </div>
-        <div class="col-1 u-hide--medium u-hide--small"></div>
       </div>
-      <div class="col-6 col-medium-4">
+      <div class="col">
         <p>
           In this Figma library you will find our most up-to-date responsive components to build your designs.
         </p>
@@ -40,172 +37,248 @@
     </div>
   </div>
 </section>
-<div class="p-strip is-deep l-full-width">
-  <div class="l-main">
-    <div class="row">
-      <h2>Brand resources</h2>
-      <hr />
-      <div class="row u-sv3" style="padding-top: 0.5rem;">
-        <div class="col-4 col-medium-2">
-          <h3 class="p-heading--5">Ubuntu typefaces</h3>
-        </div>
-        <div class="col-4 u-hide--medium u-hide--small">
-          <div
-            class="resources__content-thumb typeface"
-          >
-            {{ image (
-              url="https://assets.ubuntu.com/v1/bfe86ea2-ssh_.png",
-              alt="ssh_ written with Ubuntu typeface",
-              width="290",
-              height="129",
-              hi_def=True,
-              loading="auto|lazy"
-              ) | safe
-            }}
-          </div>
-        </div>
-        <div class="col-4 col-medium-4">
-          <p>
-            The Ubuntu font has contemporary style that conveys a precise, reliable and free attitude.
-          </p>
-          <ul class="p-list--divided">
-            <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip">Download the Ubuntu Font Family</a> (2.2MB)</li>
-            <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/0f5898c1-ubuntu-font-family-sources_0.83.orig.tar.gz">Download the Ubuntu Font Family source code</a> (8.4MB)</li>
-          </ul>
-        </div>
+<div class="p-section is-deep">
+  <div class="u-fixed-width">
+    <h2 class="p-text--small-caps">Brand resources</h2>
+    <hr class="p-rule is-fixed-width" />
+  </div>
+  <div class="row--50-50 p-section">
+    <div class="col">
+      <h3 class="p-heading--2">Ubuntu typefaces</h3>
+    </div>
+    <div class="col">
+      <div class="resources__content-thumb typeface">
+        {{ image (
+        url="https://assets.ubuntu.com/v1/bfe86ea2-ssh_.png",
+        alt="ssh_ written with Ubuntu typeface",
+        width="290",
+        height="129",
+        hi_def=True,
+        loading="auto|lazy"
+        ) | safe
+        }}
       </div>
-      <hr class="u-no-margin--top" />
-      <div class="row u-sv3">
-        <div class="col-4 col-medium-2">
-          <h3 class="p-heading--5">Icon set</h3>
-        </div>
-        <div
-          class="col-4 u-hide--medium u-hide--small resources__content-thumb icons_thumb"
-          id="icon_content_thumb"
+      <p>
+        The Ubuntu font has contemporary style that conveys a precise, reliable and free attitude.
+      </p>
+      <ul class="p-list--divided">
+        <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip">Download the Ubuntu Font Family</a> (2.2MB)</li>
+        <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/0f5898c1-ubuntu-font-family-sources_0.83.orig.tar.gz">Download the Ubuntu Font Family source code</a> (8.4MB)</li>
+      </ul>
+    </div>
+  </div>
+  <hr class="p-rule is-fixed-width" />
+  <div class="row--50-50 p-section">
+    <div class="col">
+      <h3 class="p-heading--2">Icon set</h3>
+    </div>
+    <div class="col">
+      <div
+        class="u-hide--medium u-hide--small resources__content-thumb icons_thumb p-image-wrapper"
+        id="icon_content_thumb"
+      >
+        {% for item in resources_data.icons %}
+          <div  class="icon__item">
+            <i
+              class="p-icon--{{ item.name }}"
+              style="width: 1rem; height: 1rem; margin-bottom: 1rem"
+            ></i>
+          </div>
+        {% endfor %}
+      </div>
+      <label class="p-switch u-hide--medium u-hide--small">
+        <input
+          type="checkbox"
+          class="p-switch__input"
+          role="switch"
+          id="icon_switch"
+          onchange="switchIconThumbTheme()"
         >
-          {% for item in resources_data.icons %}
-            <div  class="icon__item">
-              <i
-                class="p-icon--{{ item.name }}"
-                style="width: 18px; height: 18px;"
-              ></i>
+        <span class="p-switch__slider"></span>
+        <span class="p-switch__label">Dark mode</span>
+      </label>
+      <p>
+        Our icon library includes our generic UI iconography as well as some bespoke concepts.
+      </p>
+      <p>
+        <a href="https://vanillaframework.io/docs/patterns/icons">Use the icons in Vanilla</a>
+      </p>
+    </div>
+  </div>
+  <hr class="p-rule is-fixed-width" />
+  <div class="row--50-50 p-section">
+    <div class="col">
+      <h3 class="p-heading--2">Wallpapers</h3>
+    </div>
+    <div class="col">
+      <div
+        class="col u-hide--medium u-hide--small p-image-wrapper"
+      >
+        {{ image (
+          url="https://assets.ubuntu.com/v1/ec6cc515-wallpaper_minotaur_colour_1920x1080.png",
+          alt="",
+          width="1920",
+          height="1080",
+          hi_def=True,
+          loading="auto|lazy"
+          ) | safe
+        }}
+      </div>
+      <p>
+        Ubuntu wallpapers and the mascot are important parts of our brand identity.
+      </p>
+      <p>
+        <a href="https://drive.google.com/drive/folders/1dKGvGgFp4ymGNBPU6LRScfBm4KuwIn2c?usp=sharing">Browse the mascot wallpapers</a>
+      </p>
+    </div>
+  </div>
+  <hr class="p-rule is-fixed-width" />
+  <div class="row--50-50 p-section">
+    <div class="col">
+      <h3 class="p-heading--2">Slide template</h3>
+    </div>
+    <div class="col">
+      <div class="u-hide--medium u-hide--small p-image-wrapper">
+        {{ image (
+          url="https://assets.ubuntu.com/v1/59e3bb07-Slide_template.png",
+          alt="",
+          width="780",
+          height="440",
+          hi_def=True,
+          loading="auto|lazy"
+          ) | safe
+        }}
+      </div>
+      <p>
+        Use this template to create presentations with the Canonical branding style.
+      </p>
+      <p>
+        <a href="https://docs.google.com/presentation/u/0/?tgif=d&ftv=1">Use the slide template (internal)</a>
+      </p>
+    </div>
+  </div>
+  <hr class="p-rule is-fixed-width" />
+  <div class="row--50-50 p-section">
+    <div class="col">
+      <h3 class="p-heading--2" id="logos">Logos</h3>
+    </div>
+    <div class="col resources__content-thumb logo_thumb">
+      <label class="p-switch">
+        <input
+          type="checkbox"
+          class="p-switch__input"
+          role="switch" id="logo_switch"
+          onchange="switchLogoThumbTheme()"
+        >
+        <span class="p-switch__slider"></span>
+        <span class="p-switch__label">Dark mode</span>
+      </label>
+      <div class="resources__content-thumb" id="logo_content_thumb">
+        {% for item in resources_data.logos %}
+            <div class="col-8 col-medium-4 p-list__item light_strip">
+              <a href="{{ item.svg_link_light }}" target="_blank">
+                <img class="resources_logo" src="{{ item.svg_link_light }}" alt="{{ item.name }}" />
+              </a>
             </div>
-          {% endfor %}
-        </div>
-        <div class="col-4 col-medium-4">
-          <label class="p-switch u-hide--medium u-hide--small">
-            <input
-              type="checkbox"
-              class="p-switch__input"
-              role="switch"
-              id="icon_switch"
-              onchange="switchIconThumbTheme()"
-            >
-            <span class="p-switch__slider"></span>
-            <span class="p-switch__label">Dark mode</span>
-          </label>
-          <p>
-            Our icon library includes our generic UI iconography as well as some bespoke concepts.
-          </p>
-          <p>
-            <a href="https://vanillaframework.io/docs/patterns/icons">Use the icons in Vanilla</a>
-          </p>
-        </div>
-      </div>
-      <hr class="u-no-margin--top" />
-      <div class="row u-sv3">
-        <div class="col-4 col-medium-2">
-          <h3 class="p-heading--5">Wallpapers</h3>
-        </div>
-        <div
-          class="col-4 u-hide--medium u-hide--small"
-        >
-          {{ image (
-            url="https://assets.ubuntu.com/v1/ec6cc515-wallpaper_minotaur_colour_1920x1080.png",
-            alt="",
-            width="1920",
-            height="1080",
-            hi_def=True,
-            loading="auto|lazy"
-            ) | safe
-          }}
-        </div>
-        <div class="col-4 col-medium-4">
-          <p>
-            Ubuntu wallpapers and the mascot are important parts of our brand identity.
-          </p>
-          <p>
-            <a href="https://drive.google.com/drive/folders/1dKGvGgFp4ymGNBPU6LRScfBm4KuwIn2c?usp=sharing">Browse the mascot wallpapers</a>
-          </p>
-        </div>
-      </div>
-      <hr class="u-no-margin--top" />
-      <div class="row u-sv3">
-        <div class="col-4 col-medium-2">
-          <h3 class="p-heading--5">Slide template</h3>
-        </div>
-        <div
-          class="col-4 u-hide--medium u-hide--small"
-        >
-          {{ image (
-            url="https://assets.ubuntu.com/v1/59e3bb07-Slide_template.png",
-            alt="",
-            width="390",
-            height="220",
-            hi_def=True,
-            loading="auto|lazy"
-            ) | safe
-          }}
-        </div>
-        <div class="col-4 col-medium-4">
-          <p>
-            Use this template to create presentations with the Canonical branding style.
-          </p>
-          <p>
-            <a href="https://docs.google.com/presentation/u/0/?tgif=d&ftv=1">Use the slide template (internal)</a>
-          </p>
-        </div>
-      </div>
-      <hr class="u-no-margin--top" />
-      <div class="row">
-        <div class="col-4 col-medium-2">
-          <h3 class="p-heading--5" id="logos">Logos</h3>
-        </div>
-        <div class="col-8 col-medium-4 u-sv3 resources__content-thumb logo_thumb">
-          <div class="row">
-            <div class="col-2 col-medium-2">
-              <label class="p-switch">
-                <input
-                  type="checkbox"
-                  class="p-switch__input"
-                  role="switch" id="logo_switch"
-                  onchange="switchLogoThumbTheme()"
-                >
-                <span class="p-switch__slider"></span>
-                <span class="p-switch__label">Dark mode</span>
-              </label>
+            <div class="col-8 col-medium-4 p-list__item resources__dark_mode dark_strip u-hide">
+              <a href="{{ item.svg_link_dark }}" target="_blank">
+                <img class="resources_logo" src="{{ item.svg_link_dark }}" alt="{{ item.name }}" />
+              </a>
             </div>
-          </div>
-          <div class="col-8 u-no-margin--bottom resources__content-thumb" id="logo_content_thumb">
-            {% for item in resources_data.logos %}
-                <div class="col-8 col-medium-4 p-list__item light_strip">
-                  <a href="{{ item.svg_link_light }}" target="_blank">
-                    <img class="resources_logo" src="{{ item.svg_link_light }}" alt="{{ item.name }}" />
-                  </a>
-                </div>
-                <div class="col-8 col-medium-4 p-list__item resources__dark_mode dark_strip u-hide">
-                  <a href="{{ item.svg_link_dark }}" target="_blank">
-                    <img class="resources_logo" src="{{ item.svg_link_dark }}" alt="{{ item.name }}" />
-                  </a>
-                </div>
-                {% if loop.index < resources_data.logos|length %}
-                    <hr class="u-no-margin--top logo_separator" />
-                {% endif %}
-            {% endfor %}
-          </div>
-        </div>
+            {% if loop.index < resources_data.logos|length %}
+                <hr class="u-no-margin--top logo_separator" />
+            {% endif %}
+        {% endfor %}
       </div>
     </div>
+    </div>
+</div>
+
+<hr class="p-rule is-fixed-width" />
+<div class="row--50-50 p-section--deep">
+  <div class="col">
+    <h3 class="p-heading--2">
+      Email signature
+    </h3>
+  </div>
+  <div class="col">
+    <table class="c23">
+      <tbody>
+        <tr class="c31">
+          <td class="c24" colspan="2" rowspan="1">
+            <span
+              style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 196.00px; height: 38.67px;"><img
+              alt="Canonical-20th-anniversary" src="https://assets.ubuntu.com/v1/d47bb5aa-image3.png"
+              style="width: 196.00px; height: 38.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+              title="Canonical-20th-anniversary"></span>
+            </td>
+          </tr>
+          <tr class="c14">
+            <td class="c0" colspan="2" rowspan="1">
+              <span class="c5 c12">Hadley Carlisle</span>
+            </td>
+          </tr>
+          <tr class="c10">
+            <td class="c0" colspan="2" rowspan="1">
+              <span class="c5 c8">Visual Designer</span>
+            </td>
+          </tr>
+          <tr class="c13">
+            <td class="c1" colspan="1" rowspan="1">
+              <span class="c5 c8">Email:</span>
+        </td>
+        <td class="c30" colspan="1" rowspan="1">
+          <span class="c5 c12">hadley.carlisle@canonical.com</span>
+        </td>
+      </tr>
+      <tr class="c13">
+        <td class="c1" colspan="1" rowspan="1">
+          <span class="c5 c8">Mailing List:</span>
+        </td>
+        <td class="c22" colspan="1" rowspan="1">
+          <span class="c5 c12">vd-group@canonical.com</span>
+        </td>
+      </tr>
+      <tr class="c13">
+        <td class="c1" colspan="1" rowspan="1">
+          <span class="c5 c8">Location:</span>
+        </td>
+        <td class="c22" colspan="1" rowspan="1">
+          <span class="c5 c12">United Kingdom</span>
+        </td>
+      </tr>
+      <tr class="c13">
+        <td class="c1" colspan="1" rowspan="1">
+          <span class="c5 c8">Mobile:</span>
+        </td>
+        <td class="c22" colspan="1" rowspan="1">
+          <span class="c5 c12">+1 2345 6789</span>
+        </td>
+      </tr>
+      <tr class="c26">
+        <td class="c1" colspan="1" rowspan="1">
+          <span class="c5 c8">Mobile:</span>
+        </td>
+        <td class="c22" colspan="1" rowspan="1">
+          <span class="c5 c12">+1 2345 6789</span>
+        </td>
+      </tr>
+      <tr class="c13">
+        <td class="c0" colspan="2" rowspan="1">
+          <span class="c5 c12 c18"><a class="c21"
+                href="https://www.google.com/url?q=https://canonical.com/&amp;sa=D&amp;source=editors&amp;ust=1710765482249723&amp;usg=AOvVaw0p5NloqWIhZC2NLnbnu8g6">canonical.com</a></span>
+          </p>
+        </td>
+      </tr>
+      <tr class="c13">
+        <td class="c0" colspan="2" rowspan="1">
+          <span class="c5 c18 c12"><a class="c21"
+                href="https://www.google.com/url?q=https://ubuntu.com/&amp;sa=D&amp;source=editors&amp;ust=1710765482250632&amp;usg=AOvVaw3tOKN8R7tenguVVCruF7CU">ubuntu.com</a></span>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+    </table>
   </div>
 </div>
 
