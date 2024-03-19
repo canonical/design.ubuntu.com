@@ -2,27 +2,27 @@
 {% block title %}Resources{% endblock %}
 
 {% block content %}
-<section class="p-strip is-deep">
-  <div class="row">
-    <div class="col-4 col-medium-2">
+<section class="p-suru--50-50">
+  <div class="row--50-50">
+    <div class="col">
       <h1>Design resources</h1>
     </div>
-    <div class="col-6 col-medium-4">
+    <div class="col">
       <p>
         On this page you will find everything you need to design and build with our design system, including our Figma component library, our icon library and the Ubuntu font.
       </p>
     </div>
   </div>
 </section>
-<section class="p-strip is-deep">
-  <div class="row">
-    <div class="col-4 col-medium-2">
-      <div class="col-3 col-medium-2">
-        <h2>Design system library</h2>
-      </div>
-      <div class="col-1 u-hide--medium u-hide--small"></div>
+
+
+<section class="p-section">
+  <div class="row--50-50">
+    <hr class="p-rule" />
+    <div class="col">
+      <h2>Design system library</h2>
     </div>
-    <div class="col-6 col-medium-4">
+    <div class="col">
       <p>
         In this Figma library you will find our most up-to-date responsive components to build your designs.
       </p>
@@ -36,85 +36,92 @@
     </div>
   </div>
 </section>
-<div class="p-strip is-deep">
-  <div class="row">
-    <h2>Brand resources</h2>
-    <hr />
-    <div class="row u-sv3" style="padding-top: 0.5rem;">
-      <div class="col-4 col-medium-2">
-        <h3 class="p-heading--5">Ubuntu typefaces</h3>
+
+<div class="p-section--deep">
+  <div class="u-fixed-width">
+    <h2 class="p-muted-heading">Brand resources</h2>
+  </div>
+
+  <!-- FONTS -->
+  <div class="row--50-50">
+    <hr class="p-rule" />
+    <div class="col">
+      <h3 class="p-heading--2">Ubuntu typefaces</h3>
+    </div>
+    <div class="col">
+      <div class="p-media-container">
+        {{ image (
+          url="https://assets.ubuntu.com/v1/bfe86ea2-ssh_.png",
+          alt="ssh_ written with Ubuntu typeface",
+          width="290",
+          height="129",
+          hi_def=True,
+          loading="auto|lazy"
+          ) | safe
+        }}
       </div>
-      <div class="col-4 u-hide--medium u-hide--small">
+
+      <p>
+        The Ubuntu font has contemporary style that conveys a precise, reliable and free attitude.
+      </p>
+      <ul class="p-list--divided">
+        <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip">Download the Ubuntu Font Family</a> (2.2MB)</li>
+        <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/0f5898c1-ubuntu-font-family-sources_0.83.orig.tar.gz">Download the Ubuntu Font Family source code</a> (8.4MB)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ICONS -->
+  <div class="row--50-50">
+    <hr class="p-rule" />
+    <div class="col">
+      <h3 class="p-heading--2">Icon set</h3>
+    </div>
+    <div class="col">
+      <div class="p-media-container">
         <div
-          class="resources__content-thumb typeface"
+          class="resources__content-thumb icons_thumb"
+          id="icon_content_thumb"
         >
-          {{ image (
-            url="https://assets.ubuntu.com/v1/bfe86ea2-ssh_.png",
-            alt="ssh_ written with Ubuntu typeface",
-            width="290",
-            height="129",
-            hi_def=True,
-            loading="auto|lazy"
-            ) | safe
-          }}
+          {% for item in resources_data.icons %}
+            <div  class="icon__item">
+              <i
+                class="p-icon--{{ item.name }}"
+                style="width: 18px; height: 18px; margin-bottom: 0.5rem"
+              ></i>
+            </div>
+          {% endfor %}
         </div>
       </div>
-      <div class="col-4 col-medium-4">
-        <p>
-          The Ubuntu font has contemporary style that conveys a precise, reliable and free attitude.
-        </p>
-        <ul class="p-list--divided">
-          <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip">Download the Ubuntu Font Family</a> (2.2MB)</li>
-          <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/0f5898c1-ubuntu-font-family-sources_0.83.orig.tar.gz">Download the Ubuntu Font Family source code</a> (8.4MB)</li>
-        </ul>
-      </div>
+
+      <label class="p-switch">
+        <input
+          type="checkbox"
+          class="p-switch__input"
+          role="switch"
+          id="icon_switch"
+          onchange="switchIconThumbTheme()"
+        >
+        <span class="p-switch__slider"></span>
+        <span class="p-switch__label">Dark mode</span>
+      </label>
+      <p>
+        Our icon library includes our generic UI iconography as well as some bespoke concepts.
+      </p>
+      <p>
+        <a href="https://vanillaframework.io/docs/patterns/icons">Use the icons in Vanilla</a>
+      </p>
     </div>
-    <hr class="u-no-margin--top" />
-    <div class="row u-sv3">
-      <div class="col-4 col-medium-2">
-        <h3 class="p-heading--5">Icon set</h3>
-      </div>
-      <div
-        class="col-4 u-hide--medium u-hide--small resources__content-thumb icons_thumb"
-        id="icon_content_thumb"
-      >
-        {% for item in resources_data.icons %}
-          <div  class="icon__item">
-            <i
-              class="p-icon--{{ item.name }}"
-              style="width: 18px; height: 18px;"
-            ></i>
-          </div>
-        {% endfor %}
-      </div>
-      <div class="col-4 col-medium-4">
-        <label class="p-switch u-hide--medium u-hide--small">
-          <input
-            type="checkbox"
-            class="p-switch__input"
-            role="switch"
-            id="icon_switch"
-            onchange="switchIconThumbTheme()"
-          >
-          <span class="p-switch__slider"></span>
-          <span class="p-switch__label">Dark mode</span>
-        </label>
-        <p>
-          Our icon library includes our generic UI iconography as well as some bespoke concepts.
-        </p>
-        <p>
-          <a href="https://vanillaframework.io/docs/patterns/icons">Use the icons in Vanilla</a>
-        </p>
-      </div>
+  </div>
+
+  <!-- WALLPAPERS -->
+  <div class="row--50-50">
+    <hr class="p-rule" />
+    <div class="col">
+      <h3 class="p-heading--2">Wallpapers</h3>
     </div>
-    <hr class="u-no-margin--top" />
-    <div class="row u-sv3">
-      <div class="col-4 col-medium-2">
-        <h3 class="p-heading--5">Wallpapers</h3>
-      </div>
-      <div
-        class="col-4 u-hide--medium u-hide--small"
-      >
+    <div class="col">
+      <div class="p-media-container">
         {{ image (
           url="https://assets.ubuntu.com/v1/ec6cc515-wallpaper_minotaur_colour_1920x1080.png",
           alt="",
@@ -125,79 +132,78 @@
           ) | safe
         }}
       </div>
-      <div class="col-4 col-medium-4">
-        <p>
-          Ubuntu wallpapers and the mascot are important parts of our brand identity.
-        </p>
-        <p>
-          <a href="https://drive.google.com/drive/folders/1dKGvGgFp4ymGNBPU6LRScfBm4KuwIn2c?usp=sharing">Browse the mascot wallpapers</a>
-        </p>
-      </div>
+
+      <p>
+        Ubuntu wallpapers and the mascot are important parts of our brand identity.
+      </p>
+      <p>
+        <a href="https://drive.google.com/drive/folders/1dKGvGgFp4ymGNBPU6LRScfBm4KuwIn2c?usp=sharing">Browse the mascot wallpapers</a>
+      </p>
     </div>
-    <hr class="u-no-margin--top" />
-    <div class="row u-sv3">
-      <div class="col-4 col-medium-2">
-        <h3 class="p-heading--5">Slide template</h3>
-      </div>
-      <div
-        class="col-4 u-hide--medium u-hide--small"
-      >
+  </div>
+
+  <!-- SLIDES -->
+  <div class="row--50-50">
+    <hr class="p-rule" />
+    <div class="col">
+      <h3 class="p-heading--2">Slide template</h3>
+    </div>
+    <div class="col">
+      <div class="p-media-container">
         {{ image (
           url="https://assets.ubuntu.com/v1/59e3bb07-Slide_template.png",
           alt="",
-          width="390",
-          height="220",
+          width="780",
+          height="440",
           hi_def=True,
           loading="auto|lazy"
           ) | safe
         }}
       </div>
-      <div class="col-4 col-medium-4">
-        <p>
-          Use this template to create presentations with the Canonical branding style.
-        </p>
-        <p>
-          <a href="https://docs.google.com/presentation/u/0/?tgif=d&ftv=1">Use the slide template (internal)</a>
-        </p>
-      </div>
+
+      <p>
+        Use this template to create presentations with the Canonical branding style.
+      </p>
+      <p>
+        <a href="https://docs.google.com/presentation/u/0/?tgif=d&ftv=1">Use the slide template (internal)</a>
+      </p>
     </div>
-    <hr class="u-no-margin--top" />
-    <div class="row">
-      <div class="col-4 col-medium-2">
-        <h3 class="p-heading--5" id="logos">Logos</h3>
-      </div>
-      <div class="col-8 col-medium-4 u-sv3 resources__content-thumb logo_thumb">
-        <div class="row">
-          <div class="col-2 col-medium-2">
-            <label class="p-switch">
-              <input
-                type="checkbox"
-                class="p-switch__input"
-                role="switch" id="logo_switch"
-                onchange="switchLogoThumbTheme()"
-              >
-              <span class="p-switch__slider"></span>
-              <span class="p-switch__label">Dark mode</span>
-            </label>
-          </div>
-        </div>
-        <div class="col-8 u-no-margin--bottom resources__content-thumb" id="logo_content_thumb">
-          {% for item in resources_data.logos %}
-              <div class="col-8 col-medium-4 p-list__item light_strip">
-                <a href="{{ item.svg_link_light }}" target="_blank">
-                  <img class="resources_logo" src="{{ item.svg_link_light }}" alt="{{ item.name }}" />
-                </a>
-              </div>
-              <div class="col-8 col-medium-4 p-list__item resources__dark_mode dark_strip u-hide">
-                <a href="{{ item.svg_link_dark }}" target="_blank">
-                  <img class="resources_logo" src="{{ item.svg_link_dark }}" alt="{{ item.name }}" />
-                </a>
-              </div>
-              {% if loop.index < resources_data.logos|length %}
-                  <hr class="u-no-margin--top logo_separator" />
-              {% endif %}
-          {% endfor %}
-        </div>
+  </div>
+
+  <!-- LOGOS -->
+  <div class="row--50-50">
+    <hr class="p-rule" />
+    <div class="col">
+      <h3 class="p-heading--2" id="logos">Logos</h3>
+    </div>
+    <div class="col">
+      <label class="p-switch">
+        <input
+          type="checkbox"
+          class="p-switch__input"
+          role="switch" id="logo_switch"
+          onchange="switchLogoThumbTheme()"
+        >
+        <span class="p-switch__slider"></span>
+        <span class="p-switch__label">Dark mode</span>
+      </label>
+
+      <div class="u-no-margin--bottom resources__content-thumb" id="logo_content_thumb">
+        {% for item in resources_data.logos %}
+            <div class="light_strip">
+              <a href="{{ item.svg_link_light }}" target="_blank">
+                <img class="resources_logo" src="{{ item.svg_link_light }}" alt="{{ item.name }}" />
+              </a>
+            </div>
+            <div class="resources__dark_mode dark_strip u-hide">
+              <a href="{{ item.svg_link_dark }}" target="_blank">
+                <img class="resources_logo" src="{{ item.svg_link_dark }}" alt="{{ item.name }}" />
+              </a>
+            </div>
+            {% if loop.index < resources_data.logos|length %}
+                <hr class="u-no-margin--top logo_separator" />
+            {% endif %}
+        {% endfor %}
       </div>
     </div>
   </div>
