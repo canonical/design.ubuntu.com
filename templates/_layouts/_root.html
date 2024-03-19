@@ -37,36 +37,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <a href="#main-content" class="p-link--skip">Jump to main content</a>
 
 <header id="navigation" class="p-navigation is-dark">
-  <div class="l-full-width">
-    <div class="l-start">
-      <div class="p-navigation__banner">
-        <div class="p-navigation__tagged-logo">
-          <a class="p-navigation__link" href="/">
-            <div class="p-navigation__logo-tag">
-              <img class="p-navigation__logo-icon" src="https://assets.ubuntu.com/v1/82818827-CoF_white.svg" alt="">
-            </div>
-            <span class="p-navigation__logo-title">Design</span>
-          </a>
-        </div>
-        <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
-        <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
+  <div class="p-navigation__row--25-75">
+
+    <div class="p-navigation__banner">
+      <div class="p-navigation__tagged-logo">
+        <a class="p-navigation__link" href="/">
+          <div class="p-navigation__logo-tag">
+            <img class="p-navigation__logo-icon" src="https://assets.ubuntu.com/v1/82818827-CoF_white.svg" alt="">
+          </div>
+          <span class="p-navigation__logo-title">Design</span>
+        </a>
       </div>
+      <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
+      <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
     </div>
-    <div class="l-main">
-      <div class="p-navigation__row u-fixed-width">
-        <nav class="p-navigation__nav">
-          <ul class="p-navigation__items">
-            <li class="p-navigation__item {% if path.startswith('/brand') %}is-selected{% endif %}"><a class="p-navigation__link " href="/brand/">Brand</a></li>
-            <li class="p-navigation__item {% if path.startswith('/font') %}is-selected{% endif %}"><a class="p-navigation__link" href="/font/">Font</a></li>
-            <li class="p-navigation__item {% if path.startswith('/vanilla') %}is-selected{% endif %}"><a class="p-navigation__link" href="/vanilla/">Vanilla</a></li>
-            <li class="p-navigation__item {% if path.startswith('/accessibility') %}is-selected{% endif %}"><a class="p-navigation__link" href="/accessibility/">Accessibility</a></li>
-            <li class="p-navigation__item {% if path.startswith('/resources') %}is-selected{% endif %}"><a class="p-navigation__link" href="/resources/">Resources</a></li>
-            <li class="p-navigation__item {% if path.startswith('/contribute') %}is-selected{% endif %}"><a class="p-navigation__link" href="/contribute/">Contribute</a></li>
-          </ul>
-          <ul class="p-navigation__items global-nav"></ul>
-        </nav>
-      </div>
-    </div>
+    <nav class="p-navigation__nav">
+      <ul class="p-navigation__items">
+        <li class="p-navigation__item {% if path.startswith('/brand') %}is-selected{% endif %}"><a class="p-navigation__link " href="/brand/">Brand</a></li>
+        <li class="p-navigation__item {% if path.startswith('/font') %}is-selected{% endif %}"><a class="p-navigation__link" href="/font/">Font</a></li>
+        <li class="p-navigation__item {% if path.startswith('/vanilla') %}is-selected{% endif %}"><a class="p-navigation__link" href="/vanilla/">Vanilla</a></li>
+        <li class="p-navigation__item {% if path.startswith('/accessibility') %}is-selected{% endif %}"><a class="p-navigation__link" href="/accessibility/">Accessibility</a></li>
+        <li class="p-navigation__item {% if path.startswith('/resources') %}is-selected{% endif %}"><a class="p-navigation__link" href="/resources/">Resources</a></li>
+        <li class="p-navigation__item {% if path.startswith('/contribute') %}is-selected{% endif %}"><a class="p-navigation__link" href="/contribute/">Contribute</a></li>
+      </ul>
+      <ul class="p-navigation__items global-nav"></ul>
+    </nav>
   </div>
 </header>
 
@@ -74,45 +69,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 {% block body %}{% endblock %}
 
 
-<footer class="p-strip is-dark l-full-width">
-  <div class="l-main">
-    <div class="row">
-      <div class="col-9 col-medium-4">
-        <p class="u-no-max-width">© 2023 Canonical Ltd. Ubuntu and Canonical are registered trademarks of Canonical&nbsp;Ltd.</p>
-        <nav>
-          <ul class="p-inline-list--middot">
-            <li class="p-inline-list__item">
-              <a class="p-footer__link" href="https://www.ubuntu.com/legal">Legal information</a>
-            </li>
-            <li class="p-inline-list__item">
-              <a class="p-footer__link" href="https://www.ubuntu.com/legal/data-privacy">Data privacy</a>
-            </li>
-            <li class="p-inline-list__item">
-              <a class="p-footer__link" href="https://github.com/canonical/design.ubuntu.com/issues/new/choose">Report a bug on this site</a>
-            </li>
-            <li class="p-inline-list__item">
-              <a href="" class="p-footer__link js-revoke-cookie-manager">Manage your tracker settings</a>
-            </li>
-          </ul>
-          <span class="u-off-screen">
-            <a href="#">Go to the top of the page</a>
-          </span>
-        </nav>
-      </div>
-      <div class="col-3 col-medium-2">
-        <h5 class="p-muted-heading">Follow us</h5>
-        <ul class="p-inline-list">
+<footer class="p-strip is-dark">
+  <div class="row">
+    <div class="col-9 col-medium-4">
+      <p class="u-no-max-width">© 2023 Canonical Ltd. Ubuntu and Canonical are registered trademarks of Canonical&nbsp;Ltd.</p>
+      <nav>
+        <ul class="p-inline-list--middot">
           <li class="p-inline-list__item">
-            <a href="https://twitter.com/ubuntudesigners" class="p-icon--twitter">@ubuntudesigners on twitter</a>
+            <a class="p-footer__link" href="https://www.ubuntu.com/legal">Legal information</a>
           </li>
           <li class="p-inline-list__item">
-            <a href="https://www.instagram.com/ubuntudesigners/" class="p-icon--instagram">@ubuntudesigners on instagram</a>
+            <a class="p-footer__link" href="https://www.ubuntu.com/legal/data-privacy">Data privacy</a>
           </li>
           <li class="p-inline-list__item">
-            <a href="https://ubuntu.com/blog/topics/design" class="p-icon--canonical">Web &amp; design blog</a>
+            <a class="p-footer__link" href="https://github.com/canonical/design.ubuntu.com/issues/new/choose">Report a bug on this site</a>
+          </li>
+          <li class="p-inline-list__item">
+            <a href="" class="p-footer__link js-revoke-cookie-manager">Manage your tracker settings</a>
           </li>
         </ul>
-      </div>
+        <span class="u-off-screen">
+          <a href="#">Go to the top of the page</a>
+        </span>
+      </nav>
+    </div>
+    <div class="col-3 col-medium-2">
+      <h5 class="p-muted-heading">Follow us</h5>
+      <ul class="p-inline-list">
+        <li class="p-inline-list__item">
+          <a href="https://twitter.com/ubuntudesigners" class="p-icon--twitter">@ubuntudesigners on twitter</a>
+        </li>
+        <li class="p-inline-list__item">
+          <a href="https://www.instagram.com/ubuntudesigners/" class="p-icon--instagram">@ubuntudesigners on instagram</a>
+        </li>
+        <li class="p-inline-list__item">
+          <a href="https://ubuntu.com/blog/topics/design" class="p-icon--canonical">Web &amp; design blog</a>
+        </li>
+      </ul>
     </div>
   </div>
 </footer>
