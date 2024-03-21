@@ -219,53 +219,17 @@
         <iframe class="email-signature-frame" id="email-signature-frame" height="250px">
         </iframe>
       </div>
-      <button id="email-signature-copy-button" class="p-button--positive u-no-margin--right u-float-right has-icon"><i class="js-copy-icon p-icon--copy is-dark"></i><span id="copy-button-label">Copy to clipboard</span></button>
       <template id="email-signature-template">{% include "resources/_email-signature.html" %}</template>
       <script>
         if ("content" in document.createElement("template")) {
           const frame = document.querySelector("#email-signature-frame");
           const template = document.querySelector("#email-signature-template");
-          const button = document.querySelector("#email-signature-copy-button");
 
           const doc = frame.contentWindow.document;
           doc.open();
           doc.write(template.innerHTML);
           doc.close();
           doc.body.contentEditable = true;
-
-          // based on
-          // https://stackoverflow.com/questions/23934656/how-can-i-copy-rich-text-contents-to-the-clipboard-with-javascript
-          function copyHtmlToClip(str) {
-            function handleCopy(e) {
-              e.clipboardData.setData("text/html", str);
-              e.clipboardData.setData("text/plain", str);
-              e.preventDefault();
-            }
-            document.addEventListener("copy", handleCopy);
-            document.execCommand("copy");
-            document.removeEventListener("copy", handleCopy);
-          };
-
-          button.addEventListener("click", function() {
-            copyHtmlToClip(doc.body.innerHTML);
-
-            const buttonRect = button.getBoundingClientRect();
-            button.style.width = buttonRect.width + 'px';
-            button.style.height = buttonRect.height + 'px';
-
-            button.querySelector(".js-copy-icon").classList.add("p-icon--success");
-            button.querySelector(".js-copy-icon").classList.remove("p-icon--copy");
-            button.querySelector("#copy-button-label").textContent = "Copied!";
-
-            setTimeout(() => {
-              button.style.width = "";
-              button.style.height = "";
-
-              button.querySelector(".js-copy-icon").classList.remove("p-icon--success");
-              button.querySelector(".js-copy-icon").classList.add("p-icon--copy");
-              button.querySelector("#copy-button-label").textContent = "Copy to clipboard";
-            }, 2000);
-          });
         }
       </script>
     </div>
