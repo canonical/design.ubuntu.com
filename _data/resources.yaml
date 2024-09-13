@@ -41,3 +41,7 @@
 - svg_link_light: https://assets.ubuntu.com/v1/096ad2c0-Canonical%20LXD.svg
   svg_link_dark: https://assets.ubuntu.com/v1/d124abfa-Canonical%20LXD%20Dark.svg
   name: Canonical LXD Logo
+
+- svg_link_light: https://assets.ubuntu.com/v1/e195b28a-Canonical%20MicroCloud%20logo.svg
+  svg_link_dark: https://assets.ubuntu.com/v1/419df08b-Canonical%20MicroCloud%20dark%20logo@4x.png
+  name: Canonical Microcloud Logo
