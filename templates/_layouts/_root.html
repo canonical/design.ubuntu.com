@@ -31,6 +31,12 @@
   <meta name="author" content="Canonical" />
   <meta name="copydoc" content="{% block meta_copydoc %}https://drive.google.com/drive/u/0/folders/1LxHnsplr5Xd8JQxNvwvLil2J_Q5_3loU{% endblock %}" />
 
+  <!-- Cookie policy -->
+  <script src="{{ versioned_static('js/cookie-policy.js') }}"></script>
+  <script>
+    cpNs.cookiePolicy();
+  </script>
+
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -125,12 +131,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </footer>
 
-<!-- cookie policy and gloabl navigation component -->
-<script src="{{ versioned_static('js/cookie-policy.js') }}"></script>
+<!-- global navigation component -->
 <script src="{{ versioned_static('js/global-nav.js') }}"></script>
 <script>
-  canonicalGlobalNav.createNav();
-  cpNs.cookiePolicy();
+  canonicalGlobalNav.createNav();  
 </script>
 
 {% if path.startswith('/font') %}
