@@ -8,7 +8,7 @@ jobs:
   run-image:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - name: Build image
         run: DOCKER_BUILDKIT=1 docker build --tag design.ubuntu.com .
       - name: Run image
@@ -19,7 +19,7 @@ jobs:
   lint-scss:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - name: Install dependencies
         run: yarn install --immutable
       - name: Lint scss
@@ -28,7 +28,7 @@ jobs:
   lint-python:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - name: Install node dependencies
         run: yarn install --immutable
       - name: Install python dependencies
@@ -42,7 +42,7 @@ jobs:
     name: linkchecker
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - name: Build image
         run: DOCKER_BUILDKIT=1 docker build --tag design.ubuntu.com .
       - name: Run image
@@ -58,7 +58,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
       - name: Check inclusive naming
         uses: canonical-web-and-design/inclusive-naming@main
         with:
