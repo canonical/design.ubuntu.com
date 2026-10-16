@@ -1,5 +1,6 @@
 import flask
 import yaml
+from datetime import datetime
 
 from canonicalwebteam import image_template
 from canonicalwebteam.flask_base.app import FlaskBase
@@ -30,6 +31,7 @@ def global_template_context():
     return {
         "resources_data": resources_data,
         "path": flask.request.path,
+        "current_year": datetime.now().year,
     }
 
 
